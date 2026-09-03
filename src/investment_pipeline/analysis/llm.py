@@ -37,7 +37,7 @@ async def analyze_packet(settings: Settings, packet: EvidencePacket, prompts_dir
         return deterministic_fallback_analysis(packet, "OPENAI_API_KEY was not set for this run")
     try:
         return await openai_analysis(settings, packet, prompts_dir)
-    except Exception as exc:  # noqa: BLE001 - any failure here must degrade to the offline path
+    except (httpx.HTTPError, ValueError, KeyError, json.JSONDecodeError) as exc:
         return deterministic_fallback_analysis(packet, f"OpenAI analysis failed and was replaced by the offline path: {exc}")
 
 
