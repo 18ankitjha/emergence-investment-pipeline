@@ -45,7 +45,7 @@ def build_evidence_packet(
                 candidate_id=candidate.id,
                 source="yc",
                 url=yc_url,
-                claim=clean_claim(candidate.description, 700),
+                claim=clean_claim(candidate.description, 1800),
                 category="product",
                 confidence="high",
             )

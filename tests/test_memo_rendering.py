@@ -55,5 +55,7 @@ def test_memo_contains_core_sections():
 
     assert "# Acme" in memo
     assert "## Sources" in memo
-    assert "**Score:** 50/100" in memo
+    assert "50/100" in memo
+    assert "## The Call: Pass" in memo
+    assert "Below threshold." in memo
 

@@ -27,11 +27,15 @@ BUYER_TERMS = (
     "lenders",
     "security teams",
 )
+_MAGNITUDE = r"(?:bn|mn|[kmbt])?\+?"
+_TRACTION_NOUN = r"(?:mrr|arr|revenue|/mo|in\s+(?:receivables|gmv|volume|loans|payments|transactions|revenue|arr|bookings))"
+
 QUANTIFIED_TRACTION = re.compile(
-    r"\$\s?\d[\d.,]*\s?[kmb]?\s*(?:mrr|arr|revenue|/mo)"
+    rf"\$\s?\d[\d.,]*\s?{_MAGNITUDE}\s*{_TRACTION_NOUN}"
     r"|\b(?:mrr|arr)\b"
     r"|\bfrom\s+\$?\d[\d.,]*\s+to\s+\$?\d"
-    r"|\d[\d,.]*\s*(?:paying customers|paying users|customers|clients|brands|banks|lenders|design partners|enterprises|deployments)"
+    r"|\b(?:processed|serving|onboarded|signed|deployed at)\s+(?:over\s+|more than\s+)?\$?\d"
+    r"|\d[\d,.]*\+?\s*(?:paying customers|paying users|customers|clients|brands|banks|lenders|loans|design partners|enterprises|deployments|institutions)"
     r"|\d+\s*%\s*(?:wow|mom|week[- ]on[- ]week|month[- ]on[- ]month|growth|retention)",
     re.IGNORECASE,
 )
@@ -51,12 +55,19 @@ def normalize_score_and_recommendation(analysis: AnalysisResult, packet: Evidenc
         rationale_by_component=score.rationale_by_component,
     )
     recommendation = recommendation_for_score(normalized_score.total)
+    rationale = analysis.recommendation_rationale
     if packet and recommendation == "Take a meeting" and not has_take_meeting_evidence(packet):
         recommendation = "Watch"
+        rationale = (
+            f"{rationale} Downgraded from Take a meeting to Watch: the evidence packet has no verifiable "
+            f"traction signal (a strong Launch HN thread or a quantified revenue / customer number), so the "
+            f"score alone does not justify partner time."
+        )
     return analysis.model_copy(
         update={
             "score_breakdown": normalized_score,
             "recommendation": recommendation,
+            "recommendation_rationale": rationale,
         }
     )
 

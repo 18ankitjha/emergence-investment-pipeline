@@ -1,9 +1,7 @@
 # {{ candidate.name }}
 
-**Score:** {{ analysis.score_breakdown.total }}/100  
-**Recommendation:** {{ analysis.recommendation }}  
-**Website:** {{ candidate.website or "Unknown" }}  
-**YC batch / industry:** {{ candidate.batch or "Unknown" }} / {{ candidate.industry or "Unknown" }}
+**{{ analysis.recommendation }}** · **{{ analysis.score_breakdown.total }}/100**
+{{ candidate.website or "no website" }} · YC {{ candidate.batch or "batch unknown" }} · {{ candidate.industry or "industry unknown" }}
 
 ## What They Do
 {{ analysis.product_summary }}
@@ -18,21 +16,13 @@
 {{ analysis.why_now }}
 
 ## Risks
-{% for risk in analysis.risks[:3] -%}
+{% for risk in analysis.risks[:4] -%}
 - {{ risk }}
 {% endfor %}
 
 ## Open Questions
-{% for question in analysis.open_questions[:3] -%}
+{% for question in analysis.open_questions[:4] -%}
 - {{ question }}
-{% endfor %}
-
-## Why We Care
-{{ analysis.why_we_care }}
-
-## What Would Change Our Mind
-{% for item in analysis.what_would_change_mind[:3] -%}
-- {{ item }}
 {% endfor %}
 
 ## Score Breakdown
@@ -41,7 +31,7 @@
 | Team | {{ analysis.score_breakdown.team }}/20 |
 | Product | {{ analysis.score_breakdown.product }}/20 |
 | Market | {{ analysis.score_breakdown.market }}/15 |
-| Traction/Freshness | {{ analysis.score_breakdown.traction_freshness }}/15 |
+| Traction / Freshness | {{ analysis.score_breakdown.traction_freshness }}/15 |
 | Why Now | {{ analysis.score_breakdown.why_now }}/10 |
 | Defensibility | {{ analysis.score_breakdown.defensibility }}/10 |
 | Risk Adjustment | {{ analysis.score_breakdown.risk_adjustment }}/10 |
@@ -56,7 +46,19 @@
 - **{{ item.evidence_id }}** ({{ item.source }}, {{ item.confidence }}): {{ item.claim }} — {{ item.url }}
 {% endfor %}
 
-{% if analysis.analysis_mode == "deterministic_fallback" -%}
-_Note: This memo used deterministic fallback analysis because `OPENAI_API_KEY` was not set during the run._
-{% endif -%}
+## The Call: {{ analysis.recommendation }}
+{{ analysis.recommendation_rationale }}
 
+Thesis fit: {{ analysis.why_we_care }}
+
+What would change our mind:
+{% for item in analysis.what_would_change_mind[:3] -%}
+- {{ item }}
+{% endfor %}
+
+---
+{% if analysis.analysis_mode == "deterministic_fallback" -%}
+_Analysis mode: deterministic fallback (no model). Component scores are rules over the evidence packet above._
+{% else -%}
+_Analysis mode: {{ analysis.analysis_mode }}. The model proposed component scores and prose from the evidence packet; the pipeline then recomputed the total, re-derived the recommendation from the score threshold, and dropped any citation to an evidence ID not in the packet. See `run_manifest.json` for the exact model._
+{% endif -%}

@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import asyncio
 import json
 import re
+from collections.abc import Awaitable, Callable
 from pathlib import Path
 
 import httpx
@@ -32,21 +34,53 @@ SCORE_COMPONENTS = (
 REGULATED_TERMS = ("insurance", "insurer", "lending", "lender", "compliance", "regulatory", "fintech", "bank", "kyc", "aml")
 
 
+LLM_ERRORS = (httpx.HTTPError, ValueError, KeyError, IndexError, json.JSONDecodeError)
+
+ProviderCall = Callable[[Settings, EvidencePacket, Path], Awaitable[AnalysisResult]]
+
+
 async def analyze_packet(settings: Settings, packet: EvidencePacket, prompts_dir: Path) -> AnalysisResult:
-    if not settings.openai_api_key:
-        return deterministic_fallback_analysis(packet, "OPENAI_API_KEY was not set for this run")
+    if settings.llm_provider == "gemini":
+        return await run_llm(gemini_analysis, "Gemini", settings, packet, prompts_dir)
+    if settings.llm_provider == "openai":
+        return await run_llm(openai_analysis, "OpenAI", settings, packet, prompts_dir)
+    return deterministic_fallback_analysis(packet, "no LLM provider configured (set GEMINI_API_KEY or OPENAI_API_KEY)")
+
+
+async def run_llm(
+    call: ProviderCall, label: str, settings: Settings, packet: EvidencePacket, prompts_dir: Path
+) -> AnalysisResult:
     try:
-        return await openai_analysis(settings, packet, prompts_dir)
-    except (httpx.HTTPError, ValueError, KeyError, json.JSONDecodeError) as exc:
-        return deterministic_fallback_analysis(packet, f"OpenAI analysis failed and was replaced by the offline path: {exc}")
+        return await call(settings, packet, prompts_dir)
+    except LLM_ERRORS as exc:
+        return deterministic_fallback_analysis(packet, f"{label} analysis failed and was replaced by the offline path: {exc}")
 
 
-async def openai_analysis(settings: Settings, packet: EvidencePacket, prompts_dir: Path) -> AnalysisResult:
+def render_prompts(packet: EvidencePacket, prompts_dir: Path) -> tuple[str, str]:
     system_prompt = (prompts_dir / "analysis_system.md").read_text(encoding="utf-8")
     user_prompt = (prompts_dir / "analysis_user.md").read_text(encoding="utf-8").format(
         thesis=THESIS,
         evidence_packet=json.dumps(packet.model_dump(mode="json"), indent=2),
     )
+    return system_prompt, user_prompt
+
+
+def finalize_llm_analysis(raw_json: str, packet: EvidencePacket, mode: str) -> AnalysisResult:
+    parsed = json.loads(raw_json)
+    parsed["candidate_id"] = packet.candidate.id
+    parsed["analysis_mode"] = mode
+    parsed = clamp_parsed_scores(parsed)
+    parsed["score_breakdown"]["total"] = deterministic_total(parsed["score_breakdown"])
+    parsed["recommendation"] = recommendation_for_score(parsed["score_breakdown"]["total"])
+    parsed["cited_claims"] = drop_unknown_citations(parsed.get("cited_claims", []), packet.evidence_ids)
+    try:
+        return AnalysisResult.model_validate(parsed)
+    except ValidationError as exc:
+        return deterministic_fallback_analysis(packet, f"{mode} response did not match the analysis schema: {exc}")
+
+
+async def openai_analysis(settings: Settings, packet: EvidencePacket, prompts_dir: Path) -> AnalysisResult:
+    system_prompt, user_prompt = render_prompts(packet, prompts_dir)
     payload = {
         "model": settings.openai_model,
         "input": [
@@ -62,26 +96,93 @@ async def openai_analysis(settings: Settings, packet: EvidencePacket, prompts_di
             }
         },
     }
-    headers = {
-        "Authorization": f"Bearer {settings.openai_api_key}",
-        "Content-Type": "application/json",
-    }
+    headers = {"Authorization": f"Bearer {settings.openai_api_key}", "Content-Type": "application/json"}
     async with httpx.AsyncClient(timeout=90.0) as client:
         response = await client.post("https://api.openai.com/v1/responses", headers=headers, json=payload)
         response.raise_for_status()
         data = response.json()
+    return finalize_llm_analysis(extract_response_text(data), packet, "openai")
 
-    parsed = json.loads(extract_response_text(data))
-    parsed["candidate_id"] = packet.candidate.id
-    parsed["analysis_mode"] = "openai"
-    parsed = clamp_parsed_scores(parsed)
-    parsed["score_breakdown"]["total"] = deterministic_total(parsed["score_breakdown"])
-    parsed["recommendation"] = recommendation_for_score(parsed["score_breakdown"]["total"])
-    parsed["cited_claims"] = drop_unknown_citations(parsed.get("cited_claims", []), packet.evidence_ids)
+
+GEMINI_RETRY_STATUS = {429, 500, 502, 503, 504}
+GEMINI_MAX_ATTEMPTS = 5
+GEMINI_BACKOFF_SECONDS = (4, 12, 30, 60)
+
+
+async def gemini_analysis(settings: Settings, packet: EvidencePacket, prompts_dir: Path) -> AnalysisResult:
+    system_prompt, user_prompt = render_prompts(packet, prompts_dir)
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{settings.gemini_model}:generateContent"
+    payload = {
+        "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
+        "systemInstruction": {"parts": [{"text": system_prompt}]},
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "responseSchema": gemini_response_schema(),
+            "temperature": 0.2,
+        },
+    }
+    headers = {"x-goog-api-key": settings.gemini_api_key or "", "Content-Type": "application/json"}
+
+    async with httpx.AsyncClient(timeout=150.0) as client:
+        data = await gemini_post(client, url, headers, payload)
+    return finalize_llm_analysis(gemini_text(data), packet, "gemini")
+
+
+async def gemini_post(client: httpx.AsyncClient, url: str, headers: dict, payload: dict) -> dict:
+    delay = 0.0
+    for attempt in range(GEMINI_MAX_ATTEMPTS):
+        if delay:
+            await asyncio.sleep(delay)
+        response = await client.post(url, headers=headers, json=payload)
+        if response.status_code not in GEMINI_RETRY_STATUS or attempt == GEMINI_MAX_ATTEMPTS - 1:
+            response.raise_for_status()
+            return response.json()
+        delay = retry_delay(response, attempt)
+    raise ValueError("Gemini request exhausted its retries")
+
+
+def retry_delay(response: httpx.Response, attempt: int) -> float:
+    fallback = GEMINI_BACKOFF_SECONDS[min(attempt, len(GEMINI_BACKOFF_SECONDS) - 1)]
     try:
-        return AnalysisResult.model_validate(parsed)
-    except ValidationError as exc:
-        return deterministic_fallback_analysis(packet, f"OpenAI response did not match the analysis schema: {exc}")
+        for detail in response.json().get("error", {}).get("details", []):
+            if "retryDelay" in detail:
+                return max(float(detail["retryDelay"].rstrip("s")), 1.0)
+    except (ValueError, KeyError, TypeError):
+        pass
+    return float(fallback)
+
+
+def gemini_text(data: dict) -> str:
+    candidates = data.get("candidates") or []
+    if not candidates:
+        raise ValueError(f"Gemini returned no candidates; promptFeedback={data.get('promptFeedback')}")
+    candidate = candidates[0]
+    reason = candidate.get("finishReason")
+    if reason not in (None, "STOP"):
+        raise ValueError(f"Gemini stopped early with finishReason={reason}")
+    text = "".join(part.get("text", "") for part in candidate.get("content", {}).get("parts", []))
+    if not text.strip():
+        raise ValueError("Gemini returned an empty response body")
+    return text
+
+
+def gemini_response_schema() -> dict:
+    return to_gemini_schema(analysis_json_schema())
+
+
+def to_gemini_schema(node: dict) -> dict:
+    result: dict = {}
+    for key, value in node.items():
+        if key == "additionalProperties":
+            continue
+        if key == "properties":
+            result["properties"] = {name: to_gemini_schema(child) for name, child in value.items()}
+            result["propertyOrdering"] = list(value)
+        elif key == "items":
+            result["items"] = to_gemini_schema(value)
+        else:
+            result[key] = value
+    return result
 
 
 def extract_response_text(data: dict) -> str:
@@ -409,7 +510,7 @@ def analysis_json_schema() -> dict:
                     "required": ["claim", "evidence_ids"],
                 },
             },
-            "analysis_mode": {"type": "string", "enum": ["openai", "deterministic_fallback"]},
+            "analysis_mode": {"type": "string", "enum": ["openai", "gemini", "deterministic_fallback"]},
         },
         "required": [
             "candidate_id",

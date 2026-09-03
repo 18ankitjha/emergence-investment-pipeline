@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from typing import Any, Literal
 
-from pydantic import BaseModel, Field, HttpUrl, field_validator, model_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 from investment_pipeline.config import SCORE_WEIGHTS
 
@@ -121,7 +121,7 @@ class AnalysisResult(BaseModel):
     why_we_care: str
     what_would_change_mind: list[str]
     cited_claims: list[CitedClaim]
-    analysis_mode: Literal["openai", "deterministic_fallback"] = "openai"
+    analysis_mode: Literal["openai", "gemini", "deterministic_fallback"] = "deterministic_fallback"
 
 
 class ValidationIssue(BaseModel):
@@ -146,6 +146,7 @@ class RunManifest(BaseModel):
     created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     selected_count: int
     analysis_mode: str
+    analysis_model: str | None = None
     sources: list[str]
     command: str
 
