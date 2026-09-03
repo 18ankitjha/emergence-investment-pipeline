@@ -1,56 +1,43 @@
-# AI usage
+# ai usage
 
-This project was built with AI assistance throughout. Nothing here was written
-without it. This file is the honest split.
+built this with AI the whole way. writing down what actually happened so you don't have to guess from the diff.
 
-## Architecture chat (LLM, before code)
+## planning
 
-Fed the assignment brief to an LLM and iterated on scope: what to cut (DB,
-queue, vector store, frontend, multi-source scraping), which sources to use,
-where the LLM boundary sits. Output was the module list and the thesis.
-Human calls: one primary source not six; LLM cites evidence IDs only; Python
-owns the score arithmetic and the final recommendation threshold.
+put the assignment into an LLM first and argued about scope — what to cut, which sources, where the model sits vs where plain python sits. what came out:
 
-## Codex — implementation (commit 46905a7)
+- one primary source (YC), one enrichment source (HN). not six half-working scrapers.
+- the model never browses. it gets a frozen evidence packet with ids (`YC1`, `WEB1`, `HN1`) and may only cite those.
+- python owns the fetch, the score sum, the pass/watch/meeting cutoff, the citation check. the model proposes component scores, nothing else.
 
-Wrote the first working version end to end from the agreed design: models,
-adapters, evidence builder, analysis (OpenAI + fallback), scoring, memo
-rendering, tests, first sample run. Roughly the whole `src/` tree and `tests/`
-in one session.
+thesis and the seven weights are mine.
 
-Human direction during that session: keep it CLI-only; YC primary, HN for
-freshness; persist every intermediate artifact; deterministic score totals;
-don't fabricate a development history.
+## first cut — Codex
 
-## Claude Code — review, fixes, docs (commits df374d9 onward)
+Codex wrote the first working version end to end from that plan: models, YC + HN adapters, website scrape, evidence builder, the OpenAI call + the offline fallback, scoring, memo rendering, 15 tests, first sample run. roughly all of `src/` and `tests/` in one sitting, one commit (`46905a7`).
 
-Used to read the whole repo, find what was wrong, and fix it in separate
-commits:
+what i told it while it worked: CLI only, YC primary / HN for freshness, persist every intermediate file, deterministic score totals, don't invent a git history.
 
-- Found and fixed the dead batch-recency filter (`selection.py`).
-- Found and fixed identical per-company risks/questions in the offline analyser.
-- Found and fixed the OpenAI strict-schema bug before it could fail on a real call.
-- Rewrote these docs against what the commits actually show.
-- Regenerated the committed sample run.
+## review + finish — Claude Code
 
-Claude Code also made the repo private and added the collaborator.
+used Claude Code to read the repo cold, find what was wrong, fix each thing as its own commit:
 
-## What the AI did not decide
+- `df374d9` — batch-recency filter was dead code. it matched `"W25"` but YC returns `"Winter 2025"`, so recency never applied and an old Winter-2023 company with 18 people ranked first against a seed thesis.
+- `884d7b6` — every memo had the same three risks / three questions. rewrote it to read the packet per company. also the OpenAI schema would have 400'd on the first real call — `rationale_by_component` was an open map and strict mode rejects that.
+- `d8560cc` — offline scorer handed "take a meeting" to five of twelve. tightened it so the call needs verifiable traction (a real Launch HN thread or a quantified revenue/customer claim), not soft words.
+- `f055ed2` — selection + fallback tests, a threshold guardrail in `validate_analysis`, docs rewritten against the commits.
 
-- The thesis and the seven scoring weights.
-- That "Take a meeting" needs product + buyer + traction evidence, not just a
-  high number (`scoring.py:has_take_meeting_evidence`).
-- Which findings were real bugs worth a commit vs. cosmetic.
-- That the committed sample would ship in fallback mode with that stated
-  plainly rather than waiting on a funded API key.
+Claude Code also flipped the repo to private and added the collaborator.
 
-## Prompts
+## what the model did not decide
 
-The analysis prompts are in `prompts/analysis_system.md` and
-`prompts/analysis_user.md` — the exact text sent to the model, not a summary.
+- the thesis and the scoring weights.
+- that "take a meeting" needs product + buyer + hard traction, not just a high number.
+- which findings were real bugs worth a commit vs cosmetic.
+- shipping the sample in fallback mode with that stated plainly instead of waiting on a funded key.
 
-## Honesty note for the reviewer
+## honesty note
 
-The reflective "how I worked" narrative and the walkthrough video are the
-owner's, in their own words. This file records what happened; it is not a
-substitute for that.
+the OpenAI key for this run was out of credits, so the committed sample runs the offline scorer — labelled `deterministic_fallback` in every memo and the manifest. the model path is wired and has schema tests but no end-to-end run in the repo yet.
+
+prompts are in `prompts/` — the exact text sent to the model, not a summary.
