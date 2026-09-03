@@ -1,23 +1,73 @@
-# Process Log
+# Process log
 
-## 2026-09-03
+Chronological, tied to commits. Times are IST, 2026-09-03.
 
-Read the assignment and scoped the MVP as a CLI pipeline rather than a SaaS app.
+## Design (before any code)
 
-Decision: YC + HN only. Product Hunt, Crunchbase, LinkedIn, and Twitter/X were rejected for v1 because they add auth, scraping fragility, or replayability risk.
+The pipeline shape was settled in an architecture chat with an LLM before
+writing code. Input was the assignment brief; output was the module breakdown
+now in `src/investment_pipeline/` and the thesis in `docs/THESIS.md`.
 
-Decision: LLM boundary is evidence-only. Python owns fetching, artifact storage, score totals, recommendation thresholds, and citation validation.
+Decisions made there, with reasoning in `docs/DECISIONS.md`:
 
-Implementation constraint discovered: `OPENAI_API_KEY` was not set locally. Added a deterministic fallback analysis mode so the sample run can still be generated honestly without fabricating LLM usage.
+- CLI + flat JSON/Markdown files. No DB, queue, vector store, or frontend.
+- One primary source (YC) + one enrichment source (HN). Go deep, not wide.
+- The LLM sees a frozen evidence packet and may only cite evidence IDs.
+  Python owns fetching, scoring arithmetic, thresholds, and citation checks.
 
-Quality concern: deterministic fallback cannot replace true analyst reasoning. It is acceptable for replayability but should be called out as a limitation if the sample run is produced without an API key.
+## 21:23 — MVP implementation (commit 46905a7)
 
-Found during inspection: initial HN enrichment produced false positives for company names like StackAI, Mount, and Cotool. Fixed by filtering HN hits against the submitted URL/domain or exact company name, and by adding regression tests for generic/compacted-name false positives.
+Built with Codex in one session: Pydantic models, YC + HN adapters, website
+scrape, evidence packet builder, OpenAI Responses call + deterministic
+fallback, scoring, memo/rankings rendering, 15 tests, first sample run.
+Committed as a single commit. See `docs/AI_USAGE.md` for the split of work.
 
-Handoff pass: inspected the existing repo, verified tests and CLI execution, found a remaining HN substring false positive for `Fiber AI` vs. "carbon-fiber airfoil", fixed matching with token-boundary phrase checks and URL-domain checks, and added regression tests.
+Known state at handoff: tests green, CLI runs end to end, one sample run
+committed. `OPENAI_API_KEY` was not available, so the sample used the
+deterministic fallback.
 
-Handoff pass: added `YC4` team evidence extraction from YC descriptions when founder/team-background phrases are present. Narrowed the heuristic after it initially over-matched generic product/team wording.
+## 21:40 — Switched to Claude Code for review and finish
 
-Handoff pass: added a recommendation override so `Take a meeting` requires enough product, buyer, and traction support in the evidence packet. The score can remain high, but weak/unverifiable evidence downgrades the call to `Watch`.
+Full read of the repo before changing anything: every source file, the tests,
+the committed sample memos and evidence packets, `git log`, repo settings.
 
-Final sample run used for submission artifacts: `data/runs/20260903T155128Z_ai-agents-for-smb-back-office-workflows/`.
+Findings:
+
+1. `RECENT_BATCH_PREFIXES` in `selection.py` used `"W25"`-style codes, but the
+   YC API returns `"Winter 2025"`. The recency branch never fired. A Winter
+   2023 company with an 18-person team (Inkeep) was ranking first against a
+   seed-stage thesis.
+2. Every memo's Risks and Open Questions were byte-identical — the offline
+   analyser emitted fixed lists.
+3. The OpenAI path would 400 on the first real call: `rationale_by_component`
+   was an open-ended object, which `strict: true` json_schema forbids.
+4. The repo was public. The brief asks for a private repo with two collaborators.
+
+## 21:49 — Fix selection (commit df374d9)
+
+Parse the year from the batch string; score by recency delta; penalise Growth
+stage, acquired/inactive status, and teams over 60. Re-ran sourcing: the top 10
+is now Spring 2025 – Summer 2026 companies.
+
+## 21:55 — Fix analysis (commit 884d7b6)
+
+`derive_risks` / `derive_open_questions` now read the evidence packet, so each
+memo's risks are specific (missing website, thin HN, no founder signal, tiny
+team, regulated domain, data-layer positioning, self-reported revenue). Every
+generated sentence's citations are filtered to IDs actually in the packet.
+OpenAI schema pinned to the seven component keys; OpenAI errors degrade to the
+offline path per candidate instead of killing the run.
+
+## Repo settings
+
+Flipped to private. Added `chiragmakkar` as a read collaborator via the GitHub
+API. `hari@emsoft.com` is an email, not a username — that invite has to be sent
+from the GitHub web UI and is left for the repo owner.
+
+## LLM path status
+
+Implemented against the OpenAI Responses API with structured outputs. The key
+supplied during this session returned `insufficient_quota`, so the committed
+sample still runs the deterministic fallback. Every memo and the run manifest
+say which mode produced them. With a funded key, `invest-pipeline run` calls
+the model and writes `analysis_mode: openai`.

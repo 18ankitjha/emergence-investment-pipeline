@@ -1,26 +1,53 @@
 # Decisions
 
-## CLI Instead Of Frontend
+## CLI and flat files, no services
 
-The assignment asks for a replayable pipeline and partner-skimmable memos. A frontend would consume time without improving the core evaluation criteria.
+The brief rewards a replayable pipeline and skimmable memos. A frontend or a
+database buys nothing against that and costs time. Each run writes JSON and
+Markdown under `data/runs/<run_id>/`, which a reviewer can open directly and
+diff between runs.
 
-## Files Instead Of Database
+## One source deep: YC primary, HN for freshness
 
-Intermediate JSON and Markdown files are easier for reviewers to inspect than a local database. They also make reruns and debugging straightforward.
+YC's public company export gives structured records (name, site, one-liner,
+long description, batch, industry, tags, team size, status, stage). That is
+enough to build a candidate and most of an evidence packet without scraping.
+HN Algolia is keyless and public; it is the freshness/traction signal. We
+rejected Product Hunt, Crunchbase, LinkedIn, and Twitter/X — each adds auth or
+scraping fragility, and the anti-pattern list calls out shallow multi-source
+sourcing explicitly.
 
-## YC As Primary Source
+## LLM boundary: evidence in, structured JSON out
 
-YC company data provides structured startup records: name, website, one-liner, description, batch, industry, tags, and team size where available.
+The model never browses. It receives a frozen evidence packet with stable IDs
+(`YC1`, `WEB1`, `HN1`, ...) and must attach evidence IDs to every claim.
+Python does the fetching, the score total, the recommendation threshold, and
+the citation validation. This keeps the final call auditable and stops prompt
+changes from silently moving the bar.
 
-## HN As Traction/Freshness Source
+## Deterministic total and threshold
 
-HN Algolia is public and no-key. It is noisy, but useful for public launch/discussion signals.
+The model proposes component scores. `models.deterministic_total` recomputes
+the sum and `recommendation_for_score` picks Pass/Watch/Take a meeting from
+fixed cutoffs. The model's own `total` and `recommendation` fields are
+overwritten.
 
-## Deterministic Score Total
+## "Take a meeting" needs evidence, not just a number
 
-The LLM may assign component scores, but Python recomputes the total and recommendation. This avoids hidden policy drift in the final call.
+`scoring.has_take_meeting_evidence` requires the packet to show a product
+(YC1 + YC2/website), a named buyer type, and a traction signal. A 78 with a
+dead website and no traction is downgraded to Watch. This is the brief's
+explicit override.
 
-## Citation IDs
+## Recency is part of the thesis
 
-Every evidence item receives a stable ID such as `YC1`, `WEB1`, or `HN1`. Analysis must cite these IDs so memo claims can be traced back to stored evidence.
+The thesis says seed-stage. `selection.batch_recency_score` scores companies by
+how recent their YC batch is and penalises Growth stage and large teams, so
+sourcing holds the thesis rather than leaving it to the memo.
 
+## Offline analyser is rule-based, and says so
+
+When there is no key, `deterministic_fallback_analysis` scores from keyword and
+metadata signals and writes per-company risks from the packet. It is labelled
+`deterministic_fallback` in every memo and the manifest. It is a floor for
+replayability, not a stand-in for the model.

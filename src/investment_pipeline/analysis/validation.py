@@ -1,11 +1,38 @@
 from __future__ import annotations
 
-from investment_pipeline.models import AnalysisResult, EvidencePacket, ValidationIssue
+from investment_pipeline.models import (
+    AnalysisResult,
+    EvidencePacket,
+    ValidationIssue,
+    deterministic_total,
+    recommendation_for_score,
+)
 
 
 def validate_analysis(packet: EvidencePacket, analysis: AnalysisResult) -> list[ValidationIssue]:
     issues: list[ValidationIssue] = []
     evidence_ids = packet.evidence_ids
+    score = analysis.score_breakdown
+
+    if score.total != deterministic_total(score):
+        issues.append(
+            ValidationIssue(
+                candidate_id=packet.candidate.id,
+                severity="error",
+                message=f"score total {score.total} does not equal component sum {deterministic_total(score)}",
+            )
+        )
+    ladder = ["Pass", "Watch", "Take a meeting"]
+    if ladder.index(analysis.recommendation) > ladder.index(recommendation_for_score(score.total)):
+        issues.append(
+            ValidationIssue(
+                candidate_id=packet.candidate.id,
+                severity="error",
+                message=(
+                    f"recommendation {analysis.recommendation!r} is more bullish than score {score.total} allows"
+                ),
+            )
+        )
 
     if not analysis.cited_claims:
         issues.append(
