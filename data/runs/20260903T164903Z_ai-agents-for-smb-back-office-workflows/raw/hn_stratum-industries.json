@@ -113,179 +113,6 @@
               "author": {
                 "matchLevel": "none",
                 "matchedWords": [],
-                "value": "ks2048"
-              },
-              "title": {
-                "fullyHighlighted": false,
-                "matchLevel": "full",
-                "matchedWords": [
-                  "stratum",
-                  "industries"
-                ],
-                "value": "Y Combinator backs its first defense <em>startup</em>, Ares <em>Industries</em>"
-              },
-              "url": {
-                "fullyHighlighted": false,
-                "matchLevel": "full",
-                "matchedWords": [
-                  "stratum",
-                  "industries"
-                ],
-                "value": "https://techcrunch.com/2024/08/25/y-combinator-backs-its-first-defense-<em>startup</em>-ares-<em>industries</em>/"
-              }
-            },
-            "_tags": [
-              "story",
-              "author_ks2048",
-              "story_41352537"
-            ],
-            "author": "ks2048",
-            "children": [
-              41352774,
-              41352803,
-              41352838,
-              41352870,
-              41352918,
-              41352942,
-              41352985,
-              41353003,
-              41353034,
-              41353048,
-              41353069,
-              41353082,
-              41353095,
-              41353130,
-              41353158,
-              41353165,
-              41353199,
-              41354420,
-              41355691,
-              41361184,
-              41385503
-            ],
-            "created_at": "2024-08-25T23:40:01Z",
-            "created_at_i": 1724629201,
-            "num_comments": 117,
-            "objectID": "41352537",
-            "points": 67,
-            "story_id": 41352537,
-            "title": "Y Combinator backs its first defense startup, Ares Industries",
-            "updated_at": "2025-08-14T22:33:32Z",
-            "url": "https://techcrunch.com/2024/08/25/y-combinator-backs-its-first-defense-startup-ares-industries/"
-          },
-          {
-            "_highlightResult": {
-              "author": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "daleharvey"
-              },
-              "story_text": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": ""
-              },
-              "title": {
-                "fullyHighlighted": false,
-                "matchLevel": "full",
-                "matchedWords": [
-                  "stratum",
-                  "industries"
-                ],
-                "value": "I'm calling a 'time of death' for London's Internet <em>startup</em> <em>industry</em>"
-              },
-              "url": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "http://www.guardian.co.uk/technology/2009/jul/10/not-safe-for-work-internet-london"
-              }
-            },
-            "_tags": [
-              "story",
-              "author_daleharvey",
-              "story_697555"
-            ],
-            "author": "daleharvey",
-            "children": [
-              697621,
-              697662,
-              697670,
-              697746,
-              697757,
-              697786,
-              697798
-            ],
-            "created_at": "2009-07-10T12:33:21Z",
-            "created_at_i": 1247229201,
-            "num_comments": 19,
-            "objectID": "697555",
-            "points": 38,
-            "story_id": 697555,
-            "story_text": "",
-            "title": "I'm calling a 'time of death' for London's Internet startup industry",
-            "updated_at": "2024-09-19T16:44:37Z",
-            "url": "http://www.guardian.co.uk/technology/2009/jul/10/not-safe-for-work-internet-london"
-          },
-          {
-            "_highlightResult": {
-              "author": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "bonesinger"
-              },
-              "story_text": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "About me: I'm a 3rd year in law school. I'm majoring in tax and intellectual property and I'm very much interested in Entrepreneurship. I am 2 credits short of the required amount to practice before the US Patent Office.<p>I am tech-savvy, but to an extent. I've dabbled in C++ and Java (beginner skill) and web design (beginner as well). I subscribed to teamtreehouse and I've been learning quite a bit! I enjoy the videos and have worked my way through all the HTML and CSS videos. I've watched videos on iOS development as well.<p>What I want to do: I want to build upon some ideas but I'm sick and tired of reading books. I like the field of law but I find myself reading tech news and reading about the newest technologies more than law.<p>I'm finishing up school but I want to work in the tech field. I want to gain experience in startups both in the legal and technical aspect. There are very few opportunities for entrepreneurship in my school thus I'm reaching here for hands on experience. I cannot offer legal advice until I'm a full-fledged attorney but I do want to volunteer and help out regardless of whether its paid or unpaid.<p>If I don't take some sort of initiative I won't be able to get into the field."
-              },
-              "title": {
-                "fullyHighlighted": false,
-                "matchLevel": "full",
-                "matchedWords": [
-                  "stratum",
-                  "industries"
-                ],
-                "value": "I want to get into the <em>startup</em> <em>industry</em>, where do I start?"
-              }
-            },
-            "_tags": [
-              "story",
-              "author_bonesinger",
-              "story_3275781",
-              "ask_hn"
-            ],
-            "author": "bonesinger",
-            "children": [
-              3275809,
-              3275821,
-              3275826,
-              3275892,
-              3275896,
-              3275899,
-              3275937,
-              3275985,
-              3275999,
-              3276034,
-              3276038,
-              3276474,
-              3276569,
-              3296516
-            ],
-            "created_at": "2011-11-25T00:12:30Z",
-            "created_at_i": 1322179950,
-            "num_comments": 30,
-            "objectID": "3275781",
-            "points": 30,
-            "story_id": 3275781,
-            "story_text": "About me: I'm a 3rd year in law school. I'm majoring in tax and intellectual property and I'm very much interested in Entrepreneurship. I am 2 credits short of the required amount to practice before the US Patent Office.<p>I am tech-savvy, but to an extent. I've dabbled in C++ and Java (beginner skill) and web design (beginner as well). I subscribed to teamtreehouse and I've been learning quite a bit! I enjoy the videos and have worked my way through all the HTML and CSS videos. I've watched videos on iOS development as well.<p>What I want to do: I want to build upon some ideas but I'm sick and tired of reading books. I like the field of law but I find myself reading tech news and reading about the newest technologies more than law.<p>I'm finishing up school but I want to work in the tech field. I want to gain experience in startups both in the legal and technical aspect. There are very few opportunities for entrepreneurship in my school thus I'm reaching here for hands on experience. I cannot offer legal advice until I'm a full-fledged attorney but I do want to volunteer and help out regardless of whether its paid or unpaid.<p>If I don't take some sort of initiative I won't be able to get into the field.",
-            "title": "I want to get into the startup industry, where do I start?",
-            "updated_at": "2024-09-19T18:09:07Z"
-          },
-          {
-            "_highlightResult": {
-              "author": {
-                "matchLevel": "none",
-                "matchedWords": [],
                 "value": "nextstep"
               },
               "story_text": {
@@ -349,7 +176,49 @@
               "author": {
                 "matchLevel": "none",
                 "matchedWords": [],
-                "value": "sliggity"
+                "value": "Brajeshwar"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "The Resetting of the <em>Startup</em> <em>Industry</em>"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "http://www.bothsidesofthetable.com/2016/02/08/the-resetting-of-the-<em>startup</em>-<em>industry</em>/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_Brajeshwar",
+              "story_11059736"
+            ],
+            "author": "Brajeshwar",
+            "created_at": "2016-02-08T18:04:09Z",
+            "created_at_i": 1454954649,
+            "num_comments": 0,
+            "objectID": "11059736",
+            "points": 5,
+            "story_id": 11059736,
+            "title": "The Resetting of the Startup Industry",
+            "updated_at": "2024-09-19T22:49:54Z",
+            "url": "http://www.bothsidesofthetable.com/2016/02/08/the-resetting-of-the-startup-industry/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "kozlovsky"
               },
               "story_text": {
                 "matchLevel": "none",
@@ -363,49 +232,37 @@
                   "stratum",
                   "industries"
                 ],
-                "value": "Lessons From a Failed <em>Startup</em>: Hangout <em>Industries</em>"
+                "value": "Russian <em>startup</em> Dream <em>Industries</em> is raided on by its investors"
               },
               "url": {
-                "fullyHighlighted": false,
-                "matchLevel": "full",
-                "matchedWords": [
-                  "stratum",
-                  "industries"
-                ],
-                "value": "http://bostinnovation.com/2011/05/18/lessons-from-a-failed-<em>startup</em>-hangout-<em>industries</em>/"
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "http://dreamindustriesunderattack.tumblr.com/"
               }
             },
             "_tags": [
               "story",
-              "author_sliggity",
-              "story_2560370"
+              "author_kozlovsky",
+              "story_4948196"
             ],
-            "author": "sliggity",
-            "created_at": "2011-05-18T15:06:51Z",
-            "created_at_i": 1305731211,
+            "author": "kozlovsky",
+            "created_at": "2012-12-20T15:35:30Z",
+            "created_at_i": 1356017730,
             "num_comments": 0,
-            "objectID": "2560370",
-            "points": 8,
-            "story_id": 2560370,
+            "objectID": "4948196",
+            "points": 2,
+            "story_id": 4948196,
             "story_text": "",
-            "title": "Lessons From a Failed Startup: Hangout Industries",
-            "updated_at": "2024-09-19T17:44:50Z",
-            "url": "http://bostinnovation.com/2011/05/18/lessons-from-a-failed-startup-hangout-industries/"
+            "title": "Russian startup Dream Industries is raided on by its investors",
+            "updated_at": "2024-09-19T19:07:05Z",
+            "url": "http://dreamindustriesunderattack.tumblr.com/"
           },
           {
             "_highlightResult": {
               "author": {
                 "matchLevel": "none",
                 "matchedWords": [],
-                "value": "davrosthedalek"
-              },
-              "story_text": {
-                "fullyHighlighted": false,
-                "matchLevel": "partial",
-                "matchedWords": [
-                  "stratum"
-                ],
-                "value": "The title pretty much says it all. At some point in the life of a phd student or postdoc, one has to decide whether one wants to follow the academic path, or switch gears and work in the private sector.<p>I am a postdoc in nuclear physics at an renowned US institute, but my time there runs out. So I am in the same spot. It is easy enough to ask people who choose the academic path, but that is certainly one-sided. Since I, personally, wouldn't want to work for a big company but rather at a <em>startup</em> where I have some impact, I hope this is a good forum to get some insights.<p>So, who here had the same decision to make? What made you decide? Money? The possibility to create something by yourself?\nDid you feel a \"calling\" to start or work at a <em>startup</em>? \nDid anybody regret it?<p>The other question would be: Is there actually interest in physicists?"
+                "value": "adventured"
               },
               "title": {
                 "fullyHighlighted": false,
@@ -414,61 +271,141 @@
                   "stratum",
                   "industries"
                 ],
-                "value": "Ask HN: Academia or <em>Startup</em>/<em>Industry</em>?"
+                "value": "<em>Startup</em> <em>Industry</em> Tries to Quash Proposal to Tax Options Earlier"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "https://www.bloomberg.com/news/articles/2017-11-14/<em>startup</em>-<em>industry</em>-tries-to-quash-proposal-to-tax-options-earlier"
               }
             },
             "_tags": [
               "story",
-              "author_davrosthedalek",
-              "story_4472076",
-              "ask_hn"
+              "author_adventured",
+              "story_15694983"
             ],
-            "author": "davrosthedalek",
+            "author": "adventured",
+            "created_at": "2017-11-14T13:59:17Z",
+            "created_at_i": 1510667957,
+            "num_comments": 0,
+            "objectID": "15694983",
+            "points": 2,
+            "story_id": 15694983,
+            "title": "Startup Industry Tries to Quash Proposal to Tax Options Earlier",
+            "updated_at": "2024-09-20T01:41:35Z",
+            "url": "https://www.bloomberg.com/news/articles/2017-11-14/startup-industry-tries-to-quash-proposal-to-tax-options-earlier"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "grantgrant"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "State of Fitness <em>industry</em> <em>startup</em>"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "http://2above.com/entrepreneurship/state-of-fitness-<em>industry</em>-<em>startup</em>/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_grantgrant",
+              "story_1307485"
+            ],
+            "author": "grantgrant",
+            "created_at": "2010-04-30T07:20:13Z",
+            "created_at_i": 1272612013,
+            "num_comments": 0,
+            "objectID": "1307485",
+            "points": 2,
+            "story_id": 1307485,
+            "title": "State of Fitness industry startup",
+            "updated_at": "2024-09-19T16:56:46Z",
+            "url": "http://2above.com/entrepreneurship/state-of-fitness-industry-startup/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "hudibras"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "The <em>Startup</em> <em>Industry</em>\u2019s Toxic \u201cSide Hustle\u201d Fixation"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "stratum"
+                ],
+                "value": "https://theringer.com/<em>startup</em>-culture-side-hustle-uber-4f8bebf25"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_hudibras",
+              "story_14365454"
+            ],
+            "author": "hudibras",
             "children": [
-              4472266,
-              4472314,
-              4472499,
-              4472645,
-              4473015,
-              4481595
+              14365594,
+              14365607
             ],
-            "created_at": "2012-09-03T22:32:19Z",
-            "created_at_i": 1346711539,
-            "num_comments": 14,
-            "objectID": "4472076",
-            "points": 7,
-            "story_id": 4472076,
-            "story_text": "The title pretty much says it all. At some point in the life of a phd student or postdoc, one has to decide whether one wants to follow the academic path, or switch gears and work in the private sector.<p>I am a postdoc in nuclear physics at an renowned US institute, but my time there runs out. So I am in the same spot. It is easy enough to ask people who choose the academic path, but that is certainly one-sided. Since I, personally, wouldn't want to work for a big company but rather at a startup where I have some impact, I hope this is a good forum to get some insights.<p>So, who here had the same decision to make? What made you decide? Money? The possibility to create something by yourself?\nDid you feel a \"calling\" to start or work at a startup? \nDid anybody regret it?<p>The other question would be: Is there actually interest in physicists?",
-            "title": "Ask HN: Academia or Startup/Industry?",
-            "updated_at": "2023-09-06T21:05:17Z"
+            "created_at": "2017-05-18T07:32:54Z",
+            "created_at_i": 1495092774,
+            "num_comments": 2,
+            "objectID": "14365454",
+            "points": 1,
+            "story_id": 14365454,
+            "title": "The Startup Industry\u2019s Toxic \u201cSide Hustle\u201d Fixation",
+            "updated_at": "2024-09-20T00:50:29Z",
+            "url": "https://theringer.com/startup-culture-side-hustle-uber-4f8bebf25"
           }
         ],
         "hitsPerPage": 8,
-        "nbHits": 1511,
-        "nbPages": 125,
+        "nbHits": 480,
+        "nbPages": 60,
         "page": 0,
         "params": "query=Stratum+Industries&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 18,
+        "processingTimeMS": 16,
         "processingTimingsMS": {
           "_request": {
-            "queue": 14,
-            "roundTrip": 19
-          },
-          "afterFetch": {
-            "format": {
-              "highlighting": 1,
-              "total": 1
-            }
+            "roundTrip": 18
           },
           "fetch": {
-            "query": 11,
-            "scanning": 5,
-            "total": 17
+            "query": 12,
+            "scanning": 2,
+            "total": 15
           },
-          "total": 18
+          "total": 16
         },
         "query": "Stratum Industries",
-        "serverTimeMS": 34
+        "serverTimeMS": 17
       },
       "query": "Stratum Industries"
     },
@@ -486,20 +423,19 @@
         "nbPages": 0,
         "page": 0,
         "params": "query=stratumindustries.co&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 7,
+        "processingTimeMS": 6,
         "processingTimingsMS": {
           "_request": {
-            "queue": 13,
-            "roundTrip": 15
+            "roundTrip": 17
           },
           "fetch": {
-            "query": 5,
-            "total": 6
+            "query": 4,
+            "total": 5
           },
-          "total": 7
+          "total": 6
         },
         "query": "stratumindustries.co",
-        "serverTimeMS": 20
+        "serverTimeMS": 6
       },
       "query": "stratumindustries.co"
     }

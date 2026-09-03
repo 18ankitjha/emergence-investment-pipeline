@@ -684,24 +684,24 @@
           }
         ],
         "hitsPerPage": 8,
-        "nbHits": 14000,
+        "nbHits": 3657,
         "nbPages": 125,
         "page": 0,
         "params": "query=Corvera&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 10,
+        "processingTimeMS": 7,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 16
+            "roundTrip": 21
           },
           "fetch": {
-            "query": 5,
-            "scanning": 4,
-            "total": 10
+            "query": 4,
+            "scanning": 1,
+            "total": 6
           },
-          "total": 10
+          "total": 7
         },
         "query": "Corvera",
-        "serverTimeMS": 11
+        "serverTimeMS": 7
       },
       "query": "Corvera"
     },
@@ -713,121 +713,26 @@
         },
         "exhaustiveNbHits": false,
         "exhaustiveTypo": false,
-        "hits": [
-          {
-            "_highlightResult": {
-              "author": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "mihau"
-              },
-              "story_text": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "TLDR: Desktop app for E2E web test generation, built at JetBrains (closed beta). Record the flow in a built-in browser - the agent matches it with your existing codebase, then writes a test that passes, not a draft to debug.<p>Devs use AI to ship more code. That code still needs testing. If your team writes E2E tests by hand, you have a problem - same QA capacity, way more surface to cover.<p>AI agents can write E2E test code, but you're stuck describing flows in text - the agent clicks around via Playwright MCP, takes wrong turns, you re-prompt, retry. 30 minutes for a flow you could click through in 30 seconds.<p>Qure works differently. You record the scenario in Qure's built-in browser by just using your product. The AI turns that recording into code. No prompt engineering, no MCP setup, no explaining your repo in chat - point it at your project and go. Beyond recording, you can also refactor tests, update them, or write new ones from a description.<p>What keeps the AI output grounded:<p>- We match the recording against your codebase - find your page objects, helpers, constants and feed them to the agent instead of hoping it figures out your repo<p>- When agent runs the test, it reads real failure output, fixes with actual error and app context<p>This is a closed beta of an experimental product. Web only, works best with Playwright. If your project has a few dozen tests - Claude Code will honestly get you there. Qure makes a difference on larger codebases with existing test infrastructure.<p>5-min demo: <a href=\"https://www.youtube.com/watch?v=4CZw4bSSDCE\" rel=\"nofollow\">https://www.youtube.com/watch?v=4CZw4bSSDCE</a><p>Try the beta: <a href=\"https://quretests.com\" rel=\"nofollow\">https://quretests.com</a><p>Happy to answer any questions about the approach, product, or where it breaks - I'm the dev on the Qure team. Egor (@250xp), who leads the project, is in the thread too."
-              },
-              "title": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Show HN: Record manual QA flows, get E2E test code that fits your repo"
-              },
-              "url": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "https://quretests.com"
-              }
-            },
-            "_tags": [
-              "story",
-              "author_mihau",
-              "story_47504297",
-              "show_hn"
-            ],
-            "author": "mihau",
-            "children": [
-              47504978
-            ],
-            "created_at": "2026-03-24T15:40:01Z",
-            "created_at_i": 1774366801,
-            "num_comments": 2,
-            "objectID": "47504297",
-            "points": 19,
-            "story_id": 47504297,
-            "story_text": "TLDR: Desktop app for E2E web test generation, built at JetBrains (closed beta). Record the flow in a built-in browser - the agent matches it with your existing codebase, then writes a test that passes, not a draft to debug.<p>Devs use AI to ship more code. That code still needs testing. If your team writes E2E tests by hand, you have a problem - same QA capacity, way more surface to cover.<p>AI agents can write E2E test code, but you&#x27;re stuck describing flows in text - the agent clicks around via Playwright MCP, takes wrong turns, you re-prompt, retry. 30 minutes for a flow you could click through in 30 seconds.<p>Qure works differently. You record the scenario in Qure&#x27;s built-in browser by just using your product. The AI turns that recording into code. No prompt engineering, no MCP setup, no explaining your repo in chat - point it at your project and go. Beyond recording, you can also refactor tests, update them, or write new ones from a description.<p>What keeps the AI output grounded:<p>- We match the recording against your codebase - find your page objects, helpers, constants and feed them to the agent instead of hoping it figures out your repo<p>- When agent runs the test, it reads real failure output, fixes with actual error and app context<p>This is a closed beta of an experimental product. Web only, works best with Playwright. If your project has a few dozen tests - Claude Code will honestly get you there. Qure makes a difference on larger codebases with existing test infrastructure.<p>5-min demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=4CZw4bSSDCE\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=4CZw4bSSDCE</a><p>Try the beta: <a href=\"https:&#x2F;&#x2F;quretests.com\" rel=\"nofollow\">https:&#x2F;&#x2F;quretests.com</a><p>Happy to answer any questions about the approach, product, or where it breaks - I&#x27;m the dev on the Qure team. Egor (@250xp), who leads the project, is in the thread too.",
-            "title": "Show HN: Record manual QA flows, get E2E test code that fits your repo",
-            "updated_at": "2026-04-14T13:57:22Z",
-            "url": "https://quretests.com"
-          },
-          {
-            "_highlightResult": {
-              "author": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "soapsommelier"
-              },
-              "story_text": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "In today's world, catchy headlines and articles often distract readers from the facts and relevant information. Simply News is an attempt to cut through the fray and provide straightforward daily updates about what's actually happening. By coordinating multiple AI agents, Simply News processes sensationalist news articles and transforms them into a cohesive, news-focused podcast across many distinct topics every day. Each agent is responsible for a different part of this process. For example, we have agents which perform the following functions:<p>The Sorter: Scans a vast array of news sources and filters the articles based on relevance and significance to the podcast category.\nThe Pitcher: Crafts a compelling pitch for each sorted article, taking into account the narrative angle presented in the article.\nThe Judge: Evaluates the pitches and makes an editorial decision about which should be covered.\nThe Scripter: Drafts an engaging script for the articles selected by the Judge, ensuring clarity and precision for the listening.<p>Our AIs are directed to select news articles most relevant to the podcast category. Removing the human from this loop means explicit biases don't factor into the decision about what to cover.<p>AI-decisions are also much more auditable, and this transparency is a key reason why AI can be a powerful tool for removing bias and sensationalism in the news.<p>We recently launched, so any and all feedback would be appreciated."
-              },
-              "title": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "Show HN: Simply News \u2013 just the news, run by a team of AI's"
-              },
-              "url": {
-                "matchLevel": "none",
-                "matchedWords": [],
-                "value": "https://www.simplynews.ai/"
-              }
-            },
-            "_tags": [
-              "story",
-              "author_soapsommelier",
-              "story_39642855",
-              "show_hn"
-            ],
-            "author": "soapsommelier",
-            "children": [
-              39643474,
-              39644676,
-              39645753,
-              39647306,
-              39647626,
-              39649497
-            ],
-            "created_at": "2024-03-08T16:44:47Z",
-            "created_at_i": 1709916287,
-            "num_comments": 6,
-            "objectID": "39642855",
-            "points": 13,
-            "story_id": 39642855,
-            "story_text": "In today&#x27;s world, catchy headlines and articles often distract readers from the facts and relevant information. Simply News is an attempt to cut through the fray and provide straightforward daily updates about what&#x27;s actually happening. By coordinating multiple AI agents, Simply News processes sensationalist news articles and transforms them into a cohesive, news-focused podcast across many distinct topics every day. Each agent is responsible for a different part of this process. For example, we have agents which perform the following functions:<p>The Sorter: Scans a vast array of news sources and filters the articles based on relevance and significance to the podcast category.\nThe Pitcher: Crafts a compelling pitch for each sorted article, taking into account the narrative angle presented in the article.\nThe Judge: Evaluates the pitches and makes an editorial decision about which should be covered.\nThe Scripter: Drafts an engaging script for the articles selected by the Judge, ensuring clarity and precision for the listening.<p>Our AIs are directed to select news articles most relevant to the podcast category. Removing the human from this loop means explicit biases don&#x27;t factor into the decision about what to cover.<p>AI-decisions are also much more auditable, and this transparency is a key reason why AI can be a powerful tool for removing bias and sensationalism in the news.<p>We recently launched, so any and all feedback would be appreciated.",
-            "title": "Show HN: Simply News \u2013 just the news, run by a team of AI's",
-            "updated_at": "2024-09-20T16:36:56Z",
-            "url": "https://www.simplynews.ai/"
-          }
-        ],
+        "hits": [],
         "hitsPerPage": 8,
-        "nbHits": 2,
-        "nbPages": 1,
+        "nbHits": 0,
+        "nbPages": 0,
         "page": 0,
         "params": "query=corvera.ai&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 21,
+        "processingTimeMS": 24,
         "processingTimingsMS": {
           "_request": {
-            "queue": 12,
-            "roundTrip": 18
+            "roundTrip": 14
           },
           "fetch": {
-            "query": 5,
-            "scanning": 14,
-            "total": 20
+            "query": 11,
+            "scanning": 11,
+            "total": 23
           },
-          "total": 21
+          "total": 24
         },
         "query": "corvera.ai",
-        "serverTimeMS": 33
+        "serverTimeMS": 24
       },
       "query": "corvera.ai"
     }

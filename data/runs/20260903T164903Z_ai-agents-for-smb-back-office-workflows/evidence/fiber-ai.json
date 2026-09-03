@@ -9,7 +9,7 @@
     "raw_source_path": "raw/yc_fetch_manifest.json",
     "source_refs": [
       {
-        "fetched_at": "2026-09-03T16:42:42.777919Z",
+        "fetched_at": "2026-09-03T16:49:03.633400Z",
         "id": "YC_SOURCE",
         "raw_path": "raw/yc_fetch_manifest.json",
         "source_type": "yc",
@@ -76,5 +76,5 @@
       "url": "https://hn.algolia.com/"
     }
   ],
-  "generated_at": "2026-09-03T16:44:02.648530Z"
+  "generated_at": "2026-09-03T16:50:24.376430Z"
 }

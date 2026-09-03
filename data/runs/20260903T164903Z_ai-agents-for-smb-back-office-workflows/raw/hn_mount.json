@@ -650,25 +650,24 @@
           }
         ],
         "hitsPerPage": 8,
-        "nbHits": 55314,
+        "nbHits": 55315,
         "nbPages": 125,
         "page": 0,
         "params": "query=Mount&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 15,
+        "processingTimeMS": 12,
         "processingTimingsMS": {
           "_request": {
-            "queue": 12,
-            "roundTrip": 19
+            "roundTrip": 17
           },
           "fetch": {
-            "query": 2,
-            "scanning": 11,
-            "total": 14
+            "query": 1,
+            "scanning": 9,
+            "total": 11
           },
-          "total": 15
+          "total": 12
         },
         "query": "Mount",
-        "serverTimeMS": 28
+        "serverTimeMS": 12
       },
       "query": "Mount"
     },
@@ -686,20 +685,20 @@
         "nbPages": 0,
         "page": 0,
         "params": "query=mount.insure&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 28,
+        "processingTimeMS": 21,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 14
+            "roundTrip": 15
           },
           "fetch": {
-            "query": 8,
-            "scanning": 18,
-            "total": 27
+            "query": 5,
+            "scanning": 14,
+            "total": 20
           },
-          "total": 28
+          "total": 21
         },
         "query": "mount.insure",
-        "serverTimeMS": 28
+        "serverTimeMS": 21
       },
       "query": "mount.insure"
     }

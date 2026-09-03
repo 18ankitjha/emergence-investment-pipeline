@@ -18,17 +18,16 @@
         "processingTimeMS": 7,
         "processingTimingsMS": {
           "_request": {
-            "queue": 1,
-            "roundTrip": 16
+            "roundTrip": 22
           },
           "fetch": {
-            "query": 6,
-            "total": 7
+            "query": 5,
+            "total": 6
           },
           "total": 7
         },
         "query": "Levocred AI",
-        "serverTimeMS": 9
+        "serverTimeMS": 7
       },
       "query": "Levocred AI"
     },
@@ -46,20 +45,21 @@
         "nbPages": 0,
         "page": 0,
         "params": "query=levocred.com&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 28,
+        "processingTimeMS": 22,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 23
+            "queue": 14,
+            "roundTrip": 17
           },
           "fetch": {
-            "query": 11,
-            "scanning": 16,
-            "total": 28
+            "query": 9,
+            "scanning": 11,
+            "total": 21
           },
-          "total": 29
+          "total": 22
         },
         "query": "levocred.com",
-        "serverTimeMS": 29
+        "serverTimeMS": 36
       },
       "query": "levocred.com"
     }

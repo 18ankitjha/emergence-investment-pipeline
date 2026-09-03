@@ -9,7 +9,7 @@
     "raw_source_path": "raw/yc_fetch_manifest.json",
     "source_refs": [
       {
-        "fetched_at": "2026-09-03T16:42:42.785995Z",
+        "fetched_at": "2026-09-03T16:49:03.640790Z",
         "id": "YC_SOURCE",
         "raw_path": "raw/yc_fetch_manifest.json",
         "source_type": "yc",
@@ -75,5 +75,5 @@
       "url": "https://news.ycombinator.com/item?id=5763402"
     }
   ],
-  "generated_at": "2026-09-03T16:43:39.215654Z"
+  "generated_at": "2026-09-03T16:49:59.403835Z"
 }

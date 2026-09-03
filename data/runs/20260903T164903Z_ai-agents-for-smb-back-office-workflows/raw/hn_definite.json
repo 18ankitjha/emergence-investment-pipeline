@@ -659,21 +659,21 @@
         "nbPages": 125,
         "page": 0,
         "params": "query=Definite&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 8,
+        "processingTimeMS": 10,
         "processingTimingsMS": {
           "_request": {
-            "queue": 117,
-            "roundTrip": 16
+            "queue": 34,
+            "roundTrip": 18
           },
           "fetch": {
             "query": 3,
-            "scanning": 3,
-            "total": 7
+            "scanning": 4,
+            "total": 8
           },
-          "total": 8
+          "total": 10
         },
         "query": "Definite",
-        "serverTimeMS": 126
+        "serverTimeMS": 44
       },
       "query": "Definite"
     },
@@ -691,20 +691,20 @@
         "nbPages": 0,
         "page": 0,
         "params": "query=usedefinite.com&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 25,
+        "processingTimeMS": 20,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 17
+            "roundTrip": 22
           },
           "fetch": {
-            "query": 21,
+            "query": 17,
             "scanning": 2,
-            "total": 24
+            "total": 20
           },
-          "total": 25
+          "total": 20
         },
         "query": "usedefinite.com",
-        "serverTimeMS": 25
+        "serverTimeMS": 21
       },
       "query": "usedefinite.com"
     }

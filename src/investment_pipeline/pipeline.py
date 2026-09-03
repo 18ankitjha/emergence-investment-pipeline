@@ -10,7 +10,7 @@ from investment_pipeline.config import THESIS, Settings
 from investment_pipeline.enrichment.evidence import build_evidence_packet
 from investment_pipeline.enrichment.hn import search_hn
 from investment_pipeline.enrichment.website import fetch_website_text
-from investment_pipeline.models import AnalysisResult, CandidateStartup, RunManifest, ValidationReport
+from investment_pipeline.models import AnalysisResult, RunManifest, ValidationReport
 from investment_pipeline.recommendation.memo import render_memo, render_rankings
 from investment_pipeline.sourcing.selection import select_candidates
 from investment_pipeline.sourcing.yc import fetch_yc_companies, normalize_yc_company
@@ -41,7 +41,7 @@ async def run_pipeline(settings: Settings, topic: str, limit: int = 10) -> Path:
     template_dir = settings.project_root / "src" / "investment_pipeline" / "recommendation" / "templates"
 
     for candidate in selected:
-        website_text, _website_raw_path = await fetch_website_text(settings, candidate, run_dir / "raw")
+        website_text, _ = await fetch_website_text(settings, candidate, run_dir / "raw")
         hn_hits = await search_hn(settings, candidate, run_dir / "raw")
         packet = build_evidence_packet(candidate, website_text, hn_hits)
         write_json(run_dir / "evidence" / f"{slugify(candidate.name)}.json", packet)
@@ -65,12 +65,21 @@ async def run_pipeline(settings: Settings, topic: str, limit: int = 10) -> Path:
         topic=topic,
         thesis=THESIS,
         selected_count=len(selected),
-        analysis_mode="openai" if settings.openai_api_key else "deterministic_fallback",
+        analysis_mode=observed_analysis_mode(analyses),
         sources=["YC companies API", "HN Algolia API", "company websites"],
         command=f'uv run invest-pipeline run "{topic}"',
     )
     write_json(run_dir / "run_manifest.json", manifest)
     return run_dir
+
+
+def observed_analysis_mode(analyses: list[AnalysisResult]) -> str:
+    modes = {analysis.analysis_mode for analysis in analyses}
+    if not modes:
+        return "none"
+    if len(modes) == 1:
+        return modes.pop()
+    return "mixed"
 
 
 def run_pipeline_sync(settings: Settings, topic: str, limit: int = 10) -> Path:

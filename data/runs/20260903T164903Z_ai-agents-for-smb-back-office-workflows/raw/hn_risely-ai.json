@@ -56,11 +56,11 @@
     {
       "payload": {
         "exhaustive": {
-          "nbHits": true,
-          "typo": true
+          "nbHits": false,
+          "typo": false
         },
-        "exhaustiveNbHits": true,
-        "exhaustiveTypo": true,
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
         "hits": [
           {
             "_highlightResult": {
@@ -427,41 +427,31 @@
         "nbPages": 3,
         "page": 0,
         "params": "query=Risely+AI&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 8,
+        "processingTimeMS": 7,
         "processingTimingsMS": {
           "_request": {
             "roundTrip": 17
-          },
-          "afterFetch": {
-            "merge": {
-              "mergeLoop": {
-                "prepareNextHit": 2,
-                "total": 2
-              },
-              "total": 2
-            },
-            "total": 2
           },
           "fetch": {
             "query": 3,
             "scanning": 2,
             "total": 6
           },
-          "total": 8
+          "total": 7
         },
         "query": "Risely AI",
-        "serverTimeMS": 9
+        "serverTimeMS": 8
       },
       "query": "Risely AI"
     },
     {
       "payload": {
         "exhaustive": {
-          "nbHits": false,
-          "typo": false
+          "nbHits": true,
+          "typo": true
         },
-        "exhaustiveNbHits": false,
-        "exhaustiveTypo": false,
+        "exhaustiveNbHits": true,
+        "exhaustiveTypo": true,
         "hits": [
           {
             "_highlightResult": {
@@ -520,20 +510,20 @@
         "nbPages": 1,
         "page": 0,
         "params": "query=risely.ai&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 23,
+        "processingTimeMS": 19,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 26
+            "roundTrip": 14
           },
           "fetch": {
-            "query": 3,
-            "scanning": 18,
-            "total": 22
+            "query": 2,
+            "scanning": 15,
+            "total": 18
           },
-          "total": 23
+          "total": 19
         },
         "query": "risely.ai",
-        "serverTimeMS": 23
+        "serverTimeMS": 20
       },
       "query": "risely.ai"
     }

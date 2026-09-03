@@ -355,24 +355,35 @@
           }
         ],
         "hitsPerPage": 8,
-        "nbHits": 667,
-        "nbPages": 84,
+        "nbHits": 660,
+        "nbPages": 83,
         "page": 0,
         "params": "query=Diligent&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 8,
+        "processingTimeMS": 12,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 15
+            "queue": 28,
+            "roundTrip": 20
+          },
+          "afterFetch": {
+            "merge": {
+              "mergeLoop": {
+                "prepareNextHit": 1,
+                "total": 1
+              },
+              "total": 1
+            },
+            "total": 1
           },
           "fetch": {
-            "query": 5,
+            "query": 7,
             "scanning": 1,
-            "total": 7
+            "total": 9
           },
-          "total": 8
+          "total": 12
         },
         "query": "Diligent",
-        "serverTimeMS": 9
+        "serverTimeMS": 40
       },
       "query": "Diligent"
     },
@@ -390,19 +401,20 @@
         "nbPages": 0,
         "page": 0,
         "params": "query=godiligent.ai&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 7,
+        "processingTimeMS": 11,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 20
+            "queue": 1,
+            "roundTrip": 19
           },
           "fetch": {
-            "query": 5,
-            "total": 6
+            "query": 9,
+            "total": 10
           },
-          "total": 7
+          "total": 11
         },
         "query": "godiligent.ai",
-        "serverTimeMS": 7
+        "serverTimeMS": 13
       },
       "query": "godiligent.ai"
     }

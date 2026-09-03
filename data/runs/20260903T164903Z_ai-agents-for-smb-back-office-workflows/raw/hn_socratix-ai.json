@@ -418,30 +418,38 @@
           }
         ],
         "hitsPerPage": 8,
-        "nbHits": 54,
-        "nbPages": 7,
+        "nbHits": 78,
+        "nbPages": 10,
         "page": 0,
         "params": "query=Socratix+AI&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 9,
+        "processingTimeMS": 11,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 21
+            "queue": 2,
+            "roundTrip": 17
           },
           "afterFetch": {
             "format": {
-              "highlighting": 1,
               "total": 1
-            }
+            },
+            "merge": {
+              "mergeLoop": {
+                "prepareNextHit": 1,
+                "total": 1
+              },
+              "total": 1
+            },
+            "total": 1
           },
           "fetch": {
-            "query": 5,
+            "query": 6,
             "scanning": 2,
-            "total": 8
+            "total": 9
           },
-          "total": 9
+          "total": 11
         },
         "query": "Socratix AI",
-        "serverTimeMS": 11
+        "serverTimeMS": 14
       },
       "query": "Socratix AI"
     },
@@ -462,17 +470,16 @@
         "processingTimeMS": 8,
         "processingTimingsMS": {
           "_request": {
-            "queue": 18,
-            "roundTrip": 20
+            "roundTrip": 16
           },
           "fetch": {
-            "query": 6,
-            "total": 7
+            "query": 7,
+            "total": 8
           },
           "total": 8
         },
         "query": "getsocratix.ai",
-        "serverTimeMS": 26
+        "serverTimeMS": 9
       },
       "query": "getsocratix.ai"
     }

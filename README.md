@@ -60,7 +60,7 @@ data/runs/<run_id>/
 
 ## Committed sample
 
-`data/runs/20260903T164242Z_ai-agents-for-smb-back-office-workflows/` is a full
+`data/runs/20260903T164903Z_ai-agents-for-smb-back-office-workflows/` is a full
 run, committed so it does not need re-running. It was produced without an API
 key, so it exercises the deterministic fallback. Start with `rankings.md`, then
 open `memos/risely-ai.md` (Take a meeting) and `memos/fiber-ai.md` (Pass) and

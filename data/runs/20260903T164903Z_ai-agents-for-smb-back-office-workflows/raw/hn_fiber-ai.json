@@ -382,20 +382,20 @@
         "nbPages": 18,
         "page": 0,
         "params": "query=Fiber+AI&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 6,
+        "processingTimeMS": 7,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 15
+            "roundTrip": 21
           },
           "fetch": {
-            "query": 1,
+            "query": 2,
             "scanning": 3,
-            "total": 5
+            "total": 6
           },
-          "total": 6
+          "total": 7
         },
         "query": "Fiber AI",
-        "serverTimeMS": 7
+        "serverTimeMS": 8
       },
       "query": "Fiber AI"
     },
@@ -413,21 +413,20 @@
         "nbPages": 0,
         "page": 0,
         "params": "query=fiber.ai&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 17,
+        "processingTimeMS": 24,
         "processingTimingsMS": {
           "_request": {
-            "queue": 19,
-            "roundTrip": 19
+            "roundTrip": 17
           },
           "fetch": {
-            "query": 2,
-            "scanning": 13,
-            "total": 16
+            "query": 1,
+            "scanning": 21,
+            "total": 23
           },
-          "total": 17
+          "total": 24
         },
         "query": "fiber.ai",
-        "serverTimeMS": 36
+        "serverTimeMS": 24
       },
       "query": "fiber.ai"
     }

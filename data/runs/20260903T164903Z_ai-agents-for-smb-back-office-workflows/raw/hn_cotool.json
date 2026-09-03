@@ -427,24 +427,21 @@
         "nbPages": 58,
         "page": 0,
         "params": "query=Cotool&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 6,
+        "processingTimeMS": 8,
         "processingTimingsMS": {
           "_request": {
             "queue": 34,
-            "roundTrip": 15
-          },
-          "afterFetch": {
-            "total": 1
+            "roundTrip": 22
           },
           "fetch": {
-            "query": 3,
+            "query": 5,
             "scanning": 1,
-            "total": 5
+            "total": 7
           },
-          "total": 7
+          "total": 8
         },
         "query": "Cotool",
-        "serverTimeMS": 42
+        "serverTimeMS": 43
       },
       "query": "Cotool"
     },
@@ -544,20 +541,20 @@
         "nbPages": 1,
         "page": 0,
         "params": "query=cotool.ai&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
-        "processingTimeMS": 25,
+        "processingTimeMS": 34,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 16
+            "roundTrip": 21
           },
           "fetch": {
-            "query": 5,
-            "scanning": 19,
-            "total": 25
+            "query": 8,
+            "scanning": 24,
+            "total": 33
           },
-          "total": 25
+          "total": 34
         },
         "query": "cotool.ai",
-        "serverTimeMS": 26
+        "serverTimeMS": 38
       },
       "query": "cotool.ai"
     }

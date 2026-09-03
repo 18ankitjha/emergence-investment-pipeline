@@ -319,7 +319,7 @@
         "processingTimeMS": 22,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 24
+            "roundTrip": 23
           },
           "afterFetch": {
             "format": {
@@ -328,14 +328,14 @@
             }
           },
           "fetch": {
-            "query": 7,
-            "scanning": 14,
-            "total": 22
+            "query": 5,
+            "scanning": 15,
+            "total": 21
           },
           "total": 22
         },
         "query": "Lua Global Inc",
-        "serverTimeMS": 24
+        "serverTimeMS": 23
       },
       "query": "Lua Global Inc"
     },
@@ -356,16 +356,16 @@
         "processingTimeMS": 4,
         "processingTimingsMS": {
           "_request": {
-            "roundTrip": 18
+            "roundTrip": 20
           },
           "fetch": {
-            "query": 2,
-            "total": 3
+            "query": 3,
+            "total": 4
           },
-          "total": 4
+          "total": 5
         },
         "query": "heylua.ai",
-        "serverTimeMS": 4
+        "serverTimeMS": 5
       },
       "query": "heylua.ai"
     }
