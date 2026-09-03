@@ -1,0 +1,279 @@
+[
+  {
+    "batch": "Summer 2023",
+    "description": "We help fintech risk and AML compliance teams automate and strengthen routine customer due diligence tasks with LLMs. Our AI assistants slash cost-to-comply, improve risk detection and free up capacity for investigations that require human expertise and decision making. \r\n\r\nFintechs and banks use us to automate workflows like running thorough due diligence on a legal entity, reviewing customer documents like registry extracts, proofs of address etc and remediating false positive alerts from their AML systems.",
+    "id": "yc-28805",
+    "industry": "Fintech",
+    "name": "Diligent",
+    "one_liner": "AI agents for fintech risk and compliance operations",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.197004Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Diligent",
+        "url": "https://www.ycombinator.com/companies/diligent"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "Fintech",
+      "Compliance",
+      "Fraud Prevention",
+      "Regtech",
+      "AI"
+    ],
+    "team_size": 10,
+    "website": "https://godiligent.ai"
+  },
+  {
+    "batch": "Summer 2023",
+    "description": "Fiber AI is the freshest data APIs for AI sales, recruiting, & growth products, with the freshest data on 40M+ companies, 850M+ people, and 30M+ jobs.\r\n\r\nYou can search live company, people, and jobs data via APIs and webhooks for 10x cheaper than People Data Labs, Explorium, Cognism, CoreSignal, and others. We have verified emails and phone numbers for 4x cheaper than Clay, Apollo, and ZoomInfo.\r\n\r\nWe've helped enterprises like HubSpot, Agent AI, Ramp, and Docusign, as well as fast-growing startups like Flatfile, Karat, Centralize, and Fonzi, get the data they need to build novel AI sales, marketing, and recruiting products with differentiated features \u2013 for a fraction of the cost of other data vendors.\r\n\r\nOur Bulk API Search lets builders integrate uncapped, advanced API searches deeply into their product. Search through 40M+ companies, 850M+ people, and 30M+ jobs with advanced filtering for 10x cheaper than People Data Labs, Crustdata, Cognism, and others.\r\n\r\nAPI endpoints nobody else has. We have novel API endpoints that you won't find on People Data Labs, Cognism, Crustdata, Explorium, or anywhere else, to:\r\n\r\n- Reverse lookup a work/personal email to a person\r\n- Search for a person/company using partial or incomplete information\r\n- Let AI agents build comprehensive prospect lists from 100+ data sources\r\n- Fetch real-time LinkedIn company and people information\r\n\r\nFiber AI's APIs have been live for 3+ years, and we've helped 100s of enterprises and startups rip and replace their data providers.\r\n\r\n\r\n\r\n\r\n\r\n----------------------------------------------------------------------------------------------------------------------\r\nFor more details:\r\n\r\nFiber AI is a B2B data API provider and data broker for AI sales tools, AI recruiting platforms, AI marketing products, and growth teams.\r\n\r\nWe offer data APIs, data feeds, bulk API search, REST API, and webhooks across 40M+ companies, 850M+ people, and 30M+ jobs \u2013 for 10x cheaper than People Data Labs, Crustdata, CoreSignal, Cognism, Bright Data (BrightData), Live Data (LiveData), Explorium, Seamless.ai, Seamless AI, RocketReach, Kaspr, Snov.io, Snov, Uplead, Lead411, and SalesIntel. We also provide verified emails, verified phones, email data, and phone data for 4x cheaper than Clay, Apollo, ZoomInfo, Hunter, Hunter.io, Lusha, ContactOut, Wiza, LeadMagic, Prospeo, FindyMail, Icypeas, FullEnrich, Datagma, Dropcontact, and LeadIQ.\r\n\r\n- Bulk API search for companies, people, and jobs data (uncapped API searches, search API, company search API, people search API, person API, jobs search API, contact search)\r\n- Email API and emails API (email finder, email lookup, bulk email finder, email address finder, email addresses, work email, work emails, business email, business emails, email list, email database)\r\n- Phone API (phone finder, phone lookup, phone number finder, phone numbers, mobile number, mobile numbers, mobile phone, direct dial, direct dials)\r\n- Reverse email lookup API (email to person, reverse lookup, email enrichment, contact enrichment, lead enrichment, CRM enrichment, enrich)\r\n- Email verification API (email validation, email verification, email deliverability, bounce detection, email bounce)\r\n- Phone verification API (phone validation, phone verification, verified phone, verified phones)\r\n- Contact API and contacts API (contact data, contact lookup, contact finder, contact information, B2B contacts, B2B contact, verified contact, verified contacts)\r\n- Real-time LinkedIn data API (LinkedIn company data, LinkedIn profile data, LinkedIn profiles, LinkedIn scraper, LinkedIn scraping, LinkedIn export, Sales Navigator, Sales Navigator export)\r\n- Company data API (B2B company data, company database, company lookup, company information, firmographic data, firmographics, headcount data, funding data, technographic data, revenue data, intent data)\r\n- People data API (B2B contacts, B2B database, contact database, people database, people lookup, people finder)\r\n- Lead data API (lead, leads, B2B leads, prospect, prospects, lead database, prospect data, lead list, prospect list, contact list)\r\n- Jobs data API (open jobs, hiring signals, job listings data, job postings)\r\n\r\nUse cases:\r\nProduct builders integrate our data APIs to build AI SDR tools, AI SDR, AI BDR, AI BDR tools, SDR tools, BDR tools, SDR software, BDR software, SDRs, BDRs, AI recruiting tools, recruiter tools, recruiters, recruitment software, talent acquisition, talent sourcing, candidate sourcing, candidate data, candidates, hiring tool, sales intelligence products, sales intelligence platform, sales data, sales leads, GTM tools, go-to-market platforms, recruiting pipelines, centralized data platforms, TAM builders, ICP list builders, lead generation software, lead gen, leadgen, demand generation, demand gen, prospecting tools, sales prospecting, outbound sales tools, outbound sales, outreach tool, cold outbound, cold outreach, cold email, cold emails, cold calling, email outbound, email outreach, and account-based marketing (ABM) products.\r\n\r\nWhy teams choose Fiber AI over other data providers and data vendors:\r\n\r\n- 10x cheaper than bulk data providers and data brokers (People Data Labs, Crustdata, CoreSignal, Cognism, Explorium, Clearbit, 6sense, Demandbase, ZoomInfo data, Seamless.ai, RocketReach, Kaspr, Snov.io, Uplead, Lead411, SalesIntel, business data, B2B data, live data, real-time data, fresh data)\r\n- 4x cheaper than contact enrichment tools and email enrichment tools (Clay, Apollo, Hunter.io, Lusha, ContactOut, Wiza, LeadMagic, Prospeo, FindyMail, Icypeas, FullEnrich, Datagma, Dropcontact, LeadIQ, data enrichment, phone enrichment)\r\n- 0% email bounce guarantee \u2013 if an email bounces, we refund instantly (no other data vendor or data provider offers this)\r\n- Freshest data and live data feeds: company data updated every 2-3 weeks, jobs data every 2-3 days, people data every 1-2 months\r\n- Novel API endpoints nobody else has: reverse email lookup, email to person lookup, partial/incomplete search, real-time LinkedIn fetching, LinkedIn scraper, AI agent prospect list building\r\n\r\nData coverage:\r\n40M+ B2B companies, 850M+ B2B contacts, 30M+ job listings. B2B database with emails, email addresses, phone numbers, mobile numbers, direct dials, and contact information sourced from 100+ providers including LinkedIn, Crunchbase, BuiltWith, and more.\r\n\r\nWe help AI sales tools, AI recruiting platforms, AI recruiting tools, recruiters, recruitment platforms, sales automation tools, recruiting automation, lead enrichment products, email enrichment tools, phone enrichment services, data enrichment platforms, lead scoring tools, and GTM teams get the B2B data, contact data, email data, phone data, lead data, and prospect data they need via simple, affordable data APIs, data feeds, and webhooks.\r\nWe have B2B company data on 40 million B2B companies and 850 million B2B contacts (i.e. B2B database), sourced from dozens of data providers (i.e. think sources like BuiltWith, Crunchbase, LinkedIn, ZoomInfo, SemRush, Apollo data, and more). This allows you to precisely segment your audience by the companies you care about and exclude everyone else. Our audiences are dynamic (i.e., account based marketing, account based sales, ABM like Clearbit, 6sense, Demandbase), meaning we continuously look for prospects matching your targeting criteria and add them to your audience to run automated outbound sales sequences. This automates manual workflows you might be running on platforms like Clay or Persana. You can also create an audience once based on intent signals (i.e., GTM or go-to-market signals, sales intelligence) and put your outreach on autopilot.\r\n\r\nThis is why RevOps, sales, growth, recruiting, and outbound teams choose us to power their AI SDR platforms (examples of these platforms that could use Fiber AI include artisan ai, 11x, amplemarket, reply.io, unify gtm, penguin ai, regie ai, aisdr, artisan sdr, outreach io, and warmly ai - many of these have used or currently use us), existing lead databases (email enrichment, bulk email finder, or phone enrichment tools like apollo, zoominfo, leadIQ), and contact enrichment tools (clay, persana ai) that promise automation and enrichment but deliver poor results.",
+    "id": "yc-29074",
+    "industry": "B2B",
+    "name": "Fiber AI",
+    "one_liner": "The freshest data APIs for AI sales, recruiting, & growth products",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.199826Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Fiber AI",
+        "url": "https://www.ycombinator.com/companies/fiber-ai"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "Generative AI",
+      "SaaS",
+      "Recruiting",
+      "Sales",
+      "AI"
+    ],
+    "team_size": 8,
+    "website": "https://www.fiber.ai/apis"
+  },
+  {
+    "batch": "Winter 2023",
+    "description": "Inkeep is the only agent platform designed to help both developers and non-developers ship Agent-powered assistants and automations.\r\n\r\nCompanies like Anthropic, Midjourney, Clay, PostHog, and Postman deploy Inkeep Agents at scale to help with everything from support to sales.\r\n\r\nHighlights:\r\n- A No-Code Builder and Developer Framework with full 2-way sync\r\n- Unified search and RAG for knowledge bases, docs, and company data\r\n- MCPs and integrations with your apps, APIs, and software\r\n- Intelligent insights and monitoring over how Agents perform\r\n\r\nWith Inkeep Agents, enterprises and high-growth teams empower their employees with AI teammates that help get work done and automate repeatable tasks.\r\n\r\nBacked by Khosla Ventures, Y-Combinator, Great Point Ventures and leading CEOs and founders.",
+    "id": "yc-27881",
+    "industry": "B2B",
+    "name": "Inkeep",
+    "one_liner": "Build AI Agent teammates and automations in code or no-code",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.192938Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Inkeep",
+        "url": "https://www.ycombinator.com/companies/inkeep"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "Developer Tools",
+      "Workflow Automation",
+      "Customer Support",
+      "No-code",
+      "AI Assistant"
+    ],
+    "team_size": 18,
+    "website": "https://inkeep.com"
+  },
+  {
+    "batch": "Spring 2025",
+    "description": "Lumari is the world's first AI-powered procurement automation platform purpose-built for direct materials and supply chain execution. \r\n\r\nBacked by Y Combinator, Lumari is a well-funded startup that deploys 100s of always-on AI agents that run sourcing workflows, manage RFQs, expedite purchase orders, and coordinate supplier communication end-to-end -- compressing cycle times and giving teams full visibility into active orders, RFQs, and supplier performance.\r\n\r\nFounded by engineers from Google, Tesla, Amazon, and Stripe who have built and scaled supply chain systems serving millions of users. \r\n\r\nBuilt to operate directly on top of existing tools and ERP systems, Lumari helps procurement teams move faster, eliminate operational bottlenecks, and build more resilient supply chains. No rip-and-replace, no supplier onboarding. Lumari handles the manual chase: quote follow-ups, PO confirmations, delivery status updates, and risk escalation.\r\n\r\nLumari helps companies from Fortune 500s to fast-growing startups automate work from sourcing to delivery, streamline supplier communication and order management, and bring full visibility to their procurement operations.\r\n\r\nTo learn more check out https://lumari.ai/",
+    "id": "yc-30540",
+    "industry": "B2B",
+    "name": "Lumari",
+    "one_liner": "AI Digital Workers for Supply Chain",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.236503Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Lumari",
+        "url": "https://www.ycombinator.com/companies/lumari"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "B2B",
+      "Manufacturing",
+      "Supply Chain",
+      "Operations",
+      "AI"
+    ],
+    "team_size": 5,
+    "website": "https://www.lumari.ai/"
+  },
+  {
+    "batch": "Spring 2026",
+    "description": "TLDR: Mount is building the AI insurance carrier, starting with liability coverage for deployed AI agents. As everyone moves AI Agents into production and gives them more responsibility, we help businesses insure and secure them.\r\n\r\nWhenever responsibility shifts from human operators to autonomous systems, so too does the liability that accompanies it. The systems also introduce new risks: agentic software failures, prompt injection attacks, autonomous workflow errors, data leaks, and more.\r\n\r\nLegacy insurance was not built for this. Existing policies are often silent, ambiguous, or exclude autonomous software, and traditional insurers lack the data and technical capability to assess deployed AI Systems.\r\n\r\nOur first product, the Mount AI Liability Policy, is built for mid-market and enterprise companies deploying autonomous AI agents in real business processes. We scan and red-team AI deployments, quantify operational risk, help fix vulnerabilities, and insure the residual risk with purpose-built AI liability coverage.\r\n\r\nMount is best thought of as a highly automated version of today's commercial insurance carriers, which run on manual workflows, layers of intermediaries, and tens of thousands of employees. AI enables automation of underwriting, pricing, policy issuance, claims, fraud detection, customer support, and distribution. We believe that the best way to use this opportunity is to rebuild those processes from the ground up. ",
+    "id": "yc-31440",
+    "industry": "Fintech",
+    "name": "Mount",
+    "one_liner": "The AI Agent Insurance Carrier",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.257026Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Mount",
+        "url": "https://www.ycombinator.com/companies/mount"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [],
+    "team_size": 2,
+    "website": "https://mount.insure"
+  },
+  {
+    "batch": "Summer 2026",
+    "description": "Levocred builds and deploys AI agents inside credit funds, fintechs and banks to automate workflows like back-office tasks, portfolio monitoring, compliance and underwriting. Live across multiple lending teams, running ~$1Bn in receivables through the platform.",
+    "id": "yc-33023",
+    "industry": "Fintech",
+    "name": "Levocred AI",
+    "one_liner": "AI Workforce for lenders",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.265456Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Levocred AI",
+        "url": "https://www.ycombinator.com/companies/levocred-ai"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "Enterprise Software"
+    ],
+    "team_size": 2,
+    "website": "https://levocred.com/"
+  },
+  {
+    "batch": "Spring 2025",
+    "description": "Cotool is an agentic security platform that eliminates manual and repetitive work for security teams.\r\n\r\nToday\u2019s cybersecurity teams remain bogged down by alert fatigue, context switching, and documentation overhead. Security teams don't need more dashboards with \"AI-powered insights\" \u2014 they need their time back.\r\n\r\nCotool empowers teams to build security their way. Our platform provides an AI co-pilot that automatically assembles context across tools, a no-code agent builder that transforms successful investigations into reusable automations, and automated report generation, providing comprehensive documentation in seconds.\r\n\r\nUnlike solutions that force teams to adapt to vendor workflows, Cotool puts the power of AI directly in practitioners' hands, letting them shape tools around their unique processes. Early users have already cut time spent on investigation and detection engineering by 70%.",
+    "id": "yc-30535",
+    "industry": "B2B",
+    "name": "Cotool",
+    "one_liner": "AI Agents for Security Operations Teams",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.236354Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Cotool",
+        "url": "https://www.ycombinator.com/companies/cotool"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "SaaS",
+      "Compliance",
+      "Security",
+      "Cybersecurity"
+    ],
+    "team_size": 4,
+    "website": "https://cotool.ai"
+  },
+  {
+    "batch": "Summer 2025",
+    "description": "Risely\u2019s AI agents will form the new operating system for universities, improving retention, staff productivity, and efficiency. Our platform integrates directly into existing university systems (SIS, LMS, CRM), learns each institution\u2019s unique workflows, and deploys specialized AI agents. This dramatically reduces the $735 billion universities spend annually on administrative labor, expands staff capacity without increasing headcount, and improves the student experience.\r\n\r\nThis hasn't been done before because university workflows require nuanced, autonomous judgment, exactly what agentic AI was designed to solve. Our team uniquely combines deep expertise in higher education, enterprise-scale AI, and regulated enterprise sales.\r\n\r\nSadia previously built Salesforce\u2019s Education Cloud from scratch, creating the core Student Information System widely used across higher education. She deeply understands university operations and maintains trusted relationships with hundreds of higher-ed CIOs and Provosts.\r\n\r\nDanial was one of DoorDash\u2019s earliest engineers, where he architected and scaled complex systems from zero to billions of transactions, including their search, recommendation, and Voice AI platforms. He knows how to build robust AI solutions that reliably perform at enterprise scale. \r\n\r\nShahryar was a GM at Airwallex, where he built the entire Americas business from 0 to 1 and drove 11x revenue growth.  He\u2019s also a master closer, single-handedly securing over $17M in enterprise deals at NerdWallet.  He\u2019s a relentless startup executor with deep expertise launching and scaling go-to-market machines in highly regulated industries.\r\n\r\nWe launched six weeks ago and are already at $8k MRR, growing 55% week-over-week -- one of the fastest ramps ever in higher ed. Universities urgently need solutions that expand labor capacity and efficiency, especially as they face unprecedented budget pressure and staffing shortages.\r\n\r\nWith unmatched buyer access, deep technical expertise, and rapid early traction, we are perfectly positioned to own this enormous market.",
+    "id": "yc-30724",
+    "industry": "Education",
+    "name": "Risely AI",
+    "one_liner": "AI agents that automate administrative work across college campuses.",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.238289Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Risely AI",
+        "url": "https://www.ycombinator.com/companies/risely-ai"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [],
+    "team_size": 8,
+    "website": "https://www.risely.ai/"
+  },
+  {
+    "batch": "Fall 2025",
+    "description": "Lua is the mid-market agent platform.\r\n\r\nWe deliver enterprise reliability with the speed, flexibility, and economics that mid-market companies demand - helping them deploy AI agents that drive sales, support, and operations across everyday channels and tools.\r\n\r\nWe scale through developer agencies and channel partners, enabling rapid distribution without a large enterprise sales motion or scaled forward deployed teams. We think of Lua as an agentOS that abstracts all of the complexity required to launch enterprise grade agents and combine it with the tools needed for these agents to succeed in the real world.\r\n\r\nLua was founded by Lorcan O Cathain (CEO) and Stefan Kruger (CTO)- experienced founders who have spent 15 - 20 years each scaling technology companies across emerging markets.\r\n\r\nWe sell to mid-market enterprises and developer agencies in the US and internationally. Developers are increasingly our primary ICP but we run SMB & enterprise sales motions to accelerate our learnings and further develop our product:\r\n- SMB ($25- 1k per month): fully automated self-serve agents that handle sales and support for eCommerce companies, hotels, restaurants and general service businesses. If you\u2019ve been on our website you\u2019ve likely seen this.\r\n- Enterprise: We directly sell to mid-market (~ $50M- $1BN) businesses across the US and internationally to eat our own dog food and strengthen our platform.\r\n",
+    "id": "yc-30948",
+    "industry": "B2B",
+    "name": "Lua Global Inc",
+    "one_liner": "The mid-market agent platform",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.240807Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Lua Global Inc",
+        "url": "https://www.ycombinator.com/companies/lua-global-inc"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [],
+    "team_size": 5,
+    "website": "https://heylua.ai/"
+  },
+  {
+    "batch": "Summer 2023",
+    "description": "CoAsync by Cognitio Labs is the AI back office for product quality compliance teams.\r\n\r\nWe help mission-critical food manufacturers automate repetitive, document-intensive workflows.\r\n\r\nWe started with Certificates of Analysis (COAs), one of the many workflows quality teams manage before products can ship. Today, this work is still performed manually across PDFs, emails, spreadsheets, and disconnected ERP systems. \r\n\r\nOther documents we help quality teams respond to 24x7 include supplier audit questionnaires, production schedules, lab reports & changes in product specifications and quality records.\r\n\r\nCoAsync automates the workflow by:\r\n\r\nReading supplier documents\r\nExtracting laboratory data\r\nValidating product specifications\r\nApplying compliance requirements\r\nDrafting compliant COAs\r\nOrganizing audit-ready documentation\r\n\r\nResults from one of our initial deployments with a mid-market food processor:\r\n\r\n85% less QA administrative work\r\n4\u00d7 more COAs processed per shift\r\n1-2 hours saved per document\r\nNew product onboarding in under one day\r\n\r\nCOAs are just the beginning. Our vision is to build the AI back office for product quality and compliance across regulated industries by automating the many document-intensive workflows manufacturers manage every day.\r\n\r\nBacked by Y Combinator and leading investors. Founder Diva Avaya Sharma has presented example AI workflows for product quality and compliance through the World Economic Forum Centre for Advanced Manufacturing and Supply Chains' SmartStart initiative and at the International Telecommunication Union's AI for Good Global Summit, organized in partnership with the United Nations.\r\n\r\nKnow a company shipping food & product urgently? Help them get started with their own document workflows at https://cognitioiq.com",
+    "id": "yc-29134",
+    "industry": "Industrials",
+    "name": "Cognitio Labs",
+    "one_liner": "AI back office for food product quality teams",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.200386Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Cognitio Labs",
+        "url": "https://www.ycombinator.com/companies/cognitio-labs"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "AIOps",
+      "B2B",
+      "Data Science",
+      "AI",
+      "AI Assistant"
+    ],
+    "team_size": 3,
+    "website": "https://cognitioiq.com"
+  }
+]

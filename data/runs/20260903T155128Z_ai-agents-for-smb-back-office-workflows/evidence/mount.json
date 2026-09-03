@@ -1,0 +1,74 @@
+{
+  "candidate": {
+    "batch": "Spring 2026",
+    "description": "TLDR: Mount is building the AI insurance carrier, starting with liability coverage for deployed AI agents. As everyone moves AI Agents into production and gives them more responsibility, we help businesses insure and secure them.\r\n\r\nWhenever responsibility shifts from human operators to autonomous systems, so too does the liability that accompanies it. The systems also introduce new risks: agentic software failures, prompt injection attacks, autonomous workflow errors, data leaks, and more.\r\n\r\nLegacy insurance was not built for this. Existing policies are often silent, ambiguous, or exclude autonomous software, and traditional insurers lack the data and technical capability to assess deployed AI Systems.\r\n\r\nOur first product, the Mount AI Liability Policy, is built for mid-market and enterprise companies deploying autonomous AI agents in real business processes. We scan and red-team AI deployments, quantify operational risk, help fix vulnerabilities, and insure the residual risk with purpose-built AI liability coverage.\r\n\r\nMount is best thought of as a highly automated version of today's commercial insurance carriers, which run on manual workflows, layers of intermediaries, and tens of thousands of employees. AI enables automation of underwriting, pricing, policy issuance, claims, fraud detection, customer support, and distribution. We believe that the best way to use this opportunity is to rebuild those processes from the ground up. ",
+    "id": "yc-31440",
+    "industry": "Fintech",
+    "name": "Mount",
+    "one_liner": "The AI Agent Insurance Carrier",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.257026Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Mount",
+        "url": "https://www.ycombinator.com/companies/mount"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [],
+    "team_size": 2,
+    "website": "https://mount.insure"
+  },
+  "evidence": [
+    {
+      "candidate_id": "yc-31440",
+      "category": "product",
+      "claim": "Mount: The AI Agent Insurance Carrier",
+      "confidence": "high",
+      "evidence_id": "YC1",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/mount"
+    },
+    {
+      "candidate_id": "yc-31440",
+      "category": "product",
+      "claim": "TLDR: Mount is building the AI insurance carrier, starting with liability coverage for deployed AI agents. As everyone moves AI Agents into production and gives them more responsibility, we help businesses insure and secure them. Whenever responsibility shifts from human operators to autonomous systems, so too does the liability that accompanies it. The systems also introduce new risks: agentic software failures, prompt injection attacks, autonomous workflow errors, data leaks, and more. Legacy insurance was not built for this. Existing policies are often silent, ambiguous, or exclude autonomous software, and traditional insurers lack the data and technical capability to assess deployed AI S",
+      "confidence": "high",
+      "evidence_id": "YC2",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/mount"
+    },
+    {
+      "candidate_id": "yc-31440",
+      "category": "source",
+      "claim": "YC batch: Spring 2026; Industry: Fintech; Status: Active; Stage: Early; Team size: 2",
+      "confidence": "high",
+      "evidence_id": "YC3",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/mount"
+    },
+    {
+      "candidate_id": "yc-31440",
+      "category": "website",
+      "claim": "Mount Insure and secure your AI agents Mount identifies vulnerabilities faster than attackers. Continuously improves security. Insures them instantly. Get a quote Get a quote Get a quote securing AI by the world's top providers HOW IT WORKS Everything you need to secure AI agents \u2013 all in one place Test your Risk Real-time vulnerability scanning and risk scoring for your deployed AI agents. Identify threats before attackers do. Vulnerability Scanning Real-Time Detection Risk Dashboard Improve Security Automated remediation recommendations and one-click security fixes. Your posture improves continuously, not annually. Automated Remediation Compliance Analysis Continuons hardening Active Insurance Insurance coverage built for AI agents. Instant activation, real-time pricing, and AI-specific risk protection. 48-Hour Activation Dynamic Pricing AI-Specific Coverage SOLUTION Coverage designed for real-world AI risks From operational failures to regulatory exposure, ActiveCover helps AI-nativ",
+      "confidence": "medium",
+      "evidence_id": "WEB1",
+      "source": "website",
+      "url": "https://mount.insure"
+    },
+    {
+      "candidate_id": "yc-31440",
+      "category": "traction",
+      "claim": "No HN story traction found for 'Mount' or 'mount.insure' in the top search results.",
+      "confidence": "medium",
+      "evidence_id": "HN1",
+      "source": "hn",
+      "url": "https://hn.algolia.com/"
+    }
+  ],
+  "generated_at": "2026-09-03T15:51:39.936259Z"
+}

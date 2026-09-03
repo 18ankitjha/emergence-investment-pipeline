@@ -1,0 +1,2 @@
+"""Startup sourcing adapters."""
+

@@ -1,0 +1,1017 @@
+{
+  "filtered_hits": [
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "engomez"
+        },
+        "story_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "inkeep",
+            ".",
+            "com"
+          ],
+          "value": "Hi HN, We\u2019re Nick and Robert, founders of Inkeep (<a href=\"https://inkeep.com\">https://<em>inkeep.com</em></a>). We help companies turn their content into AI support copilots.\nSo far, we\u2019d focused on customer-facing experiences (e.g. find us as an \u201cAsk AI\u201d button in the docs of companies like Anthropic and Pinecone). Today, we\u2019re excited to share our new copilot, Keep, which is designed specifically for support agents.<p>It\u2019s a conversational sidebar you can use as an app for Zendesk or Chrome Extension for any support platform. There\u2019s a demo video at <a href=\"https://vid.inkeep.com/cx-copilot\">https://vid.<em>inkeep.com</em>/cx-copilot</a> or you can try the live sandbox with example tickets at <a href=\"https://try.inkeep.com/cx-copilot\">https://try.<em>inkeep.com</em>/cx-copilot</a>.<p>Why? Most AI support tools today are focused on trying to have AI answer customer questions before they even reach support teams (\u2018deflection\u2019). We\u2019d focused on that too. However, we heard from many of our customers that while they care about deflection, they care even more about providing high-quality, fast human support when users need it. Some teams don\u2019t even want customer-facing AI at all and just want AI tools to help their team be more efficient. We created Keep with these scenarios in mind.<p>Keep does a few neat things we haven\u2019t seen elsewhere:<p>1. Provides intelligent suggestions: if Keep is confident, it\u2019ll create a draft answer and tell you the sources it used. If the ticket is long, it\u2019ll summarize the conversation so far and outline the remaining to-dos. All automatic and contextual to the ticket.<p>2. Is fully conversational: ask for clarifications, revise draft answers, and iterate as needed.<p>3. Uses \u2018Generative UI\u2019: suggestions are rendered as glanceable, interactive UI components. For example, a draft answer has buttons like \u201cShorten\u201d &amp; \u201cConcise\u201d that prompt the AI to revise the answer. UI components are interweaved within normal text.<p>4. Turns tickets into FAQs: can generate an FAQ from a closed ticket and lets you iterate on it and save it when done.<p>5. Leverages many content types: uses your docs, help center, previous support tickets, Slack threads, etc.<p>We were inspired by tools like Cursor, Claude Artifacts, and v0. These experiences go beyond plain-text conversations by interweaving interactive code blocks or UI previews into their answers. This makes answers digestible and intuitive (and fun) to iterate on.<p>Some technical details, for those interested: We use the Vercel AI SDK to optimistically stream the React components by using our Chat APIs, which are powered by Claude Sonnet 3.5 and our RAG service. Our APIs follow the OpenAI chat completion format so are generally compatible with any LLM tooling. Our `inkeep-qa` API generates draft answers and the `inkeep-context` API generates structured outputs and tool calls (docs: <a href=\"https://go.inkeep.com/ai-api\">https://go.<em>inkeep.com</em>/ai-api</a>). For an example of how these APIs are used, check out our Intelligent Support Form example (demo: <a href=\"https://try.inkeep.com/ai-form\">https://try.<em>inkeep.com</em>/ai-form</a>, repo: <a href=\"https://quickstart.inkeep.com/ai-form\">https://quickstart.<em>inkeep.com</em>/ai-form</a>).<p>If you want to try Inkeep on your product's content, just fill out the form in our landing page. You\u2019ll get a demo in your inbox powered by your public content \u2014 NO \u201ccall us\u201d, \u201cbook a demo\u201d, or \u201cschedule a meeting\u201d required. Note: we do check that your email domain matches your content to prevent spam.<p>Curious to hear about your experiences when working with customer/support questions and any ideas on how else the copilot could be useful for those scenarios."
+        },
+        "title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Launch HN: Inkeep (YC W23) \u2013 Copilot for Support (think Cursor for help desks)"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_engomez",
+        "story_41697137",
+        "launch_hn"
+      ],
+      "author": "engomez",
+      "children": [
+        41697823,
+        41698236,
+        41698279,
+        41698309,
+        41698326,
+        41698451,
+        41698480,
+        41698574,
+        41698591,
+        41698707,
+        41698732,
+        41698813,
+        41699453,
+        41699720,
+        41699869,
+        41700131,
+        41701094,
+        41702481,
+        41703301,
+        41705936,
+        41706700,
+        41707600,
+        41709224,
+        41821936,
+        41821949,
+        41821981
+      ],
+      "created_at": "2024-09-30T13:57:38Z",
+      "created_at_i": 1727704658,
+      "num_comments": 61,
+      "objectID": "41697137",
+      "points": 117,
+      "story_id": 41697137,
+      "story_text": "Hi HN, We\u2019re Nick and Robert, founders of Inkeep (<a href=\"https:&#x2F;&#x2F;inkeep.com\">https:&#x2F;&#x2F;inkeep.com</a>). We help companies turn their content into AI support copilots.\nSo far, we\u2019d focused on customer-facing experiences (e.g. find us as an \u201cAsk AI\u201d button in the docs of companies like Anthropic and Pinecone). Today, we\u2019re excited to share our new copilot, Keep, which is designed specifically for support agents.<p>It\u2019s a conversational sidebar you can use as an app for Zendesk or Chrome Extension for any support platform. There\u2019s a demo video at <a href=\"https:&#x2F;&#x2F;vid.inkeep.com&#x2F;cx-copilot\">https:&#x2F;&#x2F;vid.inkeep.com&#x2F;cx-copilot</a> or you can try the live sandbox with example tickets at <a href=\"https:&#x2F;&#x2F;try.inkeep.com&#x2F;cx-copilot\">https:&#x2F;&#x2F;try.inkeep.com&#x2F;cx-copilot</a>.<p>Why? Most AI support tools today are focused on trying to have AI answer customer questions before they even reach support teams (\u2018deflection\u2019). We\u2019d focused on that too. However, we heard from many of our customers that while they care about deflection, they care even more about providing high-quality, fast human support when users need it. Some teams don\u2019t even want customer-facing AI at all and just want AI tools to help their team be more efficient. We created Keep with these scenarios in mind.<p>Keep does a few neat things we haven\u2019t seen elsewhere:<p>1. Provides intelligent suggestions: if Keep is confident, it\u2019ll create a draft answer and tell you the sources it used. If the ticket is long, it\u2019ll summarize the conversation so far and outline the remaining to-dos. All automatic and contextual to the ticket.<p>2. Is fully conversational: ask for clarifications, revise draft answers, and iterate as needed.<p>3. Uses \u2018Generative UI\u2019: suggestions are rendered as glanceable, interactive UI components. For example, a draft answer has buttons like \u201cShorten\u201d &amp; \u201cConcise\u201d that prompt the AI to revise the answer. UI components are interweaved within normal text.<p>4. Turns tickets into FAQs: can generate an FAQ from a closed ticket and lets you iterate on it and save it when done.<p>5. Leverages many content types: uses your docs, help center, previous support tickets, Slack threads, etc.<p>We were inspired by tools like Cursor, Claude Artifacts, and v0. These experiences go beyond plain-text conversations by interweaving interactive code blocks or UI previews into their answers. This makes answers digestible and intuitive (and fun) to iterate on.<p>Some technical details, for those interested: We use the Vercel AI SDK to optimistically stream the React components by using our Chat APIs, which are powered by Claude Sonnet 3.5 and our RAG service. Our APIs follow the OpenAI chat completion format so are generally compatible with any LLM tooling. Our `inkeep-qa` API generates draft answers and the `inkeep-context` API generates structured outputs and tool calls (docs: <a href=\"https:&#x2F;&#x2F;go.inkeep.com&#x2F;ai-api\">https:&#x2F;&#x2F;go.inkeep.com&#x2F;ai-api</a>). For an example of how these APIs are used, check out our Intelligent Support Form example (demo: <a href=\"https:&#x2F;&#x2F;try.inkeep.com&#x2F;ai-form\">https:&#x2F;&#x2F;try.inkeep.com&#x2F;ai-form</a>, repo: <a href=\"https:&#x2F;&#x2F;quickstart.inkeep.com&#x2F;ai-form\">https:&#x2F;&#x2F;quickstart.inkeep.com&#x2F;ai-form</a>).<p>If you want to try Inkeep on your product&#x27;s content, just fill out the form in our landing page. You\u2019ll get a demo in your inbox powered by your public content \u2014 NO \u201ccall us\u201d, \u201cbook a demo\u201d, or \u201cschedule a meeting\u201d required. Note: we do check that your email domain matches your content to prevent spam.<p>Curious to hear about your experiences when working with customer&#x2F;support questions and any ideas on how else the copilot could be useful for those scenarios.",
+      "title": "Launch HN: Inkeep (YC W23) \u2013 Copilot for Support (think Cursor for help desks)",
+      "updated_at": "2025-02-26T21:53:08Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "engomez"
+        },
+        "story_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "inkeep",
+            ".",
+            "com"
+          ],
+          "value": "Hi HN! I'm Nick from Inkeep. We built an agent builder with true 2-way sync between code and a drag-and-drop visual editor, so devs and non-devs can collaborate on the same agents. Here\u2019s a demo video: <a href=\"https://go.inkeep.com/video\">https://go.<em>inkeep.com</em>/video</a>.<p>As a developer, the flow is:\n1) Build AI Chat Assistants or AI Workflows with the TypeScript SDK 2) Run `inkeep push` from your CLI to publish 3)Edit agents in the visual builder (or hand off to non-technical teams) 4) Run `inkeep pull to edit in code again.<p>We built this because we wanted the accessibility of no-code workflow builders (n8n, Zapier), but the flexibility and devex of code-based agent frameworks (LangGraph, Mastra). We also wanted first-class support for chat assistants with interactive UIs, not just workflows. OpenAI got close, but you can only do a one-time export from visual builder to code and there\u2019s vendor lock-in.<p>How I've used it: I bootstrapped a few agents for our marketing and sales teams, then was able to hand off so they can maintain and create their own agents. This has enabled us to adopt agents across technical and non-technical roles in our company on a single platform.<p>To try it, here\u2019s the quickstart: <a href=\"https://go.inkeep.com/quickstart\">https://go.<em>inkeep.com</em>/quickstart</a>.<p>We leaned on open protocols to make it easy to use agents anywhere:\nAn MCP endpoint, so agents can be used from Cursor/Claude/ChatGPT\nA Chat UI library with interactive elements you can customize in React\nAn API endpoint compatible with the Vercel AI SDK `useChat` hook\nSupport for Agent2Agent (A2A) so they work with other agent ecosystems<p>We made some practical templates like a customer_support, deep_research, and docs_assistant. Deployment is easy with Vercel/Docker with a fair-code license and there's a traces UI and OTEL logs for observability.<p>Under the hood, we went all-in on a multi-agent architecture. Agents are made up of LLMs, MCPs, and agent-to-agent relationships. We\u2019ve found this approach to be easier to maintain and more flexible than traditional \u201cif/else\u201d approaches for complex workflows.<p>The interoperability works because the SDK and visual builder share a common underlying representation, and the Inkeep CLI bridges it with a mix of LLMs and TypeScript syntactic sugar. Details in our docs: <a href=\"https://docs.inkeep.com\">https://docs.<em>inkeep.com</em></a>.<p>We\u2019re open to ideas and contributions! And would love to hear about your experience building agents - what works, hasn\u2019t worked, what\u2019s promising?"
+        },
+        "title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Show HN: Inkeep (YC W23) \u2013 Agent Builder to create agents in code or visually"
+        },
+        "url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://github.com/inkeep/agents"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_engomez",
+        "story_45604700",
+        "show_hn"
+      ],
+      "author": "engomez",
+      "children": [
+        45605461,
+        45605499,
+        45605514,
+        45605640,
+        45605674,
+        45605773,
+        45606286,
+        45606314,
+        45606324,
+        45607660,
+        45608233,
+        45609341,
+        45610224,
+        45612116,
+        45612711,
+        45614126,
+        45614674,
+        45616292
+      ],
+      "created_at": "2025-10-16T12:50:08Z",
+      "created_at_i": 1760619008,
+      "num_comments": 49,
+      "objectID": "45604700",
+      "points": 79,
+      "story_id": 45604700,
+      "story_text": "Hi HN! I&#x27;m Nick from Inkeep. We built an agent builder with true 2-way sync between code and a drag-and-drop visual editor, so devs and non-devs can collaborate on the same agents. Here\u2019s a demo video: <a href=\"https:&#x2F;&#x2F;go.inkeep.com&#x2F;video\">https:&#x2F;&#x2F;go.inkeep.com&#x2F;video</a>.<p>As a developer, the flow is:\n1) Build AI Chat Assistants or AI Workflows with the TypeScript SDK 2) Run `inkeep push` from your CLI to publish 3)Edit agents in the visual builder (or hand off to non-technical teams) 4) Run `inkeep pull to edit in code again.<p>We built this because we wanted the accessibility of no-code workflow builders (n8n, Zapier), but the flexibility and devex of code-based agent frameworks (LangGraph, Mastra). We also wanted first-class support for chat assistants with interactive UIs, not just workflows. OpenAI got close, but you can only do a one-time export from visual builder to code and there\u2019s vendor lock-in.<p>How I&#x27;ve used it: I bootstrapped a few agents for our marketing and sales teams, then was able to hand off so they can maintain and create their own agents. This has enabled us to adopt agents across technical and non-technical roles in our company on a single platform.<p>To try it, here\u2019s the quickstart: <a href=\"https:&#x2F;&#x2F;go.inkeep.com&#x2F;quickstart\">https:&#x2F;&#x2F;go.inkeep.com&#x2F;quickstart</a>.<p>We leaned on open protocols to make it easy to use agents anywhere:\nAn MCP endpoint, so agents can be used from Cursor&#x2F;Claude&#x2F;ChatGPT\nA Chat UI library with interactive elements you can customize in React\nAn API endpoint compatible with the Vercel AI SDK `useChat` hook\nSupport for Agent2Agent (A2A) so they work with other agent ecosystems<p>We made some practical templates like a customer_support, deep_research, and docs_assistant. Deployment is easy with Vercel&#x2F;Docker with a fair-code license and there&#x27;s a traces UI and OTEL logs for observability.<p>Under the hood, we went all-in on a multi-agent architecture. Agents are made up of LLMs, MCPs, and agent-to-agent relationships. We\u2019ve found this approach to be easier to maintain and more flexible than traditional \u201cif&#x2F;else\u201d approaches for complex workflows.<p>The interoperability works because the SDK and visual builder share a common underlying representation, and the Inkeep CLI bridges it with a mix of LLMs and TypeScript syntactic sugar. Details in our docs: <a href=\"https:&#x2F;&#x2F;docs.inkeep.com\">https:&#x2F;&#x2F;docs.inkeep.com</a>.<p>We\u2019re open to ideas and contributions! And would love to hear about your experience building agents - what works, hasn\u2019t worked, what\u2019s promising?",
+      "title": "Show HN: Inkeep (YC W23) \u2013 Agent Builder to create agents in code or visually",
+      "updated_at": "2026-04-29T18:30:50Z",
+      "url": "https://github.com/inkeep/agents"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "handfuloflight"
+        },
+        "title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Inkeep"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "inkeep",
+            ".",
+            "com"
+          ],
+          "value": "https://<em>inkeep.com</em>/"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_handfuloflight",
+        "story_40518202"
+      ],
+      "author": "handfuloflight",
+      "created_at": "2024-05-29T23:10:21Z",
+      "created_at_i": 1717024221,
+      "num_comments": 0,
+      "objectID": "40518202",
+      "points": 2,
+      "story_id": 40518202,
+      "title": "Inkeep",
+      "updated_at": "2024-09-20T17:09:02Z",
+      "url": "https://inkeep.com/"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "opisthenar84"
+        },
+        "title": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "inkeep"
+          ],
+          "value": "RAG Brag with <em>Inkeep</em> Co-Founder Nick Gomez"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "inkeep"
+          ],
+          "value": "https://www.pinecone.io/blog/rag-brag-<em>inkeep</em>/"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_opisthenar84",
+        "story_41393647"
+      ],
+      "author": "opisthenar84",
+      "created_at": "2024-08-29T18:08:19Z",
+      "created_at_i": 1724954899,
+      "num_comments": 0,
+      "objectID": "41393647",
+      "points": 1,
+      "story_id": 41393647,
+      "title": "RAG Brag with Inkeep Co-Founder Nick Gomez",
+      "updated_at": "2024-09-20T17:44:19Z",
+      "url": "https://www.pinecone.io/blog/rag-brag-inkeep/"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "gaurav12342345"
+        },
+        "title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Cursor's Composer-1 vs. Windsurf's SWE-1.5: The Rise of Vertical Coding Models"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "inkeep",
+            ".",
+            "com"
+          ],
+          "value": "https://<em>inkeep.com</em>/blog/composer-vs-swe"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_gaurav12342345",
+        "story_45816231"
+      ],
+      "author": "gaurav12342345",
+      "created_at": "2025-11-04T21:44:41Z",
+      "created_at_i": 1762292681,
+      "num_comments": 0,
+      "objectID": "45816231",
+      "points": 2,
+      "story_id": 45816231,
+      "title": "Cursor's Composer-1 vs. Windsurf's SWE-1.5: The Rise of Vertical Coding Models",
+      "updated_at": "2026-03-05T22:57:04Z",
+      "url": "https://inkeep.com/blog/composer-vs-swe"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "gaurav12342345"
+        },
+        "title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Practical Guide to Building Reliable AI Agents"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "inkeep",
+            ".",
+            "com"
+          ],
+          "value": "https://docs.<em>inkeep.com</em>/guides/agent-engineering"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_gaurav12342345",
+        "story_47055555"
+      ],
+      "author": "gaurav12342345",
+      "children": [
+        47055556
+      ],
+      "created_at": "2026-02-18T00:42:35Z",
+      "created_at_i": 1771375355,
+      "num_comments": 1,
+      "objectID": "47055555",
+      "points": 1,
+      "story_id": 47055555,
+      "title": "Practical Guide to Building Reliable AI Agents",
+      "updated_at": "2026-03-05T23:34:49Z",
+      "url": "https://docs.inkeep.com/guides/agent-engineering"
+    }
+  ],
+  "queries": [
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": true,
+          "typo": true
+        },
+        "exhaustiveNbHits": true,
+        "exhaustiveTypo": true,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "engomez"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "Hi HN, We\u2019re Nick and Robert, founders of <em>Inkeep</em> (<a href=\"https://inkeep.com\">https://<em>inkeep</em>.com</a>). We help companies turn their content into AI support copilots.\nSo far, we\u2019d focused on customer-facing experiences (e.g. find us as an \u201cAsk AI\u201d button in the docs of companies like Anthropic and Pinecone). Today, we\u2019re excited to share our new copilot, Keep, which is designed specifically for support agents.<p>It\u2019s a conversational sidebar you can use as an app for Zendesk or Chrome Extension for any support platform. There\u2019s a demo video at <a href=\"https://vid.inkeep.com/cx-copilot\">https://vid.<em>inkeep</em>.com/cx-copilot</a> or you can try the live sandbox with example tickets at <a href=\"https://try.inkeep.com/cx-copilot\">https://try.<em>inkeep</em>.com/cx-copilot</a>.<p>Why? Most AI support tools today are focused on trying to have AI answer customer questions before they even reach support teams (\u2018deflection\u2019). We\u2019d focused on that too. However, we heard from many of our customers that while they care about deflection, they care even more about providing high-quality, fast human support when users need it. Some teams don\u2019t even want customer-facing AI at all and just want AI tools to help their team be more efficient. We created Keep with these scenarios in mind.<p>Keep does a few neat things we haven\u2019t seen elsewhere:<p>1. Provides intelligent suggestions: if Keep is confident, it\u2019ll create a draft answer and tell you the sources it used. If the ticket is long, it\u2019ll summarize the conversation so far and outline the remaining to-dos. All automatic and contextual to the ticket.<p>2. Is fully conversational: ask for clarifications, revise draft answers, and iterate as needed.<p>3. Uses \u2018Generative UI\u2019: suggestions are rendered as glanceable, interactive UI components. For example, a draft answer has buttons like \u201cShorten\u201d &amp; \u201cConcise\u201d that prompt the AI to revise the answer. UI components are interweaved within normal text.<p>4. Turns tickets into FAQs: can generate an FAQ from a closed ticket and lets you iterate on it and save it when done.<p>5. Leverages many content types: uses your docs, help center, previous support tickets, Slack threads, etc.<p>We were inspired by tools like Cursor, Claude Artifacts, and v0. These experiences go beyond plain-text conversations by interweaving interactive code blocks or UI previews into their answers. This makes answers digestible and intuitive (and fun) to iterate on.<p>Some technical details, for those interested: We use the Vercel AI SDK to optimistically stream the React components by using our Chat APIs, which are powered by Claude Sonnet 3.5 and our RAG service. Our APIs follow the OpenAI chat completion format so are generally compatible with any LLM tooling. Our `<em>inkeep</em>-qa` API generates draft answers and the `<em>inkeep</em>-context` API generates structured outputs and tool calls (docs: <a href=\"https://go.inkeep.com/ai-api\">https://go.<em>inkeep</em>.com/ai-api</a>). For an example of how these APIs are used, check out our Intelligent Support Form example (demo: <a href=\"https://try.inkeep.com/ai-form\">https://try.<em>inkeep</em>.com/ai-form</a>, repo: <a href=\"https://quickstart.inkeep.com/ai-form\">https://quickstart.<em>inkeep</em>.com/ai-form</a>).<p>If you want to try <em>Inkeep</em> on your product's content, just fill out the form in our landing page. You\u2019ll get a demo in your inbox powered by your public content \u2014 NO \u201ccall us\u201d, \u201cbook a demo\u201d, or \u201cschedule a meeting\u201d required. Note: we do check that your email domain matches your content to prevent spam.<p>Curious to hear about your experiences when working with customer/support questions and any ideas on how else the copilot could be useful for those scenarios."
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "Launch HN: <em>Inkeep</em> (YC W23) \u2013 Copilot for Support (think Cursor for help desks)"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_engomez",
+              "story_41697137",
+              "launch_hn"
+            ],
+            "author": "engomez",
+            "children": [
+              41697823,
+              41698236,
+              41698279,
+              41698309,
+              41698326,
+              41698451,
+              41698480,
+              41698574,
+              41698591,
+              41698707,
+              41698732,
+              41698813,
+              41699453,
+              41699720,
+              41699869,
+              41700131,
+              41701094,
+              41702481,
+              41703301,
+              41705936,
+              41706700,
+              41707600,
+              41709224,
+              41821936,
+              41821949,
+              41821981
+            ],
+            "created_at": "2024-09-30T13:57:38Z",
+            "created_at_i": 1727704658,
+            "num_comments": 61,
+            "objectID": "41697137",
+            "points": 117,
+            "story_id": 41697137,
+            "story_text": "Hi HN, We\u2019re Nick and Robert, founders of Inkeep (<a href=\"https:&#x2F;&#x2F;inkeep.com\">https:&#x2F;&#x2F;inkeep.com</a>). We help companies turn their content into AI support copilots.\nSo far, we\u2019d focused on customer-facing experiences (e.g. find us as an \u201cAsk AI\u201d button in the docs of companies like Anthropic and Pinecone). Today, we\u2019re excited to share our new copilot, Keep, which is designed specifically for support agents.<p>It\u2019s a conversational sidebar you can use as an app for Zendesk or Chrome Extension for any support platform. There\u2019s a demo video at <a href=\"https:&#x2F;&#x2F;vid.inkeep.com&#x2F;cx-copilot\">https:&#x2F;&#x2F;vid.inkeep.com&#x2F;cx-copilot</a> or you can try the live sandbox with example tickets at <a href=\"https:&#x2F;&#x2F;try.inkeep.com&#x2F;cx-copilot\">https:&#x2F;&#x2F;try.inkeep.com&#x2F;cx-copilot</a>.<p>Why? Most AI support tools today are focused on trying to have AI answer customer questions before they even reach support teams (\u2018deflection\u2019). We\u2019d focused on that too. However, we heard from many of our customers that while they care about deflection, they care even more about providing high-quality, fast human support when users need it. Some teams don\u2019t even want customer-facing AI at all and just want AI tools to help their team be more efficient. We created Keep with these scenarios in mind.<p>Keep does a few neat things we haven\u2019t seen elsewhere:<p>1. Provides intelligent suggestions: if Keep is confident, it\u2019ll create a draft answer and tell you the sources it used. If the ticket is long, it\u2019ll summarize the conversation so far and outline the remaining to-dos. All automatic and contextual to the ticket.<p>2. Is fully conversational: ask for clarifications, revise draft answers, and iterate as needed.<p>3. Uses \u2018Generative UI\u2019: suggestions are rendered as glanceable, interactive UI components. For example, a draft answer has buttons like \u201cShorten\u201d &amp; \u201cConcise\u201d that prompt the AI to revise the answer. UI components are interweaved within normal text.<p>4. Turns tickets into FAQs: can generate an FAQ from a closed ticket and lets you iterate on it and save it when done.<p>5. Leverages many content types: uses your docs, help center, previous support tickets, Slack threads, etc.<p>We were inspired by tools like Cursor, Claude Artifacts, and v0. These experiences go beyond plain-text conversations by interweaving interactive code blocks or UI previews into their answers. This makes answers digestible and intuitive (and fun) to iterate on.<p>Some technical details, for those interested: We use the Vercel AI SDK to optimistically stream the React components by using our Chat APIs, which are powered by Claude Sonnet 3.5 and our RAG service. Our APIs follow the OpenAI chat completion format so are generally compatible with any LLM tooling. Our `inkeep-qa` API generates draft answers and the `inkeep-context` API generates structured outputs and tool calls (docs: <a href=\"https:&#x2F;&#x2F;go.inkeep.com&#x2F;ai-api\">https:&#x2F;&#x2F;go.inkeep.com&#x2F;ai-api</a>). For an example of how these APIs are used, check out our Intelligent Support Form example (demo: <a href=\"https:&#x2F;&#x2F;try.inkeep.com&#x2F;ai-form\">https:&#x2F;&#x2F;try.inkeep.com&#x2F;ai-form</a>, repo: <a href=\"https:&#x2F;&#x2F;quickstart.inkeep.com&#x2F;ai-form\">https:&#x2F;&#x2F;quickstart.inkeep.com&#x2F;ai-form</a>).<p>If you want to try Inkeep on your product&#x27;s content, just fill out the form in our landing page. You\u2019ll get a demo in your inbox powered by your public content \u2014 NO \u201ccall us\u201d, \u201cbook a demo\u201d, or \u201cschedule a meeting\u201d required. Note: we do check that your email domain matches your content to prevent spam.<p>Curious to hear about your experiences when working with customer&#x2F;support questions and any ideas on how else the copilot could be useful for those scenarios.",
+            "title": "Launch HN: Inkeep (YC W23) \u2013 Copilot for Support (think Cursor for help desks)",
+            "updated_at": "2025-02-26T21:53:08Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "engomez"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "Hi HN! I'm Nick from <em>Inkeep</em>. We built an agent builder with true 2-way sync between code and a drag-and-drop visual editor, so devs and non-devs can collaborate on the same agents. Here\u2019s a demo video: <a href=\"https://go.inkeep.com/video\">https://go.<em>inkeep</em>.com/video</a>.<p>As a developer, the flow is:\n1) Build AI Chat Assistants or AI Workflows with the TypeScript SDK 2) Run `<em>inkeep</em> push` from your CLI to publish 3)Edit agents in the visual builder (or hand off to non-technical teams) 4) Run `<em>inkeep</em> pull to edit in code again.<p>We built this because we wanted the accessibility of no-code workflow builders (n8n, Zapier), but the flexibility and devex of code-based agent frameworks (LangGraph, Mastra). We also wanted first-class support for chat assistants with interactive UIs, not just workflows. OpenAI got close, but you can only do a one-time export from visual builder to code and there\u2019s vendor lock-in.<p>How I've used it: I bootstrapped a few agents for our marketing and sales teams, then was able to hand off so they can maintain and create their own agents. This has enabled us to adopt agents across technical and non-technical roles in our company on a single platform.<p>To try it, here\u2019s the quickstart: <a href=\"https://go.inkeep.com/quickstart\">https://go.<em>inkeep</em>.com/quickstart</a>.<p>We leaned on open protocols to make it easy to use agents anywhere:\nAn MCP endpoint, so agents can be used from Cursor/Claude/ChatGPT\nA Chat UI library with interactive elements you can customize in React\nAn API endpoint compatible with the Vercel AI SDK `useChat` hook\nSupport for Agent2Agent (A2A) so they work with other agent ecosystems<p>We made some practical templates like a customer_support, deep_research, and docs_assistant. Deployment is easy with Vercel/Docker with a fair-code license and there's a traces UI and OTEL logs for observability.<p>Under the hood, we went all-in on a multi-agent architecture. Agents are made up of LLMs, MCPs, and agent-to-agent relationships. We\u2019ve found this approach to be easier to maintain and more flexible than traditional \u201cif/else\u201d approaches for complex workflows.<p>The interoperability works because the SDK and visual builder share a common underlying representation, and the <em>Inkeep</em> CLI bridges it with a mix of LLMs and TypeScript syntactic sugar. Details in our docs: <a href=\"https://docs.inkeep.com\">https://docs.<em>inkeep</em>.com</a>.<p>We\u2019re open to ideas and contributions! And would love to hear about your experience building agents - what works, hasn\u2019t worked, what\u2019s promising?"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "Show HN: <em>Inkeep</em> (YC W23) \u2013 Agent Builder to create agents in code or visually"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "https://github.com/<em>inkeep</em>/agents"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_engomez",
+              "story_45604700",
+              "show_hn"
+            ],
+            "author": "engomez",
+            "children": [
+              45605461,
+              45605499,
+              45605514,
+              45605640,
+              45605674,
+              45605773,
+              45606286,
+              45606314,
+              45606324,
+              45607660,
+              45608233,
+              45609341,
+              45610224,
+              45612116,
+              45612711,
+              45614126,
+              45614674,
+              45616292
+            ],
+            "created_at": "2025-10-16T12:50:08Z",
+            "created_at_i": 1760619008,
+            "num_comments": 49,
+            "objectID": "45604700",
+            "points": 79,
+            "story_id": 45604700,
+            "story_text": "Hi HN! I&#x27;m Nick from Inkeep. We built an agent builder with true 2-way sync between code and a drag-and-drop visual editor, so devs and non-devs can collaborate on the same agents. Here\u2019s a demo video: <a href=\"https:&#x2F;&#x2F;go.inkeep.com&#x2F;video\">https:&#x2F;&#x2F;go.inkeep.com&#x2F;video</a>.<p>As a developer, the flow is:\n1) Build AI Chat Assistants or AI Workflows with the TypeScript SDK 2) Run `inkeep push` from your CLI to publish 3)Edit agents in the visual builder (or hand off to non-technical teams) 4) Run `inkeep pull to edit in code again.<p>We built this because we wanted the accessibility of no-code workflow builders (n8n, Zapier), but the flexibility and devex of code-based agent frameworks (LangGraph, Mastra). We also wanted first-class support for chat assistants with interactive UIs, not just workflows. OpenAI got close, but you can only do a one-time export from visual builder to code and there\u2019s vendor lock-in.<p>How I&#x27;ve used it: I bootstrapped a few agents for our marketing and sales teams, then was able to hand off so they can maintain and create their own agents. This has enabled us to adopt agents across technical and non-technical roles in our company on a single platform.<p>To try it, here\u2019s the quickstart: <a href=\"https:&#x2F;&#x2F;go.inkeep.com&#x2F;quickstart\">https:&#x2F;&#x2F;go.inkeep.com&#x2F;quickstart</a>.<p>We leaned on open protocols to make it easy to use agents anywhere:\nAn MCP endpoint, so agents can be used from Cursor&#x2F;Claude&#x2F;ChatGPT\nA Chat UI library with interactive elements you can customize in React\nAn API endpoint compatible with the Vercel AI SDK `useChat` hook\nSupport for Agent2Agent (A2A) so they work with other agent ecosystems<p>We made some practical templates like a customer_support, deep_research, and docs_assistant. Deployment is easy with Vercel&#x2F;Docker with a fair-code license and there&#x27;s a traces UI and OTEL logs for observability.<p>Under the hood, we went all-in on a multi-agent architecture. Agents are made up of LLMs, MCPs, and agent-to-agent relationships. We\u2019ve found this approach to be easier to maintain and more flexible than traditional \u201cif&#x2F;else\u201d approaches for complex workflows.<p>The interoperability works because the SDK and visual builder share a common underlying representation, and the Inkeep CLI bridges it with a mix of LLMs and TypeScript syntactic sugar. Details in our docs: <a href=\"https:&#x2F;&#x2F;docs.inkeep.com\">https:&#x2F;&#x2F;docs.inkeep.com</a>.<p>We\u2019re open to ideas and contributions! And would love to hear about your experience building agents - what works, hasn\u2019t worked, what\u2019s promising?",
+            "title": "Show HN: Inkeep (YC W23) \u2013 Agent Builder to create agents in code or visually",
+            "updated_at": "2026-04-29T18:30:50Z",
+            "url": "https://github.com/inkeep/agents"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "RexDixon"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "Draw Them <em>In, Keep</em> Them For Life"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "http://www.performable.com/blog/draw-them-<em>in--keep</em>-them-for-life/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_RexDixon",
+              "story_981979"
+            ],
+            "author": "RexDixon",
+            "created_at": "2009-12-07T20:00:37Z",
+            "created_at_i": 1260216037,
+            "num_comments": 0,
+            "objectID": "981979",
+            "points": 3,
+            "story_id": 981979,
+            "title": "Draw Them In, Keep Them For Life",
+            "updated_at": "2024-09-19T16:52:24Z",
+            "url": "http://www.performable.com/blog/draw-them-in--keep-them-for-life/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "handfuloflight"
+              },
+              "title": {
+                "fullyHighlighted": true,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "<em>Inkeep</em>"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "https://<em>inkeep</em>.com/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_handfuloflight",
+              "story_40518202"
+            ],
+            "author": "handfuloflight",
+            "created_at": "2024-05-29T23:10:21Z",
+            "created_at_i": 1717024221,
+            "num_comments": 0,
+            "objectID": "40518202",
+            "points": 2,
+            "story_id": 40518202,
+            "title": "Inkeep",
+            "updated_at": "2024-09-20T17:09:02Z",
+            "url": "https://inkeep.com/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "mil10akash"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "I like how simple Keep Notes is. In fact, I tried every other app, and I felt Keep is the best. Even at some point, I moved programmatically every Keep note to Notion, but still Keep is the best. But the small problem that could fix it is it doesn't have an untagged tab. This makes things very worse. I don't want to see, I don't know if it is my OCD, but I don't like to see the bunch of all my unarchived notes as default.<p>Is there a way I could just see untagged notes so I could just keep that as my default and tag those? Things will be very organized."
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "Need for 'Untagged' Label <em>in Keep</em> Notes"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_mil10akash",
+              "story_46454099",
+              "ask_hn"
+            ],
+            "author": "mil10akash",
+            "created_at": "2026-01-01T13:49:51Z",
+            "created_at_i": 1767275391,
+            "num_comments": 0,
+            "objectID": "46454099",
+            "points": 1,
+            "story_id": 46454099,
+            "story_text": "I like how simple Keep Notes is. In fact, I tried every other app, and I felt Keep is the best. Even at some point, I moved programmatically every Keep note to Notion, but still Keep is the best. But the small problem that could fix it is it doesn&#x27;t have an untagged tab. This makes things very worse. I don&#x27;t want to see, I don&#x27;t know if it is my OCD, but I don&#x27;t like to see the bunch of all my unarchived notes as default.<p>Is there a way I could just see untagged notes so I could just keep that as my default and tag those? Things will be very organized.",
+            "title": "Need for 'Untagged' Label in Keep Notes",
+            "updated_at": "2026-03-05T23:17:19Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "opisthenar84"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "RAG Brag with <em>Inkeep</em> Co-Founder Nick Gomez"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "https://www.pinecone.io/blog/rag-brag-<em>inkeep</em>/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_opisthenar84",
+              "story_41393647"
+            ],
+            "author": "opisthenar84",
+            "created_at": "2024-08-29T18:08:19Z",
+            "created_at_i": 1724954899,
+            "num_comments": 0,
+            "objectID": "41393647",
+            "points": 1,
+            "story_id": 41393647,
+            "title": "RAG Brag with Inkeep Co-Founder Nick Gomez",
+            "updated_at": "2024-09-20T17:44:19Z",
+            "url": "https://www.pinecone.io/blog/rag-brag-inkeep/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "markbao"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep"
+                ],
+                "value": "Ramamia is our startup that helps families keep in touch with each other and store their memories. We've been using Ramamia with our team for a bit now and have had a few other companies inquire about it.<p>It's simpler and easier way to just share information with your team as a startup.  Sure, there are other companies out there, but we find this a lot easier than Sharepoint or something like SocialCast/Yammer.<p>We'd certainly pay for the product as a startup and think others would.  We would price somewhere around $9.99 per month for about 10 users a month with a good amount of storage (not sure on a number, but you would not have to worry about there not being enough).<p>Sign up for our service and let us know what you think. Should we stick with the family consumer market or refocus to the business app market?  Business users pay, we know them better being entrepreneurs, and families are hard to monetize with a paid product (we don't want to do ad supported).<p>I talked to Jason Fried after Startup School and he talked about how it was hard to sell to the consumer market, so they switched their Backpack app over to a team sharing thing. We can do both, too\u2014as <em>in, keep</em> Ramamia and create an app for business users based off of Ramamia.<p>http://staging.ramamia.com<p>Thanks!"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Ask HN: Refocusing our Family-focused Startup for Business Users?"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": ""
+              }
+            },
+            "_tags": [
+              "story",
+              "author_markbao",
+              "story_922486",
+              "ask_hn"
+            ],
+            "author": "markbao",
+            "children": [
+              922487,
+              922594,
+              922600,
+              922726
+            ],
+            "created_at": "2009-11-04T20:14:36Z",
+            "created_at_i": 1257365676,
+            "num_comments": 12,
+            "objectID": "922486",
+            "points": 14,
+            "story_id": 922486,
+            "story_text": "Ramamia is our startup that helps families keep in touch with each other and store their memories. We've been using Ramamia with our team for a bit now and have had a few other companies inquire about it.<p>It's simpler and easier way to just share information with your team as a startup.  Sure, there are other companies out there, but we find this a lot easier than Sharepoint or something like SocialCast/Yammer.<p>We'd certainly pay for the product as a startup and think others would.  We would price somewhere around $9.99 per month for about 10 users a month with a good amount of storage (not sure on a number, but you would not have to worry about there not being enough).<p>Sign up for our service and let us know what you think. Should we stick with the family consumer market or refocus to the business app market?  Business users pay, we know them better being entrepreneurs, and families are hard to monetize with a paid product (we don't want to do ad supported).<p>I talked to Jason Fried after Startup School and he talked about how it was hard to sell to the consumer market, so they switched their Backpack app over to a team sharing thing. We can do both, too\u2014as in, keep Ramamia and create an app for business users based off of Ramamia.<p>http://staging.ramamia.com<p>Thanks!",
+            "title": "Ask HN: Refocusing our Family-focused Startup for Business Users?",
+            "updated_at": "2023-09-06T20:12:48Z",
+            "url": ""
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "mingyk"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Hey everyone! For the past two weeks my friend and I have been heads-down building Cloi, a fully local debugging agent that runs right in your terminal. You probably know the drill\u2014every AI coding tool asks for API keys, subscriptions, and uploads your entire codebase to the cloud. Cloi does <i>none</i> of that: it runs entirely on your machine, with no cloud, no API keys, no subscriptions, and zero data leaving your system.<p>What Cloi does:<p>- Contextual error capture: Grabs your stack trace, local files, and environment to understand the issue.<p>- Local LLM inference: Spins up Ollama on your box and generates targeted fixes\u2014no external servers.<p>- Safe patch application: Presents you with diffs and only applies changes when you explicitly approve.<p>- Model\u2010agnostic: Ships with Phi-4 out of the box (surprisingly capable for its size!), but you can swap in any Ollama model you\u2019ve installed.<p>Why we built it:<p>- Maintain full control over your code and data\u2014ideal for security-sensitive projects<p>- Avoid recurring subscription fees and cloud vendor lock-in<p>- Keep your development flow entirely offline when you need it<p>Highlights:\nWe hit 202 stars in just 5 days, which tells us we're not the only ones who wanted this! Cloi is plug-and-play (just install and run), and we designed it to be completely unopinionated, meaning you can you whatever Ollama model you want.<p>Get it now:\nnpm install -g @cloi-ai/cloi<p>If you find Cloi useful, we\u2019d really appreciate a star on GitHub. Try it out, let us know what you think, and happy debugging!<p>\u2014 Gabriel Cha &amp; Mingyou Kim"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Show HN: Cloi \u2013 free local debugging agent in your terminal"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "https://github.com/cloi-ai/cloi"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_mingyk",
+              "story_43918405",
+              "show_hn"
+            ],
+            "author": "mingyk",
+            "children": [
+              43918647
+            ],
+            "created_at": "2025-05-07T17:25:42Z",
+            "created_at_i": 1746638742,
+            "num_comments": 1,
+            "objectID": "43918405",
+            "points": 8,
+            "story_id": 43918405,
+            "story_text": "Hey everyone! For the past two weeks my friend and I have been heads-down building Cloi, a fully local debugging agent that runs right in your terminal. You probably know the drill\u2014every AI coding tool asks for API keys, subscriptions, and uploads your entire codebase to the cloud. Cloi does <i>none</i> of that: it runs entirely on your machine, with no cloud, no API keys, no subscriptions, and zero data leaving your system.<p>What Cloi does:<p>- Contextual error capture: Grabs your stack trace, local files, and environment to understand the issue.<p>- Local LLM inference: Spins up Ollama on your box and generates targeted fixes\u2014no external servers.<p>- Safe patch application: Presents you with diffs and only applies changes when you explicitly approve.<p>- Model\u2010agnostic: Ships with Phi-4 out of the box (surprisingly capable for its size!), but you can swap in any Ollama model you\u2019ve installed.<p>Why we built it:<p>- Maintain full control over your code and data\u2014ideal for security-sensitive projects<p>- Avoid recurring subscription fees and cloud vendor lock-in<p>- Keep your development flow entirely offline when you need it<p>Highlights:\nWe hit 202 stars in just 5 days, which tells us we&#x27;re not the only ones who wanted this! Cloi is plug-and-play (just install and run), and we designed it to be completely unopinionated, meaning you can you whatever Ollama model you want.<p>Get it now:\nnpm install -g @cloi-ai&#x2F;cloi<p>If you find Cloi useful, we\u2019d really appreciate a star on GitHub. Try it out, let us know what you think, and happy debugging!<p>\u2014 Gabriel Cha &amp; Mingyou Kim",
+            "title": "Show HN: Cloi \u2013 free local debugging agent in your terminal",
+            "updated_at": "2025-05-08T11:05:25Z",
+            "url": "https://github.com/cloi-ai/cloi"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 33,
+        "nbPages": 5,
+        "page": 0,
+        "params": "query=Inkeep&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 29,
+        "processingTimingsMS": {
+          "_request": {
+            "queue": 2,
+            "roundTrip": 14
+          },
+          "afterFetch": {
+            "merge": {
+              "total": 6
+            },
+            "total": 6
+          },
+          "fetch": {
+            "query": 2,
+            "scanning": 19,
+            "total": 22
+          },
+          "total": 29
+        },
+        "query": "Inkeep",
+        "serverTimeMS": 33
+      },
+      "query": "Inkeep"
+    },
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "engomez"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep",
+                  ".",
+                  "com"
+                ],
+                "value": "Hi HN, We\u2019re Nick and Robert, founders of Inkeep (<a href=\"https://inkeep.com\">https://<em>inkeep.com</em></a>). We help companies turn their content into AI support copilots.\nSo far, we\u2019d focused on customer-facing experiences (e.g. find us as an \u201cAsk AI\u201d button in the docs of companies like Anthropic and Pinecone). Today, we\u2019re excited to share our new copilot, Keep, which is designed specifically for support agents.<p>It\u2019s a conversational sidebar you can use as an app for Zendesk or Chrome Extension for any support platform. There\u2019s a demo video at <a href=\"https://vid.inkeep.com/cx-copilot\">https://vid.<em>inkeep.com</em>/cx-copilot</a> or you can try the live sandbox with example tickets at <a href=\"https://try.inkeep.com/cx-copilot\">https://try.<em>inkeep.com</em>/cx-copilot</a>.<p>Why? Most AI support tools today are focused on trying to have AI answer customer questions before they even reach support teams (\u2018deflection\u2019). We\u2019d focused on that too. However, we heard from many of our customers that while they care about deflection, they care even more about providing high-quality, fast human support when users need it. Some teams don\u2019t even want customer-facing AI at all and just want AI tools to help their team be more efficient. We created Keep with these scenarios in mind.<p>Keep does a few neat things we haven\u2019t seen elsewhere:<p>1. Provides intelligent suggestions: if Keep is confident, it\u2019ll create a draft answer and tell you the sources it used. If the ticket is long, it\u2019ll summarize the conversation so far and outline the remaining to-dos. All automatic and contextual to the ticket.<p>2. Is fully conversational: ask for clarifications, revise draft answers, and iterate as needed.<p>3. Uses \u2018Generative UI\u2019: suggestions are rendered as glanceable, interactive UI components. For example, a draft answer has buttons like \u201cShorten\u201d &amp; \u201cConcise\u201d that prompt the AI to revise the answer. UI components are interweaved within normal text.<p>4. Turns tickets into FAQs: can generate an FAQ from a closed ticket and lets you iterate on it and save it when done.<p>5. Leverages many content types: uses your docs, help center, previous support tickets, Slack threads, etc.<p>We were inspired by tools like Cursor, Claude Artifacts, and v0. These experiences go beyond plain-text conversations by interweaving interactive code blocks or UI previews into their answers. This makes answers digestible and intuitive (and fun) to iterate on.<p>Some technical details, for those interested: We use the Vercel AI SDK to optimistically stream the React components by using our Chat APIs, which are powered by Claude Sonnet 3.5 and our RAG service. Our APIs follow the OpenAI chat completion format so are generally compatible with any LLM tooling. Our `inkeep-qa` API generates draft answers and the `inkeep-context` API generates structured outputs and tool calls (docs: <a href=\"https://go.inkeep.com/ai-api\">https://go.<em>inkeep.com</em>/ai-api</a>). For an example of how these APIs are used, check out our Intelligent Support Form example (demo: <a href=\"https://try.inkeep.com/ai-form\">https://try.<em>inkeep.com</em>/ai-form</a>, repo: <a href=\"https://quickstart.inkeep.com/ai-form\">https://quickstart.<em>inkeep.com</em>/ai-form</a>).<p>If you want to try Inkeep on your product's content, just fill out the form in our landing page. You\u2019ll get a demo in your inbox powered by your public content \u2014 NO \u201ccall us\u201d, \u201cbook a demo\u201d, or \u201cschedule a meeting\u201d required. Note: we do check that your email domain matches your content to prevent spam.<p>Curious to hear about your experiences when working with customer/support questions and any ideas on how else the copilot could be useful for those scenarios."
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Launch HN: Inkeep (YC W23) \u2013 Copilot for Support (think Cursor for help desks)"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_engomez",
+              "story_41697137",
+              "launch_hn"
+            ],
+            "author": "engomez",
+            "children": [
+              41697823,
+              41698236,
+              41698279,
+              41698309,
+              41698326,
+              41698451,
+              41698480,
+              41698574,
+              41698591,
+              41698707,
+              41698732,
+              41698813,
+              41699453,
+              41699720,
+              41699869,
+              41700131,
+              41701094,
+              41702481,
+              41703301,
+              41705936,
+              41706700,
+              41707600,
+              41709224,
+              41821936,
+              41821949,
+              41821981
+            ],
+            "created_at": "2024-09-30T13:57:38Z",
+            "created_at_i": 1727704658,
+            "num_comments": 61,
+            "objectID": "41697137",
+            "points": 117,
+            "story_id": 41697137,
+            "story_text": "Hi HN, We\u2019re Nick and Robert, founders of Inkeep (<a href=\"https:&#x2F;&#x2F;inkeep.com\">https:&#x2F;&#x2F;inkeep.com</a>). We help companies turn their content into AI support copilots.\nSo far, we\u2019d focused on customer-facing experiences (e.g. find us as an \u201cAsk AI\u201d button in the docs of companies like Anthropic and Pinecone). Today, we\u2019re excited to share our new copilot, Keep, which is designed specifically for support agents.<p>It\u2019s a conversational sidebar you can use as an app for Zendesk or Chrome Extension for any support platform. There\u2019s a demo video at <a href=\"https:&#x2F;&#x2F;vid.inkeep.com&#x2F;cx-copilot\">https:&#x2F;&#x2F;vid.inkeep.com&#x2F;cx-copilot</a> or you can try the live sandbox with example tickets at <a href=\"https:&#x2F;&#x2F;try.inkeep.com&#x2F;cx-copilot\">https:&#x2F;&#x2F;try.inkeep.com&#x2F;cx-copilot</a>.<p>Why? Most AI support tools today are focused on trying to have AI answer customer questions before they even reach support teams (\u2018deflection\u2019). We\u2019d focused on that too. However, we heard from many of our customers that while they care about deflection, they care even more about providing high-quality, fast human support when users need it. Some teams don\u2019t even want customer-facing AI at all and just want AI tools to help their team be more efficient. We created Keep with these scenarios in mind.<p>Keep does a few neat things we haven\u2019t seen elsewhere:<p>1. Provides intelligent suggestions: if Keep is confident, it\u2019ll create a draft answer and tell you the sources it used. If the ticket is long, it\u2019ll summarize the conversation so far and outline the remaining to-dos. All automatic and contextual to the ticket.<p>2. Is fully conversational: ask for clarifications, revise draft answers, and iterate as needed.<p>3. Uses \u2018Generative UI\u2019: suggestions are rendered as glanceable, interactive UI components. For example, a draft answer has buttons like \u201cShorten\u201d &amp; \u201cConcise\u201d that prompt the AI to revise the answer. UI components are interweaved within normal text.<p>4. Turns tickets into FAQs: can generate an FAQ from a closed ticket and lets you iterate on it and save it when done.<p>5. Leverages many content types: uses your docs, help center, previous support tickets, Slack threads, etc.<p>We were inspired by tools like Cursor, Claude Artifacts, and v0. These experiences go beyond plain-text conversations by interweaving interactive code blocks or UI previews into their answers. This makes answers digestible and intuitive (and fun) to iterate on.<p>Some technical details, for those interested: We use the Vercel AI SDK to optimistically stream the React components by using our Chat APIs, which are powered by Claude Sonnet 3.5 and our RAG service. Our APIs follow the OpenAI chat completion format so are generally compatible with any LLM tooling. Our `inkeep-qa` API generates draft answers and the `inkeep-context` API generates structured outputs and tool calls (docs: <a href=\"https:&#x2F;&#x2F;go.inkeep.com&#x2F;ai-api\">https:&#x2F;&#x2F;go.inkeep.com&#x2F;ai-api</a>). For an example of how these APIs are used, check out our Intelligent Support Form example (demo: <a href=\"https:&#x2F;&#x2F;try.inkeep.com&#x2F;ai-form\">https:&#x2F;&#x2F;try.inkeep.com&#x2F;ai-form</a>, repo: <a href=\"https:&#x2F;&#x2F;quickstart.inkeep.com&#x2F;ai-form\">https:&#x2F;&#x2F;quickstart.inkeep.com&#x2F;ai-form</a>).<p>If you want to try Inkeep on your product&#x27;s content, just fill out the form in our landing page. You\u2019ll get a demo in your inbox powered by your public content \u2014 NO \u201ccall us\u201d, \u201cbook a demo\u201d, or \u201cschedule a meeting\u201d required. Note: we do check that your email domain matches your content to prevent spam.<p>Curious to hear about your experiences when working with customer&#x2F;support questions and any ideas on how else the copilot could be useful for those scenarios.",
+            "title": "Launch HN: Inkeep (YC W23) \u2013 Copilot for Support (think Cursor for help desks)",
+            "updated_at": "2025-02-26T21:53:08Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "engomez"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep",
+                  ".",
+                  "com"
+                ],
+                "value": "Hi HN! I'm Nick from Inkeep. We built an agent builder with true 2-way sync between code and a drag-and-drop visual editor, so devs and non-devs can collaborate on the same agents. Here\u2019s a demo video: <a href=\"https://go.inkeep.com/video\">https://go.<em>inkeep.com</em>/video</a>.<p>As a developer, the flow is:\n1) Build AI Chat Assistants or AI Workflows with the TypeScript SDK 2) Run `inkeep push` from your CLI to publish 3)Edit agents in the visual builder (or hand off to non-technical teams) 4) Run `inkeep pull to edit in code again.<p>We built this because we wanted the accessibility of no-code workflow builders (n8n, Zapier), but the flexibility and devex of code-based agent frameworks (LangGraph, Mastra). We also wanted first-class support for chat assistants with interactive UIs, not just workflows. OpenAI got close, but you can only do a one-time export from visual builder to code and there\u2019s vendor lock-in.<p>How I've used it: I bootstrapped a few agents for our marketing and sales teams, then was able to hand off so they can maintain and create their own agents. This has enabled us to adopt agents across technical and non-technical roles in our company on a single platform.<p>To try it, here\u2019s the quickstart: <a href=\"https://go.inkeep.com/quickstart\">https://go.<em>inkeep.com</em>/quickstart</a>.<p>We leaned on open protocols to make it easy to use agents anywhere:\nAn MCP endpoint, so agents can be used from Cursor/Claude/ChatGPT\nA Chat UI library with interactive elements you can customize in React\nAn API endpoint compatible with the Vercel AI SDK `useChat` hook\nSupport for Agent2Agent (A2A) so they work with other agent ecosystems<p>We made some practical templates like a customer_support, deep_research, and docs_assistant. Deployment is easy with Vercel/Docker with a fair-code license and there's a traces UI and OTEL logs for observability.<p>Under the hood, we went all-in on a multi-agent architecture. Agents are made up of LLMs, MCPs, and agent-to-agent relationships. We\u2019ve found this approach to be easier to maintain and more flexible than traditional \u201cif/else\u201d approaches for complex workflows.<p>The interoperability works because the SDK and visual builder share a common underlying representation, and the Inkeep CLI bridges it with a mix of LLMs and TypeScript syntactic sugar. Details in our docs: <a href=\"https://docs.inkeep.com\">https://docs.<em>inkeep.com</em></a>.<p>We\u2019re open to ideas and contributions! And would love to hear about your experience building agents - what works, hasn\u2019t worked, what\u2019s promising?"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Show HN: Inkeep (YC W23) \u2013 Agent Builder to create agents in code or visually"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "https://github.com/inkeep/agents"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_engomez",
+              "story_45604700",
+              "show_hn"
+            ],
+            "author": "engomez",
+            "children": [
+              45605461,
+              45605499,
+              45605514,
+              45605640,
+              45605674,
+              45605773,
+              45606286,
+              45606314,
+              45606324,
+              45607660,
+              45608233,
+              45609341,
+              45610224,
+              45612116,
+              45612711,
+              45614126,
+              45614674,
+              45616292
+            ],
+            "created_at": "2025-10-16T12:50:08Z",
+            "created_at_i": 1760619008,
+            "num_comments": 49,
+            "objectID": "45604700",
+            "points": 79,
+            "story_id": 45604700,
+            "story_text": "Hi HN! I&#x27;m Nick from Inkeep. We built an agent builder with true 2-way sync between code and a drag-and-drop visual editor, so devs and non-devs can collaborate on the same agents. Here\u2019s a demo video: <a href=\"https:&#x2F;&#x2F;go.inkeep.com&#x2F;video\">https:&#x2F;&#x2F;go.inkeep.com&#x2F;video</a>.<p>As a developer, the flow is:\n1) Build AI Chat Assistants or AI Workflows with the TypeScript SDK 2) Run `inkeep push` from your CLI to publish 3)Edit agents in the visual builder (or hand off to non-technical teams) 4) Run `inkeep pull to edit in code again.<p>We built this because we wanted the accessibility of no-code workflow builders (n8n, Zapier), but the flexibility and devex of code-based agent frameworks (LangGraph, Mastra). We also wanted first-class support for chat assistants with interactive UIs, not just workflows. OpenAI got close, but you can only do a one-time export from visual builder to code and there\u2019s vendor lock-in.<p>How I&#x27;ve used it: I bootstrapped a few agents for our marketing and sales teams, then was able to hand off so they can maintain and create their own agents. This has enabled us to adopt agents across technical and non-technical roles in our company on a single platform.<p>To try it, here\u2019s the quickstart: <a href=\"https:&#x2F;&#x2F;go.inkeep.com&#x2F;quickstart\">https:&#x2F;&#x2F;go.inkeep.com&#x2F;quickstart</a>.<p>We leaned on open protocols to make it easy to use agents anywhere:\nAn MCP endpoint, so agents can be used from Cursor&#x2F;Claude&#x2F;ChatGPT\nA Chat UI library with interactive elements you can customize in React\nAn API endpoint compatible with the Vercel AI SDK `useChat` hook\nSupport for Agent2Agent (A2A) so they work with other agent ecosystems<p>We made some practical templates like a customer_support, deep_research, and docs_assistant. Deployment is easy with Vercel&#x2F;Docker with a fair-code license and there&#x27;s a traces UI and OTEL logs for observability.<p>Under the hood, we went all-in on a multi-agent architecture. Agents are made up of LLMs, MCPs, and agent-to-agent relationships. We\u2019ve found this approach to be easier to maintain and more flexible than traditional \u201cif&#x2F;else\u201d approaches for complex workflows.<p>The interoperability works because the SDK and visual builder share a common underlying representation, and the Inkeep CLI bridges it with a mix of LLMs and TypeScript syntactic sugar. Details in our docs: <a href=\"https:&#x2F;&#x2F;docs.inkeep.com\">https:&#x2F;&#x2F;docs.inkeep.com</a>.<p>We\u2019re open to ideas and contributions! And would love to hear about your experience building agents - what works, hasn\u2019t worked, what\u2019s promising?",
+            "title": "Show HN: Inkeep (YC W23) \u2013 Agent Builder to create agents in code or visually",
+            "updated_at": "2026-04-29T18:30:50Z",
+            "url": "https://github.com/inkeep/agents"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "gaurav12342345"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Cursor's Composer-1 vs. Windsurf's SWE-1.5: The Rise of Vertical Coding Models"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep",
+                  ".",
+                  "com"
+                ],
+                "value": "https://<em>inkeep.com</em>/blog/composer-vs-swe"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_gaurav12342345",
+              "story_45816231"
+            ],
+            "author": "gaurav12342345",
+            "created_at": "2025-11-04T21:44:41Z",
+            "created_at_i": 1762292681,
+            "num_comments": 0,
+            "objectID": "45816231",
+            "points": 2,
+            "story_id": 45816231,
+            "title": "Cursor's Composer-1 vs. Windsurf's SWE-1.5: The Rise of Vertical Coding Models",
+            "updated_at": "2026-03-05T22:57:04Z",
+            "url": "https://inkeep.com/blog/composer-vs-swe"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "handfuloflight"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Inkeep"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep",
+                  ".",
+                  "com"
+                ],
+                "value": "https://<em>inkeep.com</em>/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_handfuloflight",
+              "story_40518202"
+            ],
+            "author": "handfuloflight",
+            "created_at": "2024-05-29T23:10:21Z",
+            "created_at_i": 1717024221,
+            "num_comments": 0,
+            "objectID": "40518202",
+            "points": 2,
+            "story_id": 40518202,
+            "title": "Inkeep",
+            "updated_at": "2024-09-20T17:09:02Z",
+            "url": "https://inkeep.com/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "gaurav12342345"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Practical Guide to Building Reliable AI Agents"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "inkeep",
+                  ".",
+                  "com"
+                ],
+                "value": "https://docs.<em>inkeep.com</em>/guides/agent-engineering"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_gaurav12342345",
+              "story_47055555"
+            ],
+            "author": "gaurav12342345",
+            "children": [
+              47055556
+            ],
+            "created_at": "2026-02-18T00:42:35Z",
+            "created_at_i": 1771375355,
+            "num_comments": 1,
+            "objectID": "47055555",
+            "points": 1,
+            "story_id": 47055555,
+            "title": "Practical Guide to Building Reliable AI Agents",
+            "updated_at": "2026-03-05T23:34:49Z",
+            "url": "https://docs.inkeep.com/guides/agent-engineering"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 5,
+        "nbPages": 1,
+        "page": 0,
+        "params": "query=inkeep.com&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 29,
+        "processingTimingsMS": {
+          "_request": {
+            "queue": 148,
+            "roundTrip": 24
+          },
+          "fetch": {
+            "query": 6,
+            "scanning": 21,
+            "total": 28
+          },
+          "total": 29
+        },
+        "query": "inkeep.com",
+        "serverTimeMS": 178
+      },
+      "query": "inkeep.com"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "candidate": {
+    "batch": "Summer 2026",
+    "description": "Levocred builds and deploys AI agents inside credit funds, fintechs and banks to automate workflows like back-office tasks, portfolio monitoring, compliance and underwriting. Live across multiple lending teams, running ~$1Bn in receivables through the platform.",
+    "id": "yc-33023",
+    "industry": "Fintech",
+    "name": "Levocred AI",
+    "one_liner": "AI Workforce for lenders",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T15:51:29.265456Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Levocred AI",
+        "url": "https://www.ycombinator.com/companies/levocred-ai"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "Enterprise Software"
+    ],
+    "team_size": 2,
+    "website": "https://levocred.com/"
+  },
+  "evidence": [
+    {
+      "candidate_id": "yc-33023",
+      "category": "product",
+      "claim": "Levocred AI: AI Workforce for lenders",
+      "confidence": "high",
+      "evidence_id": "YC1",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/levocred-ai"
+    },
+    {
+      "candidate_id": "yc-33023",
+      "category": "product",
+      "claim": "Levocred builds and deploys AI agents inside credit funds, fintechs and banks to automate workflows like back-office tasks, portfolio monitoring, compliance and underwriting. Live across multiple lending teams, running ~$1Bn in receivables through the platform.",
+      "confidence": "high",
+      "evidence_id": "YC2",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/levocred-ai"
+    },
+    {
+      "candidate_id": "yc-33023",
+      "category": "source",
+      "claim": "YC batch: Summer 2026; Industry: Fintech; Status: Active; Stage: Early; Team size: 2; Tags: Enterprise Software",
+      "confidence": "high",
+      "evidence_id": "YC3",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/levocred-ai"
+    },
+    {
+      "candidate_id": "yc-33023",
+      "category": "website",
+      "claim": "Levocred | The AI Workforce for Lenders Product Customers Try now Request a demo Backed by Y Combinator The AI Workforce for Lenders Automate workflows like back-office tasks, portfolio monitoring, compliance and underwriting. Request a demo Try now Which desk do you sit at? Credit fund I run a credit fund Fintech I run a fintech Bank I lend at a bank Underwrite IC memos drafted from the record A loan tape and credit agreement go in; a cited IC memo draft comes out. 0 1 Monitor Ask your book anything Ask a question in Slack; get an answer with sources in a minute. 0 2 Report Compliance checked, not rebuilt The certificate is recomputed and tested, ready to send. 0 3 Our team\u2019s experience spans In production today $1Bn+ runs through Levocred \u201c We hired our best analyst. It wasn\u2019t human. Jonathan DiBenedetto Head of Operations & CCO, Pier Asset Management Read the Pier case study Try now Here\u2019s one workflow to prove it. Try this borrowing base yourself \u2014 or book a call for your custom wo",
+      "confidence": "medium",
+      "evidence_id": "WEB1",
+      "source": "website",
+      "url": "https://levocred.com/"
+    },
+    {
+      "candidate_id": "yc-33023",
+      "category": "traction",
+      "claim": "No HN story traction found for 'Levocred AI' or 'levocred.com' in the top search results.",
+      "confidence": "medium",
+      "evidence_id": "HN1",
+      "source": "hn",
+      "url": "https://hn.algolia.com/"
+    }
+  ],
+  "generated_at": "2026-09-03T15:51:41.282922Z"
+}

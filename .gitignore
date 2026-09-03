@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store
+data/runs/*
+!data/runs/20260903T155128Z_ai-agents-for-smb-back-office-workflows/
+!data/runs/20260903T155128Z_ai-agents-for-smb-back-office-workflows/**

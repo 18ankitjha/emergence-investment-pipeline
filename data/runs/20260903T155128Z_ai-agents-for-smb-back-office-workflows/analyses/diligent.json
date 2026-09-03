@@ -1,0 +1,79 @@
+{
+  "analysis_mode": "deterministic_fallback",
+  "candidate_id": "yc-28805",
+  "cited_claims": [
+    {
+      "claim": "Company product description comes from YC metadata.",
+      "evidence_ids": [
+        "YC1",
+        "YC2"
+      ]
+    },
+    {
+      "claim": "YC metadata provides company stage and team-size context.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    },
+    {
+      "claim": "Founder or team background signal was extracted when available.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    },
+    {
+      "claim": "Website evidence availability was recorded during enrichment.",
+      "evidence_ids": [
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "HN traction/freshness evidence was recorded during enrichment.",
+      "evidence_ids": [
+        "HN1"
+      ]
+    }
+  ],
+  "market_assessment": "The market read is based on the described workflow and buyer context: We help fintech risk and AML compliance teams automate and strengthen routine customer due diligence tasks with LLMs. Our AI assistants slash cost-to-comply, improve risk detection and free up capacity for investigations that require human expertise and dec... Website text adds: Diligent \ud83d\ude80 New case study -> How Scalapay automated 66% of merchant KYC/AML reviews Skip to main content AI agents for KYC/AML operations Leading fintechs and banks use Diligent AI agents to automate their risk and co... Precise market size still needs outside research. [YC2, WEB1]",
+  "open_questions": [
+    "Who is the budget owner and how urgent is the workflow pain?",
+    "What evidence exists for repeat usage, retention, or paid customers?",
+    "What proprietary data, integrations, or workflow lock-in create defensibility?"
+  ],
+  "product_summary": "Diligent is described as 'AI agents for fintech risk and compliance operations'. The strongest product evidence says: We help fintech risk and AML compliance teams automate and strengthen routine customer due diligence tasks with LLMs. Our AI assistants slash cost-to-comply, improve risk detection and free up capacity for investigations that require human expertise and decision making. Fintechs and banks use us to automate workflow... [YC1, YC2]",
+  "recommendation": "Watch",
+  "recommendation_rationale": "Watch based on a deterministic evidence-only fallback because OPENAI_API_KEY was not set. The decision leans on YC/company-site evidence and treats HN as a weak freshness signal. Metadata: YC batch: Summer 2023; Industry: Fintech; Status: Active; Stage: Early; Team size: 10; Tags: Fintech, Compliance, Fraud Prevention, Regtech, AI",
+  "risks": [
+    "Founder backgrounds and customer traction are not deeply verified from the available public evidence.",
+    "HN traction may be absent or noisy for B2B companies.",
+    "The product could be a thin AI interface unless workflow depth is confirmed.",
+    "If the company is acquired or inactive, it is outside the seed-stage sourcing target."
+  ],
+  "score_breakdown": {
+    "defensibility": 6,
+    "market": 9,
+    "product": 18,
+    "rationale_by_component": {
+      "defensibility": "Conservative unless workflow depth or integrations are visible.",
+      "market": "Market score reflects B2B/SMB/workflow hints, not a full market-sizing exercise.",
+      "product": "Product score reflects explicit AI/workflow language and website support where available.",
+      "risk_adjustment": "Rewards accessible evidence and penalizes missing traction/founder data.",
+      "team": "YC metadata provides limited team signal; founder-background evidence is mostly missing.",
+      "traction_freshness": "Freshness comes from YC batch metadata and any HN stories found.",
+      "why_now": "Higher where AI/agent/LLM language appears in evidence."
+    },
+    "risk_adjustment": 6,
+    "team": 10,
+    "total": 66,
+    "traction_freshness": 9,
+    "why_now": 8
+  },
+  "team_assessment": "YC metadata lists the company as Active / Early with team size 10. Founder-background details are insufficient in the collected evidence. [YC3]",
+  "what_would_change_mind": [
+    "Verified customer traction or revenue from the target buyer.",
+    "Founder-background evidence showing strong domain or technical fit.",
+    "Proof that the product executes an end-to-end workflow with integrations or proprietary data."
+  ],
+  "why_now": "The why-now case is strongest where the evidence shows AI agents moving from advice into operational execution. Current freshness/traction signal: No relevant HN traction was found in the top filtered search results. [HN1]",
+  "why_we_care": "It maps to the thesis if the product owns a repeated operating workflow rather than a thin assistant layer. The available evidence points to: AI agents for fintech risk and compliance operations [YC1]"
+}
