@@ -1,5 +1,0 @@
-{
-  "note": "Full YC response was fetched for deterministic filtering but not committed to avoid repository noise.",
-  "record_count": 6200,
-  "source_url": "https://yc-oss.github.io/api/companies/all.json"
-}

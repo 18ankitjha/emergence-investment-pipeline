@@ -7,6 +7,7 @@ from pathlib import Path
 import httpx
 from pydantic import ValidationError
 
+from investment_pipeline.analysis.scoring import QUANTIFIED_TRACTION
 from investment_pipeline.config import THESIS, Settings
 from investment_pipeline.models import (
     AnalysisResult,
@@ -131,6 +132,9 @@ def deterministic_fallback_analysis(packet: EvidencePacket, reason: str) -> Anal
     hn_ids = [evidence_id for evidence_id in sorted(ids) if evidence_id.startswith("HN")]
     freshness_ids = (hn_ids or web_ids or yc_meta_ids)[:2]
 
+    does_work = any(term in text for term in ("workflow", "operations", "back-office", "back office", "automate", "execute", "takes action", "system of action"))
+    is_thin_layer = any(term in text for term in ("context layer", "data layer", "data infrastructure", "api for", "apis for", "developer platform")) and not does_work
+
     team = 6
     if candidate.team_size is not None and candidate.team_size <= 10:
         team += 2
@@ -139,41 +143,54 @@ def deterministic_fallback_analysis(packet: EvidencePacket, reason: str) -> Anal
     if yc_team_signal:
         team += 5
 
-    product = 8
-    if "ai" in text or "agent" in text or "automate" in text:
-        product += 5
-    if "workflow" in text or "operation" in text or "back-office" in text or "back office" in text:
-        product += 3
+    product = 5
+    if any(term in text for term in ("ai", "agent", "automate")):
+        product += 4
+    if does_work:
+        product += 4
     if has_web:
         product += 2
+    if is_thin_layer:
+        product -= 3
 
-    market = 6
-    if any(term in text for term in ("business", "b2b", "smb", "companies", "mid-market", "teams")):
-        market += 4
-    if any(term in text for term in ("finance", "accounting", "sales", "support", "compliance", "supply chain", "insurance")):
+    market = 5
+    if any(term in text for term in ("smb", "small business", "mid-market", "small and medium")):
+        market += 5
+    elif any(term in text for term in ("business", "b2b", "companies", "teams", "enterprise")):
+        market += 3
+    if any(term in text for term in ("finance", "accounting", "bookkeeping", "sales", "support", "compliance", "supply chain", "insurance", "procurement", "hr", "payroll")):
         market += 3
 
-    traction = 4 + min(6, len(hn_items) * 2)
+    hn_points = top_hn_points(hn_items)
+    traction = 3 + min(4, len(hn_items) * 2)
     if candidate.batch:
-        traction += 3
+        traction += 2
     if has_web:
         traction += 2
+    if hn_points >= 20:
+        traction += 3
+    if hn_points >= 100:
+        traction += 2
+    if QUANTIFIED_TRACTION.search(text):
+        traction += 3
 
-    why_now = 4 + (4 if any(term in text for term in ("ai", "agent", "llm")) else 0)
-    defensibility = 4 + (2 if "integrat" in text or "workflow" in text else 0)
+    why_now = 3 + (3 if any(term in text for term in ("ai", "agent", "llm")) else 0) + (2 if does_work else 0)
+    defensibility = 3 + (2 if "integrat" in text else 0) + (2 if does_work else 0)
     risk_adjustment = 4 + (2 if has_web else 0) + (1 if hn_items else 0)
+    if is_thin_layer:
+        why_now -= 2
     if is_acquired_or_inactive:
         traction = min(traction, 6)
         risk_adjustment = 0
 
     components = {
-        "team": min(team, 20),
-        "product": min(product, 20),
-        "market": min(market, 15),
-        "traction_freshness": min(traction, 15),
-        "why_now": min(why_now, 10),
-        "defensibility": min(defensibility, 10),
-        "risk_adjustment": min(risk_adjustment, 10),
+        "team": clamp(team, 20),
+        "product": clamp(product, 20),
+        "market": clamp(market, 15),
+        "traction_freshness": clamp(traction, 15),
+        "why_now": clamp(why_now, 10),
+        "defensibility": clamp(defensibility, 10),
+        "risk_adjustment": clamp(risk_adjustment, 10),
     }
     total = deterministic_total(components)
     recommendation = recommendation_for_score(total)
@@ -212,10 +229,14 @@ def deterministic_fallback_analysis(packet: EvidencePacket, reason: str) -> Anal
             total=total,
             rationale_by_component={
                 "team": team_evidence_note,
-                "product": f"AI/workflow language present; website support {'available' if has_web else 'missing'}.",
-                "market": "B2B/SMB/workflow hints only; no market sizing was attempted from the packet.",
+                "product": (
+                    "Positioned as a data/context layer rather than a system of action; scored down."
+                    if is_thin_layer
+                    else f"AI plus workflow-execution language; website support {'available' if has_web else 'missing'}."
+                ),
+                "market": "SMB/mid-market and operational-domain hints only; no market sizing was attempted from the packet.",
                 "traction_freshness": hn_summary + f" YC {candidate.batch or 'batch unknown'} is the main freshness anchor.",
-                "why_now": "Scored on explicit AI/agent language in the evidence.",
+                "why_now": "Scored on AI/agent language plus evidence that the product executes work, not just answers.",
                 "defensibility": "Conservative unless workflow depth, integrations, or proprietary data are visible.",
                 "risk_adjustment": "Rewards a reachable website and any real HN discussion; penalises missing evidence.",
             },
@@ -407,6 +428,10 @@ def analysis_json_schema() -> dict:
             "analysis_mode",
         ],
     }
+
+
+def clamp(value: int, ceiling: int) -> int:
+    return max(0, min(value, ceiling))
 
 
 def evidence_claim(packet: EvidencePacket, evidence_id: str) -> str | None:

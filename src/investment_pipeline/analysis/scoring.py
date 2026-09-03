@@ -1,6 +1,40 @@
 from __future__ import annotations
 
-from investment_pipeline.models import AnalysisResult, EvidencePacket, ScoreBreakdown, deterministic_total, recommendation_for_score
+import re
+
+from investment_pipeline.models import (
+    AnalysisResult,
+    EvidencePacket,
+    ScoreBreakdown,
+    deterministic_total,
+    recommendation_for_score,
+)
+
+BUYER_TERMS = (
+    "smb",
+    "mid-market",
+    "business",
+    "businesses",
+    "companies",
+    "teams",
+    "fintech",
+    "fintechs",
+    "banks",
+    "universities",
+    "enterprise",
+    "manufacturers",
+    "brands",
+    "lenders",
+    "security teams",
+)
+QUANTIFIED_TRACTION = re.compile(
+    r"\$\s?\d[\d.,]*\s?[kmb]?\s*(?:mrr|arr|revenue|/mo)"
+    r"|\b(?:mrr|arr)\b"
+    r"|\bfrom\s+\$?\d[\d.,]*\s+to\s+\$?\d"
+    r"|\d[\d,.]*\s*(?:paying customers|paying users|customers|clients|brands|banks|lenders|design partners|enterprises|deployments)"
+    r"|\d+\s*%\s*(?:wow|mom|week[- ]on[- ]week|month[- ]on[- ]month|growth|retention)",
+    re.IGNORECASE,
+)
 
 
 def normalize_score_and_recommendation(analysis: AnalysisResult, packet: EvidencePacket | None = None) -> AnalysisResult:
@@ -29,44 +63,23 @@ def normalize_score_and_recommendation(analysis: AnalysisResult, packet: Evidenc
 
 def has_take_meeting_evidence(packet: EvidencePacket) -> bool:
     text = " ".join(item.claim.lower() for item in packet.evidence)
-    has_product = "YC1" in packet.evidence_ids and ("YC2" in packet.evidence_ids or any(item.source == "website" for item in packet.evidence))
-    has_buyer = any(
-        term in text
-        for term in (
-            "smb",
-            "mid-market",
-            "business",
-            "businesses",
-            "companies",
-            "teams",
-            "fintech",
-            "banks",
-            "universities",
-            "enterprise",
-            "manufacturers",
-            "security teams",
-        )
+    has_product = "YC1" in packet.evidence_ids and (
+        "YC2" in packet.evidence_ids or any(item.source == "website" for item in packet.evidence)
     )
-    has_traction = any(
-        item.source == "hn" and "No HN story traction" not in item.claim and (" points " in item.claim or " comments " in item.claim)
+    has_buyer = any(term in text for term in BUYER_TERMS)
+    return has_product and has_buyer and has_hard_traction(packet, text)
+
+
+def has_hard_traction(packet: EvidencePacket, text: str) -> bool:
+    strong_hn = any(
+        item.source == "hn"
+        and "No HN story traction" not in item.claim
+        and _story_points(item.claim) >= 20
         for item in packet.evidence
-    ) or any(
-        term in text
-        for term in (
-            "customer",
-            "customers",
-            "users",
-            "mrr",
-            "revenue",
-            "live across",
-            "early users",
-            "users have",
-            "companies like",
-            "trusted by",
-            "saved",
-            "processed",
-            "cut time",
-            "growth",
-        )
     )
-    return has_product and has_buyer and has_traction
+    return strong_hn or bool(QUANTIFIED_TRACTION.search(text))
+
+
+def _story_points(claim: str) -> int:
+    match = re.search(r"had\s+(\d+)\s+points", claim)
+    return int(match.group(1)) if match else 0
