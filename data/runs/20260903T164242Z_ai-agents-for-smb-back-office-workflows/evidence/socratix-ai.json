@@ -1,0 +1,83 @@
+{
+  "candidate": {
+    "batch": "Summer 2025",
+    "description": "Socratix builds AI coworkers for fraud and compliance teams so that humans don't have to spend their days drowning in alerts and spreadsheets.\r\n\r\nToday, fraud and risk teams at fintechs and banks are overwhelmed. Analysts jump between tools, manually stitch together context, and make judgment calls under pressure, often for hundreds of alerts a week. Too much of their work is slow, repetitive, and error-prone. We're here to change that. \r\n\r\nSocratix gives fraud and risk teams AI coworkers that investigate alerts in real time, replacing manual reviews with fast, explainable decisions. Socratix agents plug into existing workflows and reason across signals just like human analysts to help teams reduce fraud losses, minimize false positives, and scale operations without scaling headcount.\r\n\r\nWe've seen this problem firsthand. At DoorDash, Riya helped save $30M+ a year by building smarter fraud detection and investigation tooling, and at Unit21, she built products for analysts that made them 3X faster. We're able to build and sell enterprise-grade software. At Cruise, Satya built scalable AI systems powering petabyte-scale data, and at LinkedIn, he built enterprise products from 0 to 1 generating $50M+ in incremental revenue. Now, the two of us are teaming up to eliminate the manual toil in fraud and compliance.\r\n\r\nWe're obsessed with fraud, LLMs, real-world automation, and the messy edge cases traditional ML has trouble handling. We believe that every fraud analyst should have an AI coworker - and the future of fraud will involve combining human-level reasoning with machine-speed execution. ",
+    "id": "yc-30726",
+    "industry": "B2B",
+    "name": "Socratix AI",
+    "one_liner": "AI coworkers for fraud and compliance teams.",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T16:42:42.783551Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Socratix AI",
+        "url": "https://www.ycombinator.com/companies/socratix-ai"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [],
+    "team_size": 4,
+    "website": "https://getsocratix.ai"
+  },
+  "evidence": [
+    {
+      "candidate_id": "yc-30726",
+      "category": "product",
+      "claim": "Socratix AI: AI coworkers for fraud and compliance teams.",
+      "confidence": "high",
+      "evidence_id": "YC1",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/socratix-ai"
+    },
+    {
+      "candidate_id": "yc-30726",
+      "category": "product",
+      "claim": "Socratix builds AI coworkers for fraud and compliance teams so that humans don't have to spend their days drowning in alerts and spreadsheets. Today, fraud and risk teams at fintechs and banks are overwhelmed. Analysts jump between tools, manually stitch together context, and make judgment calls under pressure, often for hundreds of alerts a week. Too much of their work is slow, repetitive, and error-prone. We're here to change that. Socratix gives fraud and risk teams AI coworkers that investigate alerts in real time, replacing manual reviews with fast, explainable decisions. Socratix agents plug into existing workflows and reason across signals just like human analysts to help teams reduce",
+      "confidence": "high",
+      "evidence_id": "YC2",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/socratix-ai"
+    },
+    {
+      "candidate_id": "yc-30726",
+      "category": "source",
+      "claim": "YC batch: Summer 2025; Industry: B2B; Status: Active; Stage: Early; Team size: 4",
+      "confidence": "high",
+      "evidence_id": "YC3",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/socratix-ai"
+    },
+    {
+      "candidate_id": "yc-30726",
+      "category": "team",
+      "claim": "At Cruise, Satya built scalable AI systems powering petabyte-scale data, and at LinkedIn, he built enterprise products from 0 to 1 generating $50M+ in incremental revenue.",
+      "confidence": "high",
+      "evidence_id": "YC4",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/socratix-ai"
+    },
+    {
+      "candidate_id": "yc-30726",
+      "category": "website",
+      "claim": "Socratix AI \u2014 AI coworkers for fraud, financial crimes & compliance New First Community Bank reviews every check for fraud First Community Bank and Trust Reviews 100% of Its Checks for Fraud Read Read the story \u2192 Built for the Main Street AI coworkers for fraud, financial crimes and compliance teams. Accelerate investigations with intelligent AI agents that gather evidence, identify threats, and recommend action. Request a demo app.getsocratix.ai live Built by AI and fraud experts from Featured stories Selected stories Explore the blog 100% Checks evaluated Case study First Community Bank and Trust Reviews 100% of Its Checks for Fraud Read case study $4.1M Seed funding announced Press release Socratix AI Raises $4.1M to Empower Fraud Fighters with AI Read press release 20\u00d7 Account review scale Case study How Super.com Reduced Manual Account Reviews at Scale with Socratix AI Read case study 100+ Monthly hours automated Case study How AtoB Delivered Instant Credit Decisions with Socratix",
+      "confidence": "medium",
+      "evidence_id": "WEB1",
+      "source": "website",
+      "url": "https://getsocratix.ai"
+    },
+    {
+      "candidate_id": "yc-30726",
+      "category": "traction",
+      "claim": "No HN story traction found for 'Socratix AI' or 'getsocratix.ai' in the top search results.",
+      "confidence": "medium",
+      "evidence_id": "HN1",
+      "source": "hn",
+      "url": "https://hn.algolia.com/"
+    }
+  ],
+  "generated_at": "2026-09-03T16:44:10.838972Z"
+}

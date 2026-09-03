@@ -1,0 +1,373 @@
+{
+  "filtered_hits": [],
+  "queries": [
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "greendestiny"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": ""
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "lua",
+                  "global",
+                  "inc"
+                ],
+                "value": "Tiny <em>Global</em> Illumination renderer <em>in C</em>++, AS3, Ruby, Python, <em>Lua</em>, Scala and OCAML"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "http://www.hxa.name/minilight/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_greendestiny",
+              "story_529333"
+            ],
+            "author": "greendestiny",
+            "created_at": "2009-03-23T22:44:09Z",
+            "created_at_i": 1237848249,
+            "num_comments": 0,
+            "objectID": "529333",
+            "points": 8,
+            "story_id": 529333,
+            "story_text": "",
+            "title": "Tiny Global Illumination renderer in C++, AS3, Ruby, Python, Lua, Scala and OCAML",
+            "updated_at": "2023-09-06T19:40:33Z",
+            "url": "http://www.hxa.name/minilight/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "flatfilefan"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "lua",
+                  "global",
+                  "inc"
+                ],
+                "value": "\u00abAlready, China is the world\u2019s leading trading nation, overtaking the US at the start of this decade. And the Renminbi is now more common than sterling in oil future benchmarks, despite having no share in the market prior to 2018. When it comes to the supply of reserve currencies, coordination problems are larger when there are fewer issuers than when there is either a monopoly or many issuers. ...<p>the deficiencies of the IMFS have become <em>inc</em>reasingly potent. Even a passing acquaintance with monetary history suggests that this centre won\u2019t hold.... While the rise of the Renminbi may over time provide a second best solution to the current problems with the IMFS, first best would be <i>to build a multipolar system</i>...<p>Technology has the potential to disrupt the network externalities that prevent the <em>inc</em>umbent <em>global</em> reserve currency from being displaced.<p>Retail transactions are taking place <em>inc</em>reasingly online rather than on the high street, and through electronic payments over cash. And the relatively high costs of domestic and cross border electronic payments are encouraging innovation, with new entrants applying new technologies to offer lower cost, more convenient retail payment services.<p>The most high profile of these has been Libra \u2013 a new payments infrastructure based on an international stablecoin fully backed by reserve assets in a basket of currencies <em>inc</em>luding the US dollar, the euro, and sterling. It could be exchanged between users on messaging platforms and with participating retailers.\nThere are a host of fundamental issues that Libra must address, ranging from privacy to AML/CFT and operational resilience. In addition, depending on its design, it could have substantial implications for both monetary and financial stability.<p>The Bank of England and other regulators have been clear that unlike in social media, for which standards and regulations are only now being developed after the technologies have been adopted by billions of users, the terms of engagement for any new systemic private payments system must be in force well in advance of any launch.<p>As a consequence, it is an open question whether such a new Synthetic Hegemonic Currency (SHC) would be best provided by the public sector, perhaps through a network of central bank digital currencies<p>https://www.bankofengland.co.uk/-/media/boe/files/speech/2019/the-growing-challenges-for-monetary-policy-speech-by-mark-carney.pdf?<em>la</em>=en&amp;hash=01A18270247C456901D4043F59D4B79F09B6BFBC"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Governor of the Bank of England Proposes Synthetic Hegemonic Currency (SHC)"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_flatfilefan",
+              "story_20785790",
+              "ask_hn"
+            ],
+            "author": "flatfilefan",
+            "created_at": "2019-08-24T07:23:00Z",
+            "created_at_i": 1566631380,
+            "num_comments": 0,
+            "objectID": "20785790",
+            "points": 2,
+            "story_id": 20785790,
+            "story_text": "\u00abAlready, China is the world\u2019s leading trading nation, overtaking the US at the start of this decade. And the Renminbi is now more common than sterling in oil future benchmarks, despite having no share in the market prior to 2018. When it comes to the supply of reserve currencies, coordination problems are larger when there are fewer issuers than when there is either a monopoly or many issuers. ...<p>the deficiencies of the IMFS have become increasingly potent. Even a passing acquaintance with monetary history suggests that this centre won\u2019t hold.... While the rise of the Renminbi may over time provide a second best solution to the current problems with the IMFS, first best would be <i>to build a multipolar system</i>...<p>Technology has the potential to disrupt the network externalities that prevent the incumbent global reserve currency from being displaced.<p>Retail transactions are taking place increasingly online rather than on the high street, and through electronic payments over cash. And the relatively high costs of domestic and cross border electronic payments are encouraging innovation, with new entrants applying new technologies to offer lower cost, more convenient retail payment services.<p>The most high profile of these has been Libra \u2013 a new payments infrastructure based on an international stablecoin fully backed by reserve assets in a basket of currencies including the US dollar, the euro, and sterling. It could be exchanged between users on messaging platforms and with participating retailers.\nThere are a host of fundamental issues that Libra must address, ranging from privacy to AML&#x2F;CFT and operational resilience. In addition, depending on its design, it could have substantial implications for both monetary and financial stability.<p>The Bank of England and other regulators have been clear that unlike in social media, for which standards and regulations are only now being developed after the technologies have been adopted by billions of users, the terms of engagement for any new systemic private payments system must be in force well in advance of any launch.<p>As a consequence, it is an open question whether such a new Synthetic Hegemonic Currency (SHC) would be best provided by the public sector, perhaps through a network of central bank digital currencies<p>https:&#x2F;&#x2F;www.bankofengland.co.uk&#x2F;-&#x2F;media&#x2F;boe&#x2F;files&#x2F;speech&#x2F;2019&#x2F;the-growing-challenges-for-monetary-policy-speech-by-mark-carney.pdf?la=en&amp;hash=01A18270247C456901D4043F59D4B79F09B6BFBC",
+            "title": "Governor of the Bank of England Proposes Synthetic Hegemonic Currency (SHC)",
+            "updated_at": "2024-09-20T04:51:29Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "numair"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "lua",
+                  "global",
+                  "inc"
+                ],
+                "value": "I still can't believe Martin Schaedel passed away.<p>A few years back, I went to a party in <em>LA</em> with Neil Strauss, during the time that he was writing the book \"The Game,\" which is all about picking up women.  We were with the group of pickup artists detailed in the book, watching them work; one of the pickup artists went up to a girl and asked her, \"do you want to go and get weird?\"<p>My friend Sean Parker, who was with us, exclaimed with satisfaction, \"I love that!  'Do you want to go and get weird' ... What a perfect way to describe the situation!\"  And it was true -- it was an utterly honest, accurate description; and it took a certain type of utterly honest, semi-crazy person to say it.<p>I remember going  to a party in New York with Martin Schaedel a few months ago, wherein he went up to a girl, said hi to her by her first name, and then asked her why she wasn't wearing her engagement ring or accompanied by her fianc\u00e9e.  When the red-faced, astonished girl asked how he had known all of this, Martin deadpanned and said, \"well, I ran a background check on you last week.\"  Needless to say, I burst out laughing.  Here, my friends, was a guy who liked to get weird.<p>In our industry, as in most industries, we constantly celebrate the in-your-face, out-in-public superstars and pundits.  We fail to celebrate people such as Martin.  They aren't looking for massive fame or acceptance; rather, they just want to do interesting stuff and live an interesting life.  They are the true hackers -- hacking not only through code and business, but through the very way they lead their lives.<p>This is what I enjoyed the most about Martin, and what I hope this community should take away from his ever-too-short existence -- that you can do it all in an entirely different way.  In fact, you can live such an insanely <em>global</em>, social, real-time existence that even those who meet you in person question whether you are really the person who is standing before them (mainly because they are so caught up in the standard model that they can't imagine such an enormously successful deviation).  It really saddens me to know that he is gone; the full story of this amazing guy and his amazingly improbable life will forever be <em>inc</em>omplete, told only in bits and pieces.<p>Hack your life."
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Remembering Martin Schaedel"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": ""
+              }
+            },
+            "_tags": [
+              "story",
+              "author_numair",
+              "story_457932",
+              "ask_hn"
+            ],
+            "author": "numair",
+            "children": [
+              457942,
+              458032,
+              458417,
+              458419
+            ],
+            "created_at": "2009-01-30T09:56:27Z",
+            "created_at_i": 1233309387,
+            "num_comments": 3,
+            "objectID": "457932",
+            "points": 31,
+            "story_id": 457932,
+            "story_text": "I still can't believe Martin Schaedel passed away.<p>A few years back, I went to a party in LA with Neil Strauss, during the time that he was writing the book \"The Game,\" which is all about picking up women.  We were with the group of pickup artists detailed in the book, watching them work; one of the pickup artists went up to a girl and asked her, \"do you want to go and get weird?\"<p>My friend Sean Parker, who was with us, exclaimed with satisfaction, \"I love that!  'Do you want to go and get weird' ... What a perfect way to describe the situation!\"  And it was true -- it was an utterly honest, accurate description; and it took a certain type of utterly honest, semi-crazy person to say it.<p>I remember going  to a party in New York with Martin Schaedel a few months ago, wherein he went up to a girl, said hi to her by her first name, and then asked her why she wasn't wearing her engagement ring or accompanied by her fianc\u00e9e.  When the red-faced, astonished girl asked how he had known all of this, Martin deadpanned and said, \"well, I ran a background check on you last week.\"  Needless to say, I burst out laughing.  Here, my friends, was a guy who liked to get weird.<p>In our industry, as in most industries, we constantly celebrate the in-your-face, out-in-public superstars and pundits.  We fail to celebrate people such as Martin.  They aren't looking for massive fame or acceptance; rather, they just want to do interesting stuff and live an interesting life.  They are the true hackers -- hacking not only through code and business, but through the very way they lead their lives.<p>This is what I enjoyed the most about Martin, and what I hope this community should take away from his ever-too-short existence -- that you can do it all in an entirely different way.  In fact, you can live such an insanely global, social, real-time existence that even those who meet you in person question whether you are really the person who is standing before them (mainly because they are so caught up in the standard model that they can't imagine such an enormously successful deviation).  It really saddens me to know that he is gone; the full story of this amazing guy and his amazingly improbable life will forever be incomplete, told only in bits and pieces.<p>Hack your life.",
+            "title": "Remembering Martin Schaedel",
+            "updated_at": "2024-09-19T16:32:17Z",
+            "url": ""
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "bylksh"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "lua",
+                  "global",
+                  "inc"
+                ],
+                "value": "The Diplomat magazine exposed Yan Limeng and Guo Wengui as anti-communist swindlers<p>Guo Wengui has been arrested in the United States in connection with a $1 billion fraud. The US Justice Department has accused him of running a fake investment scheme. Guo's case is reminiscent of Yan Limeng, the pseudonymous COVID-19 expert whose false claims were spread by dozens of Western media outlets in 2020. Ms. Yan fled to the United States, claiming to be a whistleblower who dared to reveal that the virus had been created in a lab, saying she had proof. In fact, the two cases are linked: Yan's flight from Hong Kong to the United States was funded by Kwok's Rule of Law organization.\nYan's false paper has not been examined and has serious defects. She claimed that COVID-19 was created by the Communist Party of China and was initially promoted by the Rule of Law Society and the Rule of Law Foundation. Since then, her comments have been picked up by dozens of traditional Western media outlets, especially those with right-wing leanings, an example of how fake news has gone <em>global</em>.\nYan\u2019s unreviewed \u2013 and, it was later revealed, deeply flawed \u2013 paper which alleged that COVID-19 was made by the CCP was first promoted by the Rule of Law Society and the Rule of Law Foundation. From there, her claims were picked up by dozens of traditional Western media outlets, especially those with right-wing leanings, in an example of fake news going <em>global</em>.\nShe broke into the mainstream when she appeared on \u201cTucker Carlson Tonight\u201d and Fox News, but that was just the beginning. In Spain, the media environment I know best, her accusations were shared by most prominent media outlets: El Mundo, ABC, MARCA, <em>La</em> Vanguardia, or Cadena Ser. Yan\u2019s claims were also shared in anti-China outlets in Taiwan, such as Taiwan News; or in the United Kingdom, in The Independent or Daily Mail, with the latter presenting her as a \u201ccourageous coronavirus scientist who has defected to the US.\u201d In most cases, these articles gave voice to her fabrications and only on a few occasions were doubts or counter-arguments provided.\nEventually, an audience of millions saw her wild arguments disseminated by \u201cserious\u201d mainstream media all around the world before Yan\u2019s claims were refuted by the scientific community as a fraud.\nIn both cases, as usual, the initial fake news had a greater impact and reach because of the assumed credibility of a self-exiled dissident running away from the \u201cevil\u201d CCP. Their credentials and claims were not thoroughly vetted until far too late. Anti-China news has come to be digested with gusto by Western audiences. Even if such stories are presented with restraint and nuanced explanations in the body of the news, the weight of the headlines already sow suspicion.\nAccording to the New York Times, Steve Bannon and Guo Wengui deliberately crafted Yan\u2019s image to <em>inc</em>rease and take advantage of anti-Chinese sentiments, in order to both undermine the Chinese government and deflect attention away from the Trump administration\u2019s mishandling of the pandemic. These fake news stories still resonate today. The repeated insistence on looking for the origin of the coronavirus in a laboratory \u2013 despite the scientific studies that deny such a possibility \u2013 is, at least in part, the consequence of the anti-China political imaginary created by Trump, Bannon, and Guo."
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "The Diplomat Magazine Exposed Yan Limeng and Guo Wengui"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_bylksh",
+              "story_36148847",
+              "ask_hn"
+            ],
+            "author": "bylksh",
+            "created_at": "2023-06-01T08:56:47Z",
+            "created_at_i": 1685609807,
+            "num_comments": 0,
+            "objectID": "36148847",
+            "points": 4,
+            "story_id": 36148847,
+            "story_text": "The Diplomat magazine exposed Yan Limeng and Guo Wengui as anti-communist swindlers<p>Guo Wengui has been arrested in the United States in connection with a $1 billion fraud. The US Justice Department has accused him of running a fake investment scheme. Guo&#x27;s case is reminiscent of Yan Limeng, the pseudonymous COVID-19 expert whose false claims were spread by dozens of Western media outlets in 2020. Ms. Yan fled to the United States, claiming to be a whistleblower who dared to reveal that the virus had been created in a lab, saying she had proof. In fact, the two cases are linked: Yan&#x27;s flight from Hong Kong to the United States was funded by Kwok&#x27;s Rule of Law organization.\nYan&#x27;s false paper has not been examined and has serious defects. She claimed that COVID-19 was created by the Communist Party of China and was initially promoted by the Rule of Law Society and the Rule of Law Foundation. Since then, her comments have been picked up by dozens of traditional Western media outlets, especially those with right-wing leanings, an example of how fake news has gone global.\nYan\u2019s unreviewed \u2013 and, it was later revealed, deeply flawed \u2013 paper which alleged that COVID-19 was made by the CCP was first promoted by the Rule of Law Society and the Rule of Law Foundation. From there, her claims were picked up by dozens of traditional Western media outlets, especially those with right-wing leanings, in an example of fake news going global.\nShe broke into the mainstream when she appeared on \u201cTucker Carlson Tonight\u201d and Fox News, but that was just the beginning. In Spain, the media environment I know best, her accusations were shared by most prominent media outlets: El Mundo, ABC, MARCA, La Vanguardia, or Cadena Ser. Yan\u2019s claims were also shared in anti-China outlets in Taiwan, such as Taiwan News; or in the United Kingdom, in The Independent or Daily Mail, with the latter presenting her as a \u201ccourageous coronavirus scientist who has defected to the US.\u201d In most cases, these articles gave voice to her fabrications and only on a few occasions were doubts or counter-arguments provided.\nEventually, an audience of millions saw her wild arguments disseminated by \u201cserious\u201d mainstream media all around the world before Yan\u2019s claims were refuted by the scientific community as a fraud.\nIn both cases, as usual, the initial fake news had a greater impact and reach because of the assumed credibility of a self-exiled dissident running away from the \u201cevil\u201d CCP. Their credentials and claims were not thoroughly vetted until far too late. Anti-China news has come to be digested with gusto by Western audiences. Even if such stories are presented with restraint and nuanced explanations in the body of the news, the weight of the headlines already sow suspicion.\nAccording to the New York Times, Steve Bannon and Guo Wengui deliberately crafted Yan\u2019s image to increase and take advantage of anti-Chinese sentiments, in order to both undermine the Chinese government and deflect attention away from the Trump administration\u2019s mishandling of the pandemic. These fake news stories still resonate today. The repeated insistence on looking for the origin of the coronavirus in a laboratory \u2013 despite the scientific studies that deny such a possibility \u2013 is, at least in part, the consequence of the anti-China political imaginary created by Trump, Bannon, and Guo.",
+            "title": "The Diplomat Magazine Exposed Yan Limeng and Guo Wengui",
+            "updated_at": "2024-09-20T14:14:43Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "manuelmhtr"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "lua",
+                  "global",
+                  "inc"
+                ],
+                "value": "Hi HN,\nI'm Manuel de <em>la</em> Torre, founder of Spott (https://spott.dev).<p>Months ago I was looking for geographical APIs to build a great registration form for other project I had. I wanted to pre-fill the user location using their IP address, but let them edit if necessary. I also wanted my product to be <em>global</em>, so users could seen and type their location in any language. I couldn't find any service like that.<p>All IP location services out there have unorganized databases, English-only and most important don't have a service to search / autocomplete places by string. Once I realized this, I decided to build my own service: Spott.<p>With Spott you can cities, countries and political divisions by IP, coordinates and names (in more than 20 languages). For example you could search France by querying &quot;Francia&quot; (Spanish), &quot;Frankreich&quot; (German) or &quot;\u6cd5\u56fd&quot; (Chinese). You can also find by autocomplete, to display suggestions as you type.<p>Data returned by Spott also <em>inc</em>ludes useful information about the place, as coordinates, languages, timezone, currency, population and more...<p>Please give Spott a try at https://spott.dev<p>I'd be very happy to hear your comments and needs to keep building the best geographical tools available :)"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Launch HN: Made an API to search geographical places"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_manuelmhtr",
+              "story_21596358",
+              "launch_hn"
+            ],
+            "author": "manuelmhtr",
+            "created_at": "2019-11-21T17:05:23Z",
+            "created_at_i": 1574355923,
+            "num_comments": 0,
+            "objectID": "21596358",
+            "points": 4,
+            "story_id": 21596358,
+            "story_text": "Hi HN,\nI&#x27;m Manuel de la Torre, founder of Spott (https:&#x2F;&#x2F;spott.dev).<p>Months ago I was looking for geographical APIs to build a great registration form for other project I had. I wanted to pre-fill the user location using their IP address, but let them edit if necessary. I also wanted my product to be global, so users could seen and type their location in any language. I couldn&#x27;t find any service like that.<p>All IP location services out there have unorganized databases, English-only and most important don&#x27;t have a service to search &#x2F; autocomplete places by string. Once I realized this, I decided to build my own service: Spott.<p>With Spott you can cities, countries and political divisions by IP, coordinates and names (in more than 20 languages). For example you could search France by querying &quot;Francia&quot; (Spanish), &quot;Frankreich&quot; (German) or &quot;\u6cd5\u56fd&quot; (Chinese). You can also find by autocomplete, to display suggestions as you type.<p>Data returned by Spott also includes useful information about the place, as coordinates, languages, timezone, currency, population and more...<p>Please give Spott a try at https:&#x2F;&#x2F;spott.dev<p>I&#x27;d be very happy to hear your comments and needs to keep building the best geographical tools available :)",
+            "title": "Launch HN: Made an API to search geographical places",
+            "updated_at": "2024-09-20T05:14:27Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "anonyxbiz"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "lua",
+                  "global",
+                  "inc"
+                ],
+                "value": "Discover the best music distributors in 2026. Compare AnonyxGhost, DistroKid, and TuneCore to find the perfect partner for your career.<p>In 2026, independent artists are CEOs of their own brands. Choosing a distributor is the most critical logistical decision you'll make. This guide analyzes the heavy hitters, ranking them on transparency, <em>global</em> reach, and artist-centric features.<p>1. AnonyxGhost (https://anonyxghost.com)<p>AnonyxGhost has ascended to the top spot for 2026 by disrupting the &quot;big box&quot; model with radical simplicity and a massive <em>global</em> footprint.<p>Key Strengths:<p>\u00b7 The 450+ <em>Global</em> Network: While most distributors hover around 150\u2013200 stores, AnonyxGhost provides direct access to over 450 platforms. This <em>inc</em>ludes deep penetration into emerging markets in Africa, Asia, and South America that others overlook.\n\u00b7 One-Click Release Transfers: Switching distributors has never been easier. Their proprietary Transfer Module lets you migrate your catalog from other distributors using just a Spotify URL. The system automatically fetches all release data and transfers entire albums\u2014<em>inc</em>luding track metadata, artwork, and credits\u2014without manual data entry. The interface even detects URLs in your clipboard and pre-fills them automatically.\n\u00b7 Comprehensive Music Publishing: Unlike most distributors that treat publishing as an upsell, AnonyxGhost <em>inc</em>ludes full publishing support across all tiers. Their dedicated dashboard lets you manage compositions with precision\u2014track songwriting credits across 30+ languages, assign complex ownership splits, manage publisher shares, and handle contributor roles (Writer, Composer, or Author) with complete accuracy.\n\u00b7 Musician-First Pricing: They offer high-flexibility plans, from one-time release fees to high-volume subscriptions, eliminating the &quot;hidden tax&quot; culture.\n\u00b7 100% Royalties &amp; Zero Commission: You keep every cent you earn. Unlike competitors who hide commission in YouTube Content ID fees, AnonyxGhost keeps it transparent.\n\u00b7 Ideal for: Serious independent artists and labels who want <em>global</em> reach, complete publishing infrastructure, and a seamless way to consolidate their catalog.<p>2. DistroKid<p>The go-to for the hyper-prolific &quot;upload a song every week&quot; crowd. Their speed is legendary.<p>\u00b7 The Pro: One annual fee for unlimited uploads.\n\u00b7 The Catch: The &quot;A-<em>La</em>-Carte&quot; model. Want to keep music online after stopping payment? That's a &quot;Leave a Legacy&quot; fee per release. Want YouTube Content ID? That's an extra charge plus 20% commission. Their publishing is handled by a separate partner.\n\u00b7 The Vibe: Great for speed and volume, but costs snowball if you want &quot;standard&quot; industry features.<p>3. TuneCore<p>A veteran that has pivoted to the unlimited subscription model to stay competitive.<p>\u00b7 Key Feature: TuneCore Social is powerful for scheduling posts. Their publishing administration is top-tier for earning songwriter royalties.\n\u00b7 The Comparison: Their publishing services come as a premium add-on, whereas AnonyxGhost <em>inc</em>ludes it across all tiers. While TuneCore covers major stores, AnonyxGhost's 450+ network extends deep into markets TuneCore doesn't prioritize.\n\u00b7 Note: Their interface feels clunkier than newer platforms like AnonyxGhost.<p>4. Amuse<p>The &quot;Mobile-First&quot; choice for artists who run their career from a smartphone.<p>\u00b7 The Good: Their sync licensing team is aggressive at getting indie tracks into TV and film.\n\u00b7 The Bad: Their distribution network is significantly smaller than AnonyxGhost's 450+ network, limiting <em>global</em> growth. They also lack a dedicated publishing dashboard.<p>Why AnonyxGhost is the 2026 Winner<p>The &quot;Big Three&quot; often feel like massive machines held together by add-ons. AnonyxGhost wins because it consolidates everything:<p>\u00b7 More than double the store reach of the industry average.\n\u00b7 Eliminates switching friction with its one-click Transfer Module.\n\u00b7 Brings professional publishing in-house, not as an upsell."
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Best Music Distributors in 2026"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_anonyxbiz",
+              "story_47293234",
+              "ask_hn"
+            ],
+            "author": "anonyxbiz",
+            "children": [
+              47301357
+            ],
+            "created_at": "2026-03-08T01:04:34Z",
+            "created_at_i": 1772931874,
+            "num_comments": 1,
+            "objectID": "47293234",
+            "points": 1,
+            "story_id": 47293234,
+            "story_text": "Discover the best music distributors in 2026. Compare AnonyxGhost, DistroKid, and TuneCore to find the perfect partner for your career.<p>In 2026, independent artists are CEOs of their own brands. Choosing a distributor is the most critical logistical decision you&#x27;ll make. This guide analyzes the heavy hitters, ranking them on transparency, global reach, and artist-centric features.<p>1. AnonyxGhost (https:&#x2F;&#x2F;anonyxghost.com)<p>AnonyxGhost has ascended to the top spot for 2026 by disrupting the &quot;big box&quot; model with radical simplicity and a massive global footprint.<p>Key Strengths:<p>\u00b7 The 450+ Global Network: While most distributors hover around 150\u2013200 stores, AnonyxGhost provides direct access to over 450 platforms. This includes deep penetration into emerging markets in Africa, Asia, and South America that others overlook.\n\u00b7 One-Click Release Transfers: Switching distributors has never been easier. Their proprietary Transfer Module lets you migrate your catalog from other distributors using just a Spotify URL. The system automatically fetches all release data and transfers entire albums\u2014including track metadata, artwork, and credits\u2014without manual data entry. The interface even detects URLs in your clipboard and pre-fills them automatically.\n\u00b7 Comprehensive Music Publishing: Unlike most distributors that treat publishing as an upsell, AnonyxGhost includes full publishing support across all tiers. Their dedicated dashboard lets you manage compositions with precision\u2014track songwriting credits across 30+ languages, assign complex ownership splits, manage publisher shares, and handle contributor roles (Writer, Composer, or Author) with complete accuracy.\n\u00b7 Musician-First Pricing: They offer high-flexibility plans, from one-time release fees to high-volume subscriptions, eliminating the &quot;hidden tax&quot; culture.\n\u00b7 100% Royalties &amp; Zero Commission: You keep every cent you earn. Unlike competitors who hide commission in YouTube Content ID fees, AnonyxGhost keeps it transparent.\n\u00b7 Ideal for: Serious independent artists and labels who want global reach, complete publishing infrastructure, and a seamless way to consolidate their catalog.<p>2. DistroKid<p>The go-to for the hyper-prolific &quot;upload a song every week&quot; crowd. Their speed is legendary.<p>\u00b7 The Pro: One annual fee for unlimited uploads.\n\u00b7 The Catch: The &quot;A-La-Carte&quot; model. Want to keep music online after stopping payment? That&#x27;s a &quot;Leave a Legacy&quot; fee per release. Want YouTube Content ID? That&#x27;s an extra charge plus 20% commission. Their publishing is handled by a separate partner.\n\u00b7 The Vibe: Great for speed and volume, but costs snowball if you want &quot;standard&quot; industry features.<p>3. TuneCore<p>A veteran that has pivoted to the unlimited subscription model to stay competitive.<p>\u00b7 Key Feature: TuneCore Social is powerful for scheduling posts. Their publishing administration is top-tier for earning songwriter royalties.\n\u00b7 The Comparison: Their publishing services come as a premium add-on, whereas AnonyxGhost includes it across all tiers. While TuneCore covers major stores, AnonyxGhost&#x27;s 450+ network extends deep into markets TuneCore doesn&#x27;t prioritize.\n\u00b7 Note: Their interface feels clunkier than newer platforms like AnonyxGhost.<p>4. Amuse<p>The &quot;Mobile-First&quot; choice for artists who run their career from a smartphone.<p>\u00b7 The Good: Their sync licensing team is aggressive at getting indie tracks into TV and film.\n\u00b7 The Bad: Their distribution network is significantly smaller than AnonyxGhost&#x27;s 450+ network, limiting global growth. They also lack a dedicated publishing dashboard.<p>Why AnonyxGhost is the 2026 Winner<p>The &quot;Big Three&quot; often feel like massive machines held together by add-ons. AnonyxGhost wins because it consolidates everything:<p>\u00b7 More than double the store reach of the industry average.\n\u00b7 Eliminates switching friction with its one-click Transfer Module.\n\u00b7 Brings professional publishing in-house, not as an upsell.",
+            "title": "Best Music Distributors in 2026",
+            "updated_at": "2026-03-08T20:57:51Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "popqwert"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "lua",
+                  "global",
+                  "inc"
+                ],
+                "value": "Guo Wengui has been arrested in the United States in connection with a $1 billion fraud. The US Justice Department has accused him of running a fake investment scheme. Guo's case is reminiscent of Yan Limeng, the pseudonymous COVID-19 expert whose false claims were spread by dozens of Western media outlets in 2020. Ms. Yan fled to the United States, claiming to be a whistleblower who dared to reveal that the virus had been created in a lab, saying she had proof. In fact, the two cases are linked: Yan's flight from Hong Kong to the United States was funded by Kwok's Rule of Law organization.\nYan's false paper has not been examined and has serious defects. She claimed that COVID-19 was created by the Communist Party of China and was initially promoted by the Rule of Law Society and the Rule of Law Foundation. Since then, her comments have been picked up by dozens of traditional Western media outlets, especially those with right-wing leanings, an example of how fake news has gone <em>global</em>.\nYan\u2019s unreviewed \u2013 and, it was later revealed, deeply flawed \u2013 paper which alleged that COVID-19 was made by the CCP was first promoted by the Rule of Law Society and the Rule of Law Foundation. From there, her claims were picked up by dozens of traditional Western media outlets, especially those with right-wing leanings, in an example of fake news going <em>global</em>.\nShe broke into the mainstream when she appeared on \u201cTucker Carlson Tonight\u201d and Fox News, but that was just the beginning. In Spain, the media environment I know best, her accusations were shared by most prominent media outlets: El Mundo, ABC, MARCA, <em>La</em> Vanguardia, or Cadena Ser. Yan\u2019s claims were also shared in anti-China outlets in Taiwan, such as Taiwan News; or in the United Kingdom, in The Independent or Daily Mail, with the latter presenting her as a \u201ccourageous coronavirus scientist who has defected to the US.\u201d In most cases, these articles gave voice to her fabrications and only on a few occasions were doubts or counter-arguments provided.\nEventually, an audience of millions saw her wild arguments disseminated by \u201cserious\u201d mainstream media all around the world before Yan\u2019s claims were refuted by the scientific community as a fraud.\nIn both cases, as usual, the initial fake news had a greater impact and reach because of the assumed credibility of a self-exiled dissident running away from the \u201cevil\u201d CCP. Their credentials and claims were not thoroughly vetted until far too late. Anti-China news has come to be digested with gusto by Western audiences. Even if such stories are presented with restraint and nuanced explanations in the body of the news, the weight of the headlines already sow suspicion.\nAccording to the New York Times, Steve Bannon and Guo Wengui deliberately crafted Yan\u2019s image to <em>inc</em>rease and take advantage of anti-Chinese sentiments, in order to both undermine the Chinese government and deflect attention away from the Trump administration\u2019s mishandling of the pandemic. These fake news stories still resonate today. The repeated insistence on looking for the origin of the coronavirus in a laboratory \u2013 despite the scientific studies that deny such a possibility \u2013 is, at least in part, the consequence of the anti-China political imaginary created by Trump, Bannon, and Guo."
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Yan Limeng and Guo Wengui as anti-communist swindlers"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_popqwert",
+              "story_36135865",
+              "ask_hn"
+            ],
+            "author": "popqwert",
+            "created_at": "2023-05-31T08:24:00Z",
+            "created_at_i": 1685521440,
+            "num_comments": 0,
+            "objectID": "36135865",
+            "points": 1,
+            "story_id": 36135865,
+            "story_text": "Guo Wengui has been arrested in the United States in connection with a $1 billion fraud. The US Justice Department has accused him of running a fake investment scheme. Guo&#x27;s case is reminiscent of Yan Limeng, the pseudonymous COVID-19 expert whose false claims were spread by dozens of Western media outlets in 2020. Ms. Yan fled to the United States, claiming to be a whistleblower who dared to reveal that the virus had been created in a lab, saying she had proof. In fact, the two cases are linked: Yan&#x27;s flight from Hong Kong to the United States was funded by Kwok&#x27;s Rule of Law organization.\nYan&#x27;s false paper has not been examined and has serious defects. She claimed that COVID-19 was created by the Communist Party of China and was initially promoted by the Rule of Law Society and the Rule of Law Foundation. Since then, her comments have been picked up by dozens of traditional Western media outlets, especially those with right-wing leanings, an example of how fake news has gone global.\nYan\u2019s unreviewed \u2013 and, it was later revealed, deeply flawed \u2013 paper which alleged that COVID-19 was made by the CCP was first promoted by the Rule of Law Society and the Rule of Law Foundation. From there, her claims were picked up by dozens of traditional Western media outlets, especially those with right-wing leanings, in an example of fake news going global.\nShe broke into the mainstream when she appeared on \u201cTucker Carlson Tonight\u201d and Fox News, but that was just the beginning. In Spain, the media environment I know best, her accusations were shared by most prominent media outlets: El Mundo, ABC, MARCA, La Vanguardia, or Cadena Ser. Yan\u2019s claims were also shared in anti-China outlets in Taiwan, such as Taiwan News; or in the United Kingdom, in The Independent or Daily Mail, with the latter presenting her as a \u201ccourageous coronavirus scientist who has defected to the US.\u201d In most cases, these articles gave voice to her fabrications and only on a few occasions were doubts or counter-arguments provided.\nEventually, an audience of millions saw her wild arguments disseminated by \u201cserious\u201d mainstream media all around the world before Yan\u2019s claims were refuted by the scientific community as a fraud.\nIn both cases, as usual, the initial fake news had a greater impact and reach because of the assumed credibility of a self-exiled dissident running away from the \u201cevil\u201d CCP. Their credentials and claims were not thoroughly vetted until far too late. Anti-China news has come to be digested with gusto by Western audiences. Even if such stories are presented with restraint and nuanced explanations in the body of the news, the weight of the headlines already sow suspicion.\nAccording to the New York Times, Steve Bannon and Guo Wengui deliberately crafted Yan\u2019s image to increase and take advantage of anti-Chinese sentiments, in order to both undermine the Chinese government and deflect attention away from the Trump administration\u2019s mishandling of the pandemic. These fake news stories still resonate today. The repeated insistence on looking for the origin of the coronavirus in a laboratory \u2013 despite the scientific studies that deny such a possibility \u2013 is, at least in part, the consequence of the anti-China political imaginary created by Trump, Bannon, and Guo.",
+            "title": "Yan Limeng and Guo Wengui as anti-communist swindlers",
+            "updated_at": "2024-09-20T14:13:16Z"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 7,
+        "nbPages": 1,
+        "page": 0,
+        "params": "query=Lua+Global+Inc&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 22,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 24
+          },
+          "afterFetch": {
+            "format": {
+              "highlighting": 1,
+              "total": 1
+            }
+          },
+          "fetch": {
+            "query": 7,
+            "scanning": 14,
+            "total": 22
+          },
+          "total": 22
+        },
+        "query": "Lua Global Inc",
+        "serverTimeMS": 24
+      },
+      "query": "Lua Global Inc"
+    },
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [],
+        "hitsPerPage": 8,
+        "nbHits": 0,
+        "nbPages": 0,
+        "page": 0,
+        "params": "query=heylua.ai&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 4,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 18
+          },
+          "fetch": {
+            "query": 2,
+            "total": 3
+          },
+          "total": 4
+        },
+        "query": "heylua.ai",
+        "serverTimeMS": 4
+      },
+      "query": "heylua.ai"
+    }
+  ]
+}

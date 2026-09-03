@@ -1,0 +1,83 @@
+{
+  "candidate": {
+    "batch": "Fall 2025",
+    "description": "Lua is the mid-market agent platform.\r\n\r\nWe deliver enterprise reliability with the speed, flexibility, and economics that mid-market companies demand - helping them deploy AI agents that drive sales, support, and operations across everyday channels and tools.\r\n\r\nWe scale through developer agencies and channel partners, enabling rapid distribution without a large enterprise sales motion or scaled forward deployed teams. We think of Lua as an agentOS that abstracts all of the complexity required to launch enterprise grade agents and combine it with the tools needed for these agents to succeed in the real world.\r\n\r\nLua was founded by Lorcan O Cathain (CEO) and Stefan Kruger (CTO)- experienced founders who have spent 15 - 20 years each scaling technology companies across emerging markets.\r\n\r\nWe sell to mid-market enterprises and developer agencies in the US and internationally. Developers are increasingly our primary ICP but we run SMB & enterprise sales motions to accelerate our learnings and further develop our product:\r\n- SMB ($25- 1k per month): fully automated self-serve agents that handle sales and support for eCommerce companies, hotels, restaurants and general service businesses. If you\u2019ve been on our website you\u2019ve likely seen this.\r\n- Enterprise: We directly sell to mid-market (~ $50M- $1BN) businesses across the US and internationally to eat our own dog food and strengthen our platform.\r\n",
+    "id": "yc-30948",
+    "industry": "B2B",
+    "name": "Lua Global Inc",
+    "one_liner": "The mid-market agent platform",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T16:42:42.784154Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Lua Global Inc",
+        "url": "https://www.ycombinator.com/companies/lua-global-inc"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [],
+    "team_size": 5,
+    "website": "https://heylua.ai/"
+  },
+  "evidence": [
+    {
+      "candidate_id": "yc-30948",
+      "category": "product",
+      "claim": "Lua Global Inc: The mid-market agent platform",
+      "confidence": "high",
+      "evidence_id": "YC1",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/lua-global-inc"
+    },
+    {
+      "candidate_id": "yc-30948",
+      "category": "product",
+      "claim": "Lua is the mid-market agent platform. We deliver enterprise reliability with the speed, flexibility, and economics that mid-market companies demand - helping them deploy AI agents that drive sales, support, and operations across everyday channels and tools. We scale through developer agencies and channel partners, enabling rapid distribution without a large enterprise sales motion or scaled forward deployed teams. We think of Lua as an agentOS that abstracts all of the complexity required to launch enterprise grade agents and combine it with the tools needed for these agents to succeed in the real world. Lua was founded by Lorcan O Cathain (CEO) and Stefan Kruger (CTO)- experienced founders",
+      "confidence": "high",
+      "evidence_id": "YC2",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/lua-global-inc"
+    },
+    {
+      "candidate_id": "yc-30948",
+      "category": "source",
+      "claim": "YC batch: Fall 2025; Industry: B2B; Status: Active; Stage: Early; Team size: 5",
+      "confidence": "high",
+      "evidence_id": "YC3",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/lua-global-inc"
+    },
+    {
+      "candidate_id": "yc-30948",
+      "category": "team",
+      "claim": "Lua was founded by Lorcan O Cathain (CEO) and Stefan Kruger (CTO)- experienced founders who have spent 15 - 20 years each scaling technology companies across emerging markets.",
+      "confidence": "high",
+      "evidence_id": "YC4",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/lua-global-inc"
+    },
+    {
+      "candidate_id": "yc-30948",
+      "category": "website",
+      "claim": "Lua AI - The Agent OS Backed by Combinator The AI workforce that companies actually run on. One workspace where people and agents work together \u2014 same rooms, same memory, governed on every action. Schedule a demo Join the waitlist Built with the world's leading AI providers. No lock-in Deploy real AI agents that solve real problems Written in TypeScript by your engineers, or composed using our Agent Builder by everyone else \u2014 same platform, production-grade either way. 01 \u00b7 Developers I'm a developer. Real TypeScript, not YAML. Write actual code with Zod validation, proper testing, and a modern dev workflow. Quick start 1 import { LuaTool } from \"lua-cli\" ; 2 import { z } from \"zod\" ; 3 4 export class CheckOrderStatus implements LuaTool { 5 name = \"check_order_status\" ; 6 - description = \"Look up a customer\u2019s order\" ; + description = \"Look up a customer\u2019s order (yes, even that one)\" ; 7 8 inputSchema = z. object ( { 9 orderId: z. string (), + politeness: z. enum ([ \"nice\" , \"extra-nice",
+      "confidence": "medium",
+      "evidence_id": "WEB1",
+      "source": "website",
+      "url": "https://heylua.ai/"
+    },
+    {
+      "candidate_id": "yc-30948",
+      "category": "traction",
+      "claim": "No HN story traction found for 'Lua Global Inc' or 'heylua.ai' in the top search results.",
+      "confidence": "medium",
+      "evidence_id": "HN1",
+      "source": "hn",
+      "url": "https://hn.algolia.com/"
+    }
+  ],
+  "generated_at": "2026-09-03T16:43:25.065796Z"
+}

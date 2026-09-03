@@ -1,0 +1,67 @@
+{
+  "filtered_hits": [],
+  "queries": [
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [],
+        "hitsPerPage": 8,
+        "nbHits": 0,
+        "nbPages": 0,
+        "page": 0,
+        "params": "query=Levocred+AI&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 7,
+        "processingTimingsMS": {
+          "_request": {
+            "queue": 1,
+            "roundTrip": 16
+          },
+          "fetch": {
+            "query": 6,
+            "total": 7
+          },
+          "total": 7
+        },
+        "query": "Levocred AI",
+        "serverTimeMS": 9
+      },
+      "query": "Levocred AI"
+    },
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [],
+        "hitsPerPage": 8,
+        "nbHits": 0,
+        "nbPages": 0,
+        "page": 0,
+        "params": "query=levocred.com&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 28,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 23
+          },
+          "fetch": {
+            "query": 11,
+            "scanning": 16,
+            "total": 28
+          },
+          "total": 29
+        },
+        "query": "levocred.com",
+        "serverTimeMS": 29
+      },
+      "query": "levocred.com"
+    }
+  ]
+}

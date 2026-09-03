@@ -1,83 +1,92 @@
-# Emergence AI-Augmented Investment Pipeline
+# AI-augmented investment pipeline
 
-CLI pipeline for the Emergence take-home assignment:
+A CLI triage pipeline for a seed-stage VC. Give it a topic; it sources startups
+from YC, builds a cited evidence packet per company, scores them against a fixed
+thesis, and writes a one-page memo ending in Pass / Watch / Take a meeting.
 
 ```text
-topic query -> YC sourcing -> website + HN enrichment -> evidence packets -> structured analysis -> Markdown memos
+topic query
+  -> YC sourcing + relevance filter
+  -> website + Hacker News enrichment
+  -> evidence packet (stable IDs: YC1, WEB1, HN1, ...)
+  -> analysis (OpenAI structured output, or a deterministic fallback)
+  -> deterministic scoring + threshold
+  -> Markdown memo + rankings + validation report
 ```
 
-The project is intentionally small: no frontend, database, queue, vector DB, auth, or agent framework.
+No frontend, database, queue, or vector store. Everything a run produces is a
+flat file under `data/runs/<run_id>/`.
 
-## Setup
+## Thesis
 
-Requires Python 3.12+ and `uv`.
+> Seed-stage AI companies that automate high-frequency operational workflows for
+> SMBs or lean mid-market teams, where the product can become a system of action
+> rather than a thin chatbot interface.
+
+Full version, scoring weights, and thresholds: `docs/THESIS.md`.
+
+## Run it
+
+Requires Python 3.12+ and [`uv`](https://docs.astral.sh/uv/).
 
 ```bash
 uv sync --extra dev
-```
-
-Optional OpenAI analysis:
-
-```bash
-cp .env.example .env
-# edit .env and set OPENAI_API_KEY
-```
-
-If `OPENAI_API_KEY` is absent, the pipeline still runs using a clearly marked deterministic fallback so artifacts remain inspectable and replayable.
-
-## Run
-
-```bash
 uv run invest-pipeline run "AI agents for SMB back-office workflows"
 ```
 
-Optional limit:
+`--limit N` (default 10, max 20) sets how many startups are analysed.
 
-```bash
-uv run invest-pipeline run "AI agents for SMB back-office workflows" --limit 10
-```
+Analysis mode is chosen automatically:
 
-Each run writes:
+- **`OPENAI_API_KEY` set** — each evidence packet goes to the OpenAI Responses
+  API with a strict JSON schema. `cp .env.example .env` and add the key.
+- **no key** — a deterministic rule-based scorer runs instead, labelled
+  `deterministic_fallback` in every memo and the manifest. The pipeline still
+  produces a full, inspectable run.
+
+## What a run writes
 
 ```text
 data/runs/<run_id>/
-  run_manifest.json
-  raw/
-  candidates.json
-  evidence/
-  analyses/
-  analyses.json
-  memos/
-  rankings.md
-  validation_report.json
+  run_manifest.json      topic, thesis, sources, analysis mode, command
+  candidates.json        normalised startups after the relevance filter
+  raw/                   unmodified YC manifest, HN responses, website text
+  evidence/<slug>.json   the packet the analyser saw, one file per company
+  analyses/<slug>.json   structured analysis + score breakdown
+  memos/<slug>.md        the one-page memo
+  rankings.md            all companies by score with their call
+  validation_report.json citation / score / threshold checks ("issues": [] is clean)
 ```
 
-A committed sample run is available at:
+## Committed sample
 
-```text
-data/runs/20260903T155128Z_ai-agents-for-smb-back-office-workflows/
-```
+`data/runs/20260903T164242Z_ai-agents-for-smb-back-office-workflows/` is a full
+run, committed so it does not need re-running. It was produced without an API
+key, so it exercises the deterministic fallback. Start with `rankings.md`, then
+open `memos/risely-ai.md` (Take a meeting) and `memos/fiber-ai.md` (Pass) and
+check each `[YCn]` / `[HNn]` against that memo's Sources list.
 
-## Test
+## Tests
 
 ```bash
 uv run pytest
 ```
 
+## How this was built
+
+The build used AI throughout and the trail is in the repo:
+
+- `docs/AI_USAGE.md` — which tool did what, and what stayed a human call.
+- `docs/PROCESS_LOG.md` — timeline tied to commit hashes.
+- `docs/DECISIONS.md` — scoping calls and why.
+- `docs/FAILURES.md` — three bugs that shipped in the first commit and were
+  fixed after, plus the constraints not solved.
+- `docs/EVAL_NOTES.md` — how output is checked.
+- `prompts/` — the exact text sent to the model.
+- `git log` — one commit per fix, with the finding in the message.
+
 ## Sources
 
-- YC company API mirror: https://yc-oss.github.io/api/companies/all.json
-- HN Algolia API: https://hn.algolia.com/api
-- Public company websites when accessible
-
-## Walkthrough
-
-For a 5-minute walkthrough, open one committed sample run under `data/runs/`, then show:
-
-1. `run_manifest.json` for topic, thesis, sources, and analysis mode.
-2. `candidates.json` for normalized sourcing.
-3. One `evidence/<company>.json` file for traceable evidence IDs.
-4. The matching `analyses/<company>.json` file for structured scoring.
-5. The matching `memos/<company>.md` file for the partner-facing output.
-
-Note: the committed sample was generated without `OPENAI_API_KEY`, so it uses the deterministic fallback analysis mode. The OpenAI structured-analysis path is implemented and will run when the key is set.
+- YC company export: `https://yc-oss.github.io/api/companies/all.json`
+- HN Algolia search: `https://hn.algolia.com/api`
+- Company websites (single page, best effort)

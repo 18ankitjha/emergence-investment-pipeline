@@ -1,0 +1,79 @@
+{
+  "analysis_mode": "deterministic_fallback",
+  "candidate_id": "yc-30540",
+  "cited_claims": [
+    {
+      "claim": "Product description is taken from YC metadata.",
+      "evidence_ids": [
+        "YC1",
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Company stage, status, and team size come from YC metadata.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    },
+    {
+      "claim": "Founder/team background signal was extracted from the YC description where present.",
+      "evidence_ids": [
+        "YC4"
+      ]
+    },
+    {
+      "claim": "Website evidence availability was recorded during enrichment.",
+      "evidence_ids": [
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "HN traction/freshness evidence was recorded during enrichment.",
+      "evidence_ids": [
+        "HN1"
+      ]
+    }
+  ],
+  "market_assessment": "The market read rests on the described workflow and buyer: Lumari is the world's first AI-powered procurement automation platform purpose-built for direct materials and supply chain execution. Backed by Y Combinator, Lumari is a well-funded startup that deploys 100s of always-on AI agents that run sourcing workflow... Website text adds: AI Supply Chain Platform | Lumari Skip to main content Book a Demo Book a Demo Backed by AI Platform for Supply Chain Lumari streamlines direct procurement operations with always-on systems that monitor, coordinate, a... Market size is not estimated from the packet and stays an open question. [YC3, WEB1]",
+  "open_questions": [
+    "Who is the economic buyer, and which manual budget line or headcount does this replace?",
+    "Are there paying customers or usage numbers for Lumari beyond the YC description?",
+    "What licenses, carrier partners, or regulatory approvals are required, and are they in place?",
+    "What is the initial wedge workflow and the first design-partner customer?"
+  ],
+  "product_summary": "Lumari is described as \u201cAI Digital Workers for Supply Chain\u201d. The fullest product evidence reads: Lumari is the world's first AI-powered procurement automation platform purpose-built for direct materials and supply chain execution. Backed by Y Combinator, Lumari is a well-funded startup that deploys 100s of always-on AI agents that run sourcing workflows, manage RFQs, expedite purchase orders, and coordinate sup... [YC1, YC2]",
+  "recommendation": "Watch",
+  "recommendation_rationale": "Watch: deterministic evidence-only scoring. OpenAI analysis failed and was replaced by the offline path: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/responses'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429. The call leans on YC and company-site evidence and treats HN as a weak freshness signal. YC metadata: YC batch: Spring 2025; Industry: B2B; Status: Active; Stage: Early; Team size: 5; Tags: B2B, Manufacturing, Supply Chain, Operations, AI",
+  "risks": [
+    "No Hacker News discussion was found for Lumari; external traction is unverified.",
+    "Operates in a regulated domain; licensing, audits, and long enterprise sales cycles apply.",
+    "Evidence is limited to YC metadata plus a short website scrape; customer, retention, and funding facts are unverified."
+  ],
+  "score_breakdown": {
+    "defensibility": 5,
+    "market": 11,
+    "product": 15,
+    "rationale_by_component": {
+      "defensibility": "Conservative unless workflow depth, integrations, or proprietary data are visible.",
+      "market": "SMB/mid-market and operational-domain hints only; no market sizing was attempted from the packet.",
+      "product": "AI plus workflow-execution language; website support available.",
+      "risk_adjustment": "Rewards a reachable website and any real HN discussion; penalises missing evidence.",
+      "team": "YC description adds a team signal: Founded by engineers from Google, Tesla, Amazon, and Stripe who have built and scaled supply chain systems serving millions of users. [YC4]",
+      "traction_freshness": "No Hacker News discussion was found for Lumari. YC Spring 2025 is the main freshness anchor.",
+      "why_now": "Scored on AI/agent language plus evidence that the product executes work, not just answers."
+    },
+    "risk_adjustment": 6,
+    "team": 15,
+    "total": 67,
+    "traction_freshness": 7,
+    "why_now": 8
+  },
+  "team_assessment": "YC lists Lumari as Active / Early, team size 5. YC description adds a team signal: Founded by engineers from Google, Tesla, Amazon, and Stripe who have built and scaled supply chain systems serving millions of users. [YC4] [YC3]",
+  "what_would_change_mind": [
+    "Named paying customers or usage numbers for Lumari beyond the YC blurb.",
+    "Founder-background evidence showing strong domain or technical fit for this workflow.",
+    "Proof the product executes an end-to-end workflow with integrations or proprietary data, not just chat."
+  ],
+  "why_now": "AI agents are moving from advice to execution inside operational workflows, which is where this thesis looks. Freshness/traction read: YC Spring 2025; No Hacker News discussion was found for Lumari. [HN1]",
+  "why_we_care": "Fits the thesis only if Lumari owns a repeated operating workflow rather than a thin assistant layer. The evidence points to: AI Digital Workers for Supply Chain [YC1]"
+}

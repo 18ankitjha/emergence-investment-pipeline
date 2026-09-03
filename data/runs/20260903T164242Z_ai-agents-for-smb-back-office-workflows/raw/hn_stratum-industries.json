@@ -1,0 +1,507 @@
+{
+  "filtered_hits": [],
+  "queries": [
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "lavandar-admin"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "The best startup ideas come from noticing something everyone else ignores. For me, it was watching a stadium operations manager check five different weather apps before deciding whether to cover the field.<p>He wasn't looking for a forecast. He was looking for a decision.<p>That's the gap. Weather data is abundant. Weather intelligence\u2014knowing what to do about the weather\u2014is scarce.<p>The Problem\nOperations teams in aviation, marine, construction, and events spend enormous amounts of time translating atmospheric data into actions. A pilot doesn't need to know the dew point. She needs to know if she can take off. A concert promoter doesn't care about millibars. He needs to know if he should move equipment.<p>The existing solutions fall into two categories: consumer apps that are too simple, and enterprise systems that cost six figures and take months to implement.<p>There's no middle ground. No tool that says &quot;here's what you should actually do&quot; in plain language.<p>What We Built\nLAVANDAR converts meteorological data into operational decisions. Not predictions\u2014decisions. The difference matters.<p>When you load a location, you don't see temperature and humidity. You see: &quot;PROCEED WITH CAUTION: Fog formation likely between 0400-0600. Recommend delaying ground operations until visibility exceeds 800m.&quot;<p>We built <em>industry</em>-specific modules:<p>Aviation \u2014 Go/no-go recommendations based on crosswind limits, visibility minimums, and runway conditions\nMarine \u2014 Route optimization that factors swell period, not just wave height\nConstruction \u2014 Concrete pour windows, crane operation limits, heat stress indices\nEvents \u2014 Crowd safety thresholds, lightning protocols, evacuation timing\nEverything feeds into a unified command center we call <em>STRATA</em>. One screen. Multiple locations. Real-time intelligence."
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Show HN: I built an enterprise weather intelligence platform with Lovable"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "stratum"
+                ],
+                "value": "https://preview--chrono-<em>strata</em>.lovable.app/shop"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_lavandar-admin",
+              "story_46702438",
+              "show_hn"
+            ],
+            "author": "lavandar-admin",
+            "created_at": "2026-01-21T07:50:47Z",
+            "created_at_i": 1768981847,
+            "num_comments": 0,
+            "objectID": "46702438",
+            "points": 3,
+            "story_id": 46702438,
+            "story_text": "The best startup ideas come from noticing something everyone else ignores. For me, it was watching a stadium operations manager check five different weather apps before deciding whether to cover the field.<p>He wasn&#x27;t looking for a forecast. He was looking for a decision.<p>That&#x27;s the gap. Weather data is abundant. Weather intelligence\u2014knowing what to do about the weather\u2014is scarce.<p>The Problem\nOperations teams in aviation, marine, construction, and events spend enormous amounts of time translating atmospheric data into actions. A pilot doesn&#x27;t need to know the dew point. She needs to know if she can take off. A concert promoter doesn&#x27;t care about millibars. He needs to know if he should move equipment.<p>The existing solutions fall into two categories: consumer apps that are too simple, and enterprise systems that cost six figures and take months to implement.<p>There&#x27;s no middle ground. No tool that says &quot;here&#x27;s what you should actually do&quot; in plain language.<p>What We Built\nLAVANDAR converts meteorological data into operational decisions. Not predictions\u2014decisions. The difference matters.<p>When you load a location, you don&#x27;t see temperature and humidity. You see: &quot;PROCEED WITH CAUTION: Fog formation likely between 0400-0600. Recommend delaying ground operations until visibility exceeds 800m.&quot;<p>We built industry-specific modules:<p>Aviation \u2014 Go&#x2F;no-go recommendations based on crosswind limits, visibility minimums, and runway conditions\nMarine \u2014 Route optimization that factors swell period, not just wave height\nConstruction \u2014 Concrete pour windows, crane operation limits, heat stress indices\nEvents \u2014 Crowd safety thresholds, lightning protocols, evacuation timing\nEverything feeds into a unified command center we call STRATA. One screen. Multiple locations. Real-time intelligence.",
+            "title": "Show HN: I built an enterprise weather intelligence platform with Lovable",
+            "updated_at": "2026-04-21T07:54:47Z",
+            "url": "https://preview--chrono-strata.lovable.app/shop"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "tsahaghian"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "Hi HN,<p>We're Th\u00e9ophile and Thibaut, and we're building Multis (<a href=\"https://multis.co\" rel=\"nofollow\">https://multis.co</a>): an online bank account designed for companies holding cryptocurrency. We're helping them store it, spend it and earn interest.<p>We have been in this <em>industry</em> for the past 3 years. Thibaut used to lead sales at <em>Stratumn</em>, a Nasdaq-backed company helping companies securing their shared workflows through cryptocurrencies. Th\u00e9o built several decentralized applications before starting the company in 2018.<p>Wallets are the cornerstone of the <em>industry</em>: you need them to store and transact with cryptocurrencies. But these wallets are not designed for business. You cannot perform simple business operations like running a payroll, paying vendors, or earning interest, which you can currently do from your modern business bank account.<p>Cryptocurrencies - and particularly stablecoins - are a reliable, fast and cost-efficient medium of exchange. It\u2019s a technology that enables anyone to move value and assets across borders, with no intermediaries. We believe it can help companies save a lot, since most of them are now actively transacting with partners abroad, from suppliers to foreign contractors.<p>The number of companies building and transacting with cryptocurrencies is growing (e.g. Stateofthedapp listings grew by 250% since 2017), despite still being in its infancy. Most of these companies are operating in the cryptocurrency <em>industry</em>, or are e-merchants willing to reduce payment fees and optimize working capital.<p>These companies struggle to manage their assets and make the most of them. They typically have between 5 and 10 wallets, none of them being designed for a business environment. This makes business spending and accounting still to painful and time-consuming. And cryptocurrencies sit idle, because there are just too many frictions.<p>We realized what was really needed: an application to manage cryptocurrency the same as a modern online business bank account, with features and financial services powered by both crypto and traditional currencies. In short, a crypto-first bank. Here are our main features today:<p>- Store - multi-user wallet with dashboard and transaction history<p>- Pay - spending policies and streamlined payment flows (1)<p>- Exchange - swap 70+ tokens with ethers, dollars and euros (2)<p>- Earn - savings account yielding interest on stablecoins (3)<p>- Soon: EUR and USD bank accounts<p>We will make revenues through commissions on financial services like fiat ramps, and through monthly subscriptions for premium features like accounting exports or fiat accounts.<p>Our goal of making a unified front end that works like a business bank account is challenging to achieve because the technologies we're using are very heterogenous:<p>- we have two databases: the Ethereum blockchain and Cloud Firestore<p>- we have two backends: smart contracts and Firebase Cloud functions<p>- we have two authentication systems: private keys stored on individual wallets (we're self-custodian) and email addresses<p>- we have two authorization systems: the multisignature contract owners and the owner/guest roles in our security rules<p>- we have two type of assets: cryptogoods and traditional currencies<p>- we will have two storages: IPFS and Firebase Storage<p>You can read more here about our architecture (4) and our approach to security (5).<p>Cryptocurrency is still a recent technology that generates understandable skepticism.The ICO craze did not help. We feel that payment is becoming a tangible use case though, and companies ranging from Facebook to JP Morgan are now actively investing in it. We believe more will join. There are still many uncertainties about regulations, accounting, and each new SEC or FinCEN guidance make the teams' hair turn grey. But things are moving forward on the ground, despite the excess of hype in the space.<p>We want to make Multis useful, so we have one question: what would be the key features and financial services you would expect as a company? They don't have to be related to crypto directly. We'd also love your feedback, your questions and your ideas. Thanks!<p>(1) <a href=\"https://medium.com/multis/introducing-direct-transfers-a-new-way-to-streamline-crypto-spending-with-your-team-ab44945e5a5e\" rel=\"nofollow\">https://medium.com/multis/introducing-direct-transfers-a-new...</a><p>(2) <a href=\"https://medium.com/multis/multis-launches-first-token-swap-catered-to-companies-with-kyber-integration-8eaae3977d40\" rel=\"nofollow\">https://medium.com/multis/multis-launches-first-token-swap-c...</a><p>(3) <a href=\"https://medium.com/multis/our-new-compound-integration-lets-your-company-earn-interest-on-crypto-80e7f4379b7d\" rel=\"nofollow\">https://medium.com/multis/our-new-compound-integration-lets-...</a><p>(4) <a href=\"https://medium.com/multis/imagining-a-leaner-way-how-to-ship-a-highly-dynamic-webapp-as-a-static-website-5088f83c3813\" rel=\"nofollow\">https://medium.com/multis/imagining-a-leaner-way-how-to-ship...</a><p>(5) <a href=\"https://medium.com/multis/security-at-multis-9609d346c91b\" rel=\"nofollow\">https://medium.com/multis/security-at-multis-9609d346c91b</a>"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Launch HN: Multis (YC S19): online business bank account for cryptocurrency"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_tsahaghian",
+              "story_21280238",
+              "launch_hn"
+            ],
+            "author": "tsahaghian",
+            "children": [
+              21283557,
+              21283573,
+              21283650,
+              21284662,
+              21284733,
+              21285113,
+              21287342,
+              21288024,
+              21290244
+            ],
+            "created_at": "2019-10-17T09:25:22Z",
+            "created_at_i": 1571304322,
+            "num_comments": 25,
+            "objectID": "21280238",
+            "points": 68,
+            "story_id": 21280238,
+            "story_text": "Hi HN,<p>We&#x27;re Th\u00e9ophile and Thibaut, and we&#x27;re building Multis (<a href=\"https:&#x2F;&#x2F;multis.co\" rel=\"nofollow\">https:&#x2F;&#x2F;multis.co</a>): an online bank account designed for companies holding cryptocurrency. We&#x27;re helping them store it, spend it and earn interest.<p>We have been in this industry for the past 3 years. Thibaut used to lead sales at Stratumn, a Nasdaq-backed company helping companies securing their shared workflows through cryptocurrencies. Th\u00e9o built several decentralized applications before starting the company in 2018.<p>Wallets are the cornerstone of the industry: you need them to store and transact with cryptocurrencies. But these wallets are not designed for business. You cannot perform simple business operations like running a payroll, paying vendors, or earning interest, which you can currently do from your modern business bank account.<p>Cryptocurrencies - and particularly stablecoins - are a reliable, fast and cost-efficient medium of exchange. It\u2019s a technology that enables anyone to move value and assets across borders, with no intermediaries. We believe it can help companies save a lot, since most of them are now actively transacting with partners abroad, from suppliers to foreign contractors.<p>The number of companies building and transacting with cryptocurrencies is growing (e.g. Stateofthedapp listings grew by 250% since 2017), despite still being in its infancy. Most of these companies are operating in the cryptocurrency industry, or are e-merchants willing to reduce payment fees and optimize working capital.<p>These companies struggle to manage their assets and make the most of them. They typically have between 5 and 10 wallets, none of them being designed for a business environment. This makes business spending and accounting still to painful and time-consuming. And cryptocurrencies sit idle, because there are just too many frictions.<p>We realized what was really needed: an application to manage cryptocurrency the same as a modern online business bank account, with features and financial services powered by both crypto and traditional currencies. In short, a crypto-first bank. Here are our main features today:<p>- Store - multi-user wallet with dashboard and transaction history<p>- Pay - spending policies and streamlined payment flows (1)<p>- Exchange - swap 70+ tokens with ethers, dollars and euros (2)<p>- Earn - savings account yielding interest on stablecoins (3)<p>- Soon: EUR and USD bank accounts<p>We will make revenues through commissions on financial services like fiat ramps, and through monthly subscriptions for premium features like accounting exports or fiat accounts.<p>Our goal of making a unified front end that works like a business bank account is challenging to achieve because the technologies we&#x27;re using are very heterogenous:<p>- we have two databases: the Ethereum blockchain and Cloud Firestore<p>- we have two backends: smart contracts and Firebase Cloud functions<p>- we have two authentication systems: private keys stored on individual wallets (we&#x27;re self-custodian) and email addresses<p>- we have two authorization systems: the multisignature contract owners and the owner&#x2F;guest roles in our security rules<p>- we have two type of assets: cryptogoods and traditional currencies<p>- we will have two storages: IPFS and Firebase Storage<p>You can read more here about our architecture (4) and our approach to security (5).<p>Cryptocurrency is still a recent technology that generates understandable skepticism.The ICO craze did not help. We feel that payment is becoming a tangible use case though, and companies ranging from Facebook to JP Morgan are now actively investing in it. We believe more will join. There are still many uncertainties about regulations, accounting, and each new SEC or FinCEN guidance make the teams&#x27; hair turn grey. But things are moving forward on the ground, despite the excess of hype in the space.<p>We want to make Multis useful, so we have one question: what would be the key features and financial services you would expect as a company? They don&#x27;t have to be related to crypto directly. We&#x27;d also love your feedback, your questions and your ideas. Thanks!<p>(1) <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;introducing-direct-transfers-a-new-way-to-streamline-crypto-spending-with-your-team-ab44945e5a5e\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;introducing-direct-transfers-a-new...</a><p>(2) <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;multis-launches-first-token-swap-catered-to-companies-with-kyber-integration-8eaae3977d40\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;multis-launches-first-token-swap-c...</a><p>(3) <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;our-new-compound-integration-lets-your-company-earn-interest-on-crypto-80e7f4379b7d\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;our-new-compound-integration-lets-...</a><p>(4) <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;imagining-a-leaner-way-how-to-ship-a-highly-dynamic-webapp-as-a-static-website-5088f83c3813\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;imagining-a-leaner-way-how-to-ship...</a><p>(5) <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;security-at-multis-9609d346c91b\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;security-at-multis-9609d346c91b</a>",
+            "title": "Launch HN: Multis (YC S19): online business bank account for cryptocurrency",
+            "updated_at": "2024-09-20T05:02:22Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "ks2048"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "Y Combinator backs its first defense <em>startup</em>, Ares <em>Industries</em>"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "https://techcrunch.com/2024/08/25/y-combinator-backs-its-first-defense-<em>startup</em>-ares-<em>industries</em>/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_ks2048",
+              "story_41352537"
+            ],
+            "author": "ks2048",
+            "children": [
+              41352774,
+              41352803,
+              41352838,
+              41352870,
+              41352918,
+              41352942,
+              41352985,
+              41353003,
+              41353034,
+              41353048,
+              41353069,
+              41353082,
+              41353095,
+              41353130,
+              41353158,
+              41353165,
+              41353199,
+              41354420,
+              41355691,
+              41361184,
+              41385503
+            ],
+            "created_at": "2024-08-25T23:40:01Z",
+            "created_at_i": 1724629201,
+            "num_comments": 117,
+            "objectID": "41352537",
+            "points": 67,
+            "story_id": 41352537,
+            "title": "Y Combinator backs its first defense startup, Ares Industries",
+            "updated_at": "2025-08-14T22:33:32Z",
+            "url": "https://techcrunch.com/2024/08/25/y-combinator-backs-its-first-defense-startup-ares-industries/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "daleharvey"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": ""
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "I'm calling a 'time of death' for London's Internet <em>startup</em> <em>industry</em>"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "http://www.guardian.co.uk/technology/2009/jul/10/not-safe-for-work-internet-london"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_daleharvey",
+              "story_697555"
+            ],
+            "author": "daleharvey",
+            "children": [
+              697621,
+              697662,
+              697670,
+              697746,
+              697757,
+              697786,
+              697798
+            ],
+            "created_at": "2009-07-10T12:33:21Z",
+            "created_at_i": 1247229201,
+            "num_comments": 19,
+            "objectID": "697555",
+            "points": 38,
+            "story_id": 697555,
+            "story_text": "",
+            "title": "I'm calling a 'time of death' for London's Internet startup industry",
+            "updated_at": "2024-09-19T16:44:37Z",
+            "url": "http://www.guardian.co.uk/technology/2009/jul/10/not-safe-for-work-internet-london"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "bonesinger"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "About me: I'm a 3rd year in law school. I'm majoring in tax and intellectual property and I'm very much interested in Entrepreneurship. I am 2 credits short of the required amount to practice before the US Patent Office.<p>I am tech-savvy, but to an extent. I've dabbled in C++ and Java (beginner skill) and web design (beginner as well). I subscribed to teamtreehouse and I've been learning quite a bit! I enjoy the videos and have worked my way through all the HTML and CSS videos. I've watched videos on iOS development as well.<p>What I want to do: I want to build upon some ideas but I'm sick and tired of reading books. I like the field of law but I find myself reading tech news and reading about the newest technologies more than law.<p>I'm finishing up school but I want to work in the tech field. I want to gain experience in startups both in the legal and technical aspect. There are very few opportunities for entrepreneurship in my school thus I'm reaching here for hands on experience. I cannot offer legal advice until I'm a full-fledged attorney but I do want to volunteer and help out regardless of whether its paid or unpaid.<p>If I don't take some sort of initiative I won't be able to get into the field."
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "I want to get into the <em>startup</em> <em>industry</em>, where do I start?"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_bonesinger",
+              "story_3275781",
+              "ask_hn"
+            ],
+            "author": "bonesinger",
+            "children": [
+              3275809,
+              3275821,
+              3275826,
+              3275892,
+              3275896,
+              3275899,
+              3275937,
+              3275985,
+              3275999,
+              3276034,
+              3276038,
+              3276474,
+              3276569,
+              3296516
+            ],
+            "created_at": "2011-11-25T00:12:30Z",
+            "created_at_i": 1322179950,
+            "num_comments": 30,
+            "objectID": "3275781",
+            "points": 30,
+            "story_id": 3275781,
+            "story_text": "About me: I'm a 3rd year in law school. I'm majoring in tax and intellectual property and I'm very much interested in Entrepreneurship. I am 2 credits short of the required amount to practice before the US Patent Office.<p>I am tech-savvy, but to an extent. I've dabbled in C++ and Java (beginner skill) and web design (beginner as well). I subscribed to teamtreehouse and I've been learning quite a bit! I enjoy the videos and have worked my way through all the HTML and CSS videos. I've watched videos on iOS development as well.<p>What I want to do: I want to build upon some ideas but I'm sick and tired of reading books. I like the field of law but I find myself reading tech news and reading about the newest technologies more than law.<p>I'm finishing up school but I want to work in the tech field. I want to gain experience in startups both in the legal and technical aspect. There are very few opportunities for entrepreneurship in my school thus I'm reaching here for hands on experience. I cannot offer legal advice until I'm a full-fledged attorney but I do want to volunteer and help out regardless of whether its paid or unpaid.<p>If I don't take some sort of initiative I won't be able to get into the field.",
+            "title": "I want to get into the startup industry, where do I start?",
+            "updated_at": "2024-09-19T18:09:07Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "nextstep"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": ""
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "How The JOBS Act will hurt the <em>startup</em> <em>industry</em>"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "http://thenextweb.com/2012/04/05/how-the-jobs-act-will-hurt-the-<em>startup</em>-<em>industry</em>/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_nextstep",
+              "story_3803014"
+            ],
+            "author": "nextstep",
+            "children": [
+              3803096,
+              3803216,
+              3803331,
+              3803339,
+              3803411,
+              3803427,
+              3803456,
+              3803491,
+              3803504,
+              3803515,
+              3803865,
+              3803964,
+              3804559
+            ],
+            "created_at": "2012-04-05T15:35:28Z",
+            "created_at_i": 1333640128,
+            "num_comments": 27,
+            "objectID": "3803014",
+            "points": 26,
+            "story_id": 3803014,
+            "story_text": "",
+            "title": "How The JOBS Act will hurt the startup industry",
+            "updated_at": "2023-09-06T21:25:44Z",
+            "url": "http://thenextweb.com/2012/04/05/how-the-jobs-act-will-hurt-the-startup-industry/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "sliggity"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": ""
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "Lessons From a Failed <em>Startup</em>: Hangout <em>Industries</em>"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "http://bostinnovation.com/2011/05/18/lessons-from-a-failed-<em>startup</em>-hangout-<em>industries</em>/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_sliggity",
+              "story_2560370"
+            ],
+            "author": "sliggity",
+            "created_at": "2011-05-18T15:06:51Z",
+            "created_at_i": 1305731211,
+            "num_comments": 0,
+            "objectID": "2560370",
+            "points": 8,
+            "story_id": 2560370,
+            "story_text": "",
+            "title": "Lessons From a Failed Startup: Hangout Industries",
+            "updated_at": "2024-09-19T17:44:50Z",
+            "url": "http://bostinnovation.com/2011/05/18/lessons-from-a-failed-startup-hangout-industries/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "davrosthedalek"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "stratum"
+                ],
+                "value": "The title pretty much says it all. At some point in the life of a phd student or postdoc, one has to decide whether one wants to follow the academic path, or switch gears and work in the private sector.<p>I am a postdoc in nuclear physics at an renowned US institute, but my time there runs out. So I am in the same spot. It is easy enough to ask people who choose the academic path, but that is certainly one-sided. Since I, personally, wouldn't want to work for a big company but rather at a <em>startup</em> where I have some impact, I hope this is a good forum to get some insights.<p>So, who here had the same decision to make? What made you decide? Money? The possibility to create something by yourself?\nDid you feel a \"calling\" to start or work at a <em>startup</em>? \nDid anybody regret it?<p>The other question would be: Is there actually interest in physicists?"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "Ask HN: Academia or <em>Startup</em>/<em>Industry</em>?"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_davrosthedalek",
+              "story_4472076",
+              "ask_hn"
+            ],
+            "author": "davrosthedalek",
+            "children": [
+              4472266,
+              4472314,
+              4472499,
+              4472645,
+              4473015,
+              4481595
+            ],
+            "created_at": "2012-09-03T22:32:19Z",
+            "created_at_i": 1346711539,
+            "num_comments": 14,
+            "objectID": "4472076",
+            "points": 7,
+            "story_id": 4472076,
+            "story_text": "The title pretty much says it all. At some point in the life of a phd student or postdoc, one has to decide whether one wants to follow the academic path, or switch gears and work in the private sector.<p>I am a postdoc in nuclear physics at an renowned US institute, but my time there runs out. So I am in the same spot. It is easy enough to ask people who choose the academic path, but that is certainly one-sided. Since I, personally, wouldn't want to work for a big company but rather at a startup where I have some impact, I hope this is a good forum to get some insights.<p>So, who here had the same decision to make? What made you decide? Money? The possibility to create something by yourself?\nDid you feel a \"calling\" to start or work at a startup? \nDid anybody regret it?<p>The other question would be: Is there actually interest in physicists?",
+            "title": "Ask HN: Academia or Startup/Industry?",
+            "updated_at": "2023-09-06T21:05:17Z"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 1511,
+        "nbPages": 125,
+        "page": 0,
+        "params": "query=Stratum+Industries&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 18,
+        "processingTimingsMS": {
+          "_request": {
+            "queue": 14,
+            "roundTrip": 19
+          },
+          "afterFetch": {
+            "format": {
+              "highlighting": 1,
+              "total": 1
+            }
+          },
+          "fetch": {
+            "query": 11,
+            "scanning": 5,
+            "total": 17
+          },
+          "total": 18
+        },
+        "query": "Stratum Industries",
+        "serverTimeMS": 34
+      },
+      "query": "Stratum Industries"
+    },
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [],
+        "hitsPerPage": 8,
+        "nbHits": 0,
+        "nbPages": 0,
+        "page": 0,
+        "params": "query=stratumindustries.co&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 7,
+        "processingTimingsMS": {
+          "_request": {
+            "queue": 13,
+            "roundTrip": 15
+          },
+          "fetch": {
+            "query": 5,
+            "total": 6
+          },
+          "total": 7
+        },
+        "query": "stratumindustries.co",
+        "serverTimeMS": 20
+      },
+      "query": "stratumindustries.co"
+    }
+  ]
+}

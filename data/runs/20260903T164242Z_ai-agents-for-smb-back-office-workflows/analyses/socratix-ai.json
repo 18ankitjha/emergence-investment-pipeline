@@ -1,0 +1,78 @@
+{
+  "analysis_mode": "deterministic_fallback",
+  "candidate_id": "yc-30726",
+  "cited_claims": [
+    {
+      "claim": "Product description is taken from YC metadata.",
+      "evidence_ids": [
+        "YC1",
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Company stage, status, and team size come from YC metadata.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    },
+    {
+      "claim": "Founder/team background signal was extracted from the YC description where present.",
+      "evidence_ids": [
+        "YC4"
+      ]
+    },
+    {
+      "claim": "Website evidence availability was recorded during enrichment.",
+      "evidence_ids": [
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "HN traction/freshness evidence was recorded during enrichment.",
+      "evidence_ids": [
+        "HN1"
+      ]
+    }
+  ],
+  "market_assessment": "The market read rests on the described workflow and buyer: Socratix builds AI coworkers for fraud and compliance teams so that humans don't have to spend their days drowning in alerts and spreadsheets. Today, fraud and risk teams at fintechs and banks are overwhelmed. Analysts jump between tools, manually stitch to... Website text adds: Socratix AI \u2014 AI coworkers for fraud, financial crimes & compliance New First Community Bank reviews every check for fraud First Community Bank and Trust Reviews 100% of Its Checks for Fraud Read Read the story \u2192 Buil... Market size is not estimated from the packet and stays an open question. [YC3, WEB1]",
+  "open_questions": [
+    "Who is the economic buyer, and which manual budget line or headcount does this replace?",
+    "Are there paying customers or usage numbers for Socratix AI beyond the YC description?",
+    "What licenses, carrier partners, or regulatory approvals are required, and are they in place?"
+  ],
+  "product_summary": "Socratix AI is described as \u201cAI coworkers for fraud and compliance teams.\u201d. The fullest product evidence reads: Socratix builds AI coworkers for fraud and compliance teams so that humans don't have to spend their days drowning in alerts and spreadsheets. Today, fraud and risk teams at fintechs and banks are overwhelmed. Analysts jump between tools, manually stitch together context, and make judgment calls under pressure, ofte... [YC1, YC2]",
+  "recommendation": "Watch",
+  "recommendation_rationale": "Watch: deterministic evidence-only scoring. OpenAI analysis failed and was replaced by the offline path: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/responses'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429. The call leans on YC and company-site evidence and treats HN as a weak freshness signal. YC metadata: YC batch: Summer 2025; Industry: B2B; Status: Active; Stage: Early; Team size: 4",
+  "risks": [
+    "No Hacker News discussion was found for Socratix AI; external traction is unverified.",
+    "Operates in a regulated domain; licensing, audits, and long enterprise sales cycles apply.",
+    "Revenue and growth figures are self-reported in the YC profile (YC2) and not independently verified."
+  ],
+  "score_breakdown": {
+    "defensibility": 5,
+    "market": 11,
+    "product": 15,
+    "rationale_by_component": {
+      "defensibility": "Conservative unless workflow depth, integrations, or proprietary data are visible.",
+      "market": "SMB/mid-market and operational-domain hints only; no market sizing was attempted from the packet.",
+      "product": "AI plus workflow-execution language; website support available.",
+      "risk_adjustment": "Rewards a reachable website and any real HN discussion; penalises missing evidence.",
+      "team": "YC description adds a team signal: At Cruise, Satya built scalable AI systems powering petabyte-scale data, and at LinkedIn, he built enterprise products from 0 to 1 generating $50M+ in incremental revenue. [YC4]",
+      "traction_freshness": "No Hacker News discussion was found for Socratix AI. YC Summer 2025 is the main freshness anchor.",
+      "why_now": "Scored on AI/agent language plus evidence that the product executes work, not just answers."
+    },
+    "risk_adjustment": 6,
+    "team": 15,
+    "total": 70,
+    "traction_freshness": 10,
+    "why_now": 8
+  },
+  "team_assessment": "YC lists Socratix AI as Active / Early, team size 4. YC description adds a team signal: At Cruise, Satya built scalable AI systems powering petabyte-scale data, and at LinkedIn, he built enterprise products from 0 to 1 generating $50M+ in incremental revenue. [YC4] [YC3]",
+  "what_would_change_mind": [
+    "Named paying customers or usage numbers for Socratix AI beyond the YC blurb.",
+    "Founder-background evidence showing strong domain or technical fit for this workflow.",
+    "Proof the product executes an end-to-end workflow with integrations or proprietary data, not just chat."
+  ],
+  "why_now": "AI agents are moving from advice to execution inside operational workflows, which is where this thesis looks. Freshness/traction read: YC Summer 2025; No Hacker News discussion was found for Socratix AI. [HN1]",
+  "why_we_care": "Fits the thesis only if Socratix AI owns a repeated operating workflow rather than a thin assistant layer. The evidence points to: AI coworkers for fraud and compliance teams. [YC1]"
+}

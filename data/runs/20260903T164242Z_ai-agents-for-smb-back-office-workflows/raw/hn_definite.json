@@ -1,0 +1,712 @@
+{
+  "filtered_hits": [
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "richeyrw"
+        },
+        "story_text": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": ""
+        },
+        "title": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "definite"
+          ],
+          "value": "The oldest \"0\" in India for which one can assign a <em>definite</em> date"
+        },
+        "url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "http://www.ams.org/samplings/feature-column/fcarc-india-zero"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_richeyrw",
+        "story_5763402"
+      ],
+      "author": "richeyrw",
+      "children": [
+        5763840,
+        5763873,
+        5763925,
+        5764142,
+        5764177,
+        5764416,
+        5764526,
+        5764541,
+        5765990,
+        5766554,
+        5766819
+      ],
+      "created_at": "2013-05-24T15:27:40Z",
+      "created_at_i": 1369409260,
+      "num_comments": 28,
+      "objectID": "5763402",
+      "points": 119,
+      "story_id": 5763402,
+      "story_text": "",
+      "title": "The oldest \"0\" in India for which one can assign a definite date",
+      "updated_at": "2024-09-19T19:40:35Z",
+      "url": "http://www.ams.org/samplings/feature-column/fcarc-india-zero"
+    }
+  ],
+  "queries": [
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Flimm"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "Passkey technology is elegant, but it's most <em>definite</em>ly not usable security"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "https://arstechnica.com/security/2024/12/passkey-technology-is-elegant-but-its-most-<em>definite</em>ly-not-usable-security/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_Flimm",
+              "story_42548719"
+            ],
+            "author": "Flimm",
+            "children": [
+              42548985,
+              42549027,
+              42549030,
+              42549062,
+              42549065,
+              42549067,
+              42549078,
+              42549162,
+              42549221,
+              42549317,
+              42549341,
+              42549437,
+              42549531,
+              42549665,
+              42549723,
+              42549771,
+              42549885,
+              42550058,
+              42550187,
+              42550205,
+              42550273,
+              42550343,
+              42550422,
+              42550600,
+              42550712,
+              42550761,
+              42550952,
+              42550971,
+              42551549,
+              42551809,
+              42552025,
+              42552043,
+              42552089,
+              42552150,
+              42552184,
+              42552326,
+              42552575,
+              42552722,
+              42552891,
+              42553783,
+              42554116,
+              42554160,
+              42554291,
+              42554723,
+              42555321,
+              42556662,
+              42556737,
+              42557961,
+              42562391,
+              42593808
+            ],
+            "created_at": "2024-12-30T12:31:39Z",
+            "created_at_i": 1735561899,
+            "num_comments": 361,
+            "objectID": "42548719",
+            "points": 377,
+            "story_id": 42548719,
+            "title": "Passkey technology is elegant, but it's most definitely not usable security",
+            "updated_at": "2026-05-12T19:53:55Z",
+            "url": "https://arstechnica.com/security/2024/12/passkey-technology-is-elegant-but-its-most-definitely-not-usable-security/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "joozio"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "I am <em>definite</em>ly missing the pre-AI writing era"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-<em>definite</em>ly-missing-the-pre-ai-writing-era"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_joozio",
+              "story_47571279"
+            ],
+            "author": "joozio",
+            "children": [
+              47571359,
+              47571489,
+              47571537,
+              47571795,
+              47571798,
+              47571814,
+              47571840,
+              47571897,
+              47571899,
+              47571926,
+              47571969,
+              47572342,
+              47572377,
+              47572407,
+              47572521,
+              47572602,
+              47572735,
+              47573997,
+              47574399,
+              47575563,
+              47576406,
+              47576473,
+              47576486,
+              47576525,
+              47576585,
+              47576692,
+              47576926,
+              47577039,
+              47577218,
+              47577392,
+              47577529,
+              47577688,
+              47577770,
+              47577812,
+              47577966,
+              47578023,
+              47578414,
+              47578597,
+              47578602,
+              47579057,
+              47579088,
+              47579112,
+              47579227,
+              47579426,
+              47579932,
+              47580556,
+              47581145,
+              47581278,
+              47581331,
+              47581514,
+              47581571,
+              47581908,
+              47582643,
+              47582923,
+              47583258,
+              47583828,
+              47587648
+            ],
+            "created_at": "2026-03-30T07:03:18Z",
+            "created_at_i": 1774854198,
+            "num_comments": 240,
+            "objectID": "47571279",
+            "points": 322,
+            "story_id": 47571279,
+            "title": "I am definitely missing the pre-AI writing era",
+            "updated_at": "2026-08-07T15:14:29Z",
+            "url": "https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "bwb"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "Sci-fi books that you may never have heard of, but <em>definite</em>ly should read"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "https://shepherd.com/best-books/science-fiction-that-you-should-<em>definite</em>ly-read"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_bwb",
+              "story_41969334"
+            ],
+            "author": "bwb",
+            "children": [
+              41969335,
+              41969348,
+              41969379,
+              41969462,
+              41969471,
+              41969491,
+              41969492,
+              41969507,
+              41969520,
+              41969544,
+              41969567,
+              41969577,
+              41969581,
+              41969584,
+              41969626,
+              41969635,
+              41969636,
+              41969642,
+              41969648,
+              41969679,
+              41969717,
+              41969998,
+              41972890,
+              41973350,
+              41974173,
+              41974988,
+              41977767,
+              41977916,
+              41978314,
+              41978692,
+              41978704,
+              41978771,
+              41978869,
+              41978944,
+              41979036,
+              41979724,
+              41979866,
+              41980137,
+              41980958,
+              41981901,
+              41981960,
+              41982004,
+              41982279,
+              41983769,
+              41983809,
+              41983990,
+              41984088,
+              41984128,
+              41984294,
+              41984958,
+              41985856,
+              41986492,
+              41986769,
+              41986806,
+              41987309,
+              41988610,
+              41989123,
+              41989768,
+              41989859,
+              41991435,
+              41992283,
+              41992979,
+              42003235,
+              42020741
+            ],
+            "created_at": "2024-10-28T09:45:39Z",
+            "created_at_i": 1730108739,
+            "num_comments": 314,
+            "objectID": "41969334",
+            "points": 315,
+            "story_id": 41969334,
+            "title": "Sci-fi books that you may never have heard of, but definitely should read",
+            "updated_at": "2026-03-03T20:01:50Z",
+            "url": "https://shepherd.com/best-books/science-fiction-that-you-should-definitely-read"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Libertatea"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "Microsoft: An Open Source Windows Is '<em>Definite</em>ly Possible'"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "http://www.wired.com/2015/04/microsoft-open-source-windows-<em>definite</em>ly-possible/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_Libertatea",
+              "story_9315277"
+            ],
+            "author": "Libertatea",
+            "children": [
+              9315442,
+              9315462,
+              9315463,
+              9315469,
+              9315488,
+              9315489,
+              9315490,
+              9315492,
+              9315504,
+              9315507,
+              9315508,
+              9315513,
+              9315521,
+              9315528,
+              9315531,
+              9315588,
+              9315593,
+              9315608,
+              9315624,
+              9315634,
+              9315688,
+              9315759,
+              9315769,
+              9315831,
+              9315848,
+              9315876,
+              9315883,
+              9316285,
+              9316328
+            ],
+            "created_at": "2015-04-03T11:30:15Z",
+            "created_at_i": 1428060615,
+            "num_comments": 186,
+            "objectID": "9315277",
+            "points": 152,
+            "story_id": 9315277,
+            "title": "Microsoft: An Open Source Windows Is 'Definitely Possible'",
+            "updated_at": "2025-09-21T20:52:36Z",
+            "url": "http://www.wired.com/2015/04/microsoft-open-source-windows-definitely-possible/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "mndtzn"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "Bruce Schneier: China and Russia Almost <em>Definite</em>ly Have the Snowden Docs"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "http://www.wired.com/2015/06/course-china-russia-snowden-documents"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_mndtzn",
+              "story_9750650"
+            ],
+            "author": "mndtzn",
+            "children": [
+              9750700,
+              9750751,
+              9750798,
+              9750826,
+              9750941,
+              9751004,
+              9751136,
+              9751157,
+              9751253,
+              9751368,
+              9751430,
+              9752040,
+              9752042,
+              9752516,
+              9753129
+            ],
+            "created_at": "2015-06-20T18:29:05Z",
+            "created_at_i": 1434824945,
+            "num_comments": 52,
+            "objectID": "9750650",
+            "points": 120,
+            "story_id": 9750650,
+            "title": "Bruce Schneier: China and Russia Almost Definitely Have the Snowden Docs",
+            "updated_at": "2023-09-07T03:01:12Z",
+            "url": "http://www.wired.com/2015/06/course-china-russia-snowden-documents"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "richeyrw"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": ""
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "The oldest \"0\" in India for which one can assign a <em>definite</em> date"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "http://www.ams.org/samplings/feature-column/fcarc-india-zero"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_richeyrw",
+              "story_5763402"
+            ],
+            "author": "richeyrw",
+            "children": [
+              5763840,
+              5763873,
+              5763925,
+              5764142,
+              5764177,
+              5764416,
+              5764526,
+              5764541,
+              5765990,
+              5766554,
+              5766819
+            ],
+            "created_at": "2013-05-24T15:27:40Z",
+            "created_at_i": 1369409260,
+            "num_comments": 28,
+            "objectID": "5763402",
+            "points": 119,
+            "story_id": 5763402,
+            "story_text": "",
+            "title": "The oldest \"0\" in India for which one can assign a definite date",
+            "updated_at": "2024-09-19T19:40:35Z",
+            "url": "http://www.ams.org/samplings/feature-column/fcarc-india-zero"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "bcl"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": ""
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "Rocket Engine Pulled From the Ocean <em>Definite</em>ly Belonged to Apollo 11"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "http://www.wired.com/wiredscience/2013/07/bezos-apollo-11/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_bcl",
+              "story_6073598"
+            ],
+            "author": "bcl",
+            "children": [
+              6073804
+            ],
+            "created_at": "2013-07-19T23:26:57Z",
+            "created_at_i": 1374276417,
+            "num_comments": 1,
+            "objectID": "6073598",
+            "points": 91,
+            "story_id": 6073598,
+            "story_text": "",
+            "title": "Rocket Engine Pulled From the Ocean Definitely Belonged to Apollo 11",
+            "updated_at": "2023-09-06T21:47:27Z",
+            "url": "http://www.wired.com/wiredscience/2013/07/bezos-apollo-11/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "prajjwal"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": ""
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "definite"
+                ],
+                "value": "It's <em>definite</em>ly a bubble"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "http://scripting.com/stories/2012/04/19/itsDefinitelyABubble.html"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_prajjwal",
+              "story_3867138"
+            ],
+            "author": "prajjwal",
+            "children": [
+              3867685,
+              3867785,
+              3867889,
+              3867912,
+              3867958,
+              3867985,
+              3868111,
+              3868163,
+              3868166,
+              3868183,
+              3868231,
+              3868403,
+              3868430,
+              3868717,
+              3868753,
+              3868979,
+              3869639
+            ],
+            "created_at": "2012-04-20T09:26:39Z",
+            "created_at_i": 1334913999,
+            "num_comments": 62,
+            "objectID": "3867138",
+            "points": 79,
+            "story_id": 3867138,
+            "story_text": "",
+            "title": "It's definitely a bubble",
+            "updated_at": "2024-09-19T18:29:56Z",
+            "url": "http://scripting.com/stories/2012/04/19/itsDefinitelyABubble.html"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 8231,
+        "nbPages": 125,
+        "page": 0,
+        "params": "query=Definite&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 8,
+        "processingTimingsMS": {
+          "_request": {
+            "queue": 117,
+            "roundTrip": 16
+          },
+          "fetch": {
+            "query": 3,
+            "scanning": 3,
+            "total": 7
+          },
+          "total": 8
+        },
+        "query": "Definite",
+        "serverTimeMS": 126
+      },
+      "query": "Definite"
+    },
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [],
+        "hitsPerPage": 8,
+        "nbHits": 0,
+        "nbPages": 0,
+        "page": 0,
+        "params": "query=usedefinite.com&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 25,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 17
+          },
+          "fetch": {
+            "query": 21,
+            "scanning": 2,
+            "total": 24
+          },
+          "total": 25
+        },
+        "query": "usedefinite.com",
+        "serverTimeMS": 25
+      },
+      "query": "usedefinite.com"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "candidate": {
+    "batch": "Summer 2025",
+    "description": "Risely\u2019s AI agents will form the new operating system for universities, improving retention, staff productivity, and efficiency. Our platform integrates directly into existing university systems (SIS, LMS, CRM), learns each institution\u2019s unique workflows, and deploys specialized AI agents. This dramatically reduces the $735 billion universities spend annually on administrative labor, expands staff capacity without increasing headcount, and improves the student experience.\r\n\r\nThis hasn't been done before because university workflows require nuanced, autonomous judgment, exactly what agentic AI was designed to solve. Our team uniquely combines deep expertise in higher education, enterprise-scale AI, and regulated enterprise sales.\r\n\r\nSadia previously built Salesforce\u2019s Education Cloud from scratch, creating the core Student Information System widely used across higher education. She deeply understands university operations and maintains trusted relationships with hundreds of higher-ed CIOs and Provosts.\r\n\r\nDanial was one of DoorDash\u2019s earliest engineers, where he architected and scaled complex systems from zero to billions of transactions, including their search, recommendation, and Voice AI platforms. He knows how to build robust AI solutions that reliably perform at enterprise scale. \r\n\r\nShahryar was a GM at Airwallex, where he built the entire Americas business from 0 to 1 and drove 11x revenue growth.  He\u2019s also a master closer, single-handedly securing over $17M in enterprise deals at NerdWallet.  He\u2019s a relentless startup executor with deep expertise launching and scaling go-to-market machines in highly regulated industries.\r\n\r\nWe launched six weeks ago and are already at $8k MRR, growing 55% week-over-week -- one of the fastest ramps ever in higher ed. Universities urgently need solutions that expand labor capacity and efficiency, especially as they face unprecedented budget pressure and staffing shortages.\r\n\r\nWith unmatched buyer access, deep technical expertise, and rapid early traction, we are perfectly positioned to own this enormous market.",
+    "id": "yc-30724",
+    "industry": "Education",
+    "name": "Risely AI",
+    "one_liner": "AI agents that automate administrative work across college campuses.",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T16:42:42.783545Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Risely AI",
+        "url": "https://www.ycombinator.com/companies/risely-ai"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [],
+    "team_size": 8,
+    "website": "https://www.risely.ai/"
+  },
+  "evidence": [
+    {
+      "candidate_id": "yc-30724",
+      "category": "product",
+      "claim": "Risely AI: AI agents that automate administrative work across college campuses.",
+      "confidence": "high",
+      "evidence_id": "YC1",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/risely-ai"
+    },
+    {
+      "candidate_id": "yc-30724",
+      "category": "product",
+      "claim": "Risely\u2019s AI agents will form the new operating system for universities, improving retention, staff productivity, and efficiency. Our platform integrates directly into existing university systems (SIS, LMS, CRM), learns each institution\u2019s unique workflows, and deploys specialized AI agents. This dramatically reduces the $735 billion universities spend annually on administrative labor, expands staff capacity without increasing headcount, and improves the student experience. This hasn't been done before because university workflows require nuanced, autonomous judgment, exactly what agentic AI was designed to solve. Our team uniquely combines deep expertise in higher education, enterprise-scale",
+      "confidence": "high",
+      "evidence_id": "YC2",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/risely-ai"
+    },
+    {
+      "candidate_id": "yc-30724",
+      "category": "source",
+      "claim": "YC batch: Summer 2025; Industry: Education; Status: Active; Stage: Early; Team size: 8",
+      "confidence": "high",
+      "evidence_id": "YC3",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/risely-ai"
+    },
+    {
+      "candidate_id": "yc-30724",
+      "category": "team",
+      "claim": "Sadia previously built Salesforce\u2019s Education Cloud from scratch, creating the core Student Information System widely used across higher education.",
+      "confidence": "high",
+      "evidence_id": "YC4",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/risely-ai"
+    },
+    {
+      "candidate_id": "yc-30724",
+      "category": "website",
+      "claim": "Risely | The University OS Skip to main content Schedule a demo Welcome to the Agentic Campus that answers every family in minutes. catches the leaving student in week 3. keeps every degree on schedule. reaches the donors nobody had time to call. sends aid out in days instead of weeks. posts transfer credits before orientation. shows advisors the whole student. makes the transcript chase itself. moves five systems with one approval. notices the quiet student. catches summer melt in June. gives every inquiry a real answer. builds the factbook itself. starts career prep in year two. keeps staff with students. Welcome to the Agentic Campus \u2122 that answers every family in minutes. Risely connects every system on campus, unifies your data into one living record of the institution, and gives every department AI agents that work from it: more capacity, faster answers, and nothing lost between offices. Schedule a demo Explore the platform Agentic intelligence across every part of campus Enrollm",
+      "confidence": "medium",
+      "evidence_id": "WEB1",
+      "source": "website",
+      "url": "https://www.risely.ai/"
+    },
+    {
+      "candidate_id": "yc-30724",
+      "category": "traction",
+      "claim": "HN story 'Launch HN: Risely (YC S25) \u2013 AI Agents for Universities' had 45 points and 19 comments as of source fetch; created_at=2025-09-03T15:21:35Z.",
+      "confidence": "medium",
+      "evidence_id": "HN1",
+      "source": "hn",
+      "url": "https://news.ycombinator.com/item?id=45116859"
+    }
+  ],
+  "generated_at": "2026-09-03T16:43:16.673425Z"
+}

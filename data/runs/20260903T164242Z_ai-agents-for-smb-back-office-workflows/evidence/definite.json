@@ -1,0 +1,79 @@
+{
+  "candidate": {
+    "batch": "Summer 2026",
+    "description": "Definite is where finance teams build everyday back-office agents on one live model of their books. We plug into your ERP, ledger, payroll, and payments read-only and compile everything into one clean model that stays current as money moves. Your back-office team then builds agents on top in plain English. We never write back and we never move money. The agents are yours, the plumbing is ours.\r\n\r\nWe met in first year computer science at Waterloo and interned at Meta, Optiver, and BitGo. At Optiver they ran an n8n hackathon and the interns automated basically nothing. It couldn't talk to the systems that mattered. When we pitched banks and fintechs on agents, they kept telling us the same thing. The agent isn't the hard part, getting clean data out of their systems is.\r\n\r\nRight now, automating anything in a back office means engineers hand-stitching data from a dozen sources in different formats on different schedules. Tools like n8n and Workato assume your data is already clean and joined. In finance it never is. So the teams with the most repetitive work and smallest budgets get nothing.\r\n\r\nThe hard part is the compiler. Every source gets cleaned, matched, and joined into one live model of transactions, invoices, vendors, and payments, and it has to stay right as money lands every day. \r\n\r\nEveryone throws engineers at this. We're doing it once so nobody has to again. Every back office is getting agents eventually. Whoever owns the data they read from owns the thing all of them depend on, and eventually the books themselves. That's what we're building.\r\n",
+    "id": "yc-32286",
+    "industry": "B2B",
+    "name": "Definite",
+    "one_liner": "Build everyday back-office agents on one live model of your books",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T16:42:42.785995Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Definite",
+        "url": "https://www.ycombinator.com/companies/definite"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "Artificial Intelligence",
+      "Fintech",
+      "SaaS",
+      "Finance"
+    ],
+    "team_size": 3,
+    "website": "https://www.usedefinite.com"
+  },
+  "evidence": [
+    {
+      "candidate_id": "yc-32286",
+      "category": "product",
+      "claim": "Definite: Build everyday back-office agents on one live model of your books",
+      "confidence": "high",
+      "evidence_id": "YC1",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/definite"
+    },
+    {
+      "candidate_id": "yc-32286",
+      "category": "product",
+      "claim": "Definite is where finance teams build everyday back-office agents on one live model of their books. We plug into your ERP, ledger, payroll, and payments read-only and compile everything into one clean model that stays current as money moves. Your back-office team then builds agents on top in plain English. We never write back and we never move money. The agents are yours, the plumbing is ours. We met in first year computer science at Waterloo and interned at Meta, Optiver, and BitGo. At Optiver they ran an n8n hackathon and the interns automated basically nothing. It couldn't talk to the systems that mattered. When we pitched banks and fintechs on agents, they kept telling us the same thing.",
+      "confidence": "high",
+      "evidence_id": "YC2",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/definite"
+    },
+    {
+      "candidate_id": "yc-32286",
+      "category": "source",
+      "claim": "YC batch: Summer 2026; Industry: B2B; Status: Active; Stage: Early; Team size: 3; Tags: Artificial Intelligence, Fintech, SaaS, Finance",
+      "confidence": "high",
+      "evidence_id": "YC3",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/definite"
+    },
+    {
+      "candidate_id": "yc-32286",
+      "category": "website",
+      "claim": "Definite | Make every dollar work harder Y Definite is backed by Y Combinator \u2014 find out more \u2192 Make every dollar work harder. Definite connects your financial stack, continuously finds opportunities to improve cash, margin, and runway, and gives finance the evidence and workflow to capture the value. See Definite in action Explore how it works Most finance software helps you measure the business. Definite helps you move the numbers. Definite runs a continuous control loop over your financial stack. It works through every new financial event \u2014 whether or not anyone is logged in \u2014 and brings finance only the decisions that need judgment. 01 \u00b7 Connect One financial truth Read-only connections to accounting, bank, spend, payroll, billing, and contracts resolve into one model. The same vendor in your ERP, card feed, and a signed PDF becomes one entity. 02 \u00b7 Find Plays run continuously A standard library of plays tests expected state against actual state \u2014 on every new invoice, payment, hir",
+      "confidence": "medium",
+      "evidence_id": "WEB1",
+      "source": "website",
+      "url": "https://www.usedefinite.com"
+    },
+    {
+      "candidate_id": "yc-32286",
+      "category": "traction",
+      "claim": "HN story 'The oldest \"0\" in India for which one can assign a definite date' had 119 points and 28 comments as of source fetch; created_at=2013-05-24T15:27:40Z. Submitted URL: http://www.ams.org/samplings/feature-column/fcarc-india-zero.",
+      "confidence": "medium",
+      "evidence_id": "HN1",
+      "source": "hn",
+      "url": "https://news.ycombinator.com/item?id=5763402"
+    }
+  ],
+  "generated_at": "2026-09-03T16:43:39.215654Z"
+}

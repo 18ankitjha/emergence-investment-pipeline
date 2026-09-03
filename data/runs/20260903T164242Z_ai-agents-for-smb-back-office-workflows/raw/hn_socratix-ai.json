@@ -1,0 +1,480 @@
+{
+  "filtered_hits": [],
+  "queries": [
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "qurio_dev"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "socratix",
+                  "ai"
+                ],
+                "value": "Hey HN,<p>I\u2019m a dev and a dad to a 10-year-old. I built this because I caught my daughter using ChatGPT to do her history homework. She wasn't learning; she was just acting as a &quot;middleware&quot; between the <em>AI</em> and the paper.<p>The Backstory: I realized the problem isn't the <em>AI</em>\u2014it's the zero-friction answers. Most &quot;<em>AI</em> for kids&quot; apps are just &quot;parrots&quot;\u2014they mimic intelligence by repeating patterns.<p>What\u2019s Different: Qurio is a &quot;Bicycle&quot; for the mind. It treats the child like a future &quot;Architect&quot; rather than a &quot;Junior Executor.&quot; Technically, it wraps an LLM in a strict &quot;<em>Socratic</em> Loop.&quot; It detects intent to &quot;cheat,&quot; refuses the direct answer, and generates a leading question based on the user's current logic level. It forces &quot;Healthy Friction&quot; back into the learning process.<p>The stack: Next.js 14, Supabase (Auth/DB), Vercel <em>AI</em> SDK.<p>Mods: I've added the backstory and differentiator as requested. Ready for the re-up! Thank you."
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "socratix",
+                  "ai"
+                ],
+                "value": "Show HN: I built a \"<em>Socratic</em>\" <em>AI</em> to stop my daughter from copy-pasting homework"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "https://thinkqurio.com/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_qurio_dev",
+              "story_47036610",
+              "show_hn"
+            ],
+            "author": "qurio_dev",
+            "children": [
+              47045668,
+              47058149,
+              47058390,
+              47059053,
+              47059582,
+              47059644,
+              47059668,
+              47060365,
+              47060562,
+              47062670,
+              47063059,
+              47065604,
+              47069143
+            ],
+            "created_at": "2026-02-16T15:55:45Z",
+            "created_at_i": 1771257345,
+            "num_comments": 39,
+            "objectID": "47036610",
+            "points": 35,
+            "story_id": 47036610,
+            "story_text": "Hey HN,<p>I\u2019m a dev and a dad to a 10-year-old. I built this because I caught my daughter using ChatGPT to do her history homework. She wasn&#x27;t learning; she was just acting as a &quot;middleware&quot; between the AI and the paper.<p>The Backstory: I realized the problem isn&#x27;t the AI\u2014it&#x27;s the zero-friction answers. Most &quot;AI for kids&quot; apps are just &quot;parrots&quot;\u2014they mimic intelligence by repeating patterns.<p>What\u2019s Different: Qurio is a &quot;Bicycle&quot; for the mind. It treats the child like a future &quot;Architect&quot; rather than a &quot;Junior Executor.&quot; Technically, it wraps an LLM in a strict &quot;Socratic Loop.&quot; It detects intent to &quot;cheat,&quot; refuses the direct answer, and generates a leading question based on the user&#x27;s current logic level. It forces &quot;Healthy Friction&quot; back into the learning process.<p>The stack: Next.js 14, Supabase (Auth&#x2F;DB), Vercel AI SDK.<p>Mods: I&#x27;ve added the backstory and differentiator as requested. Ready for the re-up! Thank you.",
+            "title": "Show HN: I built a \"Socratic\" AI to stop my daughter from copy-pasting homework",
+            "updated_at": "2026-03-05T23:33:47Z",
+            "url": "https://thinkqurio.com/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "feulf"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "socratix",
+                  "ai"
+                ],
+                "value": "<em>AI</em> <em>Socratic</em> \u2013 The Latest in <em>AI</em> of April 2026"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "socratix",
+                  "ai"
+                ],
+                "value": "https://aisocratic.org/blog/<em>ai</em>-<em>socratic</em>-april-2026"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_feulf",
+              "story_47898225"
+            ],
+            "author": "feulf",
+            "children": [
+              47898226
+            ],
+            "created_at": "2026-04-25T02:59:31Z",
+            "created_at_i": 1777085971,
+            "num_comments": 1,
+            "objectID": "47898225",
+            "points": 3,
+            "story_id": 47898225,
+            "title": "AI Socratic \u2013 The Latest in AI of April 2026",
+            "updated_at": "2026-04-25T21:27:49Z",
+            "url": "https://aisocratic.org/blog/ai-socratic-april-2026"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "feulf"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "socratix",
+                  "ai"
+                ],
+                "value": "<em>AI</em> <em>Socratic</em> Blog Posts"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "https://aisocratic.org/blog"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_feulf",
+              "story_48584605"
+            ],
+            "author": "feulf",
+            "children": [
+              48584606
+            ],
+            "created_at": "2026-06-18T12:56:58Z",
+            "created_at_i": 1781787418,
+            "num_comments": 1,
+            "objectID": "48584605",
+            "points": 2,
+            "story_id": 48584605,
+            "title": "AI Socratic Blog Posts",
+            "updated_at": "2026-06-18T13:26:41Z",
+            "url": "https://aisocratic.org/blog"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "braedynm"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "socratix",
+                  "ai"
+                ],
+                "value": "Studiio \u2013 One-screen study dashboard with <em>Socratic</em> <em>AI</em> (no tab-hopping)"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "https://studiio.xyz/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_braedynm",
+              "story_45111732"
+            ],
+            "author": "braedynm",
+            "children": [
+              45111733
+            ],
+            "created_at": "2025-09-03T02:38:55Z",
+            "created_at_i": 1756867135,
+            "num_comments": 1,
+            "objectID": "45111732",
+            "points": 2,
+            "story_id": 45111732,
+            "title": "Studiio \u2013 One-screen study dashboard with Socratic AI (no tab-hopping)",
+            "updated_at": "2026-03-05T22:37:33Z",
+            "url": "https://studiio.xyz/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "tygerlee"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "thankscarbon.com/asker"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "socratix",
+                  "ai"
+                ],
+                "value": "Asker: A <em>Socratic</em> <em>AI</em> auditing agent using 3D cross-verification"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_tygerlee",
+              "story_48843782",
+              "ask_hn"
+            ],
+            "author": "tygerlee",
+            "children": [
+              48843793,
+              48843901
+            ],
+            "created_at": "2026-07-09T10:48:16Z",
+            "created_at_i": 1783594096,
+            "num_comments": 0,
+            "objectID": "48843782",
+            "points": 2,
+            "story_id": 48843782,
+            "story_text": "thankscarbon.com&#x2F;asker",
+            "title": "Asker: A Socratic AI auditing agent using 3D cross-verification",
+            "updated_at": "2026-07-09T16:12:19Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "indiantinker"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "socratix",
+                  "ai"
+                ],
+                "value": "Thoughts around making a <em>AI</em> <em>socratic</em> questioner"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "socratix",
+                  "ai"
+                ],
+                "value": "https://indiantinker.bearblog.dev/iwonderwhy-thoughts-around-making-an-<em>ai</em>-<em>socratic</em>-questioner/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_indiantinker",
+              "story_43583751"
+            ],
+            "author": "indiantinker",
+            "created_at": "2025-04-04T15:23:16Z",
+            "created_at_i": 1743780196,
+            "num_comments": 0,
+            "objectID": "43583751",
+            "points": 1,
+            "story_id": 43583751,
+            "title": "Thoughts around making a AI socratic questioner",
+            "updated_at": "2025-04-04T15:26:22Z",
+            "url": "https://indiantinker.bearblog.dev/iwonderwhy-thoughts-around-making-an-ai-socratic-questioner/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "alexsouthmayd"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "socratix",
+                  "ai"
+                ],
+                "value": "Hi HN, I\u2019m Alex Southmayd, the founder of Bloomy (<a href=\"https://bloomylearning.com\">https://bloomylearning.com</a>) \u2013 an <em>AI</em>-powered mastery-learning platform for K-12 students. Bloomy provides students with an <em>AI</em> tutor alongside adaptive curriculum (right now Math, English Language Arts, and Writing).<p>How it works: we diagnose students\u2019 skill gaps, place them on personalized learning paths, and give them standards-aligned lessons and a <em>Socratic</em> <em>AI</em> tutor that scaffolds their learning without just giving away the answer.<p>The goal is to solve the Bloom 2-sigma problem (<a href=\"https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem</a>) with <em>AI</em>.<p>Short launch video: <a href=\"https://tinyurl.com/bloomylearning\" rel=\"nofollow\">https://tinyurl.com/bloomylearning</a><p>Longer product demo: <a href=\"https://youtu.be/XHvoKt6qMeo\" rel=\"nofollow\">https://youtu.be/XHvoKt6qMeo</a><p>Families access for Bloomy: <a href=\"https://bloomylearning.com/families\">https://bloomylearning.com/families</a><p>I started as a teacher. I taught 7th-grade English and writing with Teach For America, and every day I struggled to deliver differentiated instruction to 30 students with 30 different sets of needs. Some students needed remediation, some needed acceleration, and many needed a tutor sitting next to them helping them reason through the next step.\nBenjamin Bloom\u2019s two-sigma result\u2014that one-on-one tutoring can produce much better outcomes than conventional classroom instruction\u2014always felt intuitively true to me. The hard part was making that kind of attention affordable and available to every child.<p>Then <em>AI</em> changed the cost curve. When I saw schools such as Alpha organize academics around mastery rather than seat time, the model clicked. If you\u2019ve heard of Alpha School, that is directionally the kind of learning model that inspired us. But I kept thinking about the families and schools that already exist: homeschool families, microschools, hybrid schools, and regular classrooms where most children are today.<p>Most students and teachers see learning gaps at the wrong resolution. They get a grade, percentile, benchmark score, or broad standard\u2014not \u201cthis is the next skill this student should learn.\u201d Existing personalized-learning products often feel like digital worksheets: they provide plenty of practice, but not much diagnosis or teaching. Very few have <em>AI</em> tutors providing the core instruction.\nBloomy starts with a diagnostic\u2014we integrate with third-party assessments and provide our own\u2014and creates a learning path for each student. Students work one skill at a time, receive a short lesson, practice at an adaptive difficulty, and only move forward after demonstrating at least 90% mastery. The learning path updates as the student works, based on their performance and our knowledge graph of skill prerequisites (built in collaboration with Learning Commons / Chan Zuckerberg Initiative).<p>Each skill has three stages. Base Camp teaches the concept with worked examples. Climb provides guided practice and <em>Socratic</em> support. Summit is an independent ten-question mastery assessment with no hints or <em>AI</em> assistance. Students need to achieve 90% on the Summit to advance. If they struggle too much, they\u2019ll be routed to a different skill better suited for their level.<p>BloomyBot is not a blank chat window but rather a live, interactive, and observant digital tutor. During practice, it receives the active passage or problem, the question, the student\u2019s attempt, an authored explanation, and relevant misconception context. It follows a scaffolded tutoring ladder: first asking what the student tried, then pointing toward the concept, suggesting a strategy, working through one step together, and only providing heavier scaffolding after the student has struggled, adapting to and learning from the student along the way. Students can interrupt it, and we\u2019ve begun to roll out multilingual support for Spanish, French, and a few other more niche languages that customers have asked for.<p>We currently use a variety of Anthropic and OpenAI models for BloomyBot. The tutor is restricted to the current lesson, redirects unrelated questions, limits conversation length, and is unavailable during mastery assessments. The language model does not choose the curriculum or decide whether a student has mastered a skill.<p>That separation is important. A conventionally \u201chelpful\u201d <em>AI</em> response can be a bad tutoring response: if it gives away the answer, the student completes the task but may not learn anything. Our goal is not to build a homework-answering chatbot. It is to put <em>AI</em> inside a structured loop of diagnosis, instruction, practice, feedback, and independent mastery.<p>LLMs can still be wrong, and we do not claim our constraints eliminate that. We reduce the surface area by grounding BloomyBot in authored lesson content, keeping it on topic, logging conversations, and removing it from assessments. Teachers and parents can review tutoring activity, students can report problems, and safety signals trigger human alerts and a backup audit.\nWe also do not see Bloomy as a replacement for teachers, parents, or human tutors. A good human tutor is better. The narrower question we are testing is whether, during a bounded learning session a student would already be doing, a context-aware tutor can provide better help than static \u201ccorrect/incorrect\u201d feedback. Longer term, the question becomes more whether a student would perform better with one-on-one <em>AI</em> tutoring (at least in certain aspects of the curriculum) than with many-to-one instruction in a medium- or large-sized classroom.<p>Bloomy is now being used across several settings: traditional districts, charter schools, hybrid schools, microschools, homeschools, and families looking for additional academic support. In an early pilot at a charter school in Massachusetts serving ~150 students in grades 6 through 8, students averaged roughly 1.8 times the expected winter-to-spring NWEA MAP growth. This was an observational pilot, not a randomized study, so we treat it as an encouraging signal rather than proof that Bloomy caused the difference.<p>Parents and teachers can see what a student has mastered, what is in progress, and where support may be needed. We have found that adults generally do not want another generic score; they want to know which small number of skills deserve attention this week.<p>Bloomy makes money through family subscriptions and school licensing. ELA costs $39/month or $279/year per learner, and Writing Studio costs $19/month or $139/year. Math is scheduled to launch July 31 at the same price as ELA. Schools and microschools pay per student, with pricing varying by subject coverage, enrollment, rostering, and implementation needs.<p>Because children use Bloomy, we collect learning responses, progress data, and tutoring conversations. We do not sell personal information, use child data for behavioral advertising, or permit model providers to train general-purpose models on identifiable child data sent by Bloomy. We have Zero Data Retention agreements with both Anthropic and OpenAI. Parents and schools can request access, export, correction, or deletion under the applicable account or school agreement.<p>More background on me: after Teach For America, I taught and designed GMAT and GRE curriculum for Manhattan Prep / Kaplan, led the driver acquisition team for Lyft\u2019s New England markets, completed an MBA at Stanford, and led <em>AI</em> transformation projects at McKinsey (so when models finally became good enough this past January to achieve the kinds of things I am pursuing with Bloomy, I was in the right place at the right time to begin building). Bloomy brings together the different parts of my career that I care most about: educational outcomes, learning design, building products, and getting useful technology into people\u2019s hands.<p>I\u2019d especially value feedback from parents, teachers, engineers working on child-facing <em>AI</em>, and people who have built tutoring, assessment, or adaptive-learning systems. Does the separation between guided <em>AI</em> help and independent mastery make sense? Where do you see the greatest potential with <em>AI</em> in education? Where are our safeguards insufficient? What evidence or product behavior would you need to trust something like this with a student?<p>Certainly there are many dangers and pitfalls we must beware of, too, but I believe we can really move the needle in K-12 (for the first time in a long time) if we use <em>AI</em> responsibly and intelligently."
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "Launch HN: Bloomy (YC S26) \u2013 <em>AI</em>-powered mastery learning for K-12"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_alexsouthmayd",
+              "story_48981136",
+              "launch_hn"
+            ],
+            "author": "alexsouthmayd",
+            "children": [
+              48981267,
+              48981405,
+              48981468,
+              48981492,
+              48981705,
+              48981843,
+              48982554,
+              48982555,
+              48982734,
+              48982894,
+              48983239,
+              48983323,
+              48983512,
+              48984520,
+              48984624,
+              48984769,
+              48984947,
+              48984967,
+              48987201,
+              48988338,
+              48988345,
+              48988375,
+              48988397,
+              48988633,
+              48988864,
+              48990006,
+              48990385,
+              48991004,
+              48992902,
+              48992912,
+              49012793,
+              49017646
+            ],
+            "created_at": "2026-07-20T16:32:10Z",
+            "created_at_i": 1784565130,
+            "num_comments": 107,
+            "objectID": "48981136",
+            "points": 102,
+            "story_id": 48981136,
+            "story_text": "Hi HN, I\u2019m Alex Southmayd, the founder of Bloomy (<a href=\"https:&#x2F;&#x2F;bloomylearning.com\">https:&#x2F;&#x2F;bloomylearning.com</a>) \u2013 an AI-powered mastery-learning platform for K-12 students. Bloomy provides students with an AI tutor alongside adaptive curriculum (right now Math, English Language Arts, and Writing).<p>How it works: we diagnose students\u2019 skill gaps, place them on personalized learning paths, and give them standards-aligned lessons and a Socratic AI tutor that scaffolds their learning without just giving away the answer.<p>The goal is to solve the Bloom 2-sigma problem (<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Bloom%27s_2_sigma_problem\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Bloom%27s_2_sigma_problem</a>) with AI.<p>Short launch video: <a href=\"https:&#x2F;&#x2F;tinyurl.com&#x2F;bloomylearning\" rel=\"nofollow\">https:&#x2F;&#x2F;tinyurl.com&#x2F;bloomylearning</a><p>Longer product demo: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;XHvoKt6qMeo\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;XHvoKt6qMeo</a><p>Families access for Bloomy: <a href=\"https:&#x2F;&#x2F;bloomylearning.com&#x2F;families\">https:&#x2F;&#x2F;bloomylearning.com&#x2F;families</a><p>I started as a teacher. I taught 7th-grade English and writing with Teach For America, and every day I struggled to deliver differentiated instruction to 30 students with 30 different sets of needs. Some students needed remediation, some needed acceleration, and many needed a tutor sitting next to them helping them reason through the next step.\nBenjamin Bloom\u2019s two-sigma result\u2014that one-on-one tutoring can produce much better outcomes than conventional classroom instruction\u2014always felt intuitively true to me. The hard part was making that kind of attention affordable and available to every child.<p>Then AI changed the cost curve. When I saw schools such as Alpha organize academics around mastery rather than seat time, the model clicked. If you\u2019ve heard of Alpha School, that is directionally the kind of learning model that inspired us. But I kept thinking about the families and schools that already exist: homeschool families, microschools, hybrid schools, and regular classrooms where most children are today.<p>Most students and teachers see learning gaps at the wrong resolution. They get a grade, percentile, benchmark score, or broad standard\u2014not \u201cthis is the next skill this student should learn.\u201d Existing personalized-learning products often feel like digital worksheets: they provide plenty of practice, but not much diagnosis or teaching. Very few have AI tutors providing the core instruction.\nBloomy starts with a diagnostic\u2014we integrate with third-party assessments and provide our own\u2014and creates a learning path for each student. Students work one skill at a time, receive a short lesson, practice at an adaptive difficulty, and only move forward after demonstrating at least 90% mastery. The learning path updates as the student works, based on their performance and our knowledge graph of skill prerequisites (built in collaboration with Learning Commons &#x2F; Chan Zuckerberg Initiative).<p>Each skill has three stages. Base Camp teaches the concept with worked examples. Climb provides guided practice and Socratic support. Summit is an independent ten-question mastery assessment with no hints or AI assistance. Students need to achieve 90% on the Summit to advance. If they struggle too much, they\u2019ll be routed to a different skill better suited for their level.<p>BloomyBot is not a blank chat window but rather a live, interactive, and observant digital tutor. During practice, it receives the active passage or problem, the question, the student\u2019s attempt, an authored explanation, and relevant misconception context. It follows a scaffolded tutoring ladder: first asking what the student tried, then pointing toward the concept, suggesting a strategy, working through one step together, and only providing heavier scaffolding after the student has struggled, adapting to and learning from the student along the way. Students can interrupt it, and we\u2019ve begun to roll out multilingual support for Spanish, French, and a few other more niche languages that customers have asked for.<p>We currently use a variety of Anthropic and OpenAI models for BloomyBot. The tutor is restricted to the current lesson, redirects unrelated questions, limits conversation length, and is unavailable during mastery assessments. The language model does not choose the curriculum or decide whether a student has mastered a skill.<p>That separation is important. A conventionally \u201chelpful\u201d AI response can be a bad tutoring response: if it gives away the answer, the student completes the task but may not learn anything. Our goal is not to build a homework-answering chatbot. It is to put AI inside a structured loop of diagnosis, instruction, practice, feedback, and independent mastery.<p>LLMs can still be wrong, and we do not claim our constraints eliminate that. We reduce the surface area by grounding BloomyBot in authored lesson content, keeping it on topic, logging conversations, and removing it from assessments. Teachers and parents can review tutoring activity, students can report problems, and safety signals trigger human alerts and a backup audit.\nWe also do not see Bloomy as a replacement for teachers, parents, or human tutors. A good human tutor is better. The narrower question we are testing is whether, during a bounded learning session a student would already be doing, a context-aware tutor can provide better help than static \u201ccorrect&#x2F;incorrect\u201d feedback. Longer term, the question becomes more whether a student would perform better with one-on-one AI tutoring (at least in certain aspects of the curriculum) than with many-to-one instruction in a medium- or large-sized classroom.<p>Bloomy is now being used across several settings: traditional districts, charter schools, hybrid schools, microschools, homeschools, and families looking for additional academic support. In an early pilot at a charter school in Massachusetts serving ~150 students in grades 6 through 8, students averaged roughly 1.8 times the expected winter-to-spring NWEA MAP growth. This was an observational pilot, not a randomized study, so we treat it as an encouraging signal rather than proof that Bloomy caused the difference.<p>Parents and teachers can see what a student has mastered, what is in progress, and where support may be needed. We have found that adults generally do not want another generic score; they want to know which small number of skills deserve attention this week.<p>Bloomy makes money through family subscriptions and school licensing. ELA costs $39&#x2F;month or $279&#x2F;year per learner, and Writing Studio costs $19&#x2F;month or $139&#x2F;year. Math is scheduled to launch July 31 at the same price as ELA. Schools and microschools pay per student, with pricing varying by subject coverage, enrollment, rostering, and implementation needs.<p>Because children use Bloomy, we collect learning responses, progress data, and tutoring conversations. We do not sell personal information, use child data for behavioral advertising, or permit model providers to train general-purpose models on identifiable child data sent by Bloomy. We have Zero Data Retention agreements with both Anthropic and OpenAI. Parents and schools can request access, export, correction, or deletion under the applicable account or school agreement.<p>More background on me: after Teach For America, I taught and designed GMAT and GRE curriculum for Manhattan Prep &#x2F; Kaplan, led the driver acquisition team for Lyft\u2019s New England markets, completed an MBA at Stanford, and led AI transformation projects at McKinsey (so when models finally became good enough this past January to achieve the kinds of things I am pursuing with Bloomy, I was in the right place at the right time to begin building). Bloomy brings together the different parts of my career that I care most about: educational outcomes, learning design, building products, and getting useful technology into people\u2019s hands.<p>I\u2019d especially value feedback from parents, teachers, engineers working on child-facing AI, and people who have built tutoring, assessment, or adaptive-learning systems. Does the separation between guided AI help and independent mastery make sense? Where do you see the greatest potential with AI in education? Where are our safeguards insufficient? What evidence or product behavior would you need to trust something like this with a student?<p>Certainly there are many dangers and pitfalls we must beware of, too, but I believe we can really move the needle in K-12 (for the first time in a long time) if we use AI responsibly and intelligently.",
+            "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
+            "updated_at": "2026-08-07T04:06:40Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Philosopheril"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "socratix",
+                  "ai"
+                ],
+                "value": "Yochai is a <em>Socratic</em> <em>AI</em> &quot;chevruta&quot; or learning guide, powered by a foundational library of 1,000+ primary sources from the Jewish canon, (and a knowledge graph of 2.5M entities, and 16M entity relationships, 375,000 searchable passages, and 17,000 canonical concepts that we developed around our own ontology). Yochai, uniquely, takes you directly to the sources and pushes you to discover and articulate your own insights about them.<p>we open sourced our knowledge graph so others can build on our foundation<p><a href=\"https://github.com/Lightning-Learning-Studios/yochai-kg\" rel=\"nofollow\">https://github.com/Lightning-Learning-Studios/yochai-kg</a>"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "Show HN: <em>AI</em> Torah Chervuta"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "https://www.yochai.wiki/chat"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_Philosopheril",
+              "story_48651236",
+              "show_hn"
+            ],
+            "author": "Philosopheril",
+            "children": [
+              48651806,
+              48654085,
+              48654709,
+              48667636
+            ],
+            "created_at": "2026-06-23T20:53:15Z",
+            "created_at_i": 1782247995,
+            "num_comments": 2,
+            "objectID": "48651236",
+            "points": 15,
+            "story_id": 48651236,
+            "story_text": "Yochai is a Socratic AI &quot;chevruta&quot; or learning guide, powered by a foundational library of 1,000+ primary sources from the Jewish canon, (and a knowledge graph of 2.5M entities, and 16M entity relationships, 375,000 searchable passages, and 17,000 canonical concepts that we developed around our own ontology). Yochai, uniquely, takes you directly to the sources and pushes you to discover and articulate your own insights about them.<p>we open sourced our knowledge graph so others can build on our foundation<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;Lightning-Learning-Studios&#x2F;yochai-kg\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Lightning-Learning-Studios&#x2F;yochai-kg</a>",
+            "title": "Show HN: AI Torah Chervuta",
+            "updated_at": "2026-06-25T09:14:35Z",
+            "url": "https://www.yochai.wiki/chat"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 54,
+        "nbPages": 7,
+        "page": 0,
+        "params": "query=Socratix+AI&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 9,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 21
+          },
+          "afterFetch": {
+            "format": {
+              "highlighting": 1,
+              "total": 1
+            }
+          },
+          "fetch": {
+            "query": 5,
+            "scanning": 2,
+            "total": 8
+          },
+          "total": 9
+        },
+        "query": "Socratix AI",
+        "serverTimeMS": 11
+      },
+      "query": "Socratix AI"
+    },
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [],
+        "hitsPerPage": 8,
+        "nbHits": 0,
+        "nbPages": 0,
+        "page": 0,
+        "params": "query=getsocratix.ai&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 8,
+        "processingTimingsMS": {
+          "_request": {
+            "queue": 18,
+            "roundTrip": 20
+          },
+          "fetch": {
+            "query": 6,
+            "total": 7
+          },
+          "total": 8
+        },
+        "query": "getsocratix.ai",
+        "serverTimeMS": 26
+      },
+      "query": "getsocratix.ai"
+    }
+  ]
+}

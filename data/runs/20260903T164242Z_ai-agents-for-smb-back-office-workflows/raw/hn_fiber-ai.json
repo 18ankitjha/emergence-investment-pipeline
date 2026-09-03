@@ -1,0 +1,435 @@
+{
+  "filtered_hits": [],
+  "queries": [
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": true,
+          "typo": true
+        },
+        "exhaustiveNbHits": true,
+        "exhaustiveTypo": true,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "dabent"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": ""
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "fiber",
+                  "ai"
+                ],
+                "value": "America's Cup Sailors Plan to Use Rigid Carbon-<em>Fiber</em> <em>Ai</em>rfoil"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "http://www.scientificamerican.com/article.cfm?id=americas-cup-fixed-wing-sail"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_dabent",
+              "story_944655"
+            ],
+            "author": "dabent",
+            "created_at": "2009-11-16T16:21:27Z",
+            "created_at_i": 1258388487,
+            "num_comments": 0,
+            "objectID": "944655",
+            "points": 4,
+            "story_id": 944655,
+            "story_text": "",
+            "title": "America's Cup Sailors Plan to Use Rigid Carbon-Fiber Airfoil",
+            "updated_at": "2024-09-19T16:49:06Z",
+            "url": "http://www.scientificamerican.com/article.cfm?id=americas-cup-fixed-wing-sail"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "ghoul2"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "fiber",
+                  "ai"
+                ],
+                "value": "I am unable to ping HN ip (209.216.230.240) from my <em>Ai</em>rtel <em>Fiber</em> connection today. If I switch to Jio from the same device, I can access it normally.<p>This is what the traceroute looks like:<p><pre><code>  traceroute 209.216.230.240\n  traceroute to 209.216.230.240 (209.216.230.240), 30 hops max, 60 byte packets\n   1  192.168.x.x (192.168.x.x)  5.703 ms  5.675 ms  5.642 ms &lt;--- my LAN ip\n   2  117.99.111.255 (117.99.111.255)  6.579 ms  6.509 ms  6.505 ms &lt;--- <em>Ai</em>rtels' gateway\n   3  125.19.45.213 (125.19.45.213)  6.475 ms 125.18.249.21 (125.18.249.21)  6.444 ms  6.414 ms\n   4  182.79.243.31 (182.79.243.31)  235.655 ms 182.79.245.69 (182.79.245.69)  230.475 ms  230.412 ms\n   5  * * *\n   6  * * *\n   7  * * *\n   8  * * *\n   9  * * *\n  10  * * *\n  11  * * *\n  12  * * *\n  13  * * *\n  14  * * *\n  15  * * *\n  16  * * *\n  17  * * *\n  18  * * *\n  19  * * *\n  20  * * *\n  21  * * *\n  22  * * *\n  23  * * *\n  24  * * *\n  25  * * *\n  26  * * *\n  27  * * *\n  28  * * *\n  29  * * *\n  30  * * *\n</code></pre>\nEverything else seems to be working normally."
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "Ask HN: Anyone else having trouble reaching HN from <em>Ai</em>rtel (India)?"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_ghoul2",
+              "story_29919307",
+              "ask_hn"
+            ],
+            "author": "ghoul2",
+            "children": [
+              29919396
+            ],
+            "created_at": "2022-01-13T10:55:47Z",
+            "created_at_i": 1642071347,
+            "num_comments": 3,
+            "objectID": "29919307",
+            "points": 3,
+            "story_id": 29919307,
+            "story_text": "I am unable to ping HN ip (209.216.230.240) from my Airtel Fiber connection today. If I switch to Jio from the same device, I can access it normally.<p>This is what the traceroute looks like:<p><pre><code>  traceroute 209.216.230.240\n  traceroute to 209.216.230.240 (209.216.230.240), 30 hops max, 60 byte packets\n   1  192.168.x.x (192.168.x.x)  5.703 ms  5.675 ms  5.642 ms &lt;--- my LAN ip\n   2  117.99.111.255 (117.99.111.255)  6.579 ms  6.509 ms  6.505 ms &lt;--- Airtels&#x27; gateway\n   3  125.19.45.213 (125.19.45.213)  6.475 ms 125.18.249.21 (125.18.249.21)  6.444 ms  6.414 ms\n   4  182.79.243.31 (182.79.243.31)  235.655 ms 182.79.245.69 (182.79.245.69)  230.475 ms  230.412 ms\n   5  * * *\n   6  * * *\n   7  * * *\n   8  * * *\n   9  * * *\n  10  * * *\n  11  * * *\n  12  * * *\n  13  * * *\n  14  * * *\n  15  * * *\n  16  * * *\n  17  * * *\n  18  * * *\n  19  * * *\n  20  * * *\n  21  * * *\n  22  * * *\n  23  * * *\n  24  * * *\n  25  * * *\n  26  * * *\n  27  * * *\n  28  * * *\n  29  * * *\n  30  * * *\n</code></pre>\nEverything else seems to be working normally.",
+            "title": "Ask HN: Anyone else having trouble reaching HN from Airtel (India)?",
+            "updated_at": "2024-09-20T10:12:55Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "rbanffy"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "fiber",
+                  "ai"
+                ],
+                "value": "Experiment demonstrates continuously operating optical <em>fiber</em> made of thin <em>ai</em>r"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "fiber",
+                  "ai"
+                ],
+                "value": "https://phys.org/news/2023-05-optical-<em>fiber</em>-thin-<em>ai</em>r.html"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_rbanffy",
+              "story_35812168"
+            ],
+            "author": "rbanffy",
+            "children": [
+              35812629,
+              35812678,
+              35812682,
+              35812715,
+              35812745,
+              35813040,
+              35827446
+            ],
+            "created_at": "2023-05-04T07:00:37Z",
+            "created_at_i": 1683183637,
+            "num_comments": 7,
+            "objectID": "35812168",
+            "points": 16,
+            "story_id": 35812168,
+            "title": "Experiment demonstrates continuously operating optical fiber made of thin air",
+            "updated_at": "2024-09-20T13:58:16Z",
+            "url": "https://phys.org/news/2023-05-optical-fiber-thin-air.html"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Brajeshwar"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "Why a 175-Year-Old Glassmaker Is Suddenly an <em>AI</em> Superstar"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "fiber",
+                  "ai"
+                ],
+                "value": "https://www.wsj.com/tech/corning-<em>fiber</em>-optics-<em>ai</em>-e045ba3b"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_Brajeshwar",
+              "story_46925491"
+            ],
+            "author": "Brajeshwar",
+            "children": [
+              46926575,
+              46943277
+            ],
+            "created_at": "2026-02-07T17:13:17Z",
+            "created_at_i": 1770484397,
+            "num_comments": 2,
+            "objectID": "46925491",
+            "points": 3,
+            "story_id": 46925491,
+            "title": "Why a 175-Year-Old Glassmaker Is Suddenly an AI Superstar",
+            "updated_at": "2026-03-05T23:32:02Z",
+            "url": "https://www.wsj.com/tech/corning-fiber-optics-ai-e045ba3b"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "bookofjoe"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "Why 175-Year-Old Glassmaker Corning Is Suddenly an <em>AI</em> Superstar"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "fiber",
+                  "ai"
+                ],
+                "value": "https://www.wsj.com/tech/corning-<em>fiber</em>-optics-<em>ai</em>-e045ba3b"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_bookofjoe",
+              "story_46933601"
+            ],
+            "author": "bookofjoe",
+            "children": [
+              46933603
+            ],
+            "created_at": "2026-02-08T12:12:13Z",
+            "created_at_i": 1770552733,
+            "num_comments": 1,
+            "objectID": "46933601",
+            "points": 3,
+            "story_id": 46933601,
+            "title": "Why 175-Year-Old Glassmaker Corning Is Suddenly an AI Superstar",
+            "updated_at": "2026-03-05T23:32:29Z",
+            "url": "https://www.wsj.com/tech/corning-fiber-optics-ai-e045ba3b"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "cyrusradfar"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "fiber",
+                  "ai"
+                ],
+                "value": "The Lake They Couldn't See: gold, dark <em>fiber</em>, and the <em>AI</em> data-center boom"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "https://cyrusradfar.com/thoughts/the-lake-they-couldnt-see"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_cyrusradfar",
+              "story_48727755"
+            ],
+            "author": "cyrusradfar",
+            "created_at": "2026-06-30T02:07:32Z",
+            "created_at_i": 1782785252,
+            "num_comments": 0,
+            "objectID": "48727755",
+            "points": 3,
+            "story_id": 48727755,
+            "title": "The Lake They Couldn't See: gold, dark fiber, and the AI data-center boom",
+            "updated_at": "2026-06-30T04:30:40Z",
+            "url": "https://cyrusradfar.com/thoughts/the-lake-they-couldnt-see"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "xthe"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "fiber",
+                  "ai"
+                ],
+                "value": "Show HN: 6B <em>fiber</em> deal for <em>AI</em> data centers"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "https://xthe.com/news/metas-6b-<em>ai</em>-bet/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_xthe",
+              "story_46817109",
+              "show_hn"
+            ],
+            "author": "xthe",
+            "created_at": "2026-01-29T21:46:22Z",
+            "created_at_i": 1769723182,
+            "num_comments": 0,
+            "objectID": "46817109",
+            "points": 2,
+            "story_id": 46817109,
+            "title": "Show HN: 6B fiber deal for AI data centers",
+            "updated_at": "2026-03-05T23:26:34Z",
+            "url": "https://xthe.com/news/metas-6b-ai-bet/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "bcl"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": ""
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "fiber",
+                  "ai"
+                ],
+                "value": "<em>Fiber</em> cables made of <em>ai</em>r move data at 99.7 percent the speed of light"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "fiber",
+                  "ai"
+                ],
+                "value": "http://arstechnica.com/information-technology/2013/03/<em>fiber</em>-cables-made-of-<em>ai</em>r-move-data-at-99-7-percent-the-speed-of-light/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_bcl",
+              "story_5447593"
+            ],
+            "author": "bcl",
+            "children": [
+              5447768,
+              5447772,
+              5447815,
+              5447831,
+              5448408,
+              5449964,
+              5453695
+            ],
+            "created_at": "2013-03-27T03:11:58Z",
+            "created_at_i": 1364353918,
+            "num_comments": 34,
+            "objectID": "5447593",
+            "points": 65,
+            "story_id": 5447593,
+            "story_text": "",
+            "title": "Fiber cables made of air move data at 99.7 percent the speed of light",
+            "updated_at": "2024-09-19T19:27:48Z",
+            "url": "http://arstechnica.com/information-technology/2013/03/fiber-cables-made-of-air-move-data-at-99-7-percent-the-speed-of-light/"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 141,
+        "nbPages": 18,
+        "page": 0,
+        "params": "query=Fiber+AI&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 6,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 15
+          },
+          "fetch": {
+            "query": 1,
+            "scanning": 3,
+            "total": 5
+          },
+          "total": 6
+        },
+        "query": "Fiber AI",
+        "serverTimeMS": 7
+      },
+      "query": "Fiber AI"
+    },
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": true,
+          "typo": true
+        },
+        "exhaustiveNbHits": true,
+        "exhaustiveTypo": true,
+        "hits": [],
+        "hitsPerPage": 8,
+        "nbHits": 0,
+        "nbPages": 0,
+        "page": 0,
+        "params": "query=fiber.ai&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 17,
+        "processingTimingsMS": {
+          "_request": {
+            "queue": 19,
+            "roundTrip": 19
+          },
+          "fetch": {
+            "query": 2,
+            "scanning": 13,
+            "total": 16
+          },
+          "total": 17
+        },
+        "query": "fiber.ai",
+        "serverTimeMS": 36
+      },
+      "query": "fiber.ai"
+    }
+  ]
+}

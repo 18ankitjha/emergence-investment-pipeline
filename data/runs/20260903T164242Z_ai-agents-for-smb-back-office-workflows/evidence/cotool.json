@@ -1,0 +1,88 @@
+{
+  "candidate": {
+    "batch": "Spring 2025",
+    "description": "Cotool is an agentic security platform that eliminates manual and repetitive work for security teams.\r\n\r\nToday\u2019s cybersecurity teams remain bogged down by alert fatigue, context switching, and documentation overhead. Security teams don't need more dashboards with \"AI-powered insights\" \u2014 they need their time back.\r\n\r\nCotool empowers teams to build security their way. Our platform provides an AI co-pilot that automatically assembles context across tools, a no-code agent builder that transforms successful investigations into reusable automations, and automated report generation, providing comprehensive documentation in seconds.\r\n\r\nUnlike solutions that force teams to adapt to vendor workflows, Cotool puts the power of AI directly in practitioners' hands, letting them shape tools around their unique processes. Early users have already cut time spent on investigation and detection engineering by 70%.",
+    "id": "yc-30535",
+    "industry": "B2B",
+    "name": "Cotool",
+    "one_liner": "AI Agents for Security Operations Teams",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T16:42:42.783092Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Cotool",
+        "url": "https://www.ycombinator.com/companies/cotool"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "SaaS",
+      "Compliance",
+      "Security",
+      "Cybersecurity"
+    ],
+    "team_size": 4,
+    "website": "https://cotool.ai"
+  },
+  "evidence": [
+    {
+      "candidate_id": "yc-30535",
+      "category": "product",
+      "claim": "Cotool: AI Agents for Security Operations Teams",
+      "confidence": "high",
+      "evidence_id": "YC1",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/cotool"
+    },
+    {
+      "candidate_id": "yc-30535",
+      "category": "product",
+      "claim": "Cotool is an agentic security platform that eliminates manual and repetitive work for security teams. Today\u2019s cybersecurity teams remain bogged down by alert fatigue, context switching, and documentation overhead. Security teams don't need more dashboards with \"AI-powered insights\" \u2014 they need their time back. Cotool empowers teams to build security their way. Our platform provides an AI co-pilot that automatically assembles context across tools, a no-code agent builder that transforms successful investigations into reusable automations, and automated report generation, providing comprehensive documentation in seconds. Unlike solutions that force teams to adapt to vendor workflows, Cotool pu",
+      "confidence": "high",
+      "evidence_id": "YC2",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/cotool"
+    },
+    {
+      "candidate_id": "yc-30535",
+      "category": "source",
+      "claim": "YC batch: Spring 2025; Industry: B2B; Status: Active; Stage: Early; Team size: 4; Tags: SaaS, Compliance, Security, Cybersecurity",
+      "confidence": "high",
+      "evidence_id": "YC3",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/cotool"
+    },
+    {
+      "candidate_id": "yc-30535",
+      "category": "website",
+      "claim": "Cotool - AI for the blue team. Skip to main content Product Company Research Blog Book a demo AI for the blue team. Scale detection, response, and threat hunting beyond headcount. Build AI agents across your entire security stack. Book a demo Loved by teams at: 2000+ Employee Crypto Exchange 1,500+ Security Company Security teams should be proactive . Stale detection rules, piling alerts, and brittle automations keep you reactive . AI-enabled attackers make the problem orders of magnitude worse. Automate the busywork that keeps you from the threats that actually matter. Book a demo Watch video overview Detect Respond Hunt \u201c It's enabled us to comfortably onboard new log sources and write rules around them without worrying that we're going to cause alert fatigue for the human detection engineers and analysts on the team. \u201d Antoinette Stevens Principal Security Engineer Detect what static rules can\u2019t Detection agents enable intent-driven coverage. Describe your threat model in natural la",
+      "confidence": "medium",
+      "evidence_id": "WEB1",
+      "source": "website",
+      "url": "https://cotool.ai"
+    },
+    {
+      "candidate_id": "yc-30535",
+      "category": "traction",
+      "claim": "HN story 'We Benchmarked Frontier LLMs on Defensive Security. The Results Surprised Us' had 6 points and 2 comments as of source fetch; created_at=2025-11-18T14:56:24Z. Submitted URL: https://cotool.ai/blog/evaluating-ai-agents-in-security-operations.",
+      "confidence": "medium",
+      "evidence_id": "HN1",
+      "source": "hn",
+      "url": "https://news.ycombinator.com/item?id=45967005"
+    },
+    {
+      "candidate_id": "yc-30535",
+      "category": "traction",
+      "claim": "HN story 'Context Management for Security Log Data' had 6 points and 0 comments as of source fetch; created_at=2025-10-20T15:54:06Z. Submitted URL: https://cotool.ai/blog/context-management.",
+      "confidence": "medium",
+      "evidence_id": "HN2",
+      "source": "hn",
+      "url": "https://news.ycombinator.com/item?id=45645326"
+    }
+  ],
+  "generated_at": "2026-09-03T16:43:07.331522Z"
+}

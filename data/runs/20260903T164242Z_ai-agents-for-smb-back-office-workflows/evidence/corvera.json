@@ -1,0 +1,89 @@
+{
+  "candidate": {
+    "batch": "Winter 2026",
+    "description": "Corvera (YC W26) is the context layer for AI-native CPG brands. We help brands unlock the full potential of AI by making their unified data legible to any AI tool via MCP. \r\n\r\nAs of mid-March 2026, we scaled from $0 to $33k in MRR in 4 weeks, are serving 12 brands, and are growing 130% week-on-week.\r\n\r\nWith Corvera in place, brands can enable anyone in their organization to:\r\n- Rapidly deploy AI agents via tools such as Claude and ChatGPT,\r\n- Build dashboards and apps using Cursor and Lovable, and\r\n- Automate workflows across the entire business, from category management to supply chain.\r\n\r\nAll in a secure, audit-logged, and access-controlled environment, without the need for a team of data engineers or AI specialists, in a simple plug-and-play solution.\r\n\r\nWe're founded by Chris (2x Founder; ex-CEO at Better Nature; Forbes 30U30), Dirk (ex-Google Data & AI Lead), and Matthew (ex-Head of Product at Rosemark; Princeton MEng in CS).\r\n\r\nTo-date, we\u2019ve raised $6.2M and are backed by YC, firstminute capital, 6 Degrees Capital, 20VC, Rebel Fund, Duke Capital Partners, and more. Our ICP are omnichannel retail-focused CPG brands at the $100M+ revenue inflection point.\r\n\r\nOur mission is bold: to enable the next generation of unicorn CPG brands to be run by teams of less than 10 people. \r\n\r\nOur vision is even bolder: to be the system of intelligence for the $5.4T global CPG industry.\r\n\r\nVisit www.corvera.ai to learn more!",
+    "id": "yc-31051",
+    "industry": "B2B",
+    "name": "Corvera",
+    "one_liner": "The context layer for AI-native CPG brands",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T16:42:42.784372Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Corvera",
+        "url": "https://www.ycombinator.com/companies/corvera"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "SaaS",
+      "Consumer",
+      "B2B",
+      "Data Engineering",
+      "AI"
+    ],
+    "team_size": 4,
+    "website": "https://corvera.ai/"
+  },
+  "evidence": [
+    {
+      "candidate_id": "yc-31051",
+      "category": "product",
+      "claim": "Corvera: The context layer for AI-native CPG brands",
+      "confidence": "high",
+      "evidence_id": "YC1",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/corvera"
+    },
+    {
+      "candidate_id": "yc-31051",
+      "category": "product",
+      "claim": "Corvera (YC W26) is the context layer for AI-native CPG brands. We help brands unlock the full potential of AI by making their unified data legible to any AI tool via MCP. As of mid-March 2026, we scaled from $0 to $33k in MRR in 4 weeks, are serving 12 brands, and are growing 130% week-on-week. With Corvera in place, brands can enable anyone in their organization to: - Rapidly deploy AI agents via tools such as Claude and ChatGPT, - Build dashboards and apps using Cursor and Lovable, and - Automate workflows across the entire business, from category management to supply chain. All in a secure, audit-logged, and access-controlled environment, without the need for a team of data engineers or",
+      "confidence": "high",
+      "evidence_id": "YC2",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/corvera"
+    },
+    {
+      "candidate_id": "yc-31051",
+      "category": "source",
+      "claim": "YC batch: Winter 2026; Industry: B2B; Status: Active; Stage: Early; Team size: 4; Tags: SaaS, Consumer, B2B, Data Engineering, AI",
+      "confidence": "high",
+      "evidence_id": "YC3",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/corvera"
+    },
+    {
+      "candidate_id": "yc-31051",
+      "category": "team",
+      "claim": "We're founded by Chris (2x Founder; ex-CEO at Better Nature; Forbes 30U30), Dirk (ex-Google Data & AI Lead), and Matthew (ex-Head of Product at Rosemark; Princeton MEng in CS).",
+      "confidence": "high",
+      "evidence_id": "YC4",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/corvera"
+    },
+    {
+      "candidate_id": "yc-31051",
+      "category": "website",
+      "claim": "Corvera \u2014 The context layer for AI-native CPG brands Product Use Cases Case Studies Team Login Schedule demo Backed by Y Combinator The context layer for AI-native CPG brands. Unlock the full potential of AI by making your unified data legible to any AI tool via MCP. Schedule demo Trusted by leading CPG brands One shared context layer, infinite applications Let Corvera handle your brand\u2019s data infrastructure, so you can focus on leveraging AI. STEP 1 Connect your sources Plug in the systems and data sources you already use. STEP 2 Unify your data A single, governed source of truth, always in sync. STEP 3 Put AI to work Connect via MCP, use any AI tool. Scale AI across your whole organization One clean data layer that every AI tool can read \u2014 so everyone can do more with the tools they already use. Query your entire business Give everyone in your business the answers they need at their fingertips. 3 SKUs at risk this month SKU 3259 \u00b7 Oat Clusters 12 days left SKU 1187 \u00b7 Trail Mix 9 days",
+      "confidence": "medium",
+      "evidence_id": "WEB1",
+      "source": "website",
+      "url": "https://corvera.ai/"
+    },
+    {
+      "candidate_id": "yc-31051",
+      "category": "traction",
+      "claim": "No HN story traction found for 'Corvera' or 'corvera.ai' in the top search results.",
+      "confidence": "medium",
+      "evidence_id": "HN1",
+      "source": "hn",
+      "url": "https://hn.algolia.com/"
+    }
+  ],
+  "generated_at": "2026-09-03T16:43:32.758658Z"
+}

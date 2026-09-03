@@ -1,0 +1,541 @@
+{
+  "filtered_hits": [
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "danialasif"
+        },
+        "story_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "risely",
+            ".",
+            "ai"
+          ],
+          "value": "Hi HN, I\u2019m Danial, co-founder and CTO of Risely AI (<a href=\"https://risely.ai\">https://<em>risely.ai</em></a>). We're building AI agents that automate operational workflows inside universities. Here\u2019s a demo: <a href=\"https://www.loom.com/share/d7a14400434144c490249d665a0d0499?sid=8d36736e-6c87-43d3-992d-203c6edb0cf9\" rel=\"nofollow\">https://www.loom.com/share/d7a14400434144c490249d665a0d0499?...</a>.<p>Higher ed is full of inefficiencies. Every department runs on outdated systems that don\u2019t talk to each other. Today, advising staff are looking up enrollment data in PeopleSoft or Ellucian, checking grades and assignments in Canvas, and trying to track engagement in a CRM, if they even have one. Often, it\u2019s just spreadsheets and email. One advisor told us they were losing 8+ hours/week just trying to answer: \u201cWhich students are struggling?\u201d. During that lag, students slip through the cracks, and every lost student costs a school tuition.<p>I\u2019ve spent the last decade building large-scale systems, but about a year ago, I left my job to build something personal. My time at UC Berkeley reinforced what my parents taught me when we immigrated to the U.S. - that education is the most powerful tool for upward mobility. But nearly 40% of students never graduate. Many of these students are capable and just need support, but the systems meant to support them are overwhelmed and broken.<p>So we built Risely. Our first agent focuses on academic advising and retention. It connects to a school\u2019s systems, unifies the data, flags at-risk students, drafts outreach, and answers natural-language questions about caseloads and course progress. It gives staff leverage and time back, while helping more students stay on track.<p>The harder part is everything under the hood:\n- Connecting to archaic SIS, LMS, and CRM systems with inconsistent APIs and data models\n- Normalizing messy institutional data into something agents can reason over \n- Handling real policy constraints around FERPA, isolating tenant data, and meeting strict security and privacy standards for student PII \n- Designing agent workflows that are traceable, reviewable, and safe to run in production \n- Building infrastructure that can adapt to different institutional rules, processes, and edge cases.<p>We started with advising because retention ties directly to both revenue and student success. But the same foundation applies to registrar, admissions, financial aid, research administration, and other critical functions. As more agents come online, they can begin to coordinate with each other and hopefully improve the entire operations of a college or university.<p>If you\u2019ve built systems that had to reconcile messy data, inconsistent workflows, or policy constraints using LLMs, we\u2019d love to hear how you approached it.<p>We\u2019d love to hear your thoughts about the above, and anything in this space!"
+        },
+        "title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Launch HN: Risely (YC S25) \u2013 AI Agents for Universities"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_danialasif",
+        "story_45116859",
+        "launch_hn"
+      ],
+      "author": "danialasif",
+      "children": [
+        45117145,
+        45117220,
+        45117413,
+        45117585,
+        45118099,
+        45118866,
+        45119317,
+        45119329,
+        45127967
+      ],
+      "created_at": "2025-09-03T15:21:35Z",
+      "created_at_i": 1756912895,
+      "num_comments": 19,
+      "objectID": "45116859",
+      "points": 45,
+      "story_id": 45116859,
+      "story_text": "Hi HN, I\u2019m Danial, co-founder and CTO of Risely AI (<a href=\"https:&#x2F;&#x2F;risely.ai\">https:&#x2F;&#x2F;risely.ai</a>). We&#x27;re building AI agents that automate operational workflows inside universities. Here\u2019s a demo: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;d7a14400434144c490249d665a0d0499?sid=8d36736e-6c87-43d3-992d-203c6edb0cf9\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;d7a14400434144c490249d665a0d0499?...</a>.<p>Higher ed is full of inefficiencies. Every department runs on outdated systems that don\u2019t talk to each other. Today, advising staff are looking up enrollment data in PeopleSoft or Ellucian, checking grades and assignments in Canvas, and trying to track engagement in a CRM, if they even have one. Often, it\u2019s just spreadsheets and email. One advisor told us they were losing 8+ hours&#x2F;week just trying to answer: \u201cWhich students are struggling?\u201d. During that lag, students slip through the cracks, and every lost student costs a school tuition.<p>I\u2019ve spent the last decade building large-scale systems, but about a year ago, I left my job to build something personal. My time at UC Berkeley reinforced what my parents taught me when we immigrated to the U.S. - that education is the most powerful tool for upward mobility. But nearly 40% of students never graduate. Many of these students are capable and just need support, but the systems meant to support them are overwhelmed and broken.<p>So we built Risely. Our first agent focuses on academic advising and retention. It connects to a school\u2019s systems, unifies the data, flags at-risk students, drafts outreach, and answers natural-language questions about caseloads and course progress. It gives staff leverage and time back, while helping more students stay on track.<p>The harder part is everything under the hood:\n- Connecting to archaic SIS, LMS, and CRM systems with inconsistent APIs and data models\n- Normalizing messy institutional data into something agents can reason over \n- Handling real policy constraints around FERPA, isolating tenant data, and meeting strict security and privacy standards for student PII \n- Designing agent workflows that are traceable, reviewable, and safe to run in production \n- Building infrastructure that can adapt to different institutional rules, processes, and edge cases.<p>We started with advising because retention ties directly to both revenue and student success. But the same foundation applies to registrar, admissions, financial aid, research administration, and other critical functions. As more agents come online, they can begin to coordinate with each other and hopefully improve the entire operations of a college or university.<p>If you\u2019ve built systems that had to reconcile messy data, inconsistent workflows, or policy constraints using LLMs, we\u2019d love to hear how you approached it.<p>We\u2019d love to hear your thoughts about the above, and anything in this space!",
+      "title": "Launch HN: Risely (YC S25) \u2013 AI Agents for Universities",
+      "updated_at": "2026-03-05T22:37:52Z"
+    }
+  ],
+  "queries": [
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": true,
+          "typo": true
+        },
+        "exhaustiveNbHits": true,
+        "exhaustiveTypo": true,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "danialasif"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "risely",
+                  "ai"
+                ],
+                "value": "Hi HN, I\u2019m Danial, co-founder and CTO of <em>Risely</em> <em>AI</em> (<a href=\"https://risely.ai\">https://<em>risely</em>.<em>ai</em></a>). We're building <em>AI</em> agents that automate operational workflows inside universities. Here\u2019s a demo: <a href=\"https://www.loom.com/share/d7a14400434144c490249d665a0d0499?sid=8d36736e-6c87-43d3-992d-203c6edb0cf9\" rel=\"nofollow\">https://www.loom.com/share/d7a14400434144c490249d665a0d0499?...</a>.<p>Higher ed is full of inefficiencies. Every department runs on outdated systems that don\u2019t talk to each other. Today, advising staff are looking up enrollment data in PeopleSoft or Ellucian, checking grades and assignments in Canvas, and trying to track engagement in a CRM, if they even have one. Often, it\u2019s just spreadsheets and email. One advisor told us they were losing 8+ hours/week just trying to answer: \u201cWhich students are struggling?\u201d. During that lag, students slip through the cracks, and every lost student costs a school tuition.<p>I\u2019ve spent the last decade building large-scale systems, but about a year ago, I left my job to build something personal. My time at UC Berkeley reinforced what my parents taught me when we immigrated to the U.S. - that education is the most powerful tool for upward mobility. But nearly 40% of students never graduate. Many of these students are capable and just need support, but the systems meant to support them are overwhelmed and broken.<p>So we built <em>Risely</em>. Our first agent focuses on academic advising and retention. It connects to a school\u2019s systems, unifies the data, flags at-risk students, drafts outreach, and answers natural-language questions about caseloads and course progress. It gives staff leverage and time back, while helping more students stay on track.<p>The harder part is everything under the hood:\n- Connecting to archaic SIS, LMS, and CRM systems with inconsistent APIs and data models\n- Normalizing messy institutional data into something agents can reason over \n- Handling real policy constraints around FERPA, isolating tenant data, and meeting strict security and privacy standards for student PII \n- Designing agent workflows that are traceable, reviewable, and safe to run in production \n- Building infrastructure that can adapt to different institutional rules, processes, and edge cases.<p>We started with advising because retention ties directly to both revenue and student success. But the same foundation applies to registrar, admissions, financial aid, research administration, and other critical functions. As more agents come online, they can begin to coordinate with each other and hopefully improve the entire operations of a college or university.<p>If you\u2019ve built systems that had to reconcile messy data, inconsistent workflows, or policy constraints using LLMs, we\u2019d love to hear how you approached it.<p>We\u2019d love to hear your thoughts about the above, and anything in this space!"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "risely",
+                  "ai"
+                ],
+                "value": "Launch HN: <em>Risely</em> (YC S25) \u2013 <em>AI</em> Agents for Universities"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_danialasif",
+              "story_45116859",
+              "launch_hn"
+            ],
+            "author": "danialasif",
+            "children": [
+              45117145,
+              45117220,
+              45117413,
+              45117585,
+              45118099,
+              45118866,
+              45119317,
+              45119329,
+              45127967
+            ],
+            "created_at": "2025-09-03T15:21:35Z",
+            "created_at_i": 1756912895,
+            "num_comments": 19,
+            "objectID": "45116859",
+            "points": 45,
+            "story_id": 45116859,
+            "story_text": "Hi HN, I\u2019m Danial, co-founder and CTO of Risely AI (<a href=\"https:&#x2F;&#x2F;risely.ai\">https:&#x2F;&#x2F;risely.ai</a>). We&#x27;re building AI agents that automate operational workflows inside universities. Here\u2019s a demo: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;d7a14400434144c490249d665a0d0499?sid=8d36736e-6c87-43d3-992d-203c6edb0cf9\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;d7a14400434144c490249d665a0d0499?...</a>.<p>Higher ed is full of inefficiencies. Every department runs on outdated systems that don\u2019t talk to each other. Today, advising staff are looking up enrollment data in PeopleSoft or Ellucian, checking grades and assignments in Canvas, and trying to track engagement in a CRM, if they even have one. Often, it\u2019s just spreadsheets and email. One advisor told us they were losing 8+ hours&#x2F;week just trying to answer: \u201cWhich students are struggling?\u201d. During that lag, students slip through the cracks, and every lost student costs a school tuition.<p>I\u2019ve spent the last decade building large-scale systems, but about a year ago, I left my job to build something personal. My time at UC Berkeley reinforced what my parents taught me when we immigrated to the U.S. - that education is the most powerful tool for upward mobility. But nearly 40% of students never graduate. Many of these students are capable and just need support, but the systems meant to support them are overwhelmed and broken.<p>So we built Risely. Our first agent focuses on academic advising and retention. It connects to a school\u2019s systems, unifies the data, flags at-risk students, drafts outreach, and answers natural-language questions about caseloads and course progress. It gives staff leverage and time back, while helping more students stay on track.<p>The harder part is everything under the hood:\n- Connecting to archaic SIS, LMS, and CRM systems with inconsistent APIs and data models\n- Normalizing messy institutional data into something agents can reason over \n- Handling real policy constraints around FERPA, isolating tenant data, and meeting strict security and privacy standards for student PII \n- Designing agent workflows that are traceable, reviewable, and safe to run in production \n- Building infrastructure that can adapt to different institutional rules, processes, and edge cases.<p>We started with advising because retention ties directly to both revenue and student success. But the same foundation applies to registrar, admissions, financial aid, research administration, and other critical functions. As more agents come online, they can begin to coordinate with each other and hopefully improve the entire operations of a college or university.<p>If you\u2019ve built systems that had to reconcile messy data, inconsistent workflows, or policy constraints using LLMs, we\u2019d love to hear how you approached it.<p>We\u2019d love to hear your thoughts about the above, and anything in this space!",
+            "title": "Launch HN: Risely (YC S25) \u2013 AI Agents for Universities",
+            "updated_at": "2026-03-05T22:37:52Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "pama"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "risely",
+                  "ai"
+                ],
+                "value": "How to worry <em>wisely</em> about <em>AI</em>"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "risely"
+                ],
+                "value": "https://www.economist.com/leaders/2023/04/20/how-to-worry-<em>wisely</em>-about-artificial-intelligence"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_pama",
+              "story_35648968"
+            ],
+            "author": "pama",
+            "created_at": "2023-04-21T01:59:41Z",
+            "created_at_i": 1682042381,
+            "num_comments": 0,
+            "objectID": "35648968",
+            "points": 1,
+            "story_id": 35648968,
+            "title": "How to worry wisely about AI",
+            "updated_at": "2024-09-20T13:50:25Z",
+            "url": "https://www.economist.com/leaders/2023/04/20/how-to-worry-wisely-about-artificial-intelligence"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "<em>ai</em>-onehealth"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "risely",
+                  "ai"
+                ],
+                "value": "We built <em>AI</em> One Health as an open community where technologists can connect with researchers, veterinarians, doctors, climate scientists, and anyone curious about how <em>AI</em> can support the health of people, animals, and the environment.<p>- What is One Health?<p>One Health is the idea that human, animal, and environmental health are deeply interconnected. Think pandemic preparedness, zoonotic disease monitoring, antimicrobial resistance, or climate-health modelling; challenges that can't be solved by any single discipline working alone.<p>- What is it?<p><em>AI</em> One Health isn't a startup or research project; it's a meeting point for bridging the gap between <em>AI</em> practitioners and One Health professionals. We noticed that plenty of people work on <em>AI</em>, and plenty work on interconnected health challenges, but they rarely talk to each other.<p>The platform brings together researchers, developers, artists, students, conservationists, and everyday citizens to exchange ideas about using <em>AI</em> <em>wisely</em> to improve life on Earth.<p>- Why should developers care?<p>These interdisciplinary spaces are where interesting collaborations emerge. When technologists connect with domain experts working on complex health challenges, both sides benefit from perspectives they wouldn't encounter otherwise.<p>Beyond the satisfaction of working on problems that matter, these kinds of cross-disciplinary connections often lead somewhere unexpected. You might discover a research collaboration that becomes your next project, meet a domain expert who needs exactly your skillset, or stumble into insights that spark something entirely new.<p>The goal is simply to connect people from different worlds so they can think, learn, and act together. We're planning to host an online conference in the coming year to bring the community together and showcase what happens when <em>AI</em> meets One Health.<p>Check it out: <a href=\"https://ai-onehealth.com\" rel=\"nofollow\">https://<em>ai</em>-onehealth.com</a>"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "Show HN: <em>AI</em> One Health \u2013 Connecting technologists with health professionals"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "https://<em>ai</em>-onehealth.com"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_ai-onehealth",
+              "story_45643566",
+              "show_hn"
+            ],
+            "author": "ai-onehealth",
+            "created_at": "2025-10-20T13:18:47Z",
+            "created_at_i": 1760966327,
+            "num_comments": 0,
+            "objectID": "45643566",
+            "points": 3,
+            "story_id": 45643566,
+            "story_text": "We built AI One Health as an open community where technologists can connect with researchers, veterinarians, doctors, climate scientists, and anyone curious about how AI can support the health of people, animals, and the environment.<p>- What is One Health?<p>One Health is the idea that human, animal, and environmental health are deeply interconnected. Think pandemic preparedness, zoonotic disease monitoring, antimicrobial resistance, or climate-health modelling; challenges that can&#x27;t be solved by any single discipline working alone.<p>- What is it?<p>AI One Health isn&#x27;t a startup or research project; it&#x27;s a meeting point for bridging the gap between AI practitioners and One Health professionals. We noticed that plenty of people work on AI, and plenty work on interconnected health challenges, but they rarely talk to each other.<p>The platform brings together researchers, developers, artists, students, conservationists, and everyday citizens to exchange ideas about using AI wisely to improve life on Earth.<p>- Why should developers care?<p>These interdisciplinary spaces are where interesting collaborations emerge. When technologists connect with domain experts working on complex health challenges, both sides benefit from perspectives they wouldn&#x27;t encounter otherwise.<p>Beyond the satisfaction of working on problems that matter, these kinds of cross-disciplinary connections often lead somewhere unexpected. You might discover a research collaboration that becomes your next project, meet a domain expert who needs exactly your skillset, or stumble into insights that spark something entirely new.<p>The goal is simply to connect people from different worlds so they can think, learn, and act together. We&#x27;re planning to host an online conference in the coming year to bring the community together and showcase what happens when AI meets One Health.<p>Check it out: <a href=\"https:&#x2F;&#x2F;ai-onehealth.com\" rel=\"nofollow\">https:&#x2F;&#x2F;ai-onehealth.com</a>",
+            "title": "Show HN: AI One Health \u2013 Connecting technologists with health professionals",
+            "updated_at": "2026-03-05T22:51:02Z",
+            "url": "https://ai-onehealth.com"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "jusonchan81"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "LLMs Are Not a Default Execution Engine"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "risely",
+                  "ai"
+                ],
+                "value": "https://unmeshed.io/blog/using-<em>ai</em>-<em>wisely</em>-starts-before-the-first-prompt"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_jusonchan81",
+              "story_48812489"
+            ],
+            "author": "jusonchan81",
+            "children": [
+              48812778
+            ],
+            "created_at": "2026-07-07T01:06:19Z",
+            "created_at_i": 1783386379,
+            "num_comments": 2,
+            "objectID": "48812489",
+            "points": 7,
+            "story_id": 48812489,
+            "title": "LLMs Are Not a Default Execution Engine",
+            "updated_at": "2026-07-07T13:11:52Z",
+            "url": "https://unmeshed.io/blog/using-ai-wisely-starts-before-the-first-prompt"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "mpesce"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "Key risks using Generative <em>AI</em>"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "risely",
+                  "ai"
+                ],
+                "value": "https://www.safelyandwisely.<em>ai</em>/insights/<em>wisely</em>-<em>ai</em>-de-risking-<em>ai</em>-white-paper"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_mpesce",
+              "story_40082268"
+            ],
+            "author": "mpesce",
+            "children": [
+              40082269,
+              40085394
+            ],
+            "created_at": "2024-04-19T00:40:37Z",
+            "created_at_i": 1713487237,
+            "num_comments": 2,
+            "objectID": "40082268",
+            "points": 1,
+            "story_id": 40082268,
+            "title": "Key risks using Generative AI",
+            "updated_at": "2024-09-20T16:52:46Z",
+            "url": "https://www.safelyandwisely.ai/insights/wisely-ai-de-risking-ai-white-paper"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "jusonchan81"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "Obsession with <em>AI</em>"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "risely",
+                  "ai"
+                ],
+                "value": "https://unmeshed.io/blog/using-<em>ai</em>-<em>wisely</em>-starts-before-the-first-prompt"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_jusonchan81",
+              "story_49395808"
+            ],
+            "author": "jusonchan81",
+            "created_at": "2026-08-22T01:53:33Z",
+            "created_at_i": 1787363613,
+            "num_comments": 0,
+            "objectID": "49395808",
+            "points": 1,
+            "story_id": 49395808,
+            "title": "Obsession with AI",
+            "updated_at": "2026-08-22T01:58:34Z",
+            "url": "https://unmeshed.io/blog/using-ai-wisely-starts-before-the-first-prompt"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "covi"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "risely",
+                  "ai"
+                ],
+                "value": "Getting $1M cloud credits for <em>AI</em> startups \u2013 and using them <em>wisely</em>"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "ai"
+                ],
+                "value": "https://blog.skypilot.co/million-dollar-cloud-credits-for-<em>ai</em>-teams/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_covi",
+              "story_42018742"
+            ],
+            "author": "covi",
+            "created_at": "2024-11-01T16:37:26Z",
+            "created_at_i": 1730479046,
+            "num_comments": 0,
+            "objectID": "42018742",
+            "points": 1,
+            "story_id": 42018742,
+            "title": "Getting $1M cloud credits for AI startups \u2013 and using them wisely",
+            "updated_at": "2024-11-01T16:38:41Z",
+            "url": "https://blog.skypilot.co/million-dollar-cloud-credits-for-ai-teams/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "rntn"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "risely",
+                  "ai"
+                ],
+                "value": "Wikipedia <em>Wisely</em> Downgrades CNET Reliability Score After Lazy <em>AI</em> Screw Ups"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "risely",
+                  "ai"
+                ],
+                "value": "https://www.techdirt.com/2024/03/05/wikipedia-<em>wisely</em>-downgrades-cnet-reliability-score-after-lazy-<em>ai</em>-screw-ups/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_rntn",
+              "story_39604759"
+            ],
+            "author": "rntn",
+            "created_at": "2024-03-05T15:37:44Z",
+            "created_at_i": 1709653064,
+            "num_comments": 0,
+            "objectID": "39604759",
+            "points": 7,
+            "story_id": 39604759,
+            "title": "Wikipedia Wisely Downgrades CNET Reliability Score After Lazy AI Screw Ups",
+            "updated_at": "2024-09-20T16:32:50Z",
+            "url": "https://www.techdirt.com/2024/03/05/wikipedia-wisely-downgrades-cnet-reliability-score-after-lazy-ai-screw-ups/"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 22,
+        "nbPages": 3,
+        "page": 0,
+        "params": "query=Risely+AI&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 8,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 17
+          },
+          "afterFetch": {
+            "merge": {
+              "mergeLoop": {
+                "prepareNextHit": 2,
+                "total": 2
+              },
+              "total": 2
+            },
+            "total": 2
+          },
+          "fetch": {
+            "query": 3,
+            "scanning": 2,
+            "total": 6
+          },
+          "total": 8
+        },
+        "query": "Risely AI",
+        "serverTimeMS": 9
+      },
+      "query": "Risely AI"
+    },
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "danialasif"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "risely",
+                  ".",
+                  "ai"
+                ],
+                "value": "Hi HN, I\u2019m Danial, co-founder and CTO of Risely AI (<a href=\"https://risely.ai\">https://<em>risely.ai</em></a>). We're building AI agents that automate operational workflows inside universities. Here\u2019s a demo: <a href=\"https://www.loom.com/share/d7a14400434144c490249d665a0d0499?sid=8d36736e-6c87-43d3-992d-203c6edb0cf9\" rel=\"nofollow\">https://www.loom.com/share/d7a14400434144c490249d665a0d0499?...</a>.<p>Higher ed is full of inefficiencies. Every department runs on outdated systems that don\u2019t talk to each other. Today, advising staff are looking up enrollment data in PeopleSoft or Ellucian, checking grades and assignments in Canvas, and trying to track engagement in a CRM, if they even have one. Often, it\u2019s just spreadsheets and email. One advisor told us they were losing 8+ hours/week just trying to answer: \u201cWhich students are struggling?\u201d. During that lag, students slip through the cracks, and every lost student costs a school tuition.<p>I\u2019ve spent the last decade building large-scale systems, but about a year ago, I left my job to build something personal. My time at UC Berkeley reinforced what my parents taught me when we immigrated to the U.S. - that education is the most powerful tool for upward mobility. But nearly 40% of students never graduate. Many of these students are capable and just need support, but the systems meant to support them are overwhelmed and broken.<p>So we built Risely. Our first agent focuses on academic advising and retention. It connects to a school\u2019s systems, unifies the data, flags at-risk students, drafts outreach, and answers natural-language questions about caseloads and course progress. It gives staff leverage and time back, while helping more students stay on track.<p>The harder part is everything under the hood:\n- Connecting to archaic SIS, LMS, and CRM systems with inconsistent APIs and data models\n- Normalizing messy institutional data into something agents can reason over \n- Handling real policy constraints around FERPA, isolating tenant data, and meeting strict security and privacy standards for student PII \n- Designing agent workflows that are traceable, reviewable, and safe to run in production \n- Building infrastructure that can adapt to different institutional rules, processes, and edge cases.<p>We started with advising because retention ties directly to both revenue and student success. But the same foundation applies to registrar, admissions, financial aid, research administration, and other critical functions. As more agents come online, they can begin to coordinate with each other and hopefully improve the entire operations of a college or university.<p>If you\u2019ve built systems that had to reconcile messy data, inconsistent workflows, or policy constraints using LLMs, we\u2019d love to hear how you approached it.<p>We\u2019d love to hear your thoughts about the above, and anything in this space!"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Launch HN: Risely (YC S25) \u2013 AI Agents for Universities"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_danialasif",
+              "story_45116859",
+              "launch_hn"
+            ],
+            "author": "danialasif",
+            "children": [
+              45117145,
+              45117220,
+              45117413,
+              45117585,
+              45118099,
+              45118866,
+              45119317,
+              45119329,
+              45127967
+            ],
+            "created_at": "2025-09-03T15:21:35Z",
+            "created_at_i": 1756912895,
+            "num_comments": 19,
+            "objectID": "45116859",
+            "points": 45,
+            "story_id": 45116859,
+            "story_text": "Hi HN, I\u2019m Danial, co-founder and CTO of Risely AI (<a href=\"https:&#x2F;&#x2F;risely.ai\">https:&#x2F;&#x2F;risely.ai</a>). We&#x27;re building AI agents that automate operational workflows inside universities. Here\u2019s a demo: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;d7a14400434144c490249d665a0d0499?sid=8d36736e-6c87-43d3-992d-203c6edb0cf9\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;d7a14400434144c490249d665a0d0499?...</a>.<p>Higher ed is full of inefficiencies. Every department runs on outdated systems that don\u2019t talk to each other. Today, advising staff are looking up enrollment data in PeopleSoft or Ellucian, checking grades and assignments in Canvas, and trying to track engagement in a CRM, if they even have one. Often, it\u2019s just spreadsheets and email. One advisor told us they were losing 8+ hours&#x2F;week just trying to answer: \u201cWhich students are struggling?\u201d. During that lag, students slip through the cracks, and every lost student costs a school tuition.<p>I\u2019ve spent the last decade building large-scale systems, but about a year ago, I left my job to build something personal. My time at UC Berkeley reinforced what my parents taught me when we immigrated to the U.S. - that education is the most powerful tool for upward mobility. But nearly 40% of students never graduate. Many of these students are capable and just need support, but the systems meant to support them are overwhelmed and broken.<p>So we built Risely. Our first agent focuses on academic advising and retention. It connects to a school\u2019s systems, unifies the data, flags at-risk students, drafts outreach, and answers natural-language questions about caseloads and course progress. It gives staff leverage and time back, while helping more students stay on track.<p>The harder part is everything under the hood:\n- Connecting to archaic SIS, LMS, and CRM systems with inconsistent APIs and data models\n- Normalizing messy institutional data into something agents can reason over \n- Handling real policy constraints around FERPA, isolating tenant data, and meeting strict security and privacy standards for student PII \n- Designing agent workflows that are traceable, reviewable, and safe to run in production \n- Building infrastructure that can adapt to different institutional rules, processes, and edge cases.<p>We started with advising because retention ties directly to both revenue and student success. But the same foundation applies to registrar, admissions, financial aid, research administration, and other critical functions. As more agents come online, they can begin to coordinate with each other and hopefully improve the entire operations of a college or university.<p>If you\u2019ve built systems that had to reconcile messy data, inconsistent workflows, or policy constraints using LLMs, we\u2019d love to hear how you approached it.<p>We\u2019d love to hear your thoughts about the above, and anything in this space!",
+            "title": "Launch HN: Risely (YC S25) \u2013 AI Agents for Universities",
+            "updated_at": "2026-03-05T22:37:52Z"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 1,
+        "nbPages": 1,
+        "page": 0,
+        "params": "query=risely.ai&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 23,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 26
+          },
+          "fetch": {
+            "query": 3,
+            "scanning": 18,
+            "total": 22
+          },
+          "total": 23
+        },
+        "query": "risely.ai",
+        "serverTimeMS": 23
+      },
+      "query": "risely.ai"
+    }
+  ]
+}

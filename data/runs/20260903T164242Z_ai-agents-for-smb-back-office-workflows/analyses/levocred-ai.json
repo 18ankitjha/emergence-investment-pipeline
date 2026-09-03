@@ -1,0 +1,80 @@
+{
+  "analysis_mode": "deterministic_fallback",
+  "candidate_id": "yc-33023",
+  "cited_claims": [
+    {
+      "claim": "Product description is taken from YC metadata.",
+      "evidence_ids": [
+        "YC1",
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Company stage, status, and team size come from YC metadata.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    },
+    {
+      "claim": "Founder/team background signal was extracted from the YC description where present.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    },
+    {
+      "claim": "Website evidence availability was recorded during enrichment.",
+      "evidence_ids": [
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "HN traction/freshness evidence was recorded during enrichment.",
+      "evidence_ids": [
+        "HN1"
+      ]
+    }
+  ],
+  "market_assessment": "The market read rests on the described workflow and buyer: Levocred builds and deploys AI agents inside credit funds, fintechs and banks to automate workflows like back-office tasks, portfolio monitoring, compliance and underwriting. Live across multiple lending teams, running ~$1Bn in receivables through the platf... Website text adds: Levocred | The AI Workforce for Lenders Product Customers Try now Request a demo Backed by Y Combinator The AI Workforce for Lenders Automate workflows like back-office tasks, portfolio monitoring, compliance and unde... Market size is not estimated from the packet and stays an open question. [YC3, WEB1]",
+  "open_questions": [
+    "Who is the economic buyer, and which manual budget line or headcount does this replace?",
+    "Are there paying customers or usage numbers for Levocred AI beyond the YC description?",
+    "What are the founders' backgrounds, and why are they the right team for this workflow?",
+    "What licenses, carrier partners, or regulatory approvals are required, and are they in place?"
+  ],
+  "product_summary": "Levocred AI is described as \u201cAI Workforce for lenders\u201d. The fullest product evidence reads: Levocred builds and deploys AI agents inside credit funds, fintechs and banks to automate workflows like back-office tasks, portfolio monitoring, compliance and underwriting. Live across multiple lending teams, running ~$1Bn in receivables through the platform. [YC1, YC2]",
+  "recommendation": "Watch",
+  "recommendation_rationale": "Watch: deterministic evidence-only scoring. OpenAI analysis failed and was replaced by the offline path: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/responses'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429. The call leans on YC and company-site evidence and treats HN as a weak freshness signal. YC metadata: YC batch: Summer 2026; Industry: Fintech; Status: Active; Stage: Early; Team size: 2; Tags: Enterprise Software",
+  "risks": [
+    "No Hacker News discussion was found for Levocred AI; external traction is unverified.",
+    "Founder backgrounds are not in the evidence (no YC4); team quality is unassessed.",
+    "2-person team (YC3) against a broad platform ambition; execution risk.",
+    "Operates in a regulated domain; licensing, audits, and long enterprise sales cycles apply."
+  ],
+  "score_breakdown": {
+    "defensibility": 5,
+    "market": 11,
+    "product": 15,
+    "rationale_by_component": {
+      "defensibility": "Conservative unless workflow depth, integrations, or proprietary data are visible.",
+      "market": "SMB/mid-market and operational-domain hints only; no market sizing was attempted from the packet.",
+      "product": "AI plus workflow-execution language; website support available.",
+      "risk_adjustment": "Rewards a reachable website and any real HN discussion; penalises missing evidence.",
+      "team": "Founder backgrounds are not described in the collected evidence.",
+      "traction_freshness": "No Hacker News discussion was found for Levocred AI. YC Summer 2026 is the main freshness anchor.",
+      "why_now": "Scored on AI/agent language plus evidence that the product executes work, not just answers."
+    },
+    "risk_adjustment": 6,
+    "team": 10,
+    "total": 62,
+    "traction_freshness": 7,
+    "why_now": 8
+  },
+  "team_assessment": "YC lists Levocred AI as Active / Early, team size 2. Founder backgrounds are not described in the collected evidence. [YC3]",
+  "what_would_change_mind": [
+    "Named paying customers or usage numbers for Levocred AI beyond the YC blurb.",
+    "Founder-background evidence showing strong domain or technical fit for this workflow.",
+    "Proof the product executes an end-to-end workflow with integrations or proprietary data, not just chat."
+  ],
+  "why_now": "AI agents are moving from advice to execution inside operational workflows, which is where this thesis looks. Freshness/traction read: YC Summer 2026; No Hacker News discussion was found for Levocred AI. [HN1]",
+  "why_we_care": "Fits the thesis only if Levocred AI owns a repeated operating workflow rather than a thin assistant layer. The evidence points to: AI Workforce for lenders [YC1]"
+}

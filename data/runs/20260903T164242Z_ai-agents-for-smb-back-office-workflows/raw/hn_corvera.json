@@ -1,0 +1,835 @@
+{
+  "filtered_hits": [],
+  "queries": [
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "karakoram"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Paper: <a href=\"https://www.medrxiv.org/content/10.64898/2026.07.22.26358689v1.full.pdf\" rel=\"nofollow\">https://www.medrxiv.org/content/10.64898/2026.07.22.26358689...</a>"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "Universal health <em>covera</em>ge could save $1T and 114k lives a year: study"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "https://ysph.yale.edu/news-article/universal-health-<em>covera</em>ge-could-save-one-trillion-dollars-and-114000-lives-every-year/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_karakoram",
+              "story_49332981"
+            ],
+            "author": "karakoram",
+            "children": [
+              49332982,
+              49333142,
+              49333160,
+              49333171,
+              49333190,
+              49333201,
+              49333216,
+              49333219,
+              49333235,
+              49333238,
+              49333287,
+              49333290,
+              49333294,
+              49333322,
+              49333347,
+              49333352,
+              49333357,
+              49333387,
+              49333429,
+              49333438,
+              49333445,
+              49333463,
+              49333496,
+              49333499,
+              49333506,
+              49333520,
+              49333550,
+              49333558,
+              49333578,
+              49333598,
+              49333614,
+              49333661,
+              49333718,
+              49333749,
+              49333791,
+              49333812,
+              49333820,
+              49333995,
+              49334052,
+              49334173,
+              49334189,
+              49334271,
+              49334275,
+              49334297,
+              49334372,
+              49334419,
+              49334497,
+              49334523,
+              49334538,
+              49334635,
+              49334702,
+              49334736,
+              49335055,
+              49335148,
+              49335686,
+              49336169,
+              49337599,
+              49339374,
+              49349143,
+              49349255,
+              49350686,
+              49350944,
+              49351052,
+              49351098,
+              49351124,
+              49351228,
+              49351449,
+              49351892,
+              49352171,
+              49352916,
+              49353010,
+              49353114,
+              49353157,
+              49353565,
+              49354141,
+              49354218,
+              49354809,
+              49355939,
+              49356350,
+              49356409,
+              49356651,
+              49356835,
+              49357065,
+              49358316,
+              49362834,
+              49363262,
+              49369757,
+              49370567,
+              49374014,
+              49468294
+            ],
+            "created_at": "2026-08-17T15:49:57Z",
+            "created_at_i": 1786981797,
+            "num_comments": 979,
+            "objectID": "49332981",
+            "points": 902,
+            "story_id": 49332981,
+            "story_text": "Paper: <a href=\"https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689v1.full.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www.medrxiv.org&#x2F;content&#x2F;10.64898&#x2F;2026.07.22.26358689...</a>",
+            "title": "Universal health coverage could save $1T and 114k lives a year: study",
+            "updated_at": "2026-09-01T22:44:59Z",
+            "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "chaseadam17"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "Watsi launches universal health <em>covera</em>ge, funded by YC Research"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "http://blog.watsi.org/watsi-<em>covera</em>ge/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_chaseadam17",
+              "story_15165111"
+            ],
+            "author": "chaseadam17",
+            "children": [
+              15165279,
+              15165335,
+              15165348,
+              15165369,
+              15165385,
+              15165433,
+              15165541,
+              15165611,
+              15165617,
+              15165750,
+              15165924,
+              15165958,
+              15166006,
+              15166074,
+              15166424,
+              15166706,
+              15167757,
+              15167917,
+              15168002,
+              15168801,
+              15169108,
+              15169227,
+              15172078,
+              15172143,
+              15174155
+            ],
+            "created_at": "2017-09-04T01:49:16Z",
+            "created_at_i": 1504489756,
+            "num_comments": 281,
+            "objectID": "15165111",
+            "points": 564,
+            "story_id": 15165111,
+            "title": "Watsi launches universal health coverage, funded by YC Research",
+            "updated_at": "2026-08-04T08:02:41Z",
+            "url": "http://blog.watsi.org/watsi-coverage/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "tdurden"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "The tragedy of 100% code <em>covera</em>ge (2016)"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "http://labs.ig.com/code-<em>covera</em>ge-100-percent-tragedy"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_tdurden",
+              "story_14297289"
+            ],
+            "author": "tdurden",
+            "children": [
+              14297416,
+              14297418,
+              14297441,
+              14297452,
+              14297454,
+              14297476,
+              14297487,
+              14297497,
+              14297504,
+              14297505,
+              14297526,
+              14297527,
+              14297555,
+              14297626,
+              14297641,
+              14297671,
+              14297680,
+              14297700,
+              14297702,
+              14297711,
+              14297735,
+              14297742,
+              14297766,
+              14297786,
+              14297829,
+              14297863,
+              14297876,
+              14297891,
+              14297946,
+              14298071,
+              14298135,
+              14298143,
+              14298189,
+              14298199,
+              14298207,
+              14298234,
+              14298337,
+              14298355,
+              14298398,
+              14298499,
+              14298565,
+              14298587,
+              14298605,
+              14298653,
+              14298655,
+              14298663,
+              14298676,
+              14298697,
+              14298700,
+              14298761,
+              14298776,
+              14298900,
+              14298910,
+              14298911,
+              14298917,
+              14298966,
+              14298998,
+              14299077,
+              14299437,
+              14299467,
+              14299543,
+              14299556,
+              14299685,
+              14299869,
+              14300011,
+              14300336,
+              14300572,
+              14301119,
+              14301233,
+              14301366,
+              14301796,
+              14306438,
+              14313324
+            ],
+            "created_at": "2017-05-09T02:20:00Z",
+            "created_at_i": 1494296400,
+            "num_comments": 340,
+            "objectID": "14297289",
+            "points": 534,
+            "story_id": 14297289,
+            "title": "The tragedy of 100% code coverage (2016)",
+            "updated_at": "2025-01-02T14:28:54Z",
+            "url": "http://labs.ig.com/code-coverage-100-percent-tragedy"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "tomjakubowski"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "Uber, Google and others pay London Evening Standard for favorable <em>covera</em>ge"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "https://www.opendemocracy.net/uk/james-cusick/george-osborne-s-london-evening-standard-promises-positive-news-<em>covera</em>ge-to-uber-goo"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_tomjakubowski",
+              "story_17190709"
+            ],
+            "author": "tomjakubowski",
+            "children": [
+              17191483,
+              17192113,
+              17192116,
+              17192238,
+              17192971,
+              17193043,
+              17193091,
+              17193687,
+              17194095,
+              17194354,
+              17194410,
+              17194686,
+              17194894,
+              17195233,
+              17195379,
+              17195442,
+              17196572,
+              17198036
+            ],
+            "created_at": "2018-05-30T19:10:42Z",
+            "created_at_i": 1527707442,
+            "num_comments": 100,
+            "objectID": "17190709",
+            "points": 492,
+            "story_id": 17190709,
+            "title": "Uber, Google and others pay London Evening Standard for favorable coverage",
+            "updated_at": "2024-09-20T02:35:50Z",
+            "url": "https://www.opendemocracy.net/uk/james-cusick/george-osborne-s-london-evening-standard-promises-positive-news-coverage-to-uber-goo"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "mgarciaisaia"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "How to find a lost phone in a no-cell-<em>covera</em>ge camping site?"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "https://manas.tech/blog/2023/10/25/approaching-unconventional-problems/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_mgarciaisaia",
+              "story_38018917"
+            ],
+            "author": "mgarciaisaia",
+            "children": [
+              38019511,
+              38019513,
+              38019526,
+              38019569,
+              38019675,
+              38019696,
+              38019943,
+              38019956,
+              38019972,
+              38020106,
+              38020261,
+              38020395,
+              38020421,
+              38020509,
+              38020699,
+              38020788,
+              38020958,
+              38021103,
+              38021112,
+              38021440,
+              38021497,
+              38021609,
+              38021841,
+              38021949,
+              38021963,
+              38022571,
+              38022930,
+              38023067,
+              38023117,
+              38023294,
+              38023809,
+              38023956,
+              38023993,
+              38024053,
+              38024310,
+              38024640,
+              38025922,
+              38029492,
+              38037203,
+              38037232
+            ],
+            "created_at": "2023-10-25T21:58:02Z",
+            "created_at_i": 1698271082,
+            "num_comments": 335,
+            "objectID": "38018917",
+            "points": 475,
+            "story_id": 38018917,
+            "title": "How to find a lost phone in a no-cell-coverage camping site?",
+            "updated_at": "2025-10-06T20:36:58Z",
+            "url": "https://manas.tech/blog/2023/10/25/approaching-unconventional-problems/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "mimbs"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "The Most Common Error in Media <em>Covera</em>ge of the Google Memo"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "https://www.theatlantic.com/politics/archive/2017/08/the-most-common-error-in-<em>covera</em>ge-of-the-google-memo/536181/?single_page=true"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_mimbs",
+              "story_14959601"
+            ],
+            "author": "mimbs",
+            "children": [
+              14959793,
+              14959806,
+              14959882,
+              14959891,
+              14959942,
+              14960013,
+              14960024,
+              14960031,
+              14960073,
+              14960232,
+              14960272,
+              14960398,
+              14960407,
+              14960447,
+              14960499,
+              14960500,
+              14960531,
+              14960577,
+              14960625,
+              14960642,
+              14960863,
+              14960974,
+              14961219,
+              14961223,
+              14961354,
+              14963453,
+              14964616,
+              14972399,
+              14986386
+            ],
+            "created_at": "2017-08-08T16:38:57Z",
+            "created_at_i": 1502210337,
+            "num_comments": 150,
+            "objectID": "14959601",
+            "points": 450,
+            "story_id": 14959601,
+            "title": "The Most Common Error in Media Coverage of the Google Memo",
+            "updated_at": "2024-09-20T01:11:12Z",
+            "url": "https://www.theatlantic.com/politics/archive/2017/08/the-most-common-error-in-coverage-of-the-google-memo/536181/?single_page=true"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "tsujamin"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "Simple trick to increase <em>covera</em>ge: Lying to users about signal strength"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "https://nickvsnetworking.com/simple-trick-to-increase-<em>covera</em>ge-lying-to-users-about-signal-strength/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_tsujamin",
+              "story_45795036"
+            ],
+            "author": "tsujamin",
+            "children": [
+              45795723,
+              45795728,
+              45795737,
+              45795745,
+              45795757,
+              45795779,
+              45795833,
+              45795874,
+              45795896,
+              45795933,
+              45796007,
+              45796113,
+              45796118,
+              45796160,
+              45796193,
+              45796201,
+              45796223,
+              45796263,
+              45796286,
+              45796407,
+              45796422,
+              45796736,
+              45796774,
+              45797103,
+              45797395,
+              45797585,
+              45797702,
+              45801098,
+              45801104,
+              45805151,
+              45805870
+            ],
+            "created_at": "2025-11-03T01:27:48Z",
+            "created_at_i": 1762133268,
+            "num_comments": 181,
+            "objectID": "45795036",
+            "points": 439,
+            "story_id": 45795036,
+            "title": "Simple trick to increase coverage: Lying to users about signal strength",
+            "updated_at": "2026-03-05T23:00:49Z",
+            "url": "https://nickvsnetworking.com/simple-trick-to-increase-coverage-lying-to-users-about-signal-strength/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "HearMeRoar"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "CSS and JS code <em>covera</em>ge in Chrome DevTools"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "corvera"
+                ],
+                "value": "https://developers.google.com/web/updates/2017/04/devtools-release-notes#<em>covera</em>ge"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_HearMeRoar",
+              "story_14751741"
+            ],
+            "author": "HearMeRoar",
+            "children": [
+              14751930,
+              14751962,
+              14751972,
+              14751985,
+              14752033,
+              14752038,
+              14752091,
+              14752102,
+              14752119,
+              14752147,
+              14752157,
+              14752192,
+              14752211,
+              14752212,
+              14752215,
+              14752236,
+              14752274,
+              14752287,
+              14752383,
+              14752572,
+              14752586,
+              14752596,
+              14752688,
+              14752706,
+              14752778,
+              14752952,
+              14753654
+            ],
+            "created_at": "2017-07-12T11:57:13Z",
+            "created_at_i": 1499860633,
+            "num_comments": 120,
+            "objectID": "14751741",
+            "points": 430,
+            "story_id": 14751741,
+            "title": "CSS and JS code coverage in Chrome DevTools",
+            "updated_at": "2024-09-20T01:04:07Z",
+            "url": "https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 14000,
+        "nbPages": 125,
+        "page": 0,
+        "params": "query=Corvera&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 10,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 16
+          },
+          "fetch": {
+            "query": 5,
+            "scanning": 4,
+            "total": 10
+          },
+          "total": 10
+        },
+        "query": "Corvera",
+        "serverTimeMS": 11
+      },
+      "query": "Corvera"
+    },
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "mihau"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "TLDR: Desktop app for E2E web test generation, built at JetBrains (closed beta). Record the flow in a built-in browser - the agent matches it with your existing codebase, then writes a test that passes, not a draft to debug.<p>Devs use AI to ship more code. That code still needs testing. If your team writes E2E tests by hand, you have a problem - same QA capacity, way more surface to cover.<p>AI agents can write E2E test code, but you're stuck describing flows in text - the agent clicks around via Playwright MCP, takes wrong turns, you re-prompt, retry. 30 minutes for a flow you could click through in 30 seconds.<p>Qure works differently. You record the scenario in Qure's built-in browser by just using your product. The AI turns that recording into code. No prompt engineering, no MCP setup, no explaining your repo in chat - point it at your project and go. Beyond recording, you can also refactor tests, update them, or write new ones from a description.<p>What keeps the AI output grounded:<p>- We match the recording against your codebase - find your page objects, helpers, constants and feed them to the agent instead of hoping it figures out your repo<p>- When agent runs the test, it reads real failure output, fixes with actual error and app context<p>This is a closed beta of an experimental product. Web only, works best with Playwright. If your project has a few dozen tests - Claude Code will honestly get you there. Qure makes a difference on larger codebases with existing test infrastructure.<p>5-min demo: <a href=\"https://www.youtube.com/watch?v=4CZw4bSSDCE\" rel=\"nofollow\">https://www.youtube.com/watch?v=4CZw4bSSDCE</a><p>Try the beta: <a href=\"https://quretests.com\" rel=\"nofollow\">https://quretests.com</a><p>Happy to answer any questions about the approach, product, or where it breaks - I'm the dev on the Qure team. Egor (@250xp), who leads the project, is in the thread too."
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Show HN: Record manual QA flows, get E2E test code that fits your repo"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "https://quretests.com"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_mihau",
+              "story_47504297",
+              "show_hn"
+            ],
+            "author": "mihau",
+            "children": [
+              47504978
+            ],
+            "created_at": "2026-03-24T15:40:01Z",
+            "created_at_i": 1774366801,
+            "num_comments": 2,
+            "objectID": "47504297",
+            "points": 19,
+            "story_id": 47504297,
+            "story_text": "TLDR: Desktop app for E2E web test generation, built at JetBrains (closed beta). Record the flow in a built-in browser - the agent matches it with your existing codebase, then writes a test that passes, not a draft to debug.<p>Devs use AI to ship more code. That code still needs testing. If your team writes E2E tests by hand, you have a problem - same QA capacity, way more surface to cover.<p>AI agents can write E2E test code, but you&#x27;re stuck describing flows in text - the agent clicks around via Playwright MCP, takes wrong turns, you re-prompt, retry. 30 minutes for a flow you could click through in 30 seconds.<p>Qure works differently. You record the scenario in Qure&#x27;s built-in browser by just using your product. The AI turns that recording into code. No prompt engineering, no MCP setup, no explaining your repo in chat - point it at your project and go. Beyond recording, you can also refactor tests, update them, or write new ones from a description.<p>What keeps the AI output grounded:<p>- We match the recording against your codebase - find your page objects, helpers, constants and feed them to the agent instead of hoping it figures out your repo<p>- When agent runs the test, it reads real failure output, fixes with actual error and app context<p>This is a closed beta of an experimental product. Web only, works best with Playwright. If your project has a few dozen tests - Claude Code will honestly get you there. Qure makes a difference on larger codebases with existing test infrastructure.<p>5-min demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=4CZw4bSSDCE\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=4CZw4bSSDCE</a><p>Try the beta: <a href=\"https:&#x2F;&#x2F;quretests.com\" rel=\"nofollow\">https:&#x2F;&#x2F;quretests.com</a><p>Happy to answer any questions about the approach, product, or where it breaks - I&#x27;m the dev on the Qure team. Egor (@250xp), who leads the project, is in the thread too.",
+            "title": "Show HN: Record manual QA flows, get E2E test code that fits your repo",
+            "updated_at": "2026-04-14T13:57:22Z",
+            "url": "https://quretests.com"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "soapsommelier"
+              },
+              "story_text": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "In today's world, catchy headlines and articles often distract readers from the facts and relevant information. Simply News is an attempt to cut through the fray and provide straightforward daily updates about what's actually happening. By coordinating multiple AI agents, Simply News processes sensationalist news articles and transforms them into a cohesive, news-focused podcast across many distinct topics every day. Each agent is responsible for a different part of this process. For example, we have agents which perform the following functions:<p>The Sorter: Scans a vast array of news sources and filters the articles based on relevance and significance to the podcast category.\nThe Pitcher: Crafts a compelling pitch for each sorted article, taking into account the narrative angle presented in the article.\nThe Judge: Evaluates the pitches and makes an editorial decision about which should be covered.\nThe Scripter: Drafts an engaging script for the articles selected by the Judge, ensuring clarity and precision for the listening.<p>Our AIs are directed to select news articles most relevant to the podcast category. Removing the human from this loop means explicit biases don't factor into the decision about what to cover.<p>AI-decisions are also much more auditable, and this transparency is a key reason why AI can be a powerful tool for removing bias and sensationalism in the news.<p>We recently launched, so any and all feedback would be appreciated."
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Show HN: Simply News \u2013 just the news, run by a team of AI's"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "https://www.simplynews.ai/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_soapsommelier",
+              "story_39642855",
+              "show_hn"
+            ],
+            "author": "soapsommelier",
+            "children": [
+              39643474,
+              39644676,
+              39645753,
+              39647306,
+              39647626,
+              39649497
+            ],
+            "created_at": "2024-03-08T16:44:47Z",
+            "created_at_i": 1709916287,
+            "num_comments": 6,
+            "objectID": "39642855",
+            "points": 13,
+            "story_id": 39642855,
+            "story_text": "In today&#x27;s world, catchy headlines and articles often distract readers from the facts and relevant information. Simply News is an attempt to cut through the fray and provide straightforward daily updates about what&#x27;s actually happening. By coordinating multiple AI agents, Simply News processes sensationalist news articles and transforms them into a cohesive, news-focused podcast across many distinct topics every day. Each agent is responsible for a different part of this process. For example, we have agents which perform the following functions:<p>The Sorter: Scans a vast array of news sources and filters the articles based on relevance and significance to the podcast category.\nThe Pitcher: Crafts a compelling pitch for each sorted article, taking into account the narrative angle presented in the article.\nThe Judge: Evaluates the pitches and makes an editorial decision about which should be covered.\nThe Scripter: Drafts an engaging script for the articles selected by the Judge, ensuring clarity and precision for the listening.<p>Our AIs are directed to select news articles most relevant to the podcast category. Removing the human from this loop means explicit biases don&#x27;t factor into the decision about what to cover.<p>AI-decisions are also much more auditable, and this transparency is a key reason why AI can be a powerful tool for removing bias and sensationalism in the news.<p>We recently launched, so any and all feedback would be appreciated.",
+            "title": "Show HN: Simply News \u2013 just the news, run by a team of AI's",
+            "updated_at": "2024-09-20T16:36:56Z",
+            "url": "https://www.simplynews.ai/"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 2,
+        "nbPages": 1,
+        "page": 0,
+        "params": "query=corvera.ai&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 21,
+        "processingTimingsMS": {
+          "_request": {
+            "queue": 12,
+            "roundTrip": 18
+          },
+          "fetch": {
+            "query": 5,
+            "scanning": 14,
+            "total": 20
+          },
+          "total": 21
+        },
+        "query": "corvera.ai",
+        "serverTimeMS": 33
+      },
+      "query": "corvera.ai"
+    }
+  ]
+}
