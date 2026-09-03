@@ -3,7 +3,7 @@
 Evaluation is deliberately light: schema checks, arithmetic checks, citation
 checks, and a manual read of a few memos per run.
 
-## Automated (`uv run pytest`, 21 tests)
+## Automated (`uv run pytest`, 23 tests)
 
 - **Models** — required fields, evidence-ID prefix rules, score total must equal
   the component sum.
@@ -31,17 +31,23 @@ A clean run has `"issues": []`.
 
 ## Manual check on the committed sample
 
-- Opened `memos/cotool.md`, `memos/definite.md`, `memos/mount.md`,
-  `memos/corvera.md`.
-- Every inline `[YCn]` / `[HNn]` maps to an entry in the Sources list.
-- Risks and Open Questions read differently per company.
-- Recommendations match the score thresholds (with the documented Watch
-  downgrade where evidence is thin).
-- Missing data ("no HN discussion", "market size not estimated") shows up as an
-  open question, not a made-up fact.
+The committed run is a real Gemini run (`analysis_mode: gemini`). Checked:
 
-## Caveat
+- every inline `[YCn]` / `[HNn]` in a memo maps to an entry in that memo's
+  Sources list, and the claim is actually supported by that source;
+- risks and open questions read differently per company and name real
+  domain concerns (e.g. "full carrier vs MGA backed by a reinsurer" for Mount);
+- recommendations match the score thresholds, with the documented Watch
+  downgrade where product/buyer/traction evidence is thin;
+- missing data ("no HN discussion", "market size not estimated") shows up as an
+  open question, not a fabricated fact;
+- `validation_report.json` is `{"issues": []}`.
 
-The committed sample runs the deterministic fallback (no funded API key this
-session), so it exercises the rule-based analyser, not the model. The OpenAI
-path has unit-level schema coverage but no end-to-end run in the repo.
+## Note
+
+The pipeline post-processes whatever the model returns — component scores are
+re-clamped, the total is recomputed, the recommendation is re-derived from the
+threshold, and any citation to an evidence ID not in the packet is dropped
+before the memo is written. So a model that drifts on the schema or invents a
+citation cannot move the final call. The deterministic fallback runs when no
+key is set and has its own test coverage.

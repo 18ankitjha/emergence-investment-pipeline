@@ -1,0 +1,75 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-31440",
+  "cited_claims": [
+    {
+      "claim": "Mount is building the AI insurance carrier, starting with liability coverage for deployed AI agents.",
+      "evidence_ids": [
+        "YC1",
+        "YC2"
+      ]
+    },
+    {
+      "claim": "The team size is 2.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    },
+    {
+      "claim": "The product includes vulnerability scanning, automated remediation, and insurance coverage.",
+      "evidence_ids": [
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "No HN story traction found.",
+      "evidence_ids": [
+        "HN1"
+      ]
+    }
+  ],
+  "market_assessment": "The market addresses the emerging liability gap created by autonomous AI agents in enterprise and mid-market workflows. While the problem is clear, the market size for 'AI liability insurance' is nascent and speculative.",
+  "open_questions": [
+    "What is the founders' background in insurance or cybersecurity?",
+    "Does the company hold an insurance license, or are they operating as an MGA (Managing General Agent)?",
+    "What is the current traction (e.g., number of policies written, revenue, or active pilot customers)?",
+    "How does the proprietary risk model differ from standard cybersecurity insurance?"
+  ],
+  "product_summary": "Mount is an AI-native insurance carrier focused on liability coverage for deployed AI agents. The product combines security tooling (vulnerability scanning, red-teaming, and automated remediation) with insurance underwriting to provide real-time risk assessment and coverage for AI-specific risks like prompt injection and autonomous workflow errors.",
+  "recommendation": "Pass",
+  "recommendation_rationale": "While the thesis is compelling and the product aims to be a system of action rather than a chatbot, the company is too early and lacks evidence of traction, regulatory progress, or team pedigree to justify a seed-stage investment at this time. The insurance industry is notoriously difficult to disrupt, and the lack of detail on their regulatory status or underwriting capability is a major concern.",
+  "risks": [
+    "Regulatory hurdles associated with becoming an insurance carrier (licensing, capital requirements).",
+    "High actuarial risk; lack of historical data to price AI-specific liability accurately.",
+    "Potential for 'thin wrapper' risk if the security scanning component is easily commoditized by existing cybersecurity vendors.",
+    "Early-stage team size (2) may struggle with the heavy operational and regulatory burden of the insurance industry."
+  ],
+  "score_breakdown": {
+    "defensibility": 5,
+    "market": 9,
+    "product": 14,
+    "rationale_by_component": {
+      "defensibility": "Potential for data moats in underwriting, but currently relies on unproven proprietary risk models.",
+      "market": "Large potential market as AI adoption grows, but currently speculative.",
+      "product": "Strong vision for a system of action, integrating security scanning with insurance, but execution is unproven.",
+      "risk_adjustment": "High regulatory and actuarial risk for a 2-person team.",
+      "team": "Team size is 2; no background information provided to assess capability.",
+      "traction_freshness": "No evidence of traction or revenue provided.",
+      "why_now": "Clear alignment with the shift toward autonomous agent deployment."
+    },
+    "risk_adjustment": 3,
+    "team": 8,
+    "total": 49,
+    "traction_freshness": 2,
+    "why_now": 8
+  },
+  "team_assessment": "Insufficient evidence. The team consists of 2 people, but no background information, technical expertise, or prior experience in insurance or AI security is provided.",
+  "what_would_change_mind": [
+    "Evidence of insurance licensing or a partnership with a major carrier.",
+    "Proof of traction with mid-market customers (e.g., signed contracts or active policies).",
+    "Demonstrable technical edge in their vulnerability scanning and risk-scoring engine.",
+    "Founding team experience in insurance actuarial science or high-stakes cybersecurity."
+  ],
+  "why_now": "As businesses transition from human-operated software to autonomous AI agents, legacy insurance policies are often silent or exclusionary, creating a clear demand for purpose-built coverage that integrates directly with technical risk assessment.",
+  "why_we_care": "It attempts to solve a critical 'system of action' problem\u2014insuring autonomous agents\u2014which is a necessary infrastructure layer for the future of AI-driven business operations."
+}

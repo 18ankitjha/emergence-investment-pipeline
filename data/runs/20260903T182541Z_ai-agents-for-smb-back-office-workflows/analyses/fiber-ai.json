@@ -1,0 +1,67 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-29074",
+  "cited_claims": [
+    {
+      "claim": "Fiber AI provides data APIs for 40M+ companies, 850M+ people, and 30M+ jobs.",
+      "evidence_ids": [
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Fiber AI has been live for 3+ years and counts HubSpot, Ramp, and Docusign as customers.",
+      "evidence_ids": [
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Team size is 8.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    }
+  ],
+  "market_assessment": "The company operates in the crowded B2B data enrichment and sales intelligence market, competing against established players like Apollo, ZoomInfo, and People Data Labs. The value proposition is primarily cost-arbitrage and data freshness.",
+  "open_questions": [
+    "What is the specific technical moat preventing incumbents from replicating the 'novel' API endpoints?",
+    "What is the actual revenue or growth trajectory beyond the claim of 'helping 100s of enterprises'?",
+    "Who are the founders and what is their prior experience in data infrastructure?",
+    "How does the company ensure long-term data quality and compliance given the reliance on 100+ external sources?"
+  ],
+  "product_summary": "Fiber AI provides a suite of B2B data APIs and webhooks covering 40M+ companies, 850M+ people, and 30M+ jobs. It positions itself as a low-cost, high-freshness data infrastructure layer for AI-native sales, recruiting, and growth tools, offering unique endpoints like real-time LinkedIn fetching and reverse email lookup.",
+  "recommendation": "Watch",
+  "recommendation_rationale": "Fiber AI is a functional, utility-driven business that serves a clear need for AI agent builders. However, it functions more as a data commodity provider than a 'system of action' as defined in our thesis. While it has traction, the lack of a clear technical moat and the reliance on third-party data sources make it a 'Watch' rather than a 'Take a meeting' until we see evidence of proprietary data generation or deeper workflow integration.",
+  "risks": [
+    "High dependency on third-party data sources (LinkedIn, Crunchbase, etc.) which may change terms or block access.",
+    "Commoditization risk: Competing against well-funded incumbents (Apollo, ZoomInfo) who may lower prices or improve their own API offerings.",
+    "Lack of proprietary data moat; the business model relies on aggregating and cleaning data from 100+ sources.",
+    "Potential legal/compliance risks associated with scraping and data brokering."
+  ],
+  "score_breakdown": {
+    "defensibility": 3,
+    "market": 8,
+    "product": 14,
+    "rationale_by_component": {
+      "defensibility": "Low; the business model is based on data aggregation and price arbitrage, which is easily copied.",
+      "market": "Large market, but highly competitive with significant downward price pressure.",
+      "product": "Strong focus on API-first delivery for AI agents, but the product is essentially a data aggregator/broker.",
+      "risk_adjustment": "High risk due to reliance on external data sources and potential legal/platform platform-risk.",
+      "team": "Team size is 8, but no background information is provided to assess capability.",
+      "traction_freshness": "Claims to have been live for 3+ years with enterprise customers (HubSpot, Ramp), but lacks specific growth metrics.",
+      "why_now": "Directly addresses the infrastructure needs of the current wave of AI agent builders."
+    },
+    "risk_adjustment": 5,
+    "team": 10,
+    "total": 58,
+    "traction_freshness": 10,
+    "why_now": 8
+  },
+  "team_assessment": "The team consists of 8 members. No specific founder background or technical pedigree is provided in the evidence packet.",
+  "what_would_change_mind": [
+    "Evidence of proprietary data collection that incumbents cannot easily replicate.",
+    "Proof of deeper integration into customer workflows (becoming a 'system of action' rather than just a data pipe).",
+    "Detailed founder background demonstrating unique expertise in data engineering or scraping at scale."
+  ],
+  "why_now": "The proliferation of AI SDR and autonomous sales agents has created a massive demand for high-quality, real-time, and cost-effective data feeds to power these agents, moving beyond static databases.",
+  "why_we_care": "It is a critical infrastructure provider for the AI sales/recruiting ecosystem, which aligns with our interest in tools that power lean, automated GTM teams."
+}

@@ -64,10 +64,39 @@ Flipped to private. Added `chiragmakkar` as a read collaborator via the GitHub
 API. `hari@emsoft.com` is an email, not a username — that invite has to be sent
 from the GitHub web UI and is left for the repo owner.
 
-## LLM path status
+## Wiring a working model
 
-Implemented against the OpenAI Responses API with structured outputs. The key
-supplied during this session returned `insufficient_quota`, so the committed
-sample still runs the deterministic fallback. Every memo and the run manifest
-say which mode produced them. With a funded key, `invest-pipeline run` calls
-the model and writes `analysis_mode: openai`.
+OpenAI key: `insufficient_quota`. Gemini key: the older models 404 for "new
+user" keys.
+
+- Split `analyze_packet` into a Gemini path and an OpenAI path behind
+  `config.resolve_provider`; shared `render_prompts` + `finalize_llm_analysis`.
+- Transformed the OpenAI strict schema into Gemini's dialect (`to_gemini_schema`
+  drops `additionalProperties`, adds `propertyOrdering`).
+- Raised the YC description evidence cap from 700 to 1800 chars so founder and
+  traction facts are in the packet the model cites, not just the first paragraph.
+- Added `asyncio` fan-out (semaphore, `PIPELINE_CONCURRENCY`, default 3) and a
+  retry loop in the Gemini call that honours the API's `retryDelay`.
+- `gemini-3.6-flash` turned out to be **20 requests per day** on the free tier
+  (`GenerateRequestsPerDayPerProjectPerModel-FreeTier`), and the day's testing
+  had already burned it. Switched to `gemini-3.1-flash-lite`, which has real
+  daily headroom. Same schema, same post-processing; the memo prose is a little
+  plainer.
+
+## LLM path
+
+Started on the OpenAI Responses API with structured outputs. The OpenAI key
+this session returned `insufficient_quota`; the Gemini key was "new user"-gated
+off the older models and `gemini-3.6-flash` is 20 requests/day on the free
+tier. The working combination is `gemini-3.1-flash-lite`.
+
+`analysis/llm.py` dispatches to a Gemini path or an OpenAI path from
+`config.resolve_provider`. Both render the same prompt, both use the same
+schema (the OpenAI strict schema, run through `to_gemini_schema` for Gemini's
+`responseSchema` dialect), and both return through `finalize_llm_analysis`,
+which re-clamps every component score, recomputes the total, re-derives the
+recommendation, and strips citations to unknown evidence IDs.
+
+The committed sample is a real Gemini run — `analysis_mode: gemini` in the
+manifest and a line in every memo. The offline fallback still runs when no
+key is set.

@@ -1,0 +1,75 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-30540",
+  "cited_claims": [
+    {
+      "claim": "Lumari is an AI-powered procurement automation platform for direct materials and supply chain execution.",
+      "evidence_ids": [
+        "YC2",
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "Founded by engineers from Google, Tesla, Amazon, and Stripe.",
+      "evidence_ids": [
+        "YC2",
+        "YC4"
+      ]
+    },
+    {
+      "claim": "Operates on top of existing ERP systems without rip-and-replace.",
+      "evidence_ids": [
+        "YC2",
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "Team size is 5.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    }
+  ],
+  "market_assessment": "The platform targets a broad range of customers from fast-growing startups to Fortune 500 companies within the manufacturing and supply chain sectors.",
+  "open_questions": [
+    "What is the current ARR or number of active paying customers?",
+    "How does the system handle edge cases in supplier communication that require human intervention?",
+    "What is the specific technical architecture for the 'always-on' agents?"
+  ],
+  "product_summary": "Lumari is an AI-powered procurement automation platform that deploys autonomous agents to manage end-to-end supply chain workflows, including RFQ management, PO expediting, and supplier communication. It integrates with existing ERP systems without requiring supplier onboarding or system replacement.",
+  "recommendation": "Watch",
+  "recommendation_rationale": "Lumari fits the thesis well by moving beyond a chatbot to a system of action. The team is high-caliber. However, the lack of disclosed traction data in the provided packet makes it difficult to move to 'Take a meeting' without further validation of product-market fit.",
+  "risks": [
+    "High integration complexity with diverse legacy ERP systems.",
+    "Potential for AI hallucination or errors in critical supply chain execution.",
+    "Dependency on supplier cooperation and email communication standards.",
+    "Lack of disclosed specific traction metrics or customer logos."
+  ],
+  "score_breakdown": {
+    "defensibility": 6,
+    "market": 12,
+    "product": 16,
+    "rationale_by_component": {
+      "defensibility": "Integration with ERPs and deep workflow embedding provides potential switching costs.",
+      "market": "Large, fragmented market with clear pain points in procurement.",
+      "product": "Strong alignment with the 'system of action' thesis; automates complex, multi-step workflows.",
+      "risk_adjustment": "High execution risk in B2B supply chain operations, but mitigated by the 'no rip-and-replace' approach.",
+      "team": "Strong pedigree from relevant high-scale companies (Tesla, Amazon, Stripe).",
+      "traction_freshness": "Insufficient evidence provided regarding specific customer traction or revenue.",
+      "why_now": "Leverages current advancements in agentic AI to solve long-standing manual bottlenecks."
+    },
+    "risk_adjustment": 6,
+    "team": 18,
+    "total": 71,
+    "traction_freshness": 5,
+    "why_now": 8
+  },
+  "team_assessment": "The team consists of 5 members with engineering backgrounds from Google, Tesla, Amazon, and Stripe, specifically with experience in scaling supply chain systems.",
+  "what_would_change_mind": [
+    "Evidence of successful deployment in a complex enterprise environment.",
+    "Specific metrics on cycle time reduction or cost savings for current customers.",
+    "Validation of the 'no supplier onboarding' claim at scale."
+  ],
+  "why_now": "The proliferation of agentic AI frameworks allows for the automation of high-frequency, manual procurement tasks (e.g., email parsing, PO updates) that were previously resistant to traditional software automation.",
+  "why_we_care": "Procurement is a high-frequency, manual, and error-prone operational workflow that is ripe for agentic automation."
+}

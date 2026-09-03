@@ -1,0 +1,365 @@
+{
+  "filtered_hits": [],
+  "queries": [
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "lavandar-admin"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "The best startup ideas come from noticing something everyone else ignores. For me, it was watching a stadium operations manager check five different weather apps before deciding whether to cover the field.<p>He wasn't looking for a forecast. He was looking for a decision.<p>That's the gap. Weather data is abundant. Weather intelligence\u2014knowing what to do about the weather\u2014is scarce.<p>The Problem\nOperations teams in aviation, marine, construction, and events spend enormous amounts of time translating atmospheric data into actions. A pilot doesn't need to know the dew point. She needs to know if she can take off. A concert promoter doesn't care about millibars. He needs to know if he should move equipment.<p>The existing solutions fall into two categories: consumer apps that are too simple, and enterprise systems that cost six figures and take months to implement.<p>There's no middle ground. No tool that says &quot;here's what you should actually do&quot; in plain language.<p>What We Built\nLAVANDAR converts meteorological data into operational decisions. Not predictions\u2014decisions. The difference matters.<p>When you load a location, you don't see temperature and humidity. You see: &quot;PROCEED WITH CAUTION: Fog formation likely between 0400-0600. Recommend delaying ground operations until visibility exceeds 800m.&quot;<p>We built <em>industry</em>-specific modules:<p>Aviation \u2014 Go/no-go recommendations based on crosswind limits, visibility minimums, and runway conditions\nMarine \u2014 Route optimization that factors swell period, not just wave height\nConstruction \u2014 Concrete pour windows, crane operation limits, heat stress indices\nEvents \u2014 Crowd safety thresholds, lightning protocols, evacuation timing\nEverything feeds into a unified command center we call <em>STRATA</em>. One screen. Multiple locations. Real-time intelligence."
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Show HN: I built an enterprise weather intelligence platform with Lovable"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "stratum"
+                ],
+                "value": "https://preview--chrono-<em>strata</em>.lovable.app/shop"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_lavandar-admin",
+              "story_46702438",
+              "show_hn"
+            ],
+            "author": "lavandar-admin",
+            "created_at": "2026-01-21T07:50:47Z",
+            "created_at_i": 1768981847,
+            "num_comments": 0,
+            "objectID": "46702438",
+            "points": 3,
+            "story_id": 46702438,
+            "story_text": "The best startup ideas come from noticing something everyone else ignores. For me, it was watching a stadium operations manager check five different weather apps before deciding whether to cover the field.<p>He wasn&#x27;t looking for a forecast. He was looking for a decision.<p>That&#x27;s the gap. Weather data is abundant. Weather intelligence\u2014knowing what to do about the weather\u2014is scarce.<p>The Problem\nOperations teams in aviation, marine, construction, and events spend enormous amounts of time translating atmospheric data into actions. A pilot doesn&#x27;t need to know the dew point. She needs to know if she can take off. A concert promoter doesn&#x27;t care about millibars. He needs to know if he should move equipment.<p>The existing solutions fall into two categories: consumer apps that are too simple, and enterprise systems that cost six figures and take months to implement.<p>There&#x27;s no middle ground. No tool that says &quot;here&#x27;s what you should actually do&quot; in plain language.<p>What We Built\nLAVANDAR converts meteorological data into operational decisions. Not predictions\u2014decisions. The difference matters.<p>When you load a location, you don&#x27;t see temperature and humidity. You see: &quot;PROCEED WITH CAUTION: Fog formation likely between 0400-0600. Recommend delaying ground operations until visibility exceeds 800m.&quot;<p>We built industry-specific modules:<p>Aviation \u2014 Go&#x2F;no-go recommendations based on crosswind limits, visibility minimums, and runway conditions\nMarine \u2014 Route optimization that factors swell period, not just wave height\nConstruction \u2014 Concrete pour windows, crane operation limits, heat stress indices\nEvents \u2014 Crowd safety thresholds, lightning protocols, evacuation timing\nEverything feeds into a unified command center we call STRATA. One screen. Multiple locations. Real-time intelligence.",
+            "title": "Show HN: I built an enterprise weather intelligence platform with Lovable",
+            "updated_at": "2026-04-21T07:54:47Z",
+            "url": "https://preview--chrono-strata.lovable.app/shop"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "tsahaghian"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "Hi HN,<p>We're Th\u00e9ophile and Thibaut, and we're building Multis (<a href=\"https://multis.co\" rel=\"nofollow\">https://multis.co</a>): an online bank account designed for companies holding cryptocurrency. We're helping them store it, spend it and earn interest.<p>We have been in this <em>industry</em> for the past 3 years. Thibaut used to lead sales at <em>Stratumn</em>, a Nasdaq-backed company helping companies securing their shared workflows through cryptocurrencies. Th\u00e9o built several decentralized applications before starting the company in 2018.<p>Wallets are the cornerstone of the <em>industry</em>: you need them to store and transact with cryptocurrencies. But these wallets are not designed for business. You cannot perform simple business operations like running a payroll, paying vendors, or earning interest, which you can currently do from your modern business bank account.<p>Cryptocurrencies - and particularly stablecoins - are a reliable, fast and cost-efficient medium of exchange. It\u2019s a technology that enables anyone to move value and assets across borders, with no intermediaries. We believe it can help companies save a lot, since most of them are now actively transacting with partners abroad, from suppliers to foreign contractors.<p>The number of companies building and transacting with cryptocurrencies is growing (e.g. Stateofthedapp listings grew by 250% since 2017), despite still being in its infancy. Most of these companies are operating in the cryptocurrency <em>industry</em>, or are e-merchants willing to reduce payment fees and optimize working capital.<p>These companies struggle to manage their assets and make the most of them. They typically have between 5 and 10 wallets, none of them being designed for a business environment. This makes business spending and accounting still to painful and time-consuming. And cryptocurrencies sit idle, because there are just too many frictions.<p>We realized what was really needed: an application to manage cryptocurrency the same as a modern online business bank account, with features and financial services powered by both crypto and traditional currencies. In short, a crypto-first bank. Here are our main features today:<p>- Store - multi-user wallet with dashboard and transaction history<p>- Pay - spending policies and streamlined payment flows (1)<p>- Exchange - swap 70+ tokens with ethers, dollars and euros (2)<p>- Earn - savings account yielding interest on stablecoins (3)<p>- Soon: EUR and USD bank accounts<p>We will make revenues through commissions on financial services like fiat ramps, and through monthly subscriptions for premium features like accounting exports or fiat accounts.<p>Our goal of making a unified front end that works like a business bank account is challenging to achieve because the technologies we're using are very heterogenous:<p>- we have two databases: the Ethereum blockchain and Cloud Firestore<p>- we have two backends: smart contracts and Firebase Cloud functions<p>- we have two authentication systems: private keys stored on individual wallets (we're self-custodian) and email addresses<p>- we have two authorization systems: the multisignature contract owners and the owner/guest roles in our security rules<p>- we have two type of assets: cryptogoods and traditional currencies<p>- we will have two storages: IPFS and Firebase Storage<p>You can read more here about our architecture (4) and our approach to security (5).<p>Cryptocurrency is still a recent technology that generates understandable skepticism.The ICO craze did not help. We feel that payment is becoming a tangible use case though, and companies ranging from Facebook to JP Morgan are now actively investing in it. We believe more will join. There are still many uncertainties about regulations, accounting, and each new SEC or FinCEN guidance make the teams' hair turn grey. But things are moving forward on the ground, despite the excess of hype in the space.<p>We want to make Multis useful, so we have one question: what would be the key features and financial services you would expect as a company? They don't have to be related to crypto directly. We'd also love your feedback, your questions and your ideas. Thanks!<p>(1) <a href=\"https://medium.com/multis/introducing-direct-transfers-a-new-way-to-streamline-crypto-spending-with-your-team-ab44945e5a5e\" rel=\"nofollow\">https://medium.com/multis/introducing-direct-transfers-a-new...</a><p>(2) <a href=\"https://medium.com/multis/multis-launches-first-token-swap-catered-to-companies-with-kyber-integration-8eaae3977d40\" rel=\"nofollow\">https://medium.com/multis/multis-launches-first-token-swap-c...</a><p>(3) <a href=\"https://medium.com/multis/our-new-compound-integration-lets-your-company-earn-interest-on-crypto-80e7f4379b7d\" rel=\"nofollow\">https://medium.com/multis/our-new-compound-integration-lets-...</a><p>(4) <a href=\"https://medium.com/multis/imagining-a-leaner-way-how-to-ship-a-highly-dynamic-webapp-as-a-static-website-5088f83c3813\" rel=\"nofollow\">https://medium.com/multis/imagining-a-leaner-way-how-to-ship...</a><p>(5) <a href=\"https://medium.com/multis/security-at-multis-9609d346c91b\" rel=\"nofollow\">https://medium.com/multis/security-at-multis-9609d346c91b</a>"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Launch HN: Multis (YC S19): online business bank account for cryptocurrency"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_tsahaghian",
+              "story_21280238",
+              "launch_hn"
+            ],
+            "author": "tsahaghian",
+            "children": [
+              21283557,
+              21283573,
+              21283650,
+              21284662,
+              21284733,
+              21285113,
+              21287342,
+              21288024,
+              21290244
+            ],
+            "created_at": "2019-10-17T09:25:22Z",
+            "created_at_i": 1571304322,
+            "num_comments": 25,
+            "objectID": "21280238",
+            "points": 68,
+            "story_id": 21280238,
+            "story_text": "Hi HN,<p>We&#x27;re Th\u00e9ophile and Thibaut, and we&#x27;re building Multis (<a href=\"https:&#x2F;&#x2F;multis.co\" rel=\"nofollow\">https:&#x2F;&#x2F;multis.co</a>): an online bank account designed for companies holding cryptocurrency. We&#x27;re helping them store it, spend it and earn interest.<p>We have been in this industry for the past 3 years. Thibaut used to lead sales at Stratumn, a Nasdaq-backed company helping companies securing their shared workflows through cryptocurrencies. Th\u00e9o built several decentralized applications before starting the company in 2018.<p>Wallets are the cornerstone of the industry: you need them to store and transact with cryptocurrencies. But these wallets are not designed for business. You cannot perform simple business operations like running a payroll, paying vendors, or earning interest, which you can currently do from your modern business bank account.<p>Cryptocurrencies - and particularly stablecoins - are a reliable, fast and cost-efficient medium of exchange. It\u2019s a technology that enables anyone to move value and assets across borders, with no intermediaries. We believe it can help companies save a lot, since most of them are now actively transacting with partners abroad, from suppliers to foreign contractors.<p>The number of companies building and transacting with cryptocurrencies is growing (e.g. Stateofthedapp listings grew by 250% since 2017), despite still being in its infancy. Most of these companies are operating in the cryptocurrency industry, or are e-merchants willing to reduce payment fees and optimize working capital.<p>These companies struggle to manage their assets and make the most of them. They typically have between 5 and 10 wallets, none of them being designed for a business environment. This makes business spending and accounting still to painful and time-consuming. And cryptocurrencies sit idle, because there are just too many frictions.<p>We realized what was really needed: an application to manage cryptocurrency the same as a modern online business bank account, with features and financial services powered by both crypto and traditional currencies. In short, a crypto-first bank. Here are our main features today:<p>- Store - multi-user wallet with dashboard and transaction history<p>- Pay - spending policies and streamlined payment flows (1)<p>- Exchange - swap 70+ tokens with ethers, dollars and euros (2)<p>- Earn - savings account yielding interest on stablecoins (3)<p>- Soon: EUR and USD bank accounts<p>We will make revenues through commissions on financial services like fiat ramps, and through monthly subscriptions for premium features like accounting exports or fiat accounts.<p>Our goal of making a unified front end that works like a business bank account is challenging to achieve because the technologies we&#x27;re using are very heterogenous:<p>- we have two databases: the Ethereum blockchain and Cloud Firestore<p>- we have two backends: smart contracts and Firebase Cloud functions<p>- we have two authentication systems: private keys stored on individual wallets (we&#x27;re self-custodian) and email addresses<p>- we have two authorization systems: the multisignature contract owners and the owner&#x2F;guest roles in our security rules<p>- we have two type of assets: cryptogoods and traditional currencies<p>- we will have two storages: IPFS and Firebase Storage<p>You can read more here about our architecture (4) and our approach to security (5).<p>Cryptocurrency is still a recent technology that generates understandable skepticism.The ICO craze did not help. We feel that payment is becoming a tangible use case though, and companies ranging from Facebook to JP Morgan are now actively investing in it. We believe more will join. There are still many uncertainties about regulations, accounting, and each new SEC or FinCEN guidance make the teams&#x27; hair turn grey. But things are moving forward on the ground, despite the excess of hype in the space.<p>We want to make Multis useful, so we have one question: what would be the key features and financial services you would expect as a company? They don&#x27;t have to be related to crypto directly. We&#x27;d also love your feedback, your questions and your ideas. Thanks!<p>(1) <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;introducing-direct-transfers-a-new-way-to-streamline-crypto-spending-with-your-team-ab44945e5a5e\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;introducing-direct-transfers-a-new...</a><p>(2) <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;multis-launches-first-token-swap-catered-to-companies-with-kyber-integration-8eaae3977d40\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;multis-launches-first-token-swap-c...</a><p>(3) <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;our-new-compound-integration-lets-your-company-earn-interest-on-crypto-80e7f4379b7d\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;our-new-compound-integration-lets-...</a><p>(4) <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;imagining-a-leaner-way-how-to-ship-a-highly-dynamic-webapp-as-a-static-website-5088f83c3813\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;imagining-a-leaner-way-how-to-ship...</a><p>(5) <a href=\"https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;security-at-multis-9609d346c91b\" rel=\"nofollow\">https:&#x2F;&#x2F;medium.com&#x2F;multis&#x2F;security-at-multis-9609d346c91b</a>",
+            "title": "Launch HN: Multis (YC S19): online business bank account for cryptocurrency",
+            "updated_at": "2024-09-20T05:02:22Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "logickkk1"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "stratum"
+                ],
+                "value": "Jim Keller's <em>startup</em> is building a factory to mass-produce small chip fabs"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "industries"
+                ],
+                "value": "https://www.tomshardware.com/tech-<em>industry</em>/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_logickkk1",
+              "story_48796784"
+            ],
+            "author": "logickkk1",
+            "children": [
+              48797345,
+              48797514,
+              48797637,
+              48797706,
+              48797725,
+              48797874,
+              48797890,
+              48797941,
+              48798838,
+              48799108,
+              48799844,
+              48799918,
+              48800139
+            ],
+            "created_at": "2026-07-05T18:45:52Z",
+            "created_at_i": 1783277152,
+            "num_comments": 34,
+            "objectID": "48796784",
+            "points": 135,
+            "story_id": 48796784,
+            "title": "Jim Keller's startup is building a factory to mass-produce small chip fabs",
+            "updated_at": "2026-09-02T03:13:27Z",
+            "url": "https://www.tomshardware.com/tech-industry/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "tuckerpo"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "I\u2019m a software engineer with 8 years in the <em>industry</em>, currently at an R&amp;D lab as a staff software engineer. My wife\u2019s an accountant. Across every job I\u2019ve ever had \u2014 and every job she\u2019s had \u2014 there\u2019s a pattern that\u2019s so consistent it\u2019s starting to feel like we\u2019re losing our minds:<p>We are constantly overworked and relatively underpaid\u2026 while the majority of our peers are chronically under-worked and wildly overpaid.<p>At my current job, I\u2019m now starting work at 6 AM and wrapping up around 5:30 or 6 PM, five days a week. It\u2019s meeting after meeting, plus deep technical work that actually moves the needle. And in the middle of this, my boss will randomly ping me for \u201c<em>status</em> updates,\u201d as if I might be kicking back on the beach instead of drowning in deadlines.<p>Meanwhile, the managerial class \u2014 from what I can tell \u2014 spends their days in \u201calignment sessions\u201d and \u201cstrategy syncs\u201d, sends a few vague emails, and leverages the work of their teams to look busy. This specifically is something I've noticed my entire SWEng career: middle-management, product managers, &lt;insert_noun&gt; managers will *use you*, the engineer, as a mechanism to appear useful (i.e. PM can just say &quot;Yeah, I've got tuckerpo working on that.&quot;, somehow commanding a gigantic salary).<p>And hell, it's not even exclusive to management: I've got a half dozen buddies working remote for Nvidia, absolutely SWIMMING in RSUs, like, newly minted millionaires, who will come to my apartment in the middle of the work-day to &quot;hang out&quot;, for hours, while supposedly on the clock. These are Principal+ engineers.<p>My wife\u2019s story is even more absurd. She\u2019s in the office from 7 AM to 6 PM, buried in work. Her peers? Many openly admit to doing maybe two hours of actual work a week, sometimes calling her just to chat because they\u2019re \u201cbored.\u201d When she raises her workload with management, she gets gaslit: told it\u2019s a \u201ctime management\u201d problem, as if her 11-hour workdays are just the result of her not using the right productivity app. Again, not a one-off deal, consistent trend across roles at several companies for her.<p>We both feel like we\u2019re starring in The Truman Show. We\u2019re surrounded by people who seem to have cracked some secret corporate code... getting paid hundreds of thousands of dollars a year to appear important while producing very little tangible output.<p>So, a few questions for readers here on HN:<p>- Is this just us? Are we somehow in a doomer echo chamber of two, convincing each other that we\u2019re the only ones actually doing work?<p>- Or is this a widespread thing across <em>industries</em>? Do you feel it too?<p>- Are we total jamokes for actually working?<p>- And the real question: how do we get in on this game? How do you climb into that gilded $250k+ corporate tier where your main deliverable is a calendar full of recurring Zoom calls and the occasional \u201cper my last email\u201d? Do we get MBAs? Learn to politic and schmooze?"
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Ask HN: Are my wife and I the only schmucks working in corporate America?"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_tuckerpo",
+              "story_44870881",
+              "ask_hn"
+            ],
+            "author": "tuckerpo",
+            "children": [
+              44870914,
+              44870967,
+              44870984,
+              44871017,
+              44871221,
+              44871709
+            ],
+            "created_at": "2025-08-12T00:05:45Z",
+            "created_at_i": 1754957145,
+            "num_comments": 5,
+            "objectID": "44870881",
+            "points": 13,
+            "story_id": 44870881,
+            "story_text": "I\u2019m a software engineer with 8 years in the industry, currently at an R&amp;D lab as a staff software engineer. My wife\u2019s an accountant. Across every job I\u2019ve ever had \u2014 and every job she\u2019s had \u2014 there\u2019s a pattern that\u2019s so consistent it\u2019s starting to feel like we\u2019re losing our minds:<p>We are constantly overworked and relatively underpaid\u2026 while the majority of our peers are chronically under-worked and wildly overpaid.<p>At my current job, I\u2019m now starting work at 6 AM and wrapping up around 5:30 or 6 PM, five days a week. It\u2019s meeting after meeting, plus deep technical work that actually moves the needle. And in the middle of this, my boss will randomly ping me for \u201cstatus updates,\u201d as if I might be kicking back on the beach instead of drowning in deadlines.<p>Meanwhile, the managerial class \u2014 from what I can tell \u2014 spends their days in \u201calignment sessions\u201d and \u201cstrategy syncs\u201d, sends a few vague emails, and leverages the work of their teams to look busy. This specifically is something I&#x27;ve noticed my entire SWEng career: middle-management, product managers, &lt;insert_noun&gt; managers will *use you*, the engineer, as a mechanism to appear useful (i.e. PM can just say &quot;Yeah, I&#x27;ve got tuckerpo working on that.&quot;, somehow commanding a gigantic salary).<p>And hell, it&#x27;s not even exclusive to management: I&#x27;ve got a half dozen buddies working remote for Nvidia, absolutely SWIMMING in RSUs, like, newly minted millionaires, who will come to my apartment in the middle of the work-day to &quot;hang out&quot;, for hours, while supposedly on the clock. These are Principal+ engineers.<p>My wife\u2019s story is even more absurd. She\u2019s in the office from 7 AM to 6 PM, buried in work. Her peers? Many openly admit to doing maybe two hours of actual work a week, sometimes calling her just to chat because they\u2019re \u201cbored.\u201d When she raises her workload with management, she gets gaslit: told it\u2019s a \u201ctime management\u201d problem, as if her 11-hour workdays are just the result of her not using the right productivity app. Again, not a one-off deal, consistent trend across roles at several companies for her.<p>We both feel like we\u2019re starring in The Truman Show. We\u2019re surrounded by people who seem to have cracked some secret corporate code... getting paid hundreds of thousands of dollars a year to appear important while producing very little tangible output.<p>So, a few questions for readers here on HN:<p>- Is this just us? Are we somehow in a doomer echo chamber of two, convincing each other that we\u2019re the only ones actually doing work?<p>- Or is this a widespread thing across industries? Do you feel it too?<p>- Are we total jamokes for actually working?<p>- And the real question: how do we get in on this game? How do you climb into that gilded $250k+ corporate tier where your main deliverable is a calendar full of recurring Zoom calls and the occasional \u201cper my last email\u201d? Do we get MBAs? Learn to politic and schmooze?",
+            "title": "Ask HN: Are my wife and I the only schmucks working in corporate America?",
+            "updated_at": "2026-09-02T18:38:32Z"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "ishikawa"
+              },
+              "title": {
+                "fullyHighlighted": false,
+                "matchLevel": "partial",
+                "matchedWords": [
+                  "industries"
+                ],
+                "value": "<em>Industrial</em> Control Systems and Edge Computing"
+              },
+              "url": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "https://www.<em>stratus</em>.com/en-us/lp/ia/<em>industrial</em>-control-systems-and-edge-computing-ty/"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_ishikawa",
+              "story_18656090"
+            ],
+            "author": "ishikawa",
+            "created_at": "2018-12-11T15:51:21Z",
+            "created_at_i": 1544543481,
+            "num_comments": 0,
+            "objectID": "18656090",
+            "points": 1,
+            "story_id": 18656090,
+            "title": "Industrial Control Systems and Edge Computing",
+            "updated_at": "2024-09-20T03:31:27Z",
+            "url": "https://www.stratus.com/en-us/lp/ia/industrial-control-systems-and-edge-computing-ty/"
+          },
+          {
+            "_highlightResult": {
+              "author": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "kstonekuan"
+              },
+              "story_text": {
+                "fullyHighlighted": false,
+                "matchLevel": "full",
+                "matchedWords": [
+                  "stratum",
+                  "industries"
+                ],
+                "value": "Hi HN, we\u2019re Brandon and Kingston, the founders of Hebbian Robotics. We built HFlow (<a href=\"https://github.com/Hebbian-Robotics/hflow\" rel=\"nofollow\">https://github.com/Hebbian-Robotics/hflow</a>), an SDK that turns multimodal recordings from robots and human operators into standardized, quality-checked episodes and queryable dataset manifests. A recording can contain synchronized video, joint states, actions, timestamps, and metadata, and HFlow processes those streams together.<p>Here\u2019s a demo of HFlow in action: <a href=\"https://www.youtube.com/watch?v=xni0GwV-xAw\" rel=\"nofollow\">https://www.youtube.com/watch?v=xni0GwV-xAw</a><p>Robotics data pipelines often begin as scripts: one transcodes video, another checks timestamps, another adds labels, and another copies selected recordings into a training set. This works until the corpus grows. Then it becomes difficult to know which code ran, why an episode was excluded, or whether a dataset can be reproduced. The first pain is usually quality control because frozen cameras, missing topics, timestamp drift, and duplicate recordings can quietly enter training data.<p>Brandon first encountered this while training embodied AI models for two-arm <em>industrial</em> cleaning robots. Kingston had run into related problems while building high-throughput infrastructure at Jane Street. Later, while speaking with robotics data providers, we kept seeing teams rebuild similar processing and quality-control infrastructure. We learnt that processing robotics data is itself one of the bottlenecks to improving robotics models.<p>An HFlow pipeline consists of transformations, checks, labels, and enrichments. The SDK exposes them as plain Python functions that receive an episode and return measurements, artifacts, or transformed data. During development, the functions can run in-process. For scheduled corpus processing, HFlow packages the same registered steps as Airflow 3 DAGs, where teams can inspect task <em>status</em>, logs, retries, and reruns.<p>HFlow currently accepts one MCAP file per episode. MCAP (<a href=\"https://mcap.dev/\" rel=\"nofollow\">https://mcap.dev/</a>) is an open container format by Foxglove for timestamped multimodal recordings, similar in purpose to a ROS bag. It lets video, robot state, actions, and other sensor streams remain synchronized in one file. We use it because HFlow needs to process these streams together, and because the resulting recordings remain compatible with Foxglove and Rerun. HFlow writes a canonical MCAP with in-band H.264 video, grouped camera and state chunks, and provenance describing how the output was produced. Each step has an explicit behavior version, and catalog records connect its measurements and artifacts to the source episode and pipeline run.<p>Quality checks store reusable evidence rather than imposing one universal definition of good data. Some failures, including black frames, frozen video, missing topics, timestamp drift, and impossible joint movements, can be measured deterministically without training a model. Others might be detected using VLMs and other models like MediaPipe Hands. But their meaning depends on the task. A smooth trajectory might indicate a successful demonstration in one setting and a stalled robot in another.<p>HFlow writes measurements, metadata, version stamps, and artifact locations to an append-only Parquet catalog. Teams query it with DuckDB SQL and produce a version-pinned manifest without opening the recordings again. Critical checks can quarantine an episode, but HFlow does not delete data. This separates the evidence from the policy used to assemble a particular dataset.<p>We did not want to replace the tools robotics teams already use. HFlow connects MCAP for synchronized recordings, Airflow for scheduled execution, Parquet for catalog data, and DuckDB for curation. Compared with a general workflow orchestrator, it adds contracts for robotics episodes, processing provenance, quality evidence, quarantine, and dataset manifests. Compared with a training dataset format, it operates earlier and stops at curated episodes plus a manifest.<p>Here are three examples of teams that would use HFlow:\n1. A data vendor or marketplace collecting egocentric recordings. They could use HFlow to detect black or frozen video, duplicate recordings, hand-object interaction, and other quality metrics before delivering the data, while retaining evidence of which checks ran on every episode.\n2. A robotics team collecting teleoperated demonstrations for its own models. They could use HFlow to standardize recordings, add labels and enrichments, and produce a reproducible training manifest.\n3. A team operating robots in the field. It could process incoming logs, quarantine incomplete or corrupted episodes, and query the catalog for particular robot versions, environments, or failure conditions.<p>The project is pre-v1, but the core lifecycle works end to end. You can try it without an account, Docker, or robot hardware by cloning the repository and following the quickstart.<p>HFlow is free under the Apache-2.0 license. The open source deployment is currently a single-tenant workspace, and we have not built the hosted, multi-tenant control plane yet. We are considering making money through managed workspaces and enterprise support for teams that do not want to operate the runtime themselves.<p>Because this processing layer is software and data, people can contribute without owning a robot. We would especially like feedback from people who have built pipelines for robotics, video, or other sensor-heavy systems. We are curious where our data model is wrong, which integrations are missing, and what would fail first on your workloads."
+              },
+              "title": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "Launch HN: Hebbian Robotics (YC S26) \u2013 Build scalable robotics data pipelines"
+              },
+              "url": {
+                "matchLevel": "none",
+                "matchedWords": [],
+                "value": "https://github.com/Hebbian-Robotics/hflow"
+              }
+            },
+            "_tags": [
+              "story",
+              "author_kstonekuan",
+              "story_49510632",
+              "launch_hn"
+            ],
+            "author": "kstonekuan",
+            "children": [
+              49511266,
+              49511285,
+              49511471,
+              49512337,
+              49512664
+            ],
+            "created_at": "2026-08-31T15:02:41Z",
+            "created_at_i": 1788188561,
+            "num_comments": 12,
+            "objectID": "49510632",
+            "points": 46,
+            "story_id": 49510632,
+            "story_text": "Hi HN, we\u2019re Brandon and Kingston, the founders of Hebbian Robotics. We built HFlow (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;Hebbian-Robotics&#x2F;hflow\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Hebbian-Robotics&#x2F;hflow</a>), an SDK that turns multimodal recordings from robots and human operators into standardized, quality-checked episodes and queryable dataset manifests. A recording can contain synchronized video, joint states, actions, timestamps, and metadata, and HFlow processes those streams together.<p>Here\u2019s a demo of HFlow in action: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=xni0GwV-xAw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=xni0GwV-xAw</a><p>Robotics data pipelines often begin as scripts: one transcodes video, another checks timestamps, another adds labels, and another copies selected recordings into a training set. This works until the corpus grows. Then it becomes difficult to know which code ran, why an episode was excluded, or whether a dataset can be reproduced. The first pain is usually quality control because frozen cameras, missing topics, timestamp drift, and duplicate recordings can quietly enter training data.<p>Brandon first encountered this while training embodied AI models for two-arm industrial cleaning robots. Kingston had run into related problems while building high-throughput infrastructure at Jane Street. Later, while speaking with robotics data providers, we kept seeing teams rebuild similar processing and quality-control infrastructure. We learnt that processing robotics data is itself one of the bottlenecks to improving robotics models.<p>An HFlow pipeline consists of transformations, checks, labels, and enrichments. The SDK exposes them as plain Python functions that receive an episode and return measurements, artifacts, or transformed data. During development, the functions can run in-process. For scheduled corpus processing, HFlow packages the same registered steps as Airflow 3 DAGs, where teams can inspect task status, logs, retries, and reruns.<p>HFlow currently accepts one MCAP file per episode. MCAP (<a href=\"https:&#x2F;&#x2F;mcap.dev&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;mcap.dev&#x2F;</a>) is an open container format by Foxglove for timestamped multimodal recordings, similar in purpose to a ROS bag. It lets video, robot state, actions, and other sensor streams remain synchronized in one file. We use it because HFlow needs to process these streams together, and because the resulting recordings remain compatible with Foxglove and Rerun. HFlow writes a canonical MCAP with in-band H.264 video, grouped camera and state chunks, and provenance describing how the output was produced. Each step has an explicit behavior version, and catalog records connect its measurements and artifacts to the source episode and pipeline run.<p>Quality checks store reusable evidence rather than imposing one universal definition of good data. Some failures, including black frames, frozen video, missing topics, timestamp drift, and impossible joint movements, can be measured deterministically without training a model. Others might be detected using VLMs and other models like MediaPipe Hands. But their meaning depends on the task. A smooth trajectory might indicate a successful demonstration in one setting and a stalled robot in another.<p>HFlow writes measurements, metadata, version stamps, and artifact locations to an append-only Parquet catalog. Teams query it with DuckDB SQL and produce a version-pinned manifest without opening the recordings again. Critical checks can quarantine an episode, but HFlow does not delete data. This separates the evidence from the policy used to assemble a particular dataset.<p>We did not want to replace the tools robotics teams already use. HFlow connects MCAP for synchronized recordings, Airflow for scheduled execution, Parquet for catalog data, and DuckDB for curation. Compared with a general workflow orchestrator, it adds contracts for robotics episodes, processing provenance, quality evidence, quarantine, and dataset manifests. Compared with a training dataset format, it operates earlier and stops at curated episodes plus a manifest.<p>Here are three examples of teams that would use HFlow:\n1. A data vendor or marketplace collecting egocentric recordings. They could use HFlow to detect black or frozen video, duplicate recordings, hand-object interaction, and other quality metrics before delivering the data, while retaining evidence of which checks ran on every episode.\n2. A robotics team collecting teleoperated demonstrations for its own models. They could use HFlow to standardize recordings, add labels and enrichments, and produce a reproducible training manifest.\n3. A team operating robots in the field. It could process incoming logs, quarantine incomplete or corrupted episodes, and query the catalog for particular robot versions, environments, or failure conditions.<p>The project is pre-v1, but the core lifecycle works end to end. You can try it without an account, Docker, or robot hardware by cloning the repository and following the quickstart.<p>HFlow is free under the Apache-2.0 license. The open source deployment is currently a single-tenant workspace, and we have not built the hosted, multi-tenant control plane yet. We are considering making money through managed workspaces and enterprise support for teams that do not want to operate the runtime themselves.<p>Because this processing layer is software and data, people can contribute without owning a robot. We would especially like feedback from people who have built pipelines for robotics, video, or other sensor-heavy systems. We are curious where our data model is wrong, which integrations are missing, and what would fail first on your workloads.",
+            "title": "Launch HN: Hebbian Robotics (YC S26) \u2013 Build scalable robotics data pipelines",
+            "updated_at": "2026-09-01T22:39:26Z",
+            "url": "https://github.com/Hebbian-Robotics/hflow"
+          }
+        ],
+        "hitsPerPage": 8,
+        "nbHits": 6,
+        "nbPages": 1,
+        "page": 0,
+        "params": "query=Stratum+Industries&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 12,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 14
+          },
+          "afterFetch": {
+            "format": {
+              "highlighting": 1,
+              "total": 1
+            }
+          },
+          "fetch": {
+            "query": 10,
+            "total": 11
+          },
+          "total": 12
+        },
+        "query": "Stratum Industries",
+        "serverTimeMS": 14
+      },
+      "query": "Stratum Industries"
+    },
+    {
+      "payload": {
+        "exhaustive": {
+          "nbHits": false,
+          "typo": false
+        },
+        "exhaustiveNbHits": false,
+        "exhaustiveTypo": false,
+        "hits": [],
+        "hitsPerPage": 8,
+        "nbHits": 0,
+        "nbPages": 0,
+        "page": 0,
+        "params": "query=stratumindustries.co&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+        "processingTimeMS": 7,
+        "processingTimingsMS": {
+          "_request": {
+            "roundTrip": 19
+          },
+          "fetch": {
+            "query": 5,
+            "total": 6
+          },
+          "total": 7
+        },
+        "query": "stratumindustries.co",
+        "serverTimeMS": 7
+      },
+      "query": "stratumindustries.co"
+    }
+  ]
+}

@@ -12,11 +12,19 @@
   open object; OpenAI `strict: true` rejects that. It was never caught because
   no key was available to run it. Fixed in 884d7b6.
 
-## Constraints we did not solve
+## Provider churn
 
-- **No OpenAI credits.** The key available in this session had no quota, so the
-  committed sample runs the deterministic fallback. The OpenAI path is wired and
-  the fallback is labelled everywhere it appears.
+Built on OpenAI first. That key came back `insufficient_quota`. Tried Gemini;
+the older models are gated off "new user" keys, but `gemini-3.6-flash` on the
+AI Studio free tier works. Made the analysis layer provider-agnostic (one
+dispatch, one schema, one post-processing path) rather than hard-swapping, so
+the OpenAI path stays. Committed sample is now a real Gemini run.
+
+## Constraints not solved
+
+- **Run time.** A `--limit 12` Gemini run takes a few minutes even with four
+  candidates in flight at once — the model reasons for ~1–2k tokens per call.
+  Fine for a batch job whose output is committed; not interactive.
 - **HN is thin for B2B.** Most seed B2B startups have no Hacker News thread.
   Absence is reported as "no traction found", not scored as a negative.
 - **HN name collisions.** Early runs matched "Mount" and "Fiber AI" to unrelated
@@ -32,7 +40,6 @@
 
 ## Things left for the owner
 
-- Send the `hari@emsoft.com` collaborator invite from the GitHub web UI.
+- Send the `hari@emsoft.com` collaborator invite from the GitHub web UI
+  (`chiragmakkar` is already added).
 - Record the walkthrough video.
-- If a funded key is added: run `invest-pipeline run`, commit the `openai` sample
-  alongside or in place of the fallback one, update the README path.

@@ -1,0 +1,74 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-30726",
+  "cited_claims": [
+    {
+      "claim": "Socratix AI provides AI agents for fraud and compliance teams.",
+      "evidence_ids": [
+        "YC1",
+        "YC2",
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "Founders have experience at DoorDash, Unit21, Cruise, and LinkedIn.",
+      "evidence_ids": [
+        "YC2",
+        "YC4"
+      ]
+    },
+    {
+      "claim": "Socratix raised $4.1M in seed funding.",
+      "evidence_ids": [
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "Early customers include First Community Bank, Super.com, and AtoB.",
+      "evidence_ids": [
+        "WEB1"
+      ]
+    }
+  ],
+  "market_assessment": "Targeting fraud and compliance teams at fintechs and banks. The problem of manual, error-prone alert investigation is well-defined and high-stakes, fitting the 'system of action' thesis.",
+  "open_questions": [
+    "What is the specific technical architecture for ensuring auditability and compliance in AI-driven decisions?",
+    "How does the product handle data privacy and security requirements for banking clients?",
+    "What is the current ARR or pipeline size beyond the mentioned case studies?"
+  ],
+  "product_summary": "Socratix AI provides AI agents that automate fraud and compliance investigations. The platform integrates into existing workflows to gather evidence, analyze threats, and provide explainable decisions, aiming to replace manual alert reviews.",
+  "recommendation": "Take a meeting",
+  "recommendation_rationale": "Socratix AI aligns perfectly with the thesis of automating high-frequency operational workflows. The team has deep domain expertise, and they have already secured early enterprise traction and funding.",
+  "risks": [
+    "High stakes of false negatives in fraud detection may lead to slow enterprise adoption cycles.",
+    "Integration complexity with legacy banking systems could hinder rapid deployment.",
+    "Potential for 'AI hallucination' in compliance-sensitive decision making."
+  ],
+  "score_breakdown": {
+    "defensibility": 8,
+    "market": 13,
+    "product": 17,
+    "rationale_by_component": {
+      "defensibility": "Strong potential for moat through proprietary data/workflow integration and domain-specific fine-tuning.",
+      "market": "Clear pain point in a high-value, high-frequency operational domain.",
+      "product": "Product moves beyond a chatbot to an automated agent that performs actual investigative work.",
+      "risk_adjustment": "High-stakes domain requires rigorous validation, but the team's background mitigates execution risk.",
+      "team": "Founders have highly relevant experience in fraud, compliance, and scaling enterprise products.",
+      "traction_freshness": "Evidence of case studies (First Community Bank, Super.com, AtoB) and $4.1M seed funding indicates early market validation.",
+      "why_now": "LLMs are uniquely suited to the 'messy' reasoning required for fraud investigations."
+    },
+    "risk_adjustment": 8,
+    "team": 18,
+    "total": 85,
+    "traction_freshness": 12,
+    "why_now": 9
+  },
+  "team_assessment": "Strong technical and domain-specific background. Founders have relevant experience at DoorDash, Unit21, Cruise, and LinkedIn, with proven track records in building fraud tooling and scaling enterprise AI systems.",
+  "what_would_change_mind": [
+    "Evidence of high churn rates among early customers.",
+    "Technical inability to meet strict regulatory or audit requirements in banking.",
+    "Discovery that the product is merely a thin wrapper around generic LLM APIs without proprietary workflow value."
+  ],
+  "why_now": "Advancements in LLMs allow for reasoning across unstructured signals and edge cases that traditional ML models struggle with, enabling the transition from simple detection to automated investigation.",
+  "why_we_care": "Fraud investigation is a classic 'manual toil' workflow that is ripe for AI-driven automation, moving from simple detection to active resolution."
+}

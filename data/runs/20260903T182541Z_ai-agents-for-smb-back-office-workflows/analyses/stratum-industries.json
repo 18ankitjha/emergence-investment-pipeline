@@ -1,0 +1,74 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-32523",
+  "cited_claims": [
+    {
+      "claim": "Stratum Industries is the applied AI company for governments.",
+      "evidence_ids": [
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Stratum Industries website describes AI voice agents for healthcare front-office automation.",
+      "evidence_ids": [
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "Team size is 2.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    },
+    {
+      "claim": "No evidence of traction found.",
+      "evidence_ids": [
+        "HN1"
+      ]
+    }
+  ],
+  "market_assessment": "The company is targeting two massive, fragmented markets: government administration and healthcare front-office operations. Both are high-friction, manual-heavy sectors, but the lack of focus is concerning.",
+  "open_questions": [
+    "What is the actual core product: government application processing or healthcare voice agents?",
+    "Does the team have any domain expertise in either target market?",
+    "Are there any active pilots or signed customers?",
+    "How does the product handle the high security and compliance requirements of government and healthcare data?"
+  ],
+  "product_summary": "Stratum Industries presents a confusing dual-product narrative. Their YC profile describes an AI agent platform for government application review, while their website describes an AI voice agent for healthcare front-office automation (call handling, scheduling, and insurance queries).",
+  "recommendation": "Pass",
+  "recommendation_rationale": "The company lacks a coherent strategy, presenting two entirely different products to two different markets. There is no evidence of traction, and the team's background is unknown. It does not meet our thesis for a focused system of action.",
+  "risks": [
+    "Severe lack of strategic focus between government and healthcare verticals.",
+    "No evidence of traction, pilot customers, or revenue.",
+    "High sales cycle risk in both government and healthcare sectors.",
+    "Regulatory and compliance risks inherent to both target industries."
+  ],
+  "score_breakdown": {
+    "defensibility": 2,
+    "market": 8,
+    "product": 6,
+    "rationale_by_component": {
+      "defensibility": "Low; thin wrapper risk if the product is just a voice agent or basic document processor.",
+      "market": "Large addressable markets, but the company lacks a clear wedge.",
+      "product": "Conflicting product messaging between YC profile and website; unclear value proposition.",
+      "risk_adjustment": "High risk due to lack of focus and unproven product-market fit.",
+      "team": "No founder background or relevant experience provided.",
+      "traction_freshness": "Zero evidence of traction or revenue.",
+      "why_now": "Leverages current AI agent capabilities, but lacks specific application."
+    },
+    "risk_adjustment": 2,
+    "team": 5,
+    "total": 28,
+    "traction_freshness": 0,
+    "why_now": 5
+  },
+  "team_assessment": "Insufficient evidence. The team size is 2, but no founder backgrounds, technical expertise, or prior experience in GovTech or Healthcare are provided.",
+  "what_would_change_mind": [
+    "A clear, singular focus on one vertical.",
+    "Evidence of signed pilot customers or revenue.",
+    "Founder background demonstrating deep domain expertise in the chosen vertical.",
+    "Proof of a 'system of action' integration rather than a standalone chatbot/voice agent."
+  ],
+  "why_now": "The proliferation of LLM-based agents makes automating high-volume, repetitive administrative tasks (like application processing or front-desk scheduling) technically feasible for the first time.",
+  "why_we_care": "The thesis focuses on automating high-frequency operational workflows; while the company targets such workflows, the execution and focus are currently insufficient."
+}

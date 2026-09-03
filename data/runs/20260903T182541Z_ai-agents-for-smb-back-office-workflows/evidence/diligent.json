@@ -1,0 +1,80 @@
+{
+  "candidate": {
+    "batch": "Summer 2023",
+    "description": "We help fintech risk and AML compliance teams automate and strengthen routine customer due diligence tasks with LLMs. Our AI assistants slash cost-to-comply, improve risk detection and free up capacity for investigations that require human expertise and decision making. \r\n\r\nFintechs and banks use us to automate workflows like running thorough due diligence on a legal entity, reviewing customer documents like registry extracts, proofs of address etc and remediating false positive alerts from their AML systems.",
+    "id": "yc-28805",
+    "industry": "Fintech",
+    "name": "Diligent",
+    "one_liner": "AI agents for fintech risk and compliance operations",
+    "raw_source_path": "raw/yc_fetch_manifest.json",
+    "source_refs": [
+      {
+        "fetched_at": "2026-09-03T18:25:41.720359Z",
+        "id": "YC_SOURCE",
+        "raw_path": "raw/yc_fetch_manifest.json",
+        "source_type": "yc",
+        "title": "YC profile for Diligent",
+        "url": "https://www.ycombinator.com/companies/diligent"
+      }
+    ],
+    "stage": "Early",
+    "status": "Active",
+    "tags": [
+      "Fintech",
+      "Compliance",
+      "Fraud Prevention",
+      "Regtech",
+      "AI"
+    ],
+    "team_size": 10,
+    "website": "https://godiligent.ai"
+  },
+  "evidence": [
+    {
+      "candidate_id": "yc-28805",
+      "category": "product",
+      "claim": "Diligent: AI agents for fintech risk and compliance operations",
+      "confidence": "high",
+      "evidence_id": "YC1",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/diligent"
+    },
+    {
+      "candidate_id": "yc-28805",
+      "category": "product",
+      "claim": "We help fintech risk and AML compliance teams automate and strengthen routine customer due diligence tasks with LLMs. Our AI assistants slash cost-to-comply, improve risk detection and free up capacity for investigations that require human expertise and decision making. Fintechs and banks use us to automate workflows like running thorough due diligence on a legal entity, reviewing customer documents like registry extracts, proofs of address etc and remediating false positive alerts from their AML systems.",
+      "confidence": "high",
+      "evidence_id": "YC2",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/diligent"
+    },
+    {
+      "candidate_id": "yc-28805",
+      "category": "source",
+      "claim": "YC batch: Summer 2023; Industry: Fintech; Status: Active; Stage: Early; Team size: 10; Tags: Fintech, Compliance, Fraud Prevention, Regtech, AI",
+      "confidence": "high",
+      "evidence_id": "YC3",
+      "source": "yc",
+      "url": "https://www.ycombinator.com/companies/diligent"
+    },
+    {
+      "candidate_id": "yc-28805",
+      "category": "website",
+      "claim": "Diligent \ud83d\ude80 New case study -> How Scalapay automated 66% of merchant KYC/AML reviews Skip to main content AI agents for KYC/AML operations Leading fintechs and banks use Diligent AI agents to automate their risk and compliance workflows Request demo Request demo Request demo Trusted and used daily by leading banks and fintechs Why we exist KYC/AML teams are drowning in manual tasks \u2014 AI agents can supercharge humans, clear the backlog and keep them above water How it works Configure an agent Pick your workflow Identify the most manual KYC/AML workflows you want to accelerate. From risk reviews, to alert remediation or document processing Connect your systems Plug the AI agent into your stack. Connect it via API, our Portal or through our native integrations with screening tools. Provide your policies Teach the agent how you work. Upload your risk policies and procedures so the Agent runs checks in a customized and auditable way Run with oversight Keep humans in the loop. Deploy the agen",
+      "confidence": "medium",
+      "evidence_id": "WEB1",
+      "source": "website",
+      "url": "https://godiligent.ai"
+    },
+    {
+      "candidate_id": "yc-28805",
+      "category": "traction",
+      "claim": "No HN story traction found for 'Diligent' or 'godiligent.ai' in the top search results.",
+      "confidence": "medium",
+      "evidence_id": "HN1",
+      "source": "hn",
+      "url": "https://hn.algolia.com/"
+    }
+  ],
+  "generated_at": "2026-09-03T18:26:18.903538Z"
+}

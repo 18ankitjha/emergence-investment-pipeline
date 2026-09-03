@@ -25,6 +25,16 @@ Python does the fetching, the score total, the recommendation threshold, and
 the citation validation. This keeps the final call auditable and stops prompt
 changes from silently moving the bar.
 
+## Provider is swappable; the contract is not
+
+`analysis/llm.py` has a Gemini path and an OpenAI path behind one dispatch.
+Both send the same rendered prompt and the same schema (the OpenAI strict
+schema, transformed for Gemini's `responseSchema` dialect), and both funnel
+through `finalize_llm_analysis`, which re-clamps scores, recomputes the total,
+re-derives the recommendation, and strips unknown citations. Swapping models
+cannot change what the pipeline guarantees. Gemini is the default because its
+free tier needs no card.
+
 ## Deterministic total and threshold
 
 The model proposes component scores. `models.deterministic_total` recomputes

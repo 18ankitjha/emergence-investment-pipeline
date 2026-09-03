@@ -1,0 +1,73 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-30535",
+  "cited_claims": [
+    {
+      "claim": "Cotool is an agentic security platform with an AI co-pilot, no-code agent builder, and automated reporting.",
+      "evidence_ids": [
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Early users have cut time spent on investigation and detection engineering by 70%.",
+      "evidence_ids": [
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Used by a 2000+ employee crypto exchange and a 1,500+ employee security company.",
+      "evidence_ids": [
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "Team size is 4.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    }
+  ],
+  "market_assessment": "The company targets security operations teams (blue teams) facing alert fatigue and documentation overhead. They claim usage by a 2000+ employee crypto exchange and a 1,500+ employee security company.",
+  "open_questions": [
+    "What is the specific technical architecture that differentiates their 'agent builder' from existing SOAR platforms?",
+    "What is the current revenue or ARR status?",
+    "Who are the founders and what is their specific domain expertise in cybersecurity?",
+    "How does the product handle data privacy and security for sensitive log data?"
+  ],
+  "product_summary": "Cotool is an agentic security platform designed to automate security operations (SecOps) workflows. It features an AI co-pilot for context assembly, a no-code agent builder for creating custom automations, and automated report generation. It aims to move beyond 'AI-powered insights' to provide a system of action for detection, response, and threat hunting.",
+  "recommendation": "Watch",
+  "recommendation_rationale": "Cotool aligns well with our thesis of moving from 'chatbots' to 'systems of action' in high-frequency operational workflows. They have identified a clear pain point and have early traction with mid-market/enterprise-scale users. However, the lack of information on the founding team and the competitive nature of the security automation space warrants a 'Watch' status until more data on technical differentiation and retention is available.",
+  "risks": [
+    "High competition in the security automation and SOAR (Security Orchestration, Automation, and Response) space.",
+    "Potential for 'AI agent' fatigue if the product requires significant maintenance or 'brittle' configuration.",
+    "Limited evidence of long-term retention or deep integration capabilities beyond marketing claims.",
+    "Lack of information on founder pedigree or technical defensibility."
+  ],
+  "score_breakdown": {
+    "defensibility": 6,
+    "market": 12,
+    "product": 16,
+    "rationale_by_component": {
+      "defensibility": "No-code agent building is a potential moat, but requires execution to prevent becoming a thin wrapper.",
+      "market": "Clear pain point in SecOps; evidence of early enterprise-scale users.",
+      "product": "Strong alignment with the 'system of action' thesis; moves beyond simple chat interfaces into workflow automation.",
+      "risk_adjustment": "Significant execution risk in a crowded, high-stakes enterprise security market.",
+      "team": "Team size is 4, but no background information is provided.",
+      "traction_freshness": "Early stage; some evidence of pilot customers, but limited public traction metrics.",
+      "why_now": "Security teams are under pressure to scale; AI agents are a timely solution for alert fatigue."
+    },
+    "risk_adjustment": 6,
+    "team": 10,
+    "total": 66,
+    "traction_freshness": 8,
+    "why_now": 8
+  },
+  "team_assessment": "The team consists of 4 members. No specific founder background, technical expertise, or prior experience is provided in the evidence packet.",
+  "what_would_change_mind": [
+    "Evidence of high retention or expansion within the existing pilot customers.",
+    "Technical deep-dive showing proprietary agentic architecture vs. standard LLM API wrappers.",
+    "Founder background demonstrating deep domain expertise in cybersecurity."
+  ],
+  "why_now": "The rise of AI-enabled attackers and the increasing complexity of security stacks (log sources, alert volume) create a need for automated, intent-driven detection and response that scales beyond human headcount.",
+  "why_we_care": "The product directly addresses the 'system of action' requirement by allowing users to build reusable automations rather than just querying an LLM."
+}

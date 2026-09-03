@@ -1,0 +1,874 @@
+[
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-31440",
+    "cited_claims": [
+      {
+        "claim": "Mount is building the AI insurance carrier, starting with liability coverage for deployed AI agents.",
+        "evidence_ids": [
+          "YC1",
+          "YC2"
+        ]
+      },
+      {
+        "claim": "The team size is 2.",
+        "evidence_ids": [
+          "YC3"
+        ]
+      },
+      {
+        "claim": "The product includes vulnerability scanning, automated remediation, and insurance coverage.",
+        "evidence_ids": [
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "No HN story traction found.",
+        "evidence_ids": [
+          "HN1"
+        ]
+      }
+    ],
+    "market_assessment": "The market addresses the emerging liability gap created by autonomous AI agents in enterprise and mid-market workflows. While the problem is clear, the market size for 'AI liability insurance' is nascent and speculative.",
+    "open_questions": [
+      "What is the founders' background in insurance or cybersecurity?",
+      "Does the company hold an insurance license, or are they operating as an MGA (Managing General Agent)?",
+      "What is the current traction (e.g., number of policies written, revenue, or active pilot customers)?",
+      "How does the proprietary risk model differ from standard cybersecurity insurance?"
+    ],
+    "product_summary": "Mount is an AI-native insurance carrier focused on liability coverage for deployed AI agents. The product combines security tooling (vulnerability scanning, red-teaming, and automated remediation) with insurance underwriting to provide real-time risk assessment and coverage for AI-specific risks like prompt injection and autonomous workflow errors.",
+    "recommendation": "Pass",
+    "recommendation_rationale": "While the thesis is compelling and the product aims to be a system of action rather than a chatbot, the company is too early and lacks evidence of traction, regulatory progress, or team pedigree to justify a seed-stage investment at this time. The insurance industry is notoriously difficult to disrupt, and the lack of detail on their regulatory status or underwriting capability is a major concern.",
+    "risks": [
+      "Regulatory hurdles associated with becoming an insurance carrier (licensing, capital requirements).",
+      "High actuarial risk; lack of historical data to price AI-specific liability accurately.",
+      "Potential for 'thin wrapper' risk if the security scanning component is easily commoditized by existing cybersecurity vendors.",
+      "Early-stage team size (2) may struggle with the heavy operational and regulatory burden of the insurance industry."
+    ],
+    "score_breakdown": {
+      "defensibility": 5,
+      "market": 9,
+      "product": 14,
+      "rationale_by_component": {
+        "defensibility": "Potential for data moats in underwriting, but currently relies on unproven proprietary risk models.",
+        "market": "Large potential market as AI adoption grows, but currently speculative.",
+        "product": "Strong vision for a system of action, integrating security scanning with insurance, but execution is unproven.",
+        "risk_adjustment": "High regulatory and actuarial risk for a 2-person team.",
+        "team": "Team size is 2; no background information provided to assess capability.",
+        "traction_freshness": "No evidence of traction or revenue provided.",
+        "why_now": "Clear alignment with the shift toward autonomous agent deployment."
+      },
+      "risk_adjustment": 3,
+      "team": 8,
+      "total": 49,
+      "traction_freshness": 2,
+      "why_now": 8
+    },
+    "team_assessment": "Insufficient evidence. The team consists of 2 people, but no background information, technical expertise, or prior experience in insurance or AI security is provided.",
+    "what_would_change_mind": [
+      "Evidence of insurance licensing or a partnership with a major carrier.",
+      "Proof of traction with mid-market customers (e.g., signed contracts or active policies).",
+      "Demonstrable technical edge in their vulnerability scanning and risk-scoring engine.",
+      "Founding team experience in insurance actuarial science or high-stakes cybersecurity."
+    ],
+    "why_now": "As businesses transition from human-operated software to autonomous AI agents, legacy insurance policies are often silent or exclusionary, creating a clear demand for purpose-built coverage that integrates directly with technical risk assessment.",
+    "why_we_care": "It attempts to solve a critical 'system of action' problem\u2014insuring autonomous agents\u2014which is a necessary infrastructure layer for the future of AI-driven business operations."
+  },
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-33023",
+    "cited_claims": [
+      {
+        "claim": "Levocred builds and deploys AI agents inside credit funds, fintechs and banks to automate workflows.",
+        "evidence_ids": [
+          "YC2",
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "Live across multiple lending teams, running ~$1Bn in receivables through the platform.",
+        "evidence_ids": [
+          "YC2",
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "Team size: 2.",
+        "evidence_ids": [
+          "YC3"
+        ]
+      }
+    ],
+    "market_assessment": "Targeting credit funds, fintechs, and banks. The company claims to be live across multiple lending teams with $1Bn+ in receivables processed, indicating a focus on high-value financial operations.",
+    "open_questions": [
+      "What is the specific technical background of the founders?",
+      "What is the revenue model (SaaS vs. AUM-based)?",
+      "How does the system handle data privacy and security for sensitive financial documents?",
+      "What is the churn rate or retention profile of the 'multiple lending teams' currently using the platform?"
+    ],
+    "product_summary": "Levocred AI provides an 'AI workforce' for lenders, automating back-office tasks, portfolio monitoring, compliance, and underwriting. The platform integrates into existing workflows, such as drafting IC memos from loan tapes and credit agreements, and providing Slack-based Q&A for portfolio monitoring.",
+    "recommendation": "Watch",
+    "recommendation_rationale": "Levocred fits the thesis well by focusing on high-frequency, complex operational workflows in a high-value vertical. The $1Bn+ in processed receivables is a strong signal of product-market fit. However, the team size is very small for the complexity of the domain, and I need more information on the founders' backgrounds and the depth of their technical moat before recommending a meeting.",
+    "risks": [
+      "High concentration risk if the product is dependent on a small number of large institutional clients.",
+      "Regulatory and compliance risks inherent in automating underwriting and credit decisions.",
+      "Small team size (2) may struggle to support complex enterprise-grade integrations and security requirements.",
+      "Potential for 'thin wrapper' risk if the core value proposition is easily replicated by incumbents or general-purpose LLM tools."
+    ],
+    "score_breakdown": {
+      "defensibility": 6,
+      "market": 12,
+      "product": 16,
+      "rationale_by_component": {
+        "defensibility": "Moderate; defensibility likely comes from deep integration into lender workflows and data moats, but requires validation.",
+        "market": "Clear, high-value target market (lenders) with significant pain points in manual back-office work.",
+        "product": "Strong alignment with the thesis; product acts as a system of action (IC memos, compliance recomputation) rather than just a chatbot.",
+        "risk_adjustment": "High execution risk for a 2-person team handling sensitive financial infrastructure.",
+        "team": "Insufficient evidence provided regarding founder background or technical expertise.",
+        "traction_freshness": "Strong claim of $1Bn+ in receivables processed, though limited detail on customer count or revenue.",
+        "why_now": "AI agents are uniquely suited to replace manual document processing in finance."
+      },
+      "risk_adjustment": 6,
+      "team": 10,
+      "total": 70,
+      "traction_freshness": 12,
+      "why_now": 8
+    },
+    "team_assessment": "The team consists of 2 members. No specific background or founder experience details are provided in the evidence packet.",
+    "what_would_change_mind": [
+      "Evidence of founder experience in fintech or credit underwriting.",
+      "Validation of security/compliance certifications (e.g., SOC2) necessary for enterprise lending clients.",
+      "More granular data on customer retention and revenue growth."
+    ],
+    "why_now": "The proliferation of AI agents allows for the automation of complex, document-heavy financial workflows that previously required significant manual human labor in lending operations.",
+    "why_we_care": "The company is successfully moving beyond 'chat' to 'action' by automating specific, high-stakes financial tasks like IC memo drafting and compliance recomputation."
+  },
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-30540",
+    "cited_claims": [
+      {
+        "claim": "Lumari is an AI-powered procurement automation platform for direct materials and supply chain execution.",
+        "evidence_ids": [
+          "YC2",
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "Founded by engineers from Google, Tesla, Amazon, and Stripe.",
+        "evidence_ids": [
+          "YC2",
+          "YC4"
+        ]
+      },
+      {
+        "claim": "Operates on top of existing ERP systems without rip-and-replace.",
+        "evidence_ids": [
+          "YC2",
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "Team size is 5.",
+        "evidence_ids": [
+          "YC3"
+        ]
+      }
+    ],
+    "market_assessment": "The platform targets a broad range of customers from fast-growing startups to Fortune 500 companies within the manufacturing and supply chain sectors.",
+    "open_questions": [
+      "What is the current ARR or number of active paying customers?",
+      "How does the system handle edge cases in supplier communication that require human intervention?",
+      "What is the specific technical architecture for the 'always-on' agents?"
+    ],
+    "product_summary": "Lumari is an AI-powered procurement automation platform that deploys autonomous agents to manage end-to-end supply chain workflows, including RFQ management, PO expediting, and supplier communication. It integrates with existing ERP systems without requiring supplier onboarding or system replacement.",
+    "recommendation": "Watch",
+    "recommendation_rationale": "Lumari fits the thesis well by moving beyond a chatbot to a system of action. The team is high-caliber. However, the lack of disclosed traction data in the provided packet makes it difficult to move to 'Take a meeting' without further validation of product-market fit.",
+    "risks": [
+      "High integration complexity with diverse legacy ERP systems.",
+      "Potential for AI hallucination or errors in critical supply chain execution.",
+      "Dependency on supplier cooperation and email communication standards.",
+      "Lack of disclosed specific traction metrics or customer logos."
+    ],
+    "score_breakdown": {
+      "defensibility": 6,
+      "market": 12,
+      "product": 16,
+      "rationale_by_component": {
+        "defensibility": "Integration with ERPs and deep workflow embedding provides potential switching costs.",
+        "market": "Large, fragmented market with clear pain points in procurement.",
+        "product": "Strong alignment with the 'system of action' thesis; automates complex, multi-step workflows.",
+        "risk_adjustment": "High execution risk in B2B supply chain operations, but mitigated by the 'no rip-and-replace' approach.",
+        "team": "Strong pedigree from relevant high-scale companies (Tesla, Amazon, Stripe).",
+        "traction_freshness": "Insufficient evidence provided regarding specific customer traction or revenue.",
+        "why_now": "Leverages current advancements in agentic AI to solve long-standing manual bottlenecks."
+      },
+      "risk_adjustment": 6,
+      "team": 18,
+      "total": 71,
+      "traction_freshness": 5,
+      "why_now": 8
+    },
+    "team_assessment": "The team consists of 5 members with engineering backgrounds from Google, Tesla, Amazon, and Stripe, specifically with experience in scaling supply chain systems.",
+    "what_would_change_mind": [
+      "Evidence of successful deployment in a complex enterprise environment.",
+      "Specific metrics on cycle time reduction or cost savings for current customers.",
+      "Validation of the 'no supplier onboarding' claim at scale."
+    ],
+    "why_now": "The proliferation of agentic AI frameworks allows for the automation of high-frequency, manual procurement tasks (e.g., email parsing, PO updates) that were previously resistant to traditional software automation.",
+    "why_we_care": "Procurement is a high-frequency, manual, and error-prone operational workflow that is ripe for agentic automation."
+  },
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-30535",
+    "cited_claims": [
+      {
+        "claim": "Cotool is an agentic security platform with an AI co-pilot, no-code agent builder, and automated reporting.",
+        "evidence_ids": [
+          "YC2"
+        ]
+      },
+      {
+        "claim": "Early users have cut time spent on investigation and detection engineering by 70%.",
+        "evidence_ids": [
+          "YC2"
+        ]
+      },
+      {
+        "claim": "Used by a 2000+ employee crypto exchange and a 1,500+ employee security company.",
+        "evidence_ids": [
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "Team size is 4.",
+        "evidence_ids": [
+          "YC3"
+        ]
+      }
+    ],
+    "market_assessment": "The company targets security operations teams (blue teams) facing alert fatigue and documentation overhead. They claim usage by a 2000+ employee crypto exchange and a 1,500+ employee security company.",
+    "open_questions": [
+      "What is the specific technical architecture that differentiates their 'agent builder' from existing SOAR platforms?",
+      "What is the current revenue or ARR status?",
+      "Who are the founders and what is their specific domain expertise in cybersecurity?",
+      "How does the product handle data privacy and security for sensitive log data?"
+    ],
+    "product_summary": "Cotool is an agentic security platform designed to automate security operations (SecOps) workflows. It features an AI co-pilot for context assembly, a no-code agent builder for creating custom automations, and automated report generation. It aims to move beyond 'AI-powered insights' to provide a system of action for detection, response, and threat hunting.",
+    "recommendation": "Watch",
+    "recommendation_rationale": "Cotool aligns well with our thesis of moving from 'chatbots' to 'systems of action' in high-frequency operational workflows. They have identified a clear pain point and have early traction with mid-market/enterprise-scale users. However, the lack of information on the founding team and the competitive nature of the security automation space warrants a 'Watch' status until more data on technical differentiation and retention is available.",
+    "risks": [
+      "High competition in the security automation and SOAR (Security Orchestration, Automation, and Response) space.",
+      "Potential for 'AI agent' fatigue if the product requires significant maintenance or 'brittle' configuration.",
+      "Limited evidence of long-term retention or deep integration capabilities beyond marketing claims.",
+      "Lack of information on founder pedigree or technical defensibility."
+    ],
+    "score_breakdown": {
+      "defensibility": 6,
+      "market": 12,
+      "product": 16,
+      "rationale_by_component": {
+        "defensibility": "No-code agent building is a potential moat, but requires execution to prevent becoming a thin wrapper.",
+        "market": "Clear pain point in SecOps; evidence of early enterprise-scale users.",
+        "product": "Strong alignment with the 'system of action' thesis; moves beyond simple chat interfaces into workflow automation.",
+        "risk_adjustment": "Significant execution risk in a crowded, high-stakes enterprise security market.",
+        "team": "Team size is 4, but no background information is provided.",
+        "traction_freshness": "Early stage; some evidence of pilot customers, but limited public traction metrics.",
+        "why_now": "Security teams are under pressure to scale; AI agents are a timely solution for alert fatigue."
+      },
+      "risk_adjustment": 6,
+      "team": 10,
+      "total": 66,
+      "traction_freshness": 8,
+      "why_now": 8
+    },
+    "team_assessment": "The team consists of 4 members. No specific founder background, technical expertise, or prior experience is provided in the evidence packet.",
+    "what_would_change_mind": [
+      "Evidence of high retention or expansion within the existing pilot customers.",
+      "Technical deep-dive showing proprietary agentic architecture vs. standard LLM API wrappers.",
+      "Founder background demonstrating deep domain expertise in cybersecurity."
+    ],
+    "why_now": "The rise of AI-enabled attackers and the increasing complexity of security stacks (log sources, alert volume) create a need for automated, intent-driven detection and response that scales beyond human headcount.",
+    "why_we_care": "The product directly addresses the 'system of action' requirement by allowing users to build reusable automations rather than just querying an LLM."
+  },
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-30724",
+    "cited_claims": [
+      {
+        "claim": "Risely AI automates administrative work across college campuses.",
+        "evidence_ids": [
+          "YC1",
+          "YC2"
+        ]
+      },
+      {
+        "claim": "Platform integrates with SIS, LMS, and CRM systems.",
+        "evidence_ids": [
+          "YC2",
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "Sadia built Salesforce Education Cloud; Danial was an early DoorDash engineer; Shahryar scaled Airwallex Americas.",
+        "evidence_ids": [
+          "YC2",
+          "YC4"
+        ]
+      },
+      {
+        "claim": "$8k MRR, growing 55% week-over-week, launched 6 weeks ago.",
+        "evidence_ids": [
+          "YC2"
+        ]
+      }
+    ],
+    "market_assessment": "The target market is higher education, characterized by a $735 billion annual spend on administrative labor. The market is facing significant budget pressures and staffing shortages, creating a clear pain point for automation.",
+    "open_questions": [
+      "What is the specific breakdown of the $8k MRR (e.g., number of pilot universities vs. paid contracts)?",
+      "How does the product handle data sovereignty and FERPA compliance?",
+      "What is the churn rate or pilot-to-contract conversion rate?"
+    ],
+    "product_summary": "Risely AI provides agentic AI workflows for universities, integrating with existing SIS, LMS, and CRM systems to automate administrative tasks such as student retention, financial aid processing, and enrollment management.",
+    "recommendation": "Take a meeting",
+    "recommendation_rationale": "Risely AI fits the thesis perfectly by targeting a high-frequency, administrative-heavy sector with a system-of-action approach. The team's pedigree is top-tier, and the early traction is highly encouraging for this vertical.",
+    "risks": [
+      "Long enterprise sales cycles typical of higher education institutions.",
+      "High integration complexity with legacy university systems (SIS/LMS).",
+      "Data privacy and security requirements in an educational context.",
+      "Potential for institutional inertia and resistance to adopting new 'operating systems'."
+    ],
+    "score_breakdown": {
+      "defensibility": 7,
+      "market": 13,
+      "product": 17,
+      "rationale_by_component": {
+        "defensibility": "Integration into core systems creates high switching costs, though the moat depends on execution.",
+        "market": "Massive TAM with clear, urgent pain points.",
+        "product": "Strong focus on 'system of action' integration rather than just a chatbot interface.",
+        "risk_adjustment": "High execution risk due to the complexity of university procurement and legacy system integration.",
+        "team": "Founders have perfect complementary backgrounds in EdTech, AI engineering, and enterprise sales.",
+        "traction_freshness": "Rapid growth ($8k MRR in 6 weeks) is impressive for a high-friction enterprise market.",
+        "why_now": "Perfect alignment with current labor shortages and AI capability maturity."
+      },
+      "risk_adjustment": 7,
+      "team": 20,
+      "total": 85,
+      "traction_freshness": 12,
+      "why_now": 9
+    },
+    "team_assessment": "The team is exceptionally strong for a seed-stage company. The founders bring highly relevant domain expertise (Salesforce Education Cloud), technical scaling experience (DoorDash), and proven GTM/sales execution (Airwallex, NerdWallet).",
+    "what_would_change_mind": [
+      "Evidence of long-term pilot stagnation without conversion to full contracts.",
+      "Technical inability to integrate with specific legacy SIS platforms.",
+      "High churn among early university customers."
+    ],
+    "why_now": "Universities are facing unprecedented budget and staffing constraints, and agentic AI has reached a maturity level capable of handling the nuanced, autonomous judgment required for complex university workflows.",
+    "why_we_care": "The company is moving beyond thin wrappers by integrating directly into the 'system of record' (SIS/LMS), which is the key to building a defensible, high-value enterprise AI business."
+  },
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-30948",
+    "cited_claims": [
+      {
+        "claim": "Lua is the mid-market agent platform.",
+        "evidence_ids": [
+          "YC1",
+          "YC2"
+        ]
+      },
+      {
+        "claim": "Founded by Lorcan O Cathain and Stefan Kruger, with 15-20 years of experience scaling tech companies.",
+        "evidence_ids": [
+          "YC2",
+          "YC4"
+        ]
+      },
+      {
+        "claim": "Targets mid-market businesses ($50M-$1B) and developer agencies.",
+        "evidence_ids": [
+          "YC2"
+        ]
+      },
+      {
+        "claim": "Product allows for TypeScript-based agent development with Zod validation.",
+        "evidence_ids": [
+          "WEB1"
+        ]
+      }
+    ],
+    "market_assessment": "Targets mid-market enterprises ($50M-$1B revenue) and developer agencies. The company utilizes a dual-motion strategy: self-serve for SMBs and direct sales for mid-market to refine the platform.",
+    "open_questions": [
+      "What is the current ARR or number of active paying customers?",
+      "How many developer agencies are currently using the platform?",
+      "What specific 'systems of action' have been successfully deployed by customers to date?",
+      "How does the 'AgentOS' architecture prevent vendor lock-in compared to native cloud AI services?"
+    ],
+    "product_summary": "Lua is an 'agentOS' platform designed to help mid-market companies and developer agencies build and deploy AI agents for sales, support, and operations. It provides a developer-centric interface (TypeScript/Zod) alongside a no-code 'Agent Builder' to abstract infrastructure complexity and ensure enterprise-grade reliability.",
+    "recommendation": "Watch",
+    "recommendation_rationale": "Lua shows promise by targeting the mid-market with a developer-first 'AgentOS' approach, which aligns well with our thesis. However, the lack of concrete traction data makes it difficult to move to a meeting immediately. We need to see evidence of successful deployments or agency adoption to validate that this is a system of action rather than just a developer tool.",
+    "risks": [
+      "High competition in the agent orchestration/platform space.",
+      "Unclear differentiation from existing low-code/no-code automation platforms.",
+      "Reliance on channel partners (developer agencies) for distribution may limit direct customer feedback loops.",
+      "Lack of specific traction metrics (revenue, active users, or retention) provided in the evidence."
+    ],
+    "score_breakdown": {
+      "defensibility": 5,
+      "market": 10,
+      "product": 14,
+      "rationale_by_component": {
+        "defensibility": "Platform-level plays are defensible, but the 'AgentOS' space is becoming crowded.",
+        "market": "Mid-market focus is a clear, underserved segment for AI agent adoption.",
+        "product": "Strong focus on developer experience (TypeScript/Zod) and 'AgentOS' positioning aligns with the thesis of moving beyond thin wrappers.",
+        "risk_adjustment": "Significant execution risk regarding distribution through agencies and lack of validated product-market fit.",
+        "team": "Founders have significant industry experience, though specific AI/agent-building expertise is not detailed.",
+        "traction_freshness": "Insufficient evidence of actual traction or usage metrics provided.",
+        "why_now": "The market is currently saturated with 'chatbots,' making an 'OS' layer a timely evolution."
+      },
+      "risk_adjustment": 5,
+      "team": 15,
+      "total": 59,
+      "traction_freshness": 3,
+      "why_now": 7
+    },
+    "team_assessment": "Founded by Lorcan O Cathain (CEO) and Stefan Kruger (CTO), who are described as experienced founders with 15-20 years of experience scaling technology companies in emerging markets. The team size is currently 5.",
+    "what_would_change_mind": [
+      "Evidence of 5+ mid-market customers using the platform for core operational workflows.",
+      "Data on agency partner adoption and the number of agents deployed through those channels.",
+      "Case studies demonstrating the 'system of action' capability (e.g., agents executing multi-step workflows across disparate tools)."
+    ],
+    "why_now": "The proliferation of AI agents creates a need for an 'OS' layer to manage reliability, memory, and governance, moving beyond simple chatbot wrappers to integrated systems of action.",
+    "why_we_care": "The shift from 'chatbots' to 'agents' requires an orchestration layer that handles state, memory, and governance\u2014Lua is positioning itself exactly there."
+  },
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-31051",
+    "cited_claims": [
+      {
+        "claim": "Corvera is the context layer for AI-native CPG brands, helping them make unified data legible via MCP.",
+        "evidence_ids": [
+          "YC1",
+          "YC2",
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "Scaled from $0 to $33k MRR in 4 weeks, serving 12 brands with 130% WoW growth.",
+        "evidence_ids": [
+          "YC2"
+        ]
+      },
+      {
+        "claim": "Founded by Chris (ex-CEO Better Nature), Dirk (ex-Google Data & AI), and Matthew (ex-Head of Product at Rosemark).",
+        "evidence_ids": [
+          "YC2",
+          "YC4"
+        ]
+      },
+      {
+        "claim": "Raised $6.2M from YC, firstminute capital, 6 Degrees Capital, 20VC, Rebel Fund, and Duke Capital Partners.",
+        "evidence_ids": [
+          "YC2"
+        ]
+      }
+    ],
+    "market_assessment": "Targeting omnichannel CPG brands at the $100M+ revenue inflection point, aiming to serve the $5.4T global CPG industry.",
+    "open_questions": [
+      "What is the long-term retention of the 12 brands acquired in the first 4 weeks?",
+      "How does the product differentiate from existing data integration/ETL tools that also provide API access for LLMs?",
+      "What is the specific pricing model for the $33k MRR?"
+    ],
+    "product_summary": "Corvera provides a 'context layer' for CPG brands, unifying disparate data sources into a format (via MCP) that allows AI tools (Claude, ChatGPT, Cursor) to access and act upon business data for supply chain and category management workflows.",
+    "recommendation": "Take a meeting",
+    "recommendation_rationale": "Corvera fits the thesis perfectly by acting as a system of action for operational workflows rather than a thin wrapper. The team's background and rapid initial traction warrant a deep dive.",
+    "risks": [
+      "High dependency on the adoption of the Model Context Protocol (MCP) standard.",
+      "Potential for CPG brands to build internal data pipelines rather than relying on a third-party layer.",
+      "Early-stage traction (4 weeks) may not reflect long-term retention or churn.",
+      "Competitive risk from incumbent ERP/BI platforms adding native AI integration layers."
+    ],
+    "score_breakdown": {
+      "defensibility": 6,
+      "market": 12,
+      "product": 16,
+      "rationale_by_component": {
+        "defensibility": "Moderate; relies on being the 'context layer' which could become a commodity if data standards consolidate.",
+        "market": "Clear ICP identified in a massive industry, though the $100M+ revenue focus is a narrow segment.",
+        "product": "Strong alignment with the thesis of moving beyond chatbots to a system of action via data unification.",
+        "risk_adjustment": "High execution speed balanced against the risks of a very early-stage startup.",
+        "team": "Highly qualified team with relevant domain expertise in data, AI, and CPG leadership.",
+        "traction_freshness": "Impressive initial growth ($0 to $33k MRR in 4 weeks), though the timeframe is very short.",
+        "why_now": "Excellent timing leveraging the emergence of MCP and AI-native development tools."
+      },
+      "risk_adjustment": 7,
+      "team": 18,
+      "total": 81,
+      "traction_freshness": 13,
+      "why_now": 9
+    },
+    "team_assessment": "Strong technical and operational pedigree. Founders include a 2x founder/ex-CEO, an ex-Google Data & AI lead, and an ex-Head of Product with a Princeton MEng in CS.",
+    "what_would_change_mind": [
+      "Evidence of high churn among the initial 12 customers.",
+      "Discovery that the product is merely a wrapper for existing BI tools without deep workflow automation capabilities.",
+      "Evidence that the $100M+ CPG segment prefers building proprietary data layers over third-party solutions."
+    ],
+    "why_now": "The rise of Model Context Protocol (MCP) and AI-native tooling (Cursor, Lovable) creates a need for a unified data layer to make business data 'legible' to agents, moving beyond simple chatbot interfaces.",
+    "why_we_care": "They are building the infrastructure layer that allows SMB/mid-market teams to automate complex CPG workflows, directly addressing our interest in AI-driven operational systems."
+  },
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-32286",
+    "cited_claims": [
+      {
+        "claim": "Definite is a team of 3, based in the Summer 2026 YC batch.",
+        "evidence_ids": [
+          "YC3"
+        ]
+      },
+      {
+        "claim": "The founders met at Waterloo and have internship experience at Meta, Optiver, and BitGo.",
+        "evidence_ids": [
+          "YC2"
+        ]
+      },
+      {
+        "claim": "The product connects to ERP, ledger, payroll, and payments to create a unified, read-only model.",
+        "evidence_ids": [
+          "YC2",
+          "WEB1"
+        ]
+      }
+    ],
+    "market_assessment": "The company targets the B2B finance sector, specifically addressing the pain point of manual, engineer-heavy data integration in back-office operations. The market is currently served by general-purpose automation tools like n8n and Workato, which the founders argue are insufficient for the complexities of financial data.",
+    "open_questions": [
+      "What is the current customer traction or pilot status?",
+      "How does the product handle data security and compliance requirements for sensitive financial data?",
+      "What specific 'plays' or workflows are currently supported?"
+    ],
+    "product_summary": "Definite provides a data-compilation layer that connects to disparate financial systems (ERP, payroll, banking) to create a unified, live model of financial data. It enables finance teams to build automated agents on top of this cleaned data to execute workflows without manual data stitching.",
+    "recommendation": "Watch",
+    "recommendation_rationale": "Definite is building a compelling infrastructure layer that aligns well with our thesis on moving beyond thin AI wrappers. The team is technically strong. However, the lack of evidence regarding traction or customer validation makes it too early for a meeting. We should monitor their progress to see if they can move beyond the 'compiler' concept to actual production deployments.",
+    "risks": [
+      "High technical complexity in building a universal data compiler for diverse financial systems.",
+      "Significant integration challenges with legacy ERPs and banking APIs.",
+      "Lack of evidence regarding current customer traction or revenue.",
+      "Potential competition from established financial SaaS platforms that may build similar native automation capabilities."
+    ],
+    "score_breakdown": {
+      "defensibility": 7,
+      "market": 12,
+      "product": 16,
+      "rationale_by_component": {
+        "defensibility": "The 'compiler' approach creates a potential moat if they can successfully standardize diverse financial data.",
+        "market": "Large, underserved market in SMB/mid-market finance automation.",
+        "product": "Addresses a clear, high-value problem (data cleaning for automation) rather than just being a thin wrapper.",
+        "risk_adjustment": "Significant execution risk regarding data integration and lack of demonstrated market validation.",
+        "team": "Strong technical background from Waterloo and relevant internships.",
+        "traction_freshness": "No evidence of revenue or active customer usage provided.",
+        "why_now": "Fits the current trend of moving from chat-based AI to agentic workflows requiring structured data."
+      },
+      "risk_adjustment": 5,
+      "team": 15,
+      "total": 65,
+      "traction_freshness": 2,
+      "why_now": 8
+    },
+    "team_assessment": "The team consists of 3 members who met during their first year of computer science at the University of Waterloo. They have internship experience at Meta, Optiver, and BitGo, suggesting strong technical foundations.",
+    "what_would_change_mind": [
+      "Evidence of successful deployments with paying customers.",
+      "Validation of the data model's robustness across different ERP/banking systems.",
+      "Clearer differentiation from existing financial automation platforms."
+    ],
+    "why_now": "The proliferation of AI agents creates a demand for clean, structured data inputs. As finance teams seek to automate repetitive workflows, the 'compiler' layer for financial data becomes a critical bottleneck that, if solved, could become a central system of record.",
+    "why_we_care": "The company is attempting to solve the 'data plumbing' problem that prevents AI agents from being effective in finance, which is a high-frequency, high-value operational domain."
+  },
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-28805",
+    "cited_claims": [
+      {
+        "claim": "Diligent: AI agents for fintech risk and compliance operations",
+        "evidence_ids": [
+          "YC1"
+        ]
+      },
+      {
+        "claim": "Fintechs and banks use us to automate workflows like running thorough due diligence on a legal entity, reviewing customer documents, and remediating false positive alerts.",
+        "evidence_ids": [
+          "YC2"
+        ]
+      },
+      {
+        "claim": "Scalapay automated 66% of merchant KYC/AML reviews using Diligent.",
+        "evidence_ids": [
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "Team size is 10.",
+        "evidence_ids": [
+          "YC3"
+        ]
+      }
+    ],
+    "market_assessment": "Targeting fintech and banking compliance teams, a high-pain, high-volume operational sector. Market size is substantial given the regulatory burden on these institutions.",
+    "open_questions": [
+      "What is the current ARR or number of paying customers?",
+      "What is the specific technical architecture for ensuring auditability and compliance?",
+      "How does the product handle edge cases that fall outside of defined risk policies?",
+      "What is the churn rate for existing fintech clients?"
+    ],
+    "product_summary": "Diligent provides AI agents designed to automate high-frequency fintech compliance workflows, specifically KYC/AML document review, entity due diligence, and false-positive alert remediation.",
+    "recommendation": "Watch",
+    "recommendation_rationale": "Diligent fits the thesis well by targeting specific, high-frequency operational workflows. However, the lack of detailed traction data and the high-stakes nature of compliance operations necessitate a 'Watch' approach until more evidence of customer retention and product reliability is available.",
+    "risks": [
+      "High regulatory and compliance liability if AI agents make errors.",
+      "Integration complexity with legacy banking systems.",
+      "Potential for commoditization if general-purpose LLMs improve at document extraction.",
+      "Lack of transparency on customer acquisition and retention metrics."
+    ],
+    "score_breakdown": {
+      "defensibility": 6,
+      "market": 12,
+      "product": 16,
+      "rationale_by_component": {
+        "defensibility": "Moderate; relies on deep integration with client workflows and policy-specific training.",
+        "market": "Clear, high-value pain point in a regulated industry.",
+        "product": "Strong alignment with the 'system of action' thesis; automates specific, high-frequency operational tasks.",
+        "risk_adjustment": "High regulatory risk and integration hurdles require significant caution.",
+        "team": "Team size is known, but no background information is provided in the evidence packet.",
+        "traction_freshness": "Mentions a case study with Scalapay, but lacks concrete revenue or growth data.",
+        "why_now": "Strong fit for current AI capabilities applied to back-office automation."
+      },
+      "risk_adjustment": 5,
+      "team": 10,
+      "total": 65,
+      "traction_freshness": 8,
+      "why_now": 8
+    },
+    "team_assessment": "Insufficient evidence regarding founder backgrounds or technical expertise. Team size is 10.",
+    "what_would_change_mind": [
+      "Evidence of consistent ARR growth.",
+      "Case studies demonstrating measurable reduction in regulatory fines or audit failures.",
+      "Proof of successful integration with major legacy banking core systems."
+    ],
+    "why_now": "Increasing regulatory pressure and the high cost of manual compliance operations make AI-driven automation a high-priority efficiency play for fintechs.",
+    "why_we_care": "The company is moving beyond thin wrappers by integrating into existing compliance stacks to perform actual work (document review, remediation), which aligns with our focus on systems of action."
+  },
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-32523",
+    "cited_claims": [
+      {
+        "claim": "Stratum Industries is the applied AI company for governments.",
+        "evidence_ids": [
+          "YC2"
+        ]
+      },
+      {
+        "claim": "Stratum Industries website describes AI voice agents for healthcare front-office automation.",
+        "evidence_ids": [
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "Team size is 2.",
+        "evidence_ids": [
+          "YC3"
+        ]
+      },
+      {
+        "claim": "No evidence of traction found.",
+        "evidence_ids": [
+          "HN1"
+        ]
+      }
+    ],
+    "market_assessment": "The company is targeting two massive, fragmented markets: government administration and healthcare front-office operations. Both are high-friction, manual-heavy sectors, but the lack of focus is concerning.",
+    "open_questions": [
+      "What is the actual core product: government application processing or healthcare voice agents?",
+      "Does the team have any domain expertise in either target market?",
+      "Are there any active pilots or signed customers?",
+      "How does the product handle the high security and compliance requirements of government and healthcare data?"
+    ],
+    "product_summary": "Stratum Industries presents a confusing dual-product narrative. Their YC profile describes an AI agent platform for government application review, while their website describes an AI voice agent for healthcare front-office automation (call handling, scheduling, and insurance queries).",
+    "recommendation": "Pass",
+    "recommendation_rationale": "The company lacks a coherent strategy, presenting two entirely different products to two different markets. There is no evidence of traction, and the team's background is unknown. It does not meet our thesis for a focused system of action.",
+    "risks": [
+      "Severe lack of strategic focus between government and healthcare verticals.",
+      "No evidence of traction, pilot customers, or revenue.",
+      "High sales cycle risk in both government and healthcare sectors.",
+      "Regulatory and compliance risks inherent to both target industries."
+    ],
+    "score_breakdown": {
+      "defensibility": 2,
+      "market": 8,
+      "product": 6,
+      "rationale_by_component": {
+        "defensibility": "Low; thin wrapper risk if the product is just a voice agent or basic document processor.",
+        "market": "Large addressable markets, but the company lacks a clear wedge.",
+        "product": "Conflicting product messaging between YC profile and website; unclear value proposition.",
+        "risk_adjustment": "High risk due to lack of focus and unproven product-market fit.",
+        "team": "No founder background or relevant experience provided.",
+        "traction_freshness": "Zero evidence of traction or revenue.",
+        "why_now": "Leverages current AI agent capabilities, but lacks specific application."
+      },
+      "risk_adjustment": 2,
+      "team": 5,
+      "total": 28,
+      "traction_freshness": 0,
+      "why_now": 5
+    },
+    "team_assessment": "Insufficient evidence. The team size is 2, but no founder backgrounds, technical expertise, or prior experience in GovTech or Healthcare are provided.",
+    "what_would_change_mind": [
+      "A clear, singular focus on one vertical.",
+      "Evidence of signed pilot customers or revenue.",
+      "Founder background demonstrating deep domain expertise in the chosen vertical.",
+      "Proof of a 'system of action' integration rather than a standalone chatbot/voice agent."
+    ],
+    "why_now": "The proliferation of LLM-based agents makes automating high-volume, repetitive administrative tasks (like application processing or front-desk scheduling) technically feasible for the first time.",
+    "why_we_care": "The thesis focuses on automating high-frequency operational workflows; while the company targets such workflows, the execution and focus are currently insufficient."
+  },
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-29074",
+    "cited_claims": [
+      {
+        "claim": "Fiber AI provides data APIs for 40M+ companies, 850M+ people, and 30M+ jobs.",
+        "evidence_ids": [
+          "YC2"
+        ]
+      },
+      {
+        "claim": "Fiber AI has been live for 3+ years and counts HubSpot, Ramp, and Docusign as customers.",
+        "evidence_ids": [
+          "YC2"
+        ]
+      },
+      {
+        "claim": "Team size is 8.",
+        "evidence_ids": [
+          "YC3"
+        ]
+      }
+    ],
+    "market_assessment": "The company operates in the crowded B2B data enrichment and sales intelligence market, competing against established players like Apollo, ZoomInfo, and People Data Labs. The value proposition is primarily cost-arbitrage and data freshness.",
+    "open_questions": [
+      "What is the specific technical moat preventing incumbents from replicating the 'novel' API endpoints?",
+      "What is the actual revenue or growth trajectory beyond the claim of 'helping 100s of enterprises'?",
+      "Who are the founders and what is their prior experience in data infrastructure?",
+      "How does the company ensure long-term data quality and compliance given the reliance on 100+ external sources?"
+    ],
+    "product_summary": "Fiber AI provides a suite of B2B data APIs and webhooks covering 40M+ companies, 850M+ people, and 30M+ jobs. It positions itself as a low-cost, high-freshness data infrastructure layer for AI-native sales, recruiting, and growth tools, offering unique endpoints like real-time LinkedIn fetching and reverse email lookup.",
+    "recommendation": "Watch",
+    "recommendation_rationale": "Fiber AI is a functional, utility-driven business that serves a clear need for AI agent builders. However, it functions more as a data commodity provider than a 'system of action' as defined in our thesis. While it has traction, the lack of a clear technical moat and the reliance on third-party data sources make it a 'Watch' rather than a 'Take a meeting' until we see evidence of proprietary data generation or deeper workflow integration.",
+    "risks": [
+      "High dependency on third-party data sources (LinkedIn, Crunchbase, etc.) which may change terms or block access.",
+      "Commoditization risk: Competing against well-funded incumbents (Apollo, ZoomInfo) who may lower prices or improve their own API offerings.",
+      "Lack of proprietary data moat; the business model relies on aggregating and cleaning data from 100+ sources.",
+      "Potential legal/compliance risks associated with scraping and data brokering."
+    ],
+    "score_breakdown": {
+      "defensibility": 3,
+      "market": 8,
+      "product": 14,
+      "rationale_by_component": {
+        "defensibility": "Low; the business model is based on data aggregation and price arbitrage, which is easily copied.",
+        "market": "Large market, but highly competitive with significant downward price pressure.",
+        "product": "Strong focus on API-first delivery for AI agents, but the product is essentially a data aggregator/broker.",
+        "risk_adjustment": "High risk due to reliance on external data sources and potential legal/platform platform-risk.",
+        "team": "Team size is 8, but no background information is provided to assess capability.",
+        "traction_freshness": "Claims to have been live for 3+ years with enterprise customers (HubSpot, Ramp), but lacks specific growth metrics.",
+        "why_now": "Directly addresses the infrastructure needs of the current wave of AI agent builders."
+      },
+      "risk_adjustment": 5,
+      "team": 10,
+      "total": 58,
+      "traction_freshness": 10,
+      "why_now": 8
+    },
+    "team_assessment": "The team consists of 8 members. No specific founder background or technical pedigree is provided in the evidence packet.",
+    "what_would_change_mind": [
+      "Evidence of proprietary data collection that incumbents cannot easily replicate.",
+      "Proof of deeper integration into customer workflows (becoming a 'system of action' rather than just a data pipe).",
+      "Detailed founder background demonstrating unique expertise in data engineering or scraping at scale."
+    ],
+    "why_now": "The proliferation of AI SDR and autonomous sales agents has created a massive demand for high-quality, real-time, and cost-effective data feeds to power these agents, moving beyond static databases.",
+    "why_we_care": "It is a critical infrastructure provider for the AI sales/recruiting ecosystem, which aligns with our interest in tools that power lean, automated GTM teams."
+  },
+  {
+    "analysis_mode": "gemini",
+    "candidate_id": "yc-30726",
+    "cited_claims": [
+      {
+        "claim": "Socratix AI provides AI agents for fraud and compliance teams.",
+        "evidence_ids": [
+          "YC1",
+          "YC2",
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "Founders have experience at DoorDash, Unit21, Cruise, and LinkedIn.",
+        "evidence_ids": [
+          "YC2",
+          "YC4"
+        ]
+      },
+      {
+        "claim": "Socratix raised $4.1M in seed funding.",
+        "evidence_ids": [
+          "WEB1"
+        ]
+      },
+      {
+        "claim": "Early customers include First Community Bank, Super.com, and AtoB.",
+        "evidence_ids": [
+          "WEB1"
+        ]
+      }
+    ],
+    "market_assessment": "Targeting fraud and compliance teams at fintechs and banks. The problem of manual, error-prone alert investigation is well-defined and high-stakes, fitting the 'system of action' thesis.",
+    "open_questions": [
+      "What is the specific technical architecture for ensuring auditability and compliance in AI-driven decisions?",
+      "How does the product handle data privacy and security requirements for banking clients?",
+      "What is the current ARR or pipeline size beyond the mentioned case studies?"
+    ],
+    "product_summary": "Socratix AI provides AI agents that automate fraud and compliance investigations. The platform integrates into existing workflows to gather evidence, analyze threats, and provide explainable decisions, aiming to replace manual alert reviews.",
+    "recommendation": "Take a meeting",
+    "recommendation_rationale": "Socratix AI aligns perfectly with the thesis of automating high-frequency operational workflows. The team has deep domain expertise, and they have already secured early enterprise traction and funding.",
+    "risks": [
+      "High stakes of false negatives in fraud detection may lead to slow enterprise adoption cycles.",
+      "Integration complexity with legacy banking systems could hinder rapid deployment.",
+      "Potential for 'AI hallucination' in compliance-sensitive decision making."
+    ],
+    "score_breakdown": {
+      "defensibility": 8,
+      "market": 13,
+      "product": 17,
+      "rationale_by_component": {
+        "defensibility": "Strong potential for moat through proprietary data/workflow integration and domain-specific fine-tuning.",
+        "market": "Clear pain point in a high-value, high-frequency operational domain.",
+        "product": "Product moves beyond a chatbot to an automated agent that performs actual investigative work.",
+        "risk_adjustment": "High-stakes domain requires rigorous validation, but the team's background mitigates execution risk.",
+        "team": "Founders have highly relevant experience in fraud, compliance, and scaling enterprise products.",
+        "traction_freshness": "Evidence of case studies (First Community Bank, Super.com, AtoB) and $4.1M seed funding indicates early market validation.",
+        "why_now": "LLMs are uniquely suited to the 'messy' reasoning required for fraud investigations."
+      },
+      "risk_adjustment": 8,
+      "team": 18,
+      "total": 85,
+      "traction_freshness": 12,
+      "why_now": 9
+    },
+    "team_assessment": "Strong technical and domain-specific background. Founders have relevant experience at DoorDash, Unit21, Cruise, and LinkedIn, with proven track records in building fraud tooling and scaling enterprise AI systems.",
+    "what_would_change_mind": [
+      "Evidence of high churn rates among early customers.",
+      "Technical inability to meet strict regulatory or audit requirements in banking.",
+      "Discovery that the product is merely a thin wrapper around generic LLM APIs without proprietary workflow value."
+    ],
+    "why_now": "Advancements in LLMs allow for reasoning across unstructured signals and edge cases that traditional ML models struggle with, enabling the transition from simple detection to automated investigation.",
+    "why_we_care": "Fraud investigation is a classic 'manual toil' workflow that is ripe for AI-driven automation, moving from simple detection to active resolution."
+  }
+]

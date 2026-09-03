@@ -1,0 +1,73 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-28805",
+  "cited_claims": [
+    {
+      "claim": "Diligent: AI agents for fintech risk and compliance operations",
+      "evidence_ids": [
+        "YC1"
+      ]
+    },
+    {
+      "claim": "Fintechs and banks use us to automate workflows like running thorough due diligence on a legal entity, reviewing customer documents, and remediating false positive alerts.",
+      "evidence_ids": [
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Scalapay automated 66% of merchant KYC/AML reviews using Diligent.",
+      "evidence_ids": [
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "Team size is 10.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    }
+  ],
+  "market_assessment": "Targeting fintech and banking compliance teams, a high-pain, high-volume operational sector. Market size is substantial given the regulatory burden on these institutions.",
+  "open_questions": [
+    "What is the current ARR or number of paying customers?",
+    "What is the specific technical architecture for ensuring auditability and compliance?",
+    "How does the product handle edge cases that fall outside of defined risk policies?",
+    "What is the churn rate for existing fintech clients?"
+  ],
+  "product_summary": "Diligent provides AI agents designed to automate high-frequency fintech compliance workflows, specifically KYC/AML document review, entity due diligence, and false-positive alert remediation.",
+  "recommendation": "Watch",
+  "recommendation_rationale": "Diligent fits the thesis well by targeting specific, high-frequency operational workflows. However, the lack of detailed traction data and the high-stakes nature of compliance operations necessitate a 'Watch' approach until more evidence of customer retention and product reliability is available.",
+  "risks": [
+    "High regulatory and compliance liability if AI agents make errors.",
+    "Integration complexity with legacy banking systems.",
+    "Potential for commoditization if general-purpose LLMs improve at document extraction.",
+    "Lack of transparency on customer acquisition and retention metrics."
+  ],
+  "score_breakdown": {
+    "defensibility": 6,
+    "market": 12,
+    "product": 16,
+    "rationale_by_component": {
+      "defensibility": "Moderate; relies on deep integration with client workflows and policy-specific training.",
+      "market": "Clear, high-value pain point in a regulated industry.",
+      "product": "Strong alignment with the 'system of action' thesis; automates specific, high-frequency operational tasks.",
+      "risk_adjustment": "High regulatory risk and integration hurdles require significant caution.",
+      "team": "Team size is known, but no background information is provided in the evidence packet.",
+      "traction_freshness": "Mentions a case study with Scalapay, but lacks concrete revenue or growth data.",
+      "why_now": "Strong fit for current AI capabilities applied to back-office automation."
+    },
+    "risk_adjustment": 5,
+    "team": 10,
+    "total": 65,
+    "traction_freshness": 8,
+    "why_now": 8
+  },
+  "team_assessment": "Insufficient evidence regarding founder backgrounds or technical expertise. Team size is 10.",
+  "what_would_change_mind": [
+    "Evidence of consistent ARR growth.",
+    "Case studies demonstrating measurable reduction in regulatory fines or audit failures.",
+    "Proof of successful integration with major legacy banking core systems."
+  ],
+  "why_now": "Increasing regulatory pressure and the high cost of manual compliance operations make AI-driven automation a high-priority efficiency play for fintechs.",
+  "why_we_care": "The company is moving beyond thin wrappers by integrating into existing compliance stacks to perform actual work (document review, remediation), which aligns with our focus on systems of action."
+}

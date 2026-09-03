@@ -9,7 +9,7 @@ topic query
   -> YC sourcing + relevance filter
   -> website + Hacker News enrichment
   -> evidence packet (stable IDs: YC1, WEB1, HN1, ...)
-  -> analysis (OpenAI structured output, or a deterministic fallback)
+  -> analysis (Gemini or OpenAI structured output, or a deterministic fallback)
   -> deterministic scoring + threshold
   -> Markdown memo + rankings + validation report
 ```
@@ -36,13 +36,22 @@ uv run invest-pipeline run "AI agents for SMB back-office workflows"
 
 `--limit N` (default 10, max 20) sets how many startups are analysed.
 
-Analysis mode is chosen automatically:
+Analysis mode is chosen automatically from `.env` (`cp .env.example .env`):
 
-- **`OPENAI_API_KEY` set** — each evidence packet goes to the OpenAI Responses
-  API with a strict JSON schema. `cp .env.example .env` and add the key.
-- **no key** — a deterministic rule-based scorer runs instead, labelled
+- **`GEMINI_API_KEY` set** — each evidence packet goes to Gemini
+  (`gemini-3.1-flash-lite` by default) with a response schema. Free tier, no
+  card: <https://aistudio.google.com/apikey>.
+- **`OPENAI_API_KEY` set** — same contract against the OpenAI Responses API
+  with a strict JSON schema. Set `LLM_PROVIDER=openai` if both keys are present.
+- **neither** — a deterministic rule-based scorer runs instead, labelled
   `deterministic_fallback` in every memo and the manifest. The pipeline still
   produces a full, inspectable run.
+
+Whatever the model returns, Python re-clamps every component score, recomputes
+the total, re-derives the recommendation from the threshold, drops any citation
+whose evidence ID is not in the packet, and downgrades a "Take a meeting" whose
+packet has no verifiable traction. Candidates are analysed
+`PIPELINE_CONCURRENCY` at a time (default 3).
 
 ## What a run writes
 
@@ -60,11 +69,11 @@ data/runs/<run_id>/
 
 ## Committed sample
 
-`data/runs/20260903T164903Z_ai-agents-for-smb-back-office-workflows/` is a full
-run, committed so it does not need re-running. It was produced without an API
-key, so it exercises the deterministic fallback. Start with `rankings.md`, then
-open `memos/risely-ai.md` (Take a meeting) and `memos/fiber-ai.md` (Pass) and
-check each `[YCn]` / `[HNn]` against that memo's Sources list.
+`data/runs/20260903T182541Z_ai-agents-for-smb-back-office-workflows/` is a full
+run against `gemini-3.1-flash-lite`, committed so it does not need re-running.
+Start with `rankings.md` (3 Take a meeting / 7 Watch / 2 Pass), then open
+`memos/socratix-ai.md` (Take a meeting) and `memos/mount.md` (Pass) and check
+each `[YCn]` / `[HNn]` against that memo's Sources list.
 
 ## Tests
 

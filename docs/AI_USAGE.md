@@ -36,8 +36,10 @@ Claude Code also flipped the repo to private and added the collaborator.
 - which findings were real bugs worth a commit vs cosmetic.
 - shipping the sample in fallback mode with that stated plainly instead of waiting on a funded key.
 
-## honesty note
+## model
 
-the OpenAI key for this run was out of credits, so the committed sample runs the offline scorer — labelled `deterministic_fallback` in every memo and the manifest. the model path is wired and has schema tests but no end-to-end run in the repo yet.
+first tried OpenAI — the key i had was out of credits (`insufficient_quota`). switched the analysis layer to be provider-agnostic and pointed it at Gemini. `gemini-3.6-flash` turned out to be 20 requests/day on the free tier and the day's testing had burned it, so the committed sample runs on `gemini-3.1-flash-lite`. both paths (and the model swap) send the same prompt and schema and get re-clamped and re-thresholded by python afterward, so the guarantees don't move. the committed sample is a real Gemini run — `analysis_mode: gemini` in the manifest and every memo.
+
+if no key is set at all it still runs, on the rule-based fallback, labelled everywhere.
 
 prompts are in `prompts/` — the exact text sent to the model, not a summary.

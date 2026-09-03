@@ -1,0 +1,75 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-30724",
+  "cited_claims": [
+    {
+      "claim": "Risely AI automates administrative work across college campuses.",
+      "evidence_ids": [
+        "YC1",
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Platform integrates with SIS, LMS, and CRM systems.",
+      "evidence_ids": [
+        "YC2",
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "Sadia built Salesforce Education Cloud; Danial was an early DoorDash engineer; Shahryar scaled Airwallex Americas.",
+      "evidence_ids": [
+        "YC2",
+        "YC4"
+      ]
+    },
+    {
+      "claim": "$8k MRR, growing 55% week-over-week, launched 6 weeks ago.",
+      "evidence_ids": [
+        "YC2"
+      ]
+    }
+  ],
+  "market_assessment": "The target market is higher education, characterized by a $735 billion annual spend on administrative labor. The market is facing significant budget pressures and staffing shortages, creating a clear pain point for automation.",
+  "open_questions": [
+    "What is the specific breakdown of the $8k MRR (e.g., number of pilot universities vs. paid contracts)?",
+    "How does the product handle data sovereignty and FERPA compliance?",
+    "What is the churn rate or pilot-to-contract conversion rate?"
+  ],
+  "product_summary": "Risely AI provides agentic AI workflows for universities, integrating with existing SIS, LMS, and CRM systems to automate administrative tasks such as student retention, financial aid processing, and enrollment management.",
+  "recommendation": "Take a meeting",
+  "recommendation_rationale": "Risely AI fits the thesis perfectly by targeting a high-frequency, administrative-heavy sector with a system-of-action approach. The team's pedigree is top-tier, and the early traction is highly encouraging for this vertical.",
+  "risks": [
+    "Long enterprise sales cycles typical of higher education institutions.",
+    "High integration complexity with legacy university systems (SIS/LMS).",
+    "Data privacy and security requirements in an educational context.",
+    "Potential for institutional inertia and resistance to adopting new 'operating systems'."
+  ],
+  "score_breakdown": {
+    "defensibility": 7,
+    "market": 13,
+    "product": 17,
+    "rationale_by_component": {
+      "defensibility": "Integration into core systems creates high switching costs, though the moat depends on execution.",
+      "market": "Massive TAM with clear, urgent pain points.",
+      "product": "Strong focus on 'system of action' integration rather than just a chatbot interface.",
+      "risk_adjustment": "High execution risk due to the complexity of university procurement and legacy system integration.",
+      "team": "Founders have perfect complementary backgrounds in EdTech, AI engineering, and enterprise sales.",
+      "traction_freshness": "Rapid growth ($8k MRR in 6 weeks) is impressive for a high-friction enterprise market.",
+      "why_now": "Perfect alignment with current labor shortages and AI capability maturity."
+    },
+    "risk_adjustment": 7,
+    "team": 20,
+    "total": 85,
+    "traction_freshness": 12,
+    "why_now": 9
+  },
+  "team_assessment": "The team is exceptionally strong for a seed-stage company. The founders bring highly relevant domain expertise (Salesforce Education Cloud), technical scaling experience (DoorDash), and proven GTM/sales execution (Airwallex, NerdWallet).",
+  "what_would_change_mind": [
+    "Evidence of long-term pilot stagnation without conversion to full contracts.",
+    "Technical inability to integrate with specific legacy SIS platforms.",
+    "High churn among early university customers."
+  ],
+  "why_now": "Universities are facing unprecedented budget and staffing constraints, and agentic AI has reached a maturity level capable of handling the nuanced, autonomous judgment required for complex university workflows.",
+  "why_we_care": "The company is moving beyond thin wrappers by integrating directly into the 'system of record' (SIS/LMS), which is the key to building a defensible, high-value enterprise AI business."
+}

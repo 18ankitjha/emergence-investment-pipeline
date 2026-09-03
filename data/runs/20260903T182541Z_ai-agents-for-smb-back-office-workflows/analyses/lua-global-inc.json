@@ -1,0 +1,75 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-30948",
+  "cited_claims": [
+    {
+      "claim": "Lua is the mid-market agent platform.",
+      "evidence_ids": [
+        "YC1",
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Founded by Lorcan O Cathain and Stefan Kruger, with 15-20 years of experience scaling tech companies.",
+      "evidence_ids": [
+        "YC2",
+        "YC4"
+      ]
+    },
+    {
+      "claim": "Targets mid-market businesses ($50M-$1B) and developer agencies.",
+      "evidence_ids": [
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Product allows for TypeScript-based agent development with Zod validation.",
+      "evidence_ids": [
+        "WEB1"
+      ]
+    }
+  ],
+  "market_assessment": "Targets mid-market enterprises ($50M-$1B revenue) and developer agencies. The company utilizes a dual-motion strategy: self-serve for SMBs and direct sales for mid-market to refine the platform.",
+  "open_questions": [
+    "What is the current ARR or number of active paying customers?",
+    "How many developer agencies are currently using the platform?",
+    "What specific 'systems of action' have been successfully deployed by customers to date?",
+    "How does the 'AgentOS' architecture prevent vendor lock-in compared to native cloud AI services?"
+  ],
+  "product_summary": "Lua is an 'agentOS' platform designed to help mid-market companies and developer agencies build and deploy AI agents for sales, support, and operations. It provides a developer-centric interface (TypeScript/Zod) alongside a no-code 'Agent Builder' to abstract infrastructure complexity and ensure enterprise-grade reliability.",
+  "recommendation": "Watch",
+  "recommendation_rationale": "Lua shows promise by targeting the mid-market with a developer-first 'AgentOS' approach, which aligns well with our thesis. However, the lack of concrete traction data makes it difficult to move to a meeting immediately. We need to see evidence of successful deployments or agency adoption to validate that this is a system of action rather than just a developer tool.",
+  "risks": [
+    "High competition in the agent orchestration/platform space.",
+    "Unclear differentiation from existing low-code/no-code automation platforms.",
+    "Reliance on channel partners (developer agencies) for distribution may limit direct customer feedback loops.",
+    "Lack of specific traction metrics (revenue, active users, or retention) provided in the evidence."
+  ],
+  "score_breakdown": {
+    "defensibility": 5,
+    "market": 10,
+    "product": 14,
+    "rationale_by_component": {
+      "defensibility": "Platform-level plays are defensible, but the 'AgentOS' space is becoming crowded.",
+      "market": "Mid-market focus is a clear, underserved segment for AI agent adoption.",
+      "product": "Strong focus on developer experience (TypeScript/Zod) and 'AgentOS' positioning aligns with the thesis of moving beyond thin wrappers.",
+      "risk_adjustment": "Significant execution risk regarding distribution through agencies and lack of validated product-market fit.",
+      "team": "Founders have significant industry experience, though specific AI/agent-building expertise is not detailed.",
+      "traction_freshness": "Insufficient evidence of actual traction or usage metrics provided.",
+      "why_now": "The market is currently saturated with 'chatbots,' making an 'OS' layer a timely evolution."
+    },
+    "risk_adjustment": 5,
+    "team": 15,
+    "total": 59,
+    "traction_freshness": 3,
+    "why_now": 7
+  },
+  "team_assessment": "Founded by Lorcan O Cathain (CEO) and Stefan Kruger (CTO), who are described as experienced founders with 15-20 years of experience scaling technology companies in emerging markets. The team size is currently 5.",
+  "what_would_change_mind": [
+    "Evidence of 5+ mid-market customers using the platform for core operational workflows.",
+    "Data on agency partner adoption and the number of agents deployed through those channels.",
+    "Case studies demonstrating the 'system of action' capability (e.g., agents executing multi-step workflows across disparate tools)."
+  ],
+  "why_now": "The proliferation of AI agents creates a need for an 'OS' layer to manage reliability, memory, and governance, moving beyond simple chatbot wrappers to integrated systems of action.",
+  "why_we_care": "The shift from 'chatbots' to 'agents' requires an orchestration layer that handles state, memory, and governance\u2014Lua is positioning itself exactly there."
+}

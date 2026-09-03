@@ -1,0 +1,67 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-32286",
+  "cited_claims": [
+    {
+      "claim": "Definite is a team of 3, based in the Summer 2026 YC batch.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    },
+    {
+      "claim": "The founders met at Waterloo and have internship experience at Meta, Optiver, and BitGo.",
+      "evidence_ids": [
+        "YC2"
+      ]
+    },
+    {
+      "claim": "The product connects to ERP, ledger, payroll, and payments to create a unified, read-only model.",
+      "evidence_ids": [
+        "YC2",
+        "WEB1"
+      ]
+    }
+  ],
+  "market_assessment": "The company targets the B2B finance sector, specifically addressing the pain point of manual, engineer-heavy data integration in back-office operations. The market is currently served by general-purpose automation tools like n8n and Workato, which the founders argue are insufficient for the complexities of financial data.",
+  "open_questions": [
+    "What is the current customer traction or pilot status?",
+    "How does the product handle data security and compliance requirements for sensitive financial data?",
+    "What specific 'plays' or workflows are currently supported?"
+  ],
+  "product_summary": "Definite provides a data-compilation layer that connects to disparate financial systems (ERP, payroll, banking) to create a unified, live model of financial data. It enables finance teams to build automated agents on top of this cleaned data to execute workflows without manual data stitching.",
+  "recommendation": "Watch",
+  "recommendation_rationale": "Definite is building a compelling infrastructure layer that aligns well with our thesis on moving beyond thin AI wrappers. The team is technically strong. However, the lack of evidence regarding traction or customer validation makes it too early for a meeting. We should monitor their progress to see if they can move beyond the 'compiler' concept to actual production deployments.",
+  "risks": [
+    "High technical complexity in building a universal data compiler for diverse financial systems.",
+    "Significant integration challenges with legacy ERPs and banking APIs.",
+    "Lack of evidence regarding current customer traction or revenue.",
+    "Potential competition from established financial SaaS platforms that may build similar native automation capabilities."
+  ],
+  "score_breakdown": {
+    "defensibility": 7,
+    "market": 12,
+    "product": 16,
+    "rationale_by_component": {
+      "defensibility": "The 'compiler' approach creates a potential moat if they can successfully standardize diverse financial data.",
+      "market": "Large, underserved market in SMB/mid-market finance automation.",
+      "product": "Addresses a clear, high-value problem (data cleaning for automation) rather than just being a thin wrapper.",
+      "risk_adjustment": "Significant execution risk regarding data integration and lack of demonstrated market validation.",
+      "team": "Strong technical background from Waterloo and relevant internships.",
+      "traction_freshness": "No evidence of revenue or active customer usage provided.",
+      "why_now": "Fits the current trend of moving from chat-based AI to agentic workflows requiring structured data."
+    },
+    "risk_adjustment": 5,
+    "team": 15,
+    "total": 65,
+    "traction_freshness": 2,
+    "why_now": 8
+  },
+  "team_assessment": "The team consists of 3 members who met during their first year of computer science at the University of Waterloo. They have internship experience at Meta, Optiver, and BitGo, suggesting strong technical foundations.",
+  "what_would_change_mind": [
+    "Evidence of successful deployments with paying customers.",
+    "Validation of the data model's robustness across different ERP/banking systems.",
+    "Clearer differentiation from existing financial automation platforms."
+  ],
+  "why_now": "The proliferation of AI agents creates a demand for clean, structured data inputs. As finance teams seek to automate repetitive workflows, the 'compiler' layer for financial data becomes a critical bottleneck that, if solved, could become a central system of record.",
+  "why_we_care": "The company is attempting to solve the 'data plumbing' problem that prevents AI agents from being effective in finance, which is a high-frequency, high-value operational domain."
+}

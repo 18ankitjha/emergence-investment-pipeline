@@ -1,0 +1,69 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-33023",
+  "cited_claims": [
+    {
+      "claim": "Levocred builds and deploys AI agents inside credit funds, fintechs and banks to automate workflows.",
+      "evidence_ids": [
+        "YC2",
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "Live across multiple lending teams, running ~$1Bn in receivables through the platform.",
+      "evidence_ids": [
+        "YC2",
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "Team size: 2.",
+      "evidence_ids": [
+        "YC3"
+      ]
+    }
+  ],
+  "market_assessment": "Targeting credit funds, fintechs, and banks. The company claims to be live across multiple lending teams with $1Bn+ in receivables processed, indicating a focus on high-value financial operations.",
+  "open_questions": [
+    "What is the specific technical background of the founders?",
+    "What is the revenue model (SaaS vs. AUM-based)?",
+    "How does the system handle data privacy and security for sensitive financial documents?",
+    "What is the churn rate or retention profile of the 'multiple lending teams' currently using the platform?"
+  ],
+  "product_summary": "Levocred AI provides an 'AI workforce' for lenders, automating back-office tasks, portfolio monitoring, compliance, and underwriting. The platform integrates into existing workflows, such as drafting IC memos from loan tapes and credit agreements, and providing Slack-based Q&A for portfolio monitoring.",
+  "recommendation": "Watch",
+  "recommendation_rationale": "Levocred fits the thesis well by focusing on high-frequency, complex operational workflows in a high-value vertical. The $1Bn+ in processed receivables is a strong signal of product-market fit. However, the team size is very small for the complexity of the domain, and I need more information on the founders' backgrounds and the depth of their technical moat before recommending a meeting.",
+  "risks": [
+    "High concentration risk if the product is dependent on a small number of large institutional clients.",
+    "Regulatory and compliance risks inherent in automating underwriting and credit decisions.",
+    "Small team size (2) may struggle to support complex enterprise-grade integrations and security requirements.",
+    "Potential for 'thin wrapper' risk if the core value proposition is easily replicated by incumbents or general-purpose LLM tools."
+  ],
+  "score_breakdown": {
+    "defensibility": 6,
+    "market": 12,
+    "product": 16,
+    "rationale_by_component": {
+      "defensibility": "Moderate; defensibility likely comes from deep integration into lender workflows and data moats, but requires validation.",
+      "market": "Clear, high-value target market (lenders) with significant pain points in manual back-office work.",
+      "product": "Strong alignment with the thesis; product acts as a system of action (IC memos, compliance recomputation) rather than just a chatbot.",
+      "risk_adjustment": "High execution risk for a 2-person team handling sensitive financial infrastructure.",
+      "team": "Insufficient evidence provided regarding founder background or technical expertise.",
+      "traction_freshness": "Strong claim of $1Bn+ in receivables processed, though limited detail on customer count or revenue.",
+      "why_now": "AI agents are uniquely suited to replace manual document processing in finance."
+    },
+    "risk_adjustment": 6,
+    "team": 10,
+    "total": 70,
+    "traction_freshness": 12,
+    "why_now": 8
+  },
+  "team_assessment": "The team consists of 2 members. No specific background or founder experience details are provided in the evidence packet.",
+  "what_would_change_mind": [
+    "Evidence of founder experience in fintech or credit underwriting.",
+    "Validation of security/compliance certifications (e.g., SOC2) necessary for enterprise lending clients.",
+    "More granular data on customer retention and revenue growth."
+  ],
+  "why_now": "The proliferation of AI agents allows for the automation of complex, document-heavy financial workflows that previously required significant manual human labor in lending operations.",
+  "why_we_care": "The company is successfully moving beyond 'chat' to 'action' by automating specific, high-stakes financial tasks like IC memo drafting and compliance recomputation."
+}

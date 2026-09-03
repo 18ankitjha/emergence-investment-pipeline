@@ -1,0 +1,75 @@
+{
+  "analysis_mode": "gemini",
+  "candidate_id": "yc-31051",
+  "cited_claims": [
+    {
+      "claim": "Corvera is the context layer for AI-native CPG brands, helping them make unified data legible via MCP.",
+      "evidence_ids": [
+        "YC1",
+        "YC2",
+        "WEB1"
+      ]
+    },
+    {
+      "claim": "Scaled from $0 to $33k MRR in 4 weeks, serving 12 brands with 130% WoW growth.",
+      "evidence_ids": [
+        "YC2"
+      ]
+    },
+    {
+      "claim": "Founded by Chris (ex-CEO Better Nature), Dirk (ex-Google Data & AI), and Matthew (ex-Head of Product at Rosemark).",
+      "evidence_ids": [
+        "YC2",
+        "YC4"
+      ]
+    },
+    {
+      "claim": "Raised $6.2M from YC, firstminute capital, 6 Degrees Capital, 20VC, Rebel Fund, and Duke Capital Partners.",
+      "evidence_ids": [
+        "YC2"
+      ]
+    }
+  ],
+  "market_assessment": "Targeting omnichannel CPG brands at the $100M+ revenue inflection point, aiming to serve the $5.4T global CPG industry.",
+  "open_questions": [
+    "What is the long-term retention of the 12 brands acquired in the first 4 weeks?",
+    "How does the product differentiate from existing data integration/ETL tools that also provide API access for LLMs?",
+    "What is the specific pricing model for the $33k MRR?"
+  ],
+  "product_summary": "Corvera provides a 'context layer' for CPG brands, unifying disparate data sources into a format (via MCP) that allows AI tools (Claude, ChatGPT, Cursor) to access and act upon business data for supply chain and category management workflows.",
+  "recommendation": "Take a meeting",
+  "recommendation_rationale": "Corvera fits the thesis perfectly by acting as a system of action for operational workflows rather than a thin wrapper. The team's background and rapid initial traction warrant a deep dive.",
+  "risks": [
+    "High dependency on the adoption of the Model Context Protocol (MCP) standard.",
+    "Potential for CPG brands to build internal data pipelines rather than relying on a third-party layer.",
+    "Early-stage traction (4 weeks) may not reflect long-term retention or churn.",
+    "Competitive risk from incumbent ERP/BI platforms adding native AI integration layers."
+  ],
+  "score_breakdown": {
+    "defensibility": 6,
+    "market": 12,
+    "product": 16,
+    "rationale_by_component": {
+      "defensibility": "Moderate; relies on being the 'context layer' which could become a commodity if data standards consolidate.",
+      "market": "Clear ICP identified in a massive industry, though the $100M+ revenue focus is a narrow segment.",
+      "product": "Strong alignment with the thesis of moving beyond chatbots to a system of action via data unification.",
+      "risk_adjustment": "High execution speed balanced against the risks of a very early-stage startup.",
+      "team": "Highly qualified team with relevant domain expertise in data, AI, and CPG leadership.",
+      "traction_freshness": "Impressive initial growth ($0 to $33k MRR in 4 weeks), though the timeframe is very short.",
+      "why_now": "Excellent timing leveraging the emergence of MCP and AI-native development tools."
+    },
+    "risk_adjustment": 7,
+    "team": 18,
+    "total": 81,
+    "traction_freshness": 13,
+    "why_now": 9
+  },
+  "team_assessment": "Strong technical and operational pedigree. Founders include a 2x founder/ex-CEO, an ex-Google Data & AI lead, and an ex-Head of Product with a Princeton MEng in CS.",
+  "what_would_change_mind": [
+    "Evidence of high churn among the initial 12 customers.",
+    "Discovery that the product is merely a wrapper for existing BI tools without deep workflow automation capabilities.",
+    "Evidence that the $100M+ CPG segment prefers building proprietary data layers over third-party solutions."
+  ],
+  "why_now": "The rise of Model Context Protocol (MCP) and AI-native tooling (Cursor, Lovable) creates a need for a unified data layer to make business data 'legible' to agents, moving beyond simple chatbot interfaces.",
+  "why_we_care": "They are building the infrastructure layer that allows SMB/mid-market teams to automate complex CPG workflows, directly addressing our interest in AI-driven operational systems."
+}
